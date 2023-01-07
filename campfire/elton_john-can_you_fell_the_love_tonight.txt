@@ -1,0 +1,61 @@
+{title: Can You Fell the Love Tonight}
+{artist: Elton John}
+{key: Bb}
+{duration: 240}
+{x_sbp_tags: english}
+
+{c: Intro}
+[A#]            [F/A]
+[D#]            [A#]
+[D#]            [A#]
+[F/A]      [A#]      [F]
+
+{c: Verse 1}
+[D#]There's a calm sur[A#]render
+[D#]To the rush of [A#]day,
+[D#]When the heat of the [A#]rolling world
+[Cm7]Can be turned a[F]way.
+[D#]An enchanted [A#]moment,
+[D#]And it sees me [A#]through.
+[D#]It's enough for this [Gm]restless warrior
+[G#]Just to be with [F]you.
+
+{c: Chorus}
+And [A#]can you [F/A]feel the [Gm]love [D#]tonight?
+[A#]It is [D#]where [C]we [F]are.
+[D#]It's enough[A#] for this [Gm]wide-[A#]eyed [D#]wanderer
+[Cm]That [A#]we [D#]got [C]this [F]far.
+And [A#]can you [F/A]feel the [Gm]love [D#]tonight?
+[A#]How it's [D#]laid [C]to [F]rest?
+[D#]It's enough[A#] to make [Gm]kings [A#]and [D#]vagabonds
+Be[Cm]lieve [A#]the [D#]very [A#]best.
+
+{c: Bridge}
+[A#]            [F/A]
+[D#]            [A#]
+[D#]            [A#]
+[F/A]      [A#]      [F]
+
+{c: Verse 2}
+[D#]There's a time for [A#]everyone
+[D#]If they only [A#]learn
+[D#]That the twisting ka[A#]leidoscope
+[Cm7]Moves us all in [F]turn.
+[D#]There's a rhyme and [A#]reason
+[D#]To the wild out[A#]doors.
+[D#]When the heart of this [Gm]star-crossed voyager
+[G#]Beats in time with [F]yours.
+
+{c: Chorus}
+And [A#]can you [F/A]feel the [Gm]love [D#]tonight?
+[A#]It is [D#]where [C]we [F]are.
+[D#]It's enough[A#] for this [Gm]wide-[A#]eyed [D#]wanderer
+[Cm]That [A#]we [D#]got [C]this [F]far.
+And [A#]can you [F/A]feel the [Gm]love [D#]tonight?
+[A#]How it's [D#]laid [C]to [F]rest?
+[D#]It's enough[A#] to make [Gm]kings [A#]and [D#]vagabonds
+Be[Cm]lieve [A#]the [D#]very [A#]best.
+
+{c: Outro}
+[D#]It's enough[A#] to make [Gm]kings [A#]and [D#]vagabonds
+Be[Cm]lieve [A#]the [D#]very [A#]best.

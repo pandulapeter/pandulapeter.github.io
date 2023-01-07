@@ -1,0 +1,82 @@
+{title: Can't You See (Acoustic)}
+{artist: Black Stone Cherry}
+{key: Db}
+{duration: 300}
+{x_sbp_tags: english}
+
+{c: Intro}
+[C#]        [B]        [F#]        [C#]
+[C#]        [B]        [F#]        [C#]
+
+{c: Verse 1}
+[C#]I'm gonna take a freight train,
+[B]Down at the station, Lord,
+[F#]And I don't care where it [C#]goes.
+
+{c: Verse 2}
+[C#]I am gonna climb a mountain,
+[B]The highest mountain, Lord,
+[F#]Gonna jump off and nobody gonna [C#]know.
+
+{c: Chorus}
+Can't you [C#]see,
+O[B]h, can't you see,
+What that [F#]woman,
+She been doing to [C#]me?
+
+{c: Chorus}
+Can't you [C#]see,
+O[B]h, can't you see,
+What that [F#]woman,
+She been doing to [C#]me?
+
+{c: Verse 3}
+[C#]I'm gonna find me,
+[B]A whole in the wall,
+[F#]I will crawl inside and [C#]die.
+
+{c: Verse 4}
+[C#]'Cause my lady,
+[B]A mean old woman, Lord,
+[F#]She never told me good[C#]bye.
+
+{c: Chorus}
+Can't you [C#]see,
+O[B]h, can't you see,
+What that [F#]woman,
+She been doing to [C#]me?
+
+{c: Chorus}
+Can't you [C#]see,
+O[B]h, can't you see,
+What that [F#]woman,
+She been doing to [C#]me?
+
+{c: Solo}
+[C#]        [B]        [F#]        [C#]
+[C#]        [B]        [F#]        [C#]
+
+{c: Verse 5}
+[C#]I'm gonna take it southbound,
+[B]Down to Georgia now,
+[F#]I ain't never coming [C#]back.
+
+{c: Verse 6}
+[C#]Gonna buy me a ticket, Lord,
+[B]Go as far as I can,
+[F#]Till that train run out of [C#]track.
+
+{c: Chorus}
+Can't you [C#]see,
+O[B]h, can't you see,
+What that [F#]woman,
+She been doing to [C#]me?
+
+{c: Chorus}
+Can't you [C#]see,
+O[B]h, can't you see,
+What that [F#]woman,
+She been doing to [C#]me?
+
+{c: Outro}
+[C#]

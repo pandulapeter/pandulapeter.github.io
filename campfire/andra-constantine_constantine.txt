@@ -1,0 +1,60 @@
+{title: Constantine, Constantine}
+{artist: Andra}
+{key: Cm}
+{duration: 180}
+{x_sbp_tags: romanian,khameleon}
+
+{c: Intro}
+[Cm]            [F]
+[Cm]            [Cm]
+
+[Cm]            [F]
+[G]            [Cm]
+
+{c: Verse 1}
+[Cm]Constantine, [F]Constanti[Cm]ne,
+[Cm]Mă mir și mă [F]uit la ti[Cm]ne,
+[F]Ziua, noaptea [Cm]prin pădure,
+[F]Plin de rouă, [Cm]vai de tine,
+[Cm]Și dacă mă [Dm]uit mai bine,
+[D#5]Constantine, [E5]Constantine,
+[F]Neagră-i căma[G]șa pe ti[Cm]ne.
+
+{c: Bridge}
+[Cm]            [F]
+[Cm]            [Cm]
+
+[Cm]            [F]
+[G]            [Cm]
+
+{c: Verse 2}
+[Cm]Mărioară, [F]Mărioa[Cm]ră,
+[Cm]Ia-o tale și [F]mi-o spa[Cm]lă
+[F]Cu săpun de [Cm]tămâioară,
+[F]S-o usuci în [Cm]sân diseară.
+[CM]Și pentru a[Dm]tâta lucru,
+[D#5]Mărioară, [E5]Mărioară,
+[F]Nu ți-ar mai pu[G]trezi tr[Cm]upul.
+
+{c: Bridge}
+[Cm]            [F]
+[Cm]            [Cm]
+
+[Cm]            [F]
+[G]            [Cm]
+
+{c: Verse 3}
+[Cm]A cui ești, Măr[F]ie dra[Cm]gă?
+[Cm]A lui cu mus[F]tața neag[Cm]ră.
+[F]Ăl mai mare [Cm]vânător
+[F]M-a prins noaptea [Cm]la izvor.
+[Cm]Nu mi-e ciudă [Dm]că mă prinse,
+[D#5]Constantine, [E5]Constantine,
+[F]Dar mi-e ciudă că [G]mă închi[Cm]se.
+
+{c: Outro}
+[Cm]            [F]
+[Cm]            [Cm]
+
+[Cm]            [F]
+[G]            [Cm]

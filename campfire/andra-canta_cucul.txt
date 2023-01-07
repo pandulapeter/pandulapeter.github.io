@@ -1,0 +1,86 @@
+{title: Cântă cucul}
+{artist: Andra}
+{key: Cm}
+{duration: 180}
+{x_sbp_tags: romanian,khameleon}
+
+{c: Intro}
+[D#]            [G#]      [A#]
+[Cm]            [Fm]      [Gm]
+[Cm]            [Gm]
+[Cm]            [Cm]
+
+[D#]            [G#]      [A#]
+[Cm]            [Fm]      [Gm]
+[Cm]            [Gm]
+[Cm]            [Cm]
+
+{c: Verse 1}
+[Cm]Cântă cucu, [A#]bată-l vina,
+[D#]De rasună [G7]Bucovi[Cm]na!    [Fm]      [D#]      [G7]
+
+{c: Verse 1}
+[Cm]Cântă cucu, [A#]bată-l vina,
+[D#]De rasună [G7]Bucovi[Cm]na!
+
+{c: Chorus 1}
+[D#]Cântă [G#]cucu[A#]-n t[Cm]ru-n bră[Fm]duț,  [Gm]
+[Cm]De răsună-n [G]Cernăuți, [Cm]măi, măi!
+[D#]Cântă [G#]cucu[A#]-n t[Cm]ru-n bră[Fm]duț,  [Gm]
+[Cm]De răsună-n [G]Cernăuți, [Cm]măi!
+
+{c: Bridge}
+[D#]            [G#]      [A#]
+[Cm]            [Fm]      [Gm]
+[Cm]            [Gm]
+[Cm]            [Cm]
+
+[D#]            [G#]      [A#]
+[Cm]            [Fm]      [Gm]
+[Cm]            [Gm]
+[Cm]            [Cm]
+
+{c: Verse 2}
+[Cm]Bucovină, [A#]plai cu flori,
+[D#]Unde sunt ai [G7]tăi feciori, [Cm]măi?    [Fm]      [D#]      [G7]
+
+{c: Verse 2}
+[Cm]Bucovină, [A#]plai cu flori,
+[D#]Unde sunt ai [G7]tăi feciori, [Cm]măi?
+
+{c: Chorus 2}
+[D#]Au fost [G#]duși [A#]în [Cm]altă [Fm]țară,  [Gm]
+[Cm]Dar se-ntorc la [G]primăva[Cm]ră.
+[D#]Au fost [G#]duși [A#]în [Cm]altă [Fm]țară,  [Gm]
+[Cm]Dar se-ntorc la [G]primăva[Cm]ră.
+
+{c: Bridge}
+[D#]            [G#]      [A#]
+[Cm]            [Fm]      [Gm]
+[Cm]            [Gm]
+[Cm]            [Cm]
+
+[D#]            [G#]      [A#]
+[Cm]            [Fm]      [Gm]
+[Cm]            [Gm]
+[Cm]            [Cm]
+
+{c: Verse 3}
+[Cm]Înapoi când [A#]or veni,
+[D#]Tot pe tine [G7]te-or iubi, [Cm]măi!    [Fm]      [D#]      [G7]
+
+{c: Verse 3}
+[Cm]Înapoi când [A#]or veni,
+[D#]Tot pe tine [G7]te-or iubi, [Cm]măi!
+
+{c: Chorus 3}
+[D#]Munți[G#]lor c[A#]u cr[Cm]easta [Fm]rară,  [Gm]
+[Cm]Nu lăsați Stra[G]ja să pia[Cm]ră!
+[D#]Dacă [G#]pie[A#]re St[Cm]raja [Gm]voastră,  [Gm]
+[Cm]Ar pieri și [G]țara noas[Cm]tră.
+
+{c: Chorus 3}
+[D#]Munți[G#]lor c[A#]u cr[Cm]easta [Fm]rară,  [Gm]
+[Cm]Nu lăsați Stra[G]ja să pia[Cm]ră!
+[D#]Dacă [G#]pie[A#]re St[Cm]raja [Gm]voastră,  [Gm]
+[Cm]Ar pieri și [G]țara noas[Cm]tră.

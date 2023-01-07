@@ -1,0 +1,100 @@
+{title: Cats in the Cradle}
+{artist: Harry Chapin}
+{key: F}
+{duration: 215}
+{x_sbp_tags: english}
+
+{c: Intro}
+[F]
+
+{c: Verse 1}
+My [F]child arrived just the [G#]other day,
+[A#]Came to the world in the [F]usually way,
+But there were [F]planes to catch and [G#]bills to pay,
+[A#]He learned to walk while I [F]was away.
+And he was [D#]talkin' 'fore I [D#/D]knew it,
+And [D#/C]as he grew [D#/A#]he said,
+"[G#]I'm gonna [G#/G]be like [F]you, Dad.
+You [G#]know I'm gonna [G#/G]be like [F]you."
+
+{c: Chorus}
+And the [F]cat's in the cradle and the [D#]silver spoon,
+[G#]Little boy blue and the [A#]man on the moon.
+[F]"When you comin' home, Dad?"
+"I [D#]don't know when,
+[G#]We'll get to[G#/G]gether th[F]en,
+You [G#]know we'll have a [G#/G]good time [F]then."
+
+{c: Bridge 1}
+[F]
+
+{c: Verse 2}
+My [F]son turned ten just the [G#]other day,
+He said, "[A#]Thanks for the ball, Dad. Come [F]on, let's play!
+Could you [F]teach me to throw?" I said, "[G#]Not today,
+I got a [A#]lot to do." He said, "[F]That's okay."
+And he [D#]walked a[D#/D]way,
+And he [D#/C]smiled and he [D#/A#]said,
+"You know, [G#]I'm gonna [G#/G]be like [F]him, yeah.
+You [G#]know I'm gonna [G#/G]be like [F]him."
+
+{c: Chorus}
+And the [F]cat's in the cradle and the [D#]silver spoon,
+[G#]Little boy blue and the [A#]man on the moon.
+[F]"When you comin' home, Dad?"
+"I [D#]don't know when,
+[G#]We'll get to[G#/G]gether th[F]en,
+You [G#]know we'll have a [G#/G]good time [F]then."
+
+{c: Bridge 1}
+[F]
+
+{c: Verse 3}
+Well, he [F]came from college just the [G#]other day,
+So [A#]much like a man I just [F]had to say,
+"Son, [F]I'm proud of you. Could you [G#]sit for a while?"
+He [A#]shook his head and he [F]said with a smile,
+"What I'd [D#]really like, [D#/D]Dad,
+Is to [D#/C]borrow the [D#/A#]car keys.
+[G#]See you [G#/G]later. Can I [F]have them please?"
+
+{c: Chorus}
+And the [F]cat's in the cradle and the [D#]silver spoon,
+[G#]Little boy blue and the [A#]man on the moon.
+[F]"When you comin' home, Son?"
+"I [D#]don't know when,
+[G#]We'll get to[G#/G]gether th[F]en,
+You [G#]know we'll have a [G#/G]good time [F]then."
+
+{c: Solo}
+[Db]                [D#]        [Cm]        [F]
+[Db]                [D#]        [Cm]        [F]
+
+[F]
+
+{c: Verse 4}
+I've [F]long since retired, my [G#]son's moved away.
+[A#]I called him up just the [F]other day.    [F]
+"I'd [F]like to see you, if [G#]you don't mind."
+He said, "I'd [A#]love to, Dad, if I could [F]find the time.    [F]
+You see my [D#]new job's a [D#/D]hassle,
+And the [D#/C]kids have the [D#/A#]flu,
+But it's [G#]sure nice [G#/G]talkin' to [F]you, Dad.
+It's been [G#]sure nice [G#/G]talkin' to [F]you."
+
+{c: Bridge 2}
+And as I [D#]hung up the [D#/D]phone
+It oc[D#/C]curred to [D#/A#]me,
+He'd [G#]grown up [G#/G]just like [F]me.
+My [G#]boy was [G#/G]just like [F]me.
+
+{c: Chorus}
+And the [F]cat's in the cradle and the [D#]silver spoon,
+[G#]Little boy blue and the [A#]man on the moon.
+[F]"When you comin' home, Son?"
+"I [D#]don't know when,
+But [G#]we'll get to[G#/G]gether th[F]en, Dad.
+We're [G#]gonna have a [G#/G]good time [F]then."
+
+{c: Outro}
+[F]

@@ -1,0 +1,94 @@
+{title: Crazy Little Thing Called Love}
+{artist: Queen}
+{key: D}
+{duration: 320}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[D]        [Dsus4]                [D]
+[D]        [Dsus4]                [D]
+[D]        [Dsus4]                [D]
+[D]        [Dsus4]                [D]
+
+{c: Verse 1}
+This [D]thing [Dsus4]        [D]
+Called [D]love, [Dsus4]        [D]
+I [G]just can't [C]handle [G]it
+This [D]thing [Dsus4]        [D]
+Called [D]love, [Dsus4]        [D]
+I [G]must get [C]round to [G]it.
+I ain't [D]ready
+[A#]Crazy little [C]thing called [D]love.
+
+{c: Verse 2}
+This [D]thing [Dsus4](this thin[D]g)
+Called [D]love [Dsus4](called lo[D]ve),
+It [G]cries (like a baby)
+In a [C]cradle all [G]night.
+It [D]swings [Dsus4](woo woo[D]),
+It [D]jives [Dsus4](woo woo[D]),
+It [G]shakes all over like a [C]jelly [G]fish.
+I kinda [D]like it,
+[A#]Crazy little [C]thing called [D]love.
+
+{c: Bridge}
+There goes my [G]baby,
+She [C]knows how to rock 'n' [G]roll,
+She drives me [A#]crazy,
+She gives me [E]hot and cold [A]fever,
+Then she [F -]leaves me in a cool cool sweat.
+        [D5]        [C#5]        [C]
+        [A5]        [G#5]        [G]
+[E]
+[A]
+
+{c: Verse 3}
+I gotta be [D]cool, [Dsus4]        [D]
+Re[D]lax, [Dsus4]        [D]
+Get [G]hip and get [C]on my [G]track's.
+Take a [D]back seat, [Dsus4]        [D]
+Hitch-[D]hike, [Dsus4]        [D]
+And [G]take a long ride on my [C]motorb[G]ike,
+Until I'm [D]ready,
+[A#]Crazy little [C]thing called [D]love.
+
+{c: Solo}
+[A#]
+[D]
+[A#]
+[E]        [A]        [F -]
+
+        [D5]        [C#5]        [C]
+        [A5]        [G#5]        [G]
+[E]
+[A]
+
+{c: Verse 3}
+I gotta be cool,
+Relax,
+Get hip and get on my track's.
+Take a back seat (ah hum),
+Hitch-hike (ah hum),
+And take a long ride on my motorbike,
+Until I'm ready (ready Freddie),
+Crazy little thing called love.
+
+{c: Verse 1}
+This [D]thing [Dsus4]        [D]
+Called [D]love, [Dsus4]        [D]
+I [G]just can't [C]handle [G]it
+This [D]thing [Dsus4]        [D]
+Called [D]love, [Dsus4]        [D]
+I [G]must get [C]round to [G]it.
+I ain't [D]ready
+[A#]Crazy little [C]thing called [D]love.
+
+{c: Outro}
+[A#]Crazy little [C]thing called [D]love.
+[A#]Crazy little [C]thing called [D]love.
+[A#]Crazy little [C]thing called [D]love.
+[A#]Crazy little [C]thing called [D]love.
+[A#]Crazy little [C]thing called [D]love.
+[A#]Crazy little [C]thing called [D]love.
+[A#]Crazy little [C]thing called [D]love.
+[A#]Crazy little [C]thing called [D]love.

@@ -1,0 +1,118 @@
+{title: Colaj popular}
+{artist: Freestay}
+{key: Em}
+{duration: 215}
+{x_sbp_tags: romanian,khameleon}
+
+{c: Intro}
+[Em]            [D]        [G]    [D/F#]
+[Em]            [D]        [Em -]
+
+{c: Song 1, Verse 1}
+[Em]Mi-am făcut bundiță nouă, [D]măi frunzu[G]liță,[D/F#]
+[Em]Dacă ninge, dacă plouă, [D]eu am bun[Em]diță.
+Și [Em]mă mândresc acum la lume, și-[D]arăt bun[G]dița,[D/F#]
+[Em]Am facut-o eu anume, [D]pentru bă[Em]dița.
+
+{c: Song 1, Chorus 1}
+[G]Și de-o să-i [A]placă tare, [D]bundița [G]nouă,[D/F#]
+[Em]Mi-a da o [A]sărutare, [D]poate[D#] și d[Em]ouă.
+
+{c: Song 1, Chorus 1}
+[G]Și de-o să-i [A]placă tare, [D]bundița [G]nouă,[D/F#]
+[Em]Mi-a da o [A]sărutare, [D]poate[D#] și d[Em]ouă.
+
+{c: Song 1, Verse 2}
+[Em]De vreo două luni încoace, [D]mi-o zis la [G]horă,[D/F#]
+[Em]Că și măicasii i-ar place, [D]să-i fiu eu [Em]noră.
+[Em]În bundița asta mică [D]și cu bro[G]boade,  [D/F#]
+[Em]Mă gândeam că nevăstică, [D]frumos îmi [Em]șade.
+
+{c: Song 1, Chorus 2}
+[G]Bundița [A]mea e nouă, [D]ce bine-mi [G]pare,[D/F#]
+[Em]Uită-ne pe-[A]amândouă, [D]găti[D#]te, t[Em]are.
+
+{c: Song 1, Chorus 2}
+[G]Bundița [A]mea e nouă, [D]ce bine-mi [G]pare,[D/F#]
+[Em]Uită-ne pe-[A]amândouă, [D]găti[D#]te, t[Em]are.
+
+{c: Bridge}
+[Em]            [D]        [G]    [D/F#]
+[Em]            [D]        [Em -]
+
+{c: Song 2 - Verse 1}
+[Em]Căreruie pe sub brazi,  [D]
+[Em]Mi-o venit bădița azi.  [D]
+[Em]Ca să mă chame la joc,  [D]
+[Em]Să jucăm hora cu foc.  [D]
+
+{c: Song 2 - Chorus 1}
+[Gm]Că știu bine a juca, [D]dam-dam dam [Gm]diri-diri-da,
+[Gm]Badea știe a săruta, [B7]dam-dam diri-diri-[Em]dam.
+
+{c: Song 2 - Chorus 1}
+[Gm]Că știu bine a juca, [D]dam-dam diri-diri [Gm]diri-diri-da,
+[Gm]Badea știe a săruta, [B7]dam-dam diri-diri-[Em]dam.
+
+{c: Song 2 - Verse 2}
+[Em]Hai bădiță și mă joacă,  [D]
+[Em]Că nu-i fată să mă-ntreacă,  [D]
+[Em]Nici la joc, nici la cântat,  [D]
+[Em]Nici la dulce sărutat, măi.  [D]
+
+{c: Song 2 - Chorus 2}
+[Gm]Strânge-mă de mijlocel, [D]dam-dam dam [Gm]diri-diri-da,
+[Gm]Și mă joacă frumoșel, [B]dam-dam diri-diri-[Em]dam.
+
+{c: Song 2 - Chorus 3}
+[Gm]Hai bădiță, joacă bine, [D]dam-dam diri-diri [Gm]diri-diri-da,
+[Gm]Nu mă face de rușine, [B]dam-dam diri-diri-[Em]dam.
+
+{c: Bridge}
+[Em]            [D]        [G]    [D/F#]
+[Em]            [D]        [Em -]
+
+{c: Song 3 - Verse 1}
+[Em]Azi am să-ncrestez în grindă,
+[G]Jos din cui acum, oglindă!
+
+{c: Song 3 - Chorus 1}
+[Em]Mama-i dusă-n [Am]sat cu dorul,
+[D]Azi e singur [G]puișorul,
+[C]Și-am închis uș[Am]a la tindă
+[B]Cu zăvo[Em]rul.
+
+{c: Song 3 - Chorus 1}
+[Em]Mama-i dusă-n [Am]sat cu dorul,
+[D]Azi e singur [G]puișorul,
+[C]Și-am închis uș[Am]a la tindă
+[B]Cu zăvo[Em]rul.
+
+{c: Song 3 - Verse 2}
+[Em]Iată-mă! Tot eu cea veche!
+[G]Ochii? Hai, ce mai pereche!
+
+{c: Song 3 - Chorus 2}
+[-]Și ce cap frumos răsare!
+[D]Nu-i al meu? [G]Al meu e oare?
+[C]Dar al cui? Și [Am]la ureche
+[B]Uite-o floa[Em]re.
+
+{c: Song 3 - Chorus 2}
+[Em]Și ce cap fru[Am]mos răsare!
+[D]Nu-i al meu? [G]Al meu e oare?
+[C]Dar al cui? Și [Am]la ureche
+[B]Uite-o floa[Em]re.
+
+{c: Song 3 - Solo}
+[Em]      [Am]
+[D]      [G]
+[C]      [Am]
+[B]      [Em]
+
+{c: Song 3 - Outro}
+[E5]Mama-i dusă-n [D5]sat cu dorul,
+[C#5]Azi e singur [C5]pui[B5]șorul,
+[A5]Și-am înc[G5]his u[F#5]șa [G5]la [A5]tindă [B5]
+[-]
+Cu zăvorul.    [Em]
