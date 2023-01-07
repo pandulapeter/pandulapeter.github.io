@@ -1,0 +1,64 @@
+{title: Hero}
+{artist: Enrique Iglesias}
+{key: G}
+{duration: 265}
+{x_sbp_tags: english}
+
+{c: Intro}
+[G]            [G/Em]            [G/C]            [G/D]
+
+{c: Verse 1}
+Would you [G]dance if I asked you to [G/Em]dance,
+Or would you [G/C]run and never look [G/D]back?
+Would you [G]cry if you saw me [G/Em]crying,
+And would you [G/C]save my [G/D]soul to[G]night?
+
+{c: Verse 2}
+Would you [G]tremble if I touched your [G/Em]lips,
+Or would you [G/C]laugh? Oh, please tell me [G/D]this.
+Now would you [G]die for the one you [G/Em]love?
+Oh, hold me [G/C]in your [G/D]arms to[G]night.
+
+{c: Chorus}
+[G]I can [D]be your hero [C]baby,
+[G]I can [D]kiss away the [C]pain,
+[G]I will [D]stand by you for[C]ever,
+[G]You can [D]take my [C]breath away.
+
+{c: Verse 3}
+Would you [G]swear that you'll always be [G/Em]mine,
+Or would you [G/C]lie? Would you run and [G/D]hide?
+Am I in too [G]deep? Have I lost my [G/Em]mind?
+I don't [G/C]care, you're [G/D]here to[G]night.
+
+{c: Chorus}
+[G]I can [D]be your hero [C]baby,
+[G]I can [D]kiss away the [C]pain,
+[G]I will [D]stand by you for[C]ever,
+[G]You can [D]take my [C]breath away.
+
+{c: Solo}
+[G]            [Em]            [C]            [D]
+[G]            [Em]            [C]      [D]      [G]
+
+{c: Verse 4}
+[G]Oh, [G/Em]I just hold you,
+[G/C]I just hold you, [G/D]oh yeah.
+Am I in too [G]deep? Have I lost my [G/Em]mind?
+Well, I don't [G/C]care, you're [G/D]here to[G]night.
+
+{c: Chorus}
+[G]I can [D]be your hero [C]baby,
+[G]I can [D]kiss away the [C]pain, oh yeah!
+[G]I will [D]stand by you for[C]ever,
+[G]You can [D]take my [C]breath away.
+
+{c: Chorus}
+[G]I can [D]be your [C]hero,
+[G]I can [D]kiss away the [C]pain,
+And I will [G]stand by [D]you for[C]ever,
+[G]You can [D]take my [C]breath away.
+
+{c: Outro}
+[G]You can [D]take my [C]breath away.
+[G]I can [D]be your [C]hero.

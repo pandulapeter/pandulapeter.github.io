@@ -1,0 +1,75 @@
+{title: Hora din Moldova}
+{artist: Nelly Ciobanu}
+{key: C#m}
+{duration: 180}
+{x_sbp_tags: romanian,khameleon}
+
+{c: Intro}
+[C#]
+
+[C#m]            [F#m]            [A]            [G#]
+[C#m]            [F#m]            [A]            [G#]
+
+[C#m]            [F#m]            [A]            [G#]
+[C#m]            [F#m]            [A]            [G#]
+
+{c: Verse}
+[C#m]Peste dealuri [B]peste [E]văi,
+[F#m]Duce vântul [G#]hora [C#m]noastră!
+[C#m]Șoaptă plină [B]de vă[E]păi,
+[F#m]Revărsată [G#]peste [C#m]zări.
+
+{c: Pre-Chorus 1}
+[F#m]Ș-ai-la lai-la, [B]și zborul,
+[E]Ș-ai-la lai-la, [A]duce dorul,
+[D#]Dans de foc al iu[G#]birii joc,
+E hora [C#m]din Mol[C#]dova.
+[F#m]Când o iubești, [B]te răsfața,
+[E]Când o-nvartești, [A]îți dă viață,
+[D#]Toți cu foc se a[G#]vântă-n joc
+E cu no[C#m]roc.
+
+{c: Chorus}
+[C#m]He hei, [F#m]he hei!
+[A]Hai la hora, [G#]hai la hora din Moldova!
+[C#m]He hei, [F#m]he hei!
+[A]Iute-i hora, [G#]iute-i hora în Moldova!
+
+{c: Chorus}
+[C#m]He hei, [F#m]he hei!
+[A]Hai la hora, [G#]hai la hora din Moldova!
+[C#m]He hei, [F#m]he hei!
+[A]Iute-i hora, [G#]iute-i hora în Moldova!
+
+{c: Bridge}
+[-]Foaie verde-a bobului, măi,
+Păi jucați hora neamului!
+Și zii mai tare lăutare, să se-audă-n lumea mare,
+Joacă hora mic și mare!
+
+{c: Pre-Chorus 2}
+[F#m]Peste [B]văi,
+[E]Peste [A]mări,
+[D#]Tot cu [G#]drag ne-nvărte [C#m]ea,
+[C#]Hora din [F#m]străbuni,
+[B]Vatra pla[E]iului,  [A]
+[D#]Joc a [G#]neamu[C#m]lui.
+
+{c: Chorus}
+[C#m]He hei, [F#m]he hei!
+[A]Hai la hora, [G#]hai la hora din Moldova!
+[C#m]He hei, [F#m]he hei!
+[A]Iute-i hora, [G#]iute-i hora în Moldova!
+
+{c: Chorus}
+[C#m]He hei, [F#m]he hei!
+[A]Hai la hora, [G#]hai la hora din Moldova!
+[C#m]He hei, [F#m]he hei!
+[A]Iute-i hora, [G#]iute-i hora în Moldova!
+
+{c: Outro}
+[F#m]            [B]            [E]            [A]
+[D#]            [G#]            [C#m]            [C#]
+
+[F#m]            [B]            [E]            [A]
+[D#]            [G#]            [C#m]      [G#]      [C#m]

@@ -1,0 +1,103 @@
+{title: Highway to Hell}
+{artist: AC/DC}
+{key: A}
+{duration: 210}
+{tempo: 116}
+{x_sbp_tags: english,backtrackers,khameleon}
+
+{c: Intro}
+        [A]
+‎[A]        [D/F#]
+‎[G]        [D/F#]
+‎[G]        [D/F#]        [G]        [D/F#]
+‎[A]        [A]
+
+        [A]
+‎[A]        [D/F#]
+‎[G]        [D/F#]
+‎[G]        [D/F#]        [G]        [D/F#]
+‎[A]        [A]
+
+{c: Verse 1}
+[A]Living easy,   [D/F#]
+[G]Living free,   [D/F#]      [G]      [D/F#]
+Season [G]ticket [D/F#]on a on[A]e-way ride.   [A]
+[A]Asking nothing,   [D/F#]
+[G]Leave me be,   [D/F#]      [G]      [D/F#]
+Taking[G] every[D/F#]thing in[A] my stride.   [A]
+
+{c: Verse 2}
+[A]Don't need reason,   [D/F#]
+[G]Don't need rhyme,   [D/F#]      [G]      [D/F#]
+Ain't [G]nothing[D/F#] I would [A]rather do.   [A]
+[A]Going down,   [D/F#]
+[G]Party time,   [D/F#]      [G]      [D/F#]
+My [G]friends are [D/F#]gonna b[E]e there too!   [E]
+
+{c: Chorus}
+I'm on the [A]highway to [D]hell,   [G]
+[D/F#]On the [A]highway to [D]hell,   [G]     [D/F#]
+[A]Highway to [D]hell,   [G]
+I'm o[D/F#]n the [A]highway to [D]hell!
+
+{c: Verse 3}
+[A]No stop signs,   [D/F#]
+[G]Speed limit,   [D/F#]      [G]      [D/F#]
+No[G]body's [D/F#]gonna s[A]low me down.   [A]
+[A]Like a wheel,   [D/F#]
+[G]Gonna spin it,   [D/F#]      [G]      [D/F#]
+No[G]body's [D/F#]gonna m[A]ess me around.   [A]
+
+{c: Verse 4}
+[A]Hey Satan,   [D/F#]
+[G]Paid my dues,   [D/F#]      [G]     [D/F#]
+[G]Playing [D/F#]in a roc[A]king band.   [A]
+[A]Hey mama,   [D/F#]
+[G]Look at me,   [D/F#]      [G]      [D/F#]
+I'm on my[G] way [D/F#]to the [E]promised land!   [E]
+
+{c: Chorus}
+I'm on the [A]highway to [D]hell,   [G]    [D/F#]
+[A]Highway to [D]hell,   [G]
+I'm [D/F#]on the [A]highway to [D]hell,   [G]    [D/F#]
+[A]Highway to [D]hell!
+
+{c: Bridge 1}
+[D]        [G]
+[D]Don't stop me!
+[D]        [G]        [D]
+[G]        [D]
+
+{c: Solo}
+[A]                [A]
+[D]                [G]    [D/F#]
+
+[A]                [A]
+[D]                [G]    [D/F#]
+
+[A]                [A]
+[D]                [G]    [D/F#]
+
+[A]                [A]
+[D]                [G]    [D/F#]
+
+{c: Chorus}
+I'm on the [A]highway to [D]hell,   [G]
+[D/F#]On the [A]highway to [D]hell,   [G]
+I'm [D/F#]on the [A]highway to [D]hell,   [G]
+[D/F#]On the [A]highway...
+
+{c: Bridge 2}
+[D]
+[G]        [D/F#]
+
+{c: Chorus}
+[A]Highway to [D]hell! (I'm on the [G]highway [D/F#]to hell)
+[A]Highway to [D]hell! ([G]Highway [D/F#]to hell!)
+[A]Highway to [D]hell!   [G]     [D/F#]
+[A]Highway to [D]hell!
+
+{c: Outro}
+And I'm going down...
+All the way!
+[A]I'm on the highway to hell.

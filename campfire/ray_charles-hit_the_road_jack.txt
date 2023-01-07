@@ -1,0 +1,94 @@
+{title: Hit the Road Jack}
+{artist: Ray Charles}
+{key: G#m}
+{duration: 120}
+{x_sbp_tags: english}
+
+{c: Intro}
+[G#m]    [F#]    [E]    [D#]
+[G#m]    [F#]    [E]    [D#]
+[G#m]    [F#]    [E]    [D#]
+[G#m]    [F#]    [E]    [D#]
+
+{c: Chorus}
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more, no [F#]more,
+No [E]more, no [D#]more,
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more.   [F#]
+([E]What'd you [D#]say?)
+
+{c: Chorus}
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more, no [F#]more,
+No [E]more, no [D#]more,
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more.   [F#]    [E]    [D#]
+
+{c: Verse 1}
+Woah [G#m]woman, old [F#]woman, oh, [E]you treat me so [D#]mean,
+You're the [G#m]meanest old [F#]woman that I've [E]ever [D#]seen.
+I [G#m]guess if [F#]you say [E]so,   [D#]
+I'll [G#m]have to pack my [F#]things and [E]go (that's [D#]right)!
+
+{c: Chorus}
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more, no [F#]more,
+No [E]more, no [D#]more,
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more.   [F#]
+([E]What'd you [D#]say?)
+
+{c: Chorus}
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more, no [F#]more,
+No [E]more, no [D#]more,
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more.   [F#]    [E]    [D#]
+
+{c: Verse 2}
+Now [G#m]baby, listen [F#]baby, don't you [E]treat me this [D#]way,
+Cause [G#m]I'll be [F#]back on my [E]feet some [D#]day.
+Don't [G#m]care if you [F#]do, cause it's [E]unders[D#]tood,
+You ain't [G#m]got no [F#]money, you [E]just a no [D#]good.
+Well I [G#m]guess if [F#]you say [E]so,   [D#]
+I'll [G#m]have to pack my [F#]things and [E]go (that's [D#]right)!
+
+{c: Chorus}
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more, no [F#]more,
+No [E]more, no [D#]more,
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more.   [F#]
+([E]What'd you [D#]say?)
+
+{c: Chorus}
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more, no [F#]more,
+No [E]more, no [D#]more,
+Hit the [G#m]road [F#]Jack,
+And [E]don't you come [D#]back
+No [G#m]more.   [F#]
+
+{c: Outro}
+[E]Don't you come [D#]back no [G#m]more.   [F#]
+[E]Don't you come [D#]back no [G#m]more.   [F#]
+[E]Don't you come [D#]back no [G#m]more.   [F#]
+[E]Don't you come [D#]back no [G#m]more.   [F#]
+[E]Don't you come [D#]back no [G#m]more.   [F#]
+[E]Don't you come [D#]back no [G#m]more.   [F#]
+[E]Don't you come [D#]back no [G#m]more.   [F#]
+[E]Don't you come [D#]back no [G#m]more.   [F#]
+[E]Don't you come [D#]back no [G#m]more.   [F#]
+[E]Don't you come [D#]back no [G#m]more.

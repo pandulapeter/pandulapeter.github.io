@@ -1,0 +1,90 @@
+{title: Have a Nice Day}
+{artist: Bon Jovi}
+{key: C#m}
+{duration: 230}
+{x_sbp_tags: english}
+
+{c: Intro}
+[C#m]        [E]        [Aadd9]        [Esus2]        [B]        [B/F#]
+[C#m]        [E]        [Aadd9]        [Esus2]        [B]        [B/F#]
+[C#m]        [E]        [Aadd9]        [Esus2]        [B]        [B/F#]
+
+{c: Verse 1}
+[C#m]Why,[-] you wanna tell me how to live my life?
+[C#m]      [E]    [A]    [B]    [B/F#]
+[C#m]Who,[-] are you to tell me if it's black or white?
+[C#m]      [E]    [A]    [B]    [B/F#]
+
+{c: Pre-Chorus 1}
+[C#m]Mama, can you hear me? Try to understand,
+[E]Innocence's the difference between a boy and a man,
+My [F#m]daddy lived the lie, it's just the price that he paid,
+[Aadd9]Sacrificed his life, just slavin' away.
+
+{c: Chorus}
+[C#m]Oh, if there's [Aadd9]one thing I hang [E]on to,
+That gets me [B]through the night,
+[C#m]I ain't gonna [Aadd9]do what I don't [E]want to,
+I'm gonna [B]live my life,
+[C#m]Shining like a diamond, [Aadd9]rolling with the dice,
+[E]Standing on the ledge, I show the [B]wind how to fly,
+When the [F#m]world gets in my face,
+I say,   [Aadd9]      [-]
+Have a nice [C#m]day!     [E]    [Aadd9]       [Esus2]
+[B]Have a [B/F#]nice da[C#m]y!   [E]
+.[Aadd9]        [Esus2]          [B]    [B/F#]
+
+{c: Verse 2}
+[C#m]Take[-] a look around you; nothing's what it seems,
+[C#m]      [E]    [A]    [B]    [B/F#]
+We're [C#m]livi[-]ng in a broken home of hopes and dreams.
+.[C#m]      [E]    [A]    [B]    [B/F#]
+
+{c: Pre-Chorus 2}
+[C#m]Let me be the first to shake a helping hand,
+[E]Anybody brave enough to take a stand,
+I've [F#m]knocked on every door, on every dead end street,
+[Aadd9]Looking for forgiveness. What's left to believe?
+
+{c: Chorus}
+[C#m]Oh, if there's [Aadd9]one thing I hang [E]on to,
+That gets me [B]through the night,
+[C#m]I ain't gonna [Aadd9]do what I don't [E]want to,
+I'm gonna [B]live my life,
+[C#m]Shining like a diamond, [Aadd9]rolling with the dice,
+[E]Standing on the ledge, I show the [B]wind how to fly,
+When the [F#m]world gets in my face,
+I say,   [Aadd9]      [-]
+Have a nice [C#m]day!     [E]    [Aadd9]       [Esus2]
+[B]Have a [B/F#]nice da[C#m]y!   [E]
+.[Aadd9]        [Esus2]          [B]    [B/F#]
+
+{c: Solo}
+[C#m]        [E]        [Aadd9]        [B]
+[C#m]        [E]        [Aadd9]        [B]
+[F#m]        [F#m]        [Aadd9]
+
+{c: Bridge}
+[C#m]        [E]        [Aadd9]        [Esus2]        [B]        [B/F#]
+[C#m]        [E]        [Aadd9]        [Esus2]        [B]        [B/F#]
+
+{c: Chorus}
+[C#m]Oh, if there's [Aadd9]one thing I hang [E]on to,
+That gets me [B]through the night,
+[C#m]I ain't gonna [Aadd9]do what I don't [E]want to,
+I'm gonna [B]live my life,
+[C#m]Shining like a diamond, [Aadd9]rolling with the dice,
+[E]Standing on the ledge, I show the [B]wind how to fly,
+When the [F#m]world gets in my face,
+I say,   [Aadd9]      [-]
+Have a nice [C#m]day!     [E]    [Aadd9]       [Esus2]
+[B]Have a [B/F#]nice da[C#m]y!   [E]
+[Aadd9]        [Esus2]          [B]
+
+{c: Outro}
+[B/F#]When the [C#m]world keeps [E]trying, to[Aadd9] drag me do[Esus2]wn,      [B]
+I'[B/F#]ve gotta [C#m]raise my [E]hands, [Aadd9]gonna stand [Esus2]my ground,   [B]
+W[B/F#]ell I say[C#m],        [E]    [Aadd9]
+[Esus2]Hey!
+[B]Have a [B/F#]nice day[C#m]!        [E]    [Aadd9]        [Esus2]
+[B]Ha[-]ve a nice day!

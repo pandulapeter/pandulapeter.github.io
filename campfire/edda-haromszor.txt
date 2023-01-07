@@ -1,0 +1,97 @@
+{title: Háromszor}
+{artist: Edda}
+{key: C}
+{duration: 300}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[C]
+
+{c: Verse 1}
+[C]Amikor még új egy szerelem,
+[C]Amikor még azt sem kérdi,
+[A#]Épp most hol jársz,
+[F]Nincs messze semmi, nincs [C]távolság.
+
+{c: Verse 2}
+[C]Amikor még él a bizalom
+[C]De a néhány furcsa telefon
+[A#]Mindent elvág,
+[F]Úgy érzed, nagy lett a [C]távolság.
+
+{c: Bridge 1}
+[G]Lehet, hogy féltékeny vagyok,
+De ha őrültség, [C]ordíts rám!
+[G]És ha tényleg nincs rá semmi ok,
+[G]Ordíts rám!
+
+{c: Chorus 1}
+Háromszor [C]szóltam rád,
+Háromszor kértem, hogy [G]mondj mindent el,
+De te háromszor [Am]nem jöttél el.
+Neked ez a szerelem? [G]Oh, [G]oh...   [C]
+
+{c: Verse 3}
+[C]Látlak felhõn, látlak vonaton,
+[C]Látlak jönni, s menni utadon,
+De [A#]nincsen már nyom,
+Ami [F]elvezet hozzád, a [C]szívedhez.
+
+{c: Verse 4}
+[C]Ez az egész furcsa lebegés,
+[C]Gyomromban ott a remegés,
+[A#]Épp most hol jársz?
+[F]Nem élem túl, ha nem [C]engem vársz.
+
+{c: Bridge 1}
+[G]Lehet, hogy féltékeny vagyok,
+De ha őrültség, [C]ordíts rám!
+[G]És ha tényleg nincs rá semmi ok,
+[G]Ordíts rám!
+
+{c: Chorus 1}
+Háromszor [C]szóltam rád,
+Háromszor kértem, hogy [G]mondj mindent el,
+De te háromszor [Am]nem jöttél el.
+Neked ez a szerelem? [G]Oh, [G]oh...
+
+{c: Chorus 2}
+Háromszor [C]vágtál át,
+Háromszor kértem, hogy [G]mondj mindent el,
+De te háromszor [Am]nem jöttél el.
+Neked ez a szerelem? [G]Oh, [G]oh...
+
+{c: Bridge 2}
+[G]Kétségek közt, még bírom, még fáj,
+Csak [F]tudjam meg végre,
+Ha [G]nem kellek már.
+[G]            [F]
+[C/E]            [G]
+
+{c: Chorus 1}
+Háromszor szóltam rád,
+Háromszor kértem, hogy mondj mindent el,
+De te háromszor nem jöttél el.
+Neked ez a szerelem? [G]Oh, [G]oh...
+
+{c: Chorus 2}
+Háromszor [C]vágtál át,
+Háromszor kértem, hogy [G]mondj mindent el,
+De te háromszor [Am]nem jöttél el.
+Neked ez a szerelem? [G]Oh, [G]oh...
+
+{c: Chorus 1}
+Háromszor [C]szóltam rád,
+Háromszor kértem, hogy [G]mondj mindent el,
+De te háromszor [Am]nem jöttél el.
+Neked ez a szerelem? [G]Oh, [G]oh...
+
+{c: Chorus 2}
+Háromszor [C]vágtál át,
+Háromszor kértem, hogy [G]mondj mindent el,
+De te háromszor [Am]nem jöttél el.
+Neked ez a szerelem?
+
+{c: Outro}
+[G]            [F]
+[C/E]            [G]

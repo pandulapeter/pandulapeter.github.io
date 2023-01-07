@@ -1,0 +1,114 @@
+{title: Holding Out for a Hero}
+{artist: Bonnie Tyler}
+{key: Am}
+{duration: 350}
+{x_sbp_tags: english}
+
+{c: Intro}
+[F]        [Am]        [Am]
+[Am]                [Am7/G]
+[F]                [Esus4]                [E]
+[Am]                [Am7/G]
+[F]                [Esus4]                [E]
+
+{c: Verse 1}
+[Am]Where have all the good men gone,
+And [G]where are all the gods?
+[F]Where's the streetwise Hercules,
+To [E]fight the rising odds?
+[Am]Isn't there a white knight,
+U[Em]pon a fiery steed?
+[Dm]Late at night I toss and I turn,
+And I [Esus4]dream of what I [E]need.
+
+{c: Chorus}
+I need a [Am]hero.
+I'm holding out for a
+[Em]Hero 'til the end of the night.
+He's [F]gotta be strong,
+And he's gotta be fast,
+And he's [C]gotta be fresh from the [G]fight.
+I need a [Am]hero.
+I'm holding out for a
+[Em]Hero 'til the morning light.
+He's [F]gotta be sure,
+And it's gotta be soon,
+And he's [C]gotta be larger than [G]life.
+
+{c: Bridge 1}
+Larger than [Am]life.   [Am7/G]
+[F]                [Esus4]                [E]
+
+{c: Verse 2}
+[Am]Somewhere after midnight,
+In my [G]wildest fantasy,
+[F]Somewhere just beyond my reach,
+There's [E]someone reaching back for me.
+[Am]Racing on the thunder,
+And [Em]rising with the heat.
+[Dm]It's gonna take a superman
+To [Esus4]sweep me off my [E]feet.   [E7]
+
+{c: Chorus}
+I need a [Am]hero.
+I'm holding out for a
+[Em]Hero 'til the end of the night.
+He's [F]gotta be strong,
+And he's gotta be fast,
+And he's [C]gotta be fresh from the [G]fight.
+I need a [Am]hero.
+I'm holding out for a
+[Em]Hero 'til the morning light.
+He's [F]gotta be sure,
+And it's gotta be soon,
+And he's [C]gotta be larger than [G]life.   [G]
+
+{c: Bridge 2}
+I need a [Am]hero.
+I'm holding out for a
+[Em]Hero 'til the end of the night.
+
+{c: Soloe}
+[Am]        [Am]        [F]        [F]
+[Dm]        [E]        [Am]        [Am]
+
+[Am]        [Am]        [F]        [F]
+[Dm]        [E]        [Am]        [Am]
+
+{c: Bridge 3}
+[Am]Up where the mountains meet the heavens above,
+[F]Out where the lightning splits the sea,
+[Dm]I could swear there is [E]someone, somewhere,
+[Am]Watching me.
+[Am]Through the wind, and the chill, and the rain,
+[F]And the storm, and the flood,
+[Dm]I can feel his app[E]roach like a fire in my [Am]blood.
+[Cdim]
+[Cdim]
+[Cdim]
+[Cdim]
+[Esus4]                [E]
+
+{c: Chorus}
+I need a [Am]hero.
+I'm holding out for a
+[Em]Hero 'til the end of the night.
+He's [F]gotta be strong,
+And he's gotta be fast,
+And he's [C]gotta be fresh from the [G]fight.
+I need a [Am]hero.
+I'm holding out for a
+[Em]Hero 'til the morning light.
+He's [F]gotta be sure,
+And it's gotta be soon,
+And he's [C]gotta be larger than [G]life.
+
+{c: Outro}
+I need a [Am]hero.
+I'm holding out for a
+[Em]Hero 'til the end of the night.
+[F]        [F]        [C]        [G]
+[Am]        [Am]        [Em]        [Em]
+
+[F]        [F]        [C]        [G]
+[Am]        [Am]        [Em]        [Em]

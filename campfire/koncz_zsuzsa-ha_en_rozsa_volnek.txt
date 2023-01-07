@@ -1,0 +1,38 @@
+{title: Ha én rózsa volnék}
+{artist: Koncz Zsuzsa}
+{key: Dm}
+{duration: 240}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[Dm]
+
+{c: Verse 1}
+[Dm]Ha én rózsa volnék, [A]nem csak egyszer [Dm]nyílnék.[A7]
+[F]Minden évben négyszer [C]virágba [F]borulnék.[A7]
+[Dm]Nyílnék a fi[Gm]únak, [C]nyilnék én a [F]lánynak,[A7]
+Az [Dm]igaz szere[A]lemnek [A7]és az elmú[Dm]lásnak.
+
+{c: Verse 2}
+[Dm]Ha én kapu volnék, [A]mindig nyitva [Dm]állnék.[A7]
+[F]Akárhonnan jönne, [C]bárkit been[F]gednék.[A7]
+[Dm]Nem kérdezném [Gm]tőle, [C]hát téged ki [F]küldött.[A7]
+[Dm]Akkor lennék [A]boldog, [A7]ha mindenki [Dm]eljött.
+
+{c: Verse 3}
+[Dm]Ha én ablak volnék, [A]akkora nagy [Dm]lennék,[A7]
+[F]Hogy az egész világ [C]láthatóvá [F]váljék.[A7]
+[Dm]Megértő sze[Gm]mekkel [C]átnéznének [F]rajtam.[A7]
+[Dm]Akkor lennék [A]boldog, ha [A7]mindent meg[Dm]mutattam.
+
+{c: Verse 4}
+[Dm]Ha én utca volnék, [A]mindig tiszta [Dm]lennék.[A7]
+[F]Minden áldott éjjel [C]fényben megfu[F]̈rödnék.[A7]
+[Dm]És ha egyszer [Gm]engem [C]lánckerék ta[F]posna,[A7]
+[Dm]Alattam a [A]föld is [A7]sírva beo[Dm]molna.
+
+{c: Verse 5}
+[Dm]Ha én zászló volnék, [A]sohasem [Dm]lobognék.[A7]
+[F]Mindenféle szélnek [C]haragosa [F]lennék.[A7]
+[Dm]Akkor lennék [Gm]boldog, ha [C]kifeszíte[F]nének,[A7]
+S [Dm]nem lennék já[A]téka [A7]mindenféle [Dm]szélnek.
