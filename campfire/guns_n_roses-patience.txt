@@ -1,0 +1,78 @@
+{title: Patience}
+{artist: Guns N' Roses}
+{key: B}
+{duration: 355}
+{x_sbp_tags: english}
+
+{c: Intro}
+[B]      [F#]      [G#]      [C#]
+[B]      [F#]      [G#]      [C#]
+
+[B]      [F#]      [B]      [D#m]
+[B]      [F#]      [B]      [D#m]
+
+{c: Verse 1}
+[B]Shed a tear 'cause I'm missin' you,
+[F#]I'm still alright to smile.
+[G#]Girl, I think about you every [C#]day now.
+
+{c: Verse 2}
+[B]Was a time when I wasn't sure,
+But you [F#]set my mind at ease.
+[G#]There is no doubt you're in my [C#]heart now.
+
+{c: Chorus}
+[B]Said woman, [F#]take it slow,
+And it'll [B]work itself out [D#m]fine.
+[B]All we need is [F#]just a little [C#]patience.
+[B]Said sugar, [F#]make it slow
+And we'll [B]come together [D#m]fine.
+[B]All we need is [F#]just a little [C#]patience. [C#]
+
+{c: Verse 3}
+[B]I sit here on the stairs
+'Cause I'd [F#]rather be alone.
+If [G#]I can't have you right now, I'll [C#]wait, dear.
+
+{c: Verse 4}
+[B]Sometimes I get so tense,
+But I [F#]can't speed up the time,
+But [G#]you know love there's one more thing to con[C#]sider.
+
+{c: Chorus}
+[B]Said woman, [F#]take it slow,
+And [B]things will be just [D#m]fine.
+[B]You and I'll just [F#]use a little [C#]patience.
+[B]Said sugar, [F#]take the time,
+'Cause the [B]lights are shining [D#m]bright.
+[B]You and I've got [F#]what it takes to [C#]make it.
+We won't [C#]fake it,
+I'll never [C#]break it,
+'Cause I can't [C#]take it.
+
+{c: Solo}
+[B]      [F#]      [B]      [D#m]
+[B]      [F#]      [C#]      [C#]
+
+[B]      [F#]      [B]      [D#m]
+[B]      [F#]      [C#]      [C#]
+
+[C#]
+
+{c: Outro}
+[C#]            [C#/F]      [F#]
+[C#]            [C#/F]      [F#]
+[C#]            [C#/F]
+Little [F#]patience,
+[C#]Yeah, [C#/F]mm yeah,[F#]
+Need a little [C#]patience, [C#/F]yeah,   [F#]
+Just a little [C#]patience, [C#/F]yeah.   [F#]
+Some more [C#]patience - I've been walking the [C#/F]streets at night,
+[F#]Just trying to get it right.
+[C#]It's hard to see with so [C#/F]many around,
+You [F#]know I don't like being stuck in the crowd,
+And the [C#]streets don't change but [C#/F]maybe the names,
+[F#]I ain't got time for the game 'cause I [C#]need you.
+[C#/F]Yeah, yeah, well I [F#]need you.
+Ooh I [E]need you, whoa I [F#]need you.
+Ooh, this [C#]time.   [F#]        [C#]

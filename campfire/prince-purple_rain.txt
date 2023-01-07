@@ -1,0 +1,57 @@
+{title: Purple Rain}
+{artist: Prince}
+{key: B}
+{duration: 525}
+{x_sbp_tags: english}
+
+{c: Intro}
+[Bsus2]        [G#m7]        [F#]        [E]
+
+{c: Verse 1}
+[Bsus2]I never meant to cause you any [G#m7]sorrow,
+[F#]I never meant to cause you any [E]pain.
+[Bsus2]I only wanted to one time to see you [G#m7]laughing,
+[F#]I only wanted to see you laughing in the purple [Bsus2]rain.
+
+{c: Chorus}
+Purple rain, purple [E]rain.
+Purple rain, purple [Bsus2]rain.      [G#m7]
+Purple rain, purple [F#]rain.
+I only wanted to see you bathing in the purple [Bsus2]rain.
+
+{c: Verse 2}
+I never wanted to be your weekend [Bsus2]lover,       [G#m7]
+[F#]I only wanted to be some kind of [E]friend.
+[Bsus2]Baby, I could never steal you from a[G#m7]nother,
+[F#]It's such a shame our friendship had to [Bsus2]end.
+
+{c: Chorus}
+Purple rain, purple [E]rain.
+Purple rain, purple [Bsus2]rain.      [G#m7]
+Purple rain, purple [F#]rain.
+I only wanted to see you underneath the purple [Bsus2]rain.
+
+{c: Verse 3}
+Honey, I know, I know, I know times are [Bsus2]changing,     [G#m7]
+[F#]It's time we all reach out for something [E]new, that means you too,
+[Bsus2]You say you want a leader, [G#m7]but you can't seem to make up your mind.
+I think you better [F#]close it, and let me guide you to the purple [E]rain.
+
+{c: Chorus}
+Purple rain, purple [E]rain.
+Purple rain, purple [Bsus2]rain.      [G#m7]
+Purple rain, purple [F#]rain.
+I only want to see you, only want to see you, in the purple [Bsus2]rain.
+
+{c: Solo}
+[Bsus2]        [G#m7]        [F#]        [E]
+[Bsus2]        [G#m7]        [F#]        [E]
+[Bsus2]        [G#m7]        [F#]        [E]
+[Bsus2]        [G#m7]        [F#]        [E]
+
+{c: Outro}
+[Bsus2]        [G#m7]        [F#]        [E]
+[Bsus2]        [G#m7]        [F#]        [E]
+[Bsus2]        [G#m7]        [F#]        [E]
+[Bsus2]        [G#m7]        [F#]        [E]
+[B]

@@ -1,0 +1,81 @@
+{title: Pálinka dal}
+{artist: Magna Cum Laude}
+{key: Gm}
+{duration: 275}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[Gm]        [Gm]        [Cm]        [D]
+[Gm]        [Gm]        [Cm]        [D]
+[Gm]        [Gm]        [Cm]        [D]
+
+{c: Chorus}
+[Gm]Álmaim kéklő egén,
+[Gm]Gyümölcsfáim tetején,
+[Cm]Pálinka, szerelmem, [D]légy az enyém!
+[Gm]Nyújtsd hát a karod felém,
+[Gm]Nélküled meghalok én,
+[Cm]Pálinka, szerelmem, [D]légy az enyém!
+
+{c: Verse 1}
+Ha egyszer [Gm]elindulunk lefelé,
+Mert [Cm]előttünk a lej[D]tő.
+[Gm]Folyékony királynő, kérlek,
+Te [Cm]légy a búfelej[D]tő!
+
+{c: Bridge 1}
+[D#]Tölts hát a [F]poharamba
+[A#]Még egy kortyot [Gm]angyalom,
+[Cm]Ma éjjel [F]mindenemet [A#]elmula[D]tom!   [D7]
+
+{c: Chorus}
+[Gm]Álmaim kéklő egén,
+[Gm]Gyümölcsfáim tetején,
+[Cm]Pálinka, szerelmem, [D]légy az enyém!
+[Gm]Nyújtsd hát a karod felém,
+[Gm]Nélküled meghalok én,
+[Cm]Pálinka, szerelmem, [D]légy az enyém!
+
+{c: Verse 2}
+Az [Gm]istenek könnycseppje gyógyír
+[Cm]Bánatra, ö[D]römre.
+Én [Gm]téged fogadlak egyszer majd
+[Cm]Gyermekként ö[D]rökbe.
+
+{c: Bridge 1}
+[D#]Egy kupica [F]reggelire,
+[A#]Abból bajod [Gm]nem lehet,
+[Cm]A magyarnak [F]csak ez adhat [A#]ihle[D]tet.   [D7]
+
+{c: Chorus}
+[Gm]Álmaim kéklő egén,
+[Gm]Gyümölcsfáim tetején,
+[Cm]Pálinka, szerelmem, [D]légy az enyém!
+[Gm]Nyújtsd hát a karod felém,
+[Gm]Nélküled meghalok én,
+[Cm]Pálinka, szerelmem, [D]légy az enyém!
+
+{c: Bridge 2}
+[Cm]De nekem így is [Gm]megérte,
+Egy [D]életen át [Gm]várni [G7]rád.
+[Cm]A halálos ágyamon [Gm]az infúziómba
+[A7]Ne töltsetek csak [D]pálinkát!   [D7]
+
+{c: Chorus}
+[Gm]Álmaim kéklő egén,
+[Gm]Gyümölcsfáim tetején,
+[Cm]Pálinka, szerelmem, [D]légy az enyém!
+[Gm]Nyújtsd hát a karod felém,
+[Gm]Nélküled meghalok én,
+[Cm]Pálinka, szerelmem, [D]légy az enyém!
+
+{c: Chorus}
+[Gm]Álmaim kéklő egén,
+[Gm]Gyümölcsfáim tetején,
+[Cm]Pálinka, szerelmem, [D]légy az enyém!
+[Gm]Nyújtsd hát a karod felém,
+[Gm]Nélküled meghalok én,
+[Cm]Pálinka, szerelmem, [D]légy az enyém!
+
+{c: Outro}
+[Gm]

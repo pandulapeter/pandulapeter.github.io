@@ -1,0 +1,146 @@
+{title: Paradise City [lyrics only]}
+{artist: Guns N' Roses}
+{key: F#}
+{duration: 405}
+{tempo: 100}
+{x_sbp_tags: english,backtrackers}
+
+{c: Intro}
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Take me home!
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Take me home!
+
+{c: Bridge 1}
+
+{c: Solo 1}
+
+{c: Bridge 2}
+
+{c: Verse 1}
+Just a urchin livin' under the street
+I'm a hard case that's tough to beat.
+I'm your charity case so buy me something to eat,
+I'll pay you at another time,
+Take it to the end of the line!
+
+{c: Bridge 2}
+
+{c: Verse 2}
+Rags to riches or so they say,
+Ya gotta keep pushin' for the fortune and fame,
+You know it's all a gamble when it's just a game,
+Ya treat it like a capital crime,
+Everybody's doin' the time!
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Oh, won't you please take me home?
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Take me home!
+
+{c: Bridge 2}
+
+{c: Verse 3}
+Strapped in the chair of the city's gas chamber,
+Why I'm here I can't quite remember.
+The surgeon general says it's hazardous to breathe,
+I'd have another cigarette but I can't see,
+Tell me who you're gonna believe.
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Take me home, yeah!
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Oh, won't you please take me home? Yeah!
+
+{c: Solo 2}
+
+{c: Bridge 3}
+So far away,
+So far away,
+So far away,
+So far away...
+
+{c: Verse 4}
+Captain America's been torn apart,
+Now he's a court jester with a broken heart.
+He said "turn me around and take me back to the start"
+I must be losing my mind "are you blind?"
+I've seen it all a million times!
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Take me home, yeah yeah!
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Oh, won't you please take me home?
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Take me home, yeah yeah!
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Oh, won't you please take me home?
+
+{c: Bridge 4}
+Home!
+
+{c: Solo 3}
+
+{c: Bridge 5}
+I wanna go, I wanna go,
+Oh, won't you please take me home?
+I wanna see how good it can be,
+Oh, won't you please take me home?
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Take me home!
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Oh, won't you please take me home!
+
+{c: Bridge 6}
+Take me down, lead me 'round
+Oh, won't you please take me home?
+I wanna see, what a woman can be,
+Oh, won't you please take me home?
+
+{c: Solo 4}
+
+{c: Bridge 7}
+I wanna see, how good it can be,
+Oh, take me home?
+
+{c: Chorus}
+Take me down to the paradise city
+Where the grass is green and the girls are pretty,
+Oh, won't you please take me home?
+
+{c: Outro}
+I wanna go, I wanna know,
+Oh, won't you please take me home, yeah baby!

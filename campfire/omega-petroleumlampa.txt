@@ -1,0 +1,62 @@
+{title: Petróleumlámpa}
+{artist: Omega}
+{key: F}
+{duration: 200}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[F]
+
+{c: Verse 1}
+[F]Kényes porcelán, és itt áll a zongorán
+Egy [G#]fényes [A#]régi-régi-régi-régi [F]lámpa.
+[F]Talpán zöld betűk: én vagyok a fény, a tűz,
+Hogy [G#]láss[A#] az éjsza[F]kába'.
+
+{c: Chorus}
+[F]Petróleum lám[E7]pa,
+Milyen [Am]szép a láng[C7]ja.
+
+{c: Bridge}
+[F]
+
+{c: Verse 2}
+[F]Kémlelt éjeket, sok lepkét megégetett
+És [G#]tűrt sok-[A#]sok-sok hazug[F]ságot.
+[F]Száz év rálépett, ismeri az életet
+És [G#]érti [A#]a nagyvi[F]lágot.
+
+{c: Chorus}
+[F]Petróleum lám[E7]pa,
+Milyen [Am]szép a láng[C7]ja.
+
+{c: Bridge}
+[F]
+
+{c: Solo}
+[F]        [F]
+[G#]        [A#]
+[F]        [F]
+
+[F]        [F]
+[G#]        [A#]
+[F]        [F]
+
+{c: Chorus}
+[F]Petróleum lám[E7]pa,
+Milyen [Am]szép a láng[C7]ja.
+
+{c: Brige}
+.[F]
+
+{c: Verse 3}
+[F]Kislány, ha itt jársz, az árnyékod kék óriás,
+Meg[G#]néz [A#]és elva[F]rázsol.
+[F]Bámulsz, hogy mi van, nézel, mint a moziban,
+És [G#]két szép[A#] szemedben [F]táncol.
+{c: Chorus}
+[F]Petróleum lám[E7]pa,
+Milyen [Am]szép a láng[C7]ja.
+
+{c: Outro}
+[F]
