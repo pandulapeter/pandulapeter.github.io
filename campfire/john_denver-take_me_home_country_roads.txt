@@ -1,0 +1,55 @@
+{title: Take Me Home, Country Roads}
+{artist: John Denver}
+{key: A}
+{duration: 190}
+{x_sbp_tags: english}
+
+{c: Intro}
+[A]
+
+{c: Verse 1}
+[A]Almost Heaven,[E/G#]
+[F#m]West Virginia,
+[E]Blue Ridge Mountains, [D]Shenandoah [A]River.
+[A]Life is old [E/G#]there,
+[F#m]Older than the trees,
+[E]Younger than the mountains, [D]growin' like a [A]breeze.
+
+{c: Chorus}
+Country [A]roads, take me [E]home,
+To the [F#m]place I be[D]long:
+West Vir[A]ginia, mountain [E]momma,
+Take me [D]home,[D/C#]     [Bm]
+Country [A]roads.
+
+{c: Verse 2}
+[A]All my memories,[E/G#]
+[F#m]Gather round her,
+[E]Modest lady, [D]stranger to blue [A]water.
+[A]Dark and dusty,[E/G#]
+[F#m]Painted on the sky,
+[E]Misty taste of moonshine, [D]teardrop in my [A]eye.
+
+{c: Chorus}
+Country [A]roads, take me [E]home,
+To the [F#m]place I be[D]long:
+West Vir[A]ginia, mountain [E]momma,
+Take me [D]home,[D/C#]     [Bm]
+Country [A]roads.
+
+{c: Bridge}
+[F#m]I hear her [E]voice, in the [A]mornin' hours she calls me,
+The [D]radio re[A]minds me of my [E]home far away.
+And [F#m]drivin' down the [E]road,
+I get a [D]feelin' that I [A]should have been home
+[E]Yesterday, yester[E7]day.
+
+{c: Chorus}
+Country [A]roads, take me [E]home,
+To the [F#m]place I be[D]long:
+West Vir[A]ginia, mountain [E]momma,
+Take me [D]home,[D/C#]     [Bm]
+Country [A]roads.
+
+{c: Outro}
+[D]            [A]

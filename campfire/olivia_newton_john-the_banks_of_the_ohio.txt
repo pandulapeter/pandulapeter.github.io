@@ -1,0 +1,44 @@
+{title: The Banks of the Ohio}
+{artist: Olivia Newton-John}
+{key: C}
+{duration: 160}
+{x_sbp_tags: english}
+
+{c: Intro}
+[C]
+
+{c: Verse 1}
+I asked my [C]love to take a [G]walk,
+To take a [G7]walk, just a little [C]walk.
+Down be[C7]side where the waters [F]flow,   [Fm]
+Down by the [C]banks[G7] of the Ohi[C]o.
+
+{c: Chorus}
+And only [C]say that you'll be [G]mine,
+In no [G7]others' arms ent[C]wine.
+Down be[C7]side where the waters [F]flow,   [Fm]
+Down by the [C]banks[G7] of the Ohi[C]o.
+
+{c: Verse 2}
+I held a [C]knife against his [G]breast,
+As into [G7]my arms he [C]pressed.
+He cried \"My [C7]love, don't you murder [F]me,   [Fm]
+I'm not pre[C]pared[G7] for eterni[C]ty.\"
+
+{c: Chorus}
+And only [C]say that you'll be [G]mine,
+In no [G7]others' arms ent[C]wine.
+Down be[C7]side where the waters [F]flow,   [Fm]
+Down by the [C]banks[G7] of the Ohi[C]o.
+
+{c: Verse 3}
+I wandered [C]home 'tween twelve and [G]one.
+I cried, \"My [G7]God, what have I [C]done?\"
+I've killed the [C7]only man I [F]loved,   [Fm]
+He would not [C]take me [G7]for his [C]bride.
+
+{c: Chorus}
+And only [C]say that you'll be [G]mine,
+In no [G7]others' arms ent[C]wine.
+Down be[C7]side where the waters [F]flow,   [Fm]
+Down by the [C]banks[G7] of the Ohi[C]o.

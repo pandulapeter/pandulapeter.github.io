@@ -1,0 +1,20 @@
+{title: This World [placeholder]}
+{artist: Selah Sue}
+{key: Gm}
+{duration: 205}
+{x_sbp_tags: english,khameleon}
+
+WIP
+{C: Verse}
+[Gm]      [D#]      [Cm]      [F]
+
+{C: Bridge}
+[Gm]      [D#]      [E]      [D#]
+
+{C: Chorus}
+[F]
+[Gm]      [F]      [D]      [A#] *3
+[F]
+[Gm]      [A]      [A#]      [B]
+[C]
+[Gm]

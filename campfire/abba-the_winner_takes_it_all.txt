@@ -1,0 +1,113 @@
+{title: The Winner Takes It All}
+{artist: ABBA}
+{key: F#}
+{duration: 300}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[F#]          [A#]      [D#m]          [D#]
+[G#m]                [C#]
+
+[F#]          [A#]      [D#m]          [D#]
+[G#m]                [C#]
+
+[-]
+
+{c: Verse 1}
+I don't wanna [F#]talk,
+About [C#/F]things we've gone through,
+Though it's hurting [G#m]me,
+Now it's histo[C#]ry.
+
+{c: Verse 2}
+I've played [F#]all my cards,
+And that's what you've [C#/F]done too.
+Nothing more to [G#m]say,
+No more ace to [C#]play.
+
+{c: Chorus 1}
+The winner takes it [F#]all,
+The [A#]loser's [D#m]standing small.
+Be[D#]side the victo[G#m]ry,
+That's her desti[C#]ny.
+
+{c: Verse 3}
+I was in your [F#]arms,
+Thinking I be[C#/F]longed there.
+I figured it made [G#m]sense,
+Building me a [C#]fence.
+
+{c: Verse 4}
+Building me a [F#]home,
+Thinking I'd be [C#/F]strong there.
+But I was a [G#m]fool,
+Playing by the [C#]rules.
+
+{c: Chorus 2}
+The gods may [F#]throw a dice,
+Their [A#]minds as [D#m]cold as ice,
+And [D#]someone [G#m]way down here,
+Loses someone [C#]dear.
+
+{c: Chorus 3}
+The winner takes it [F#]all (takes it all),
+The [A#]loser [D#m]has to fall (has to fall).
+It's [D#]simple and it's [G#m]plain (it's so plain),
+Why should I comp[C#]lain? (Why complain?)
+
+{c: Verse 5}
+But tell me, [F#]does she kiss
+Like I used to [C#/F]kiss you?
+Does it feel the [G#m]same,
+When she calls your [C#]name?
+
+{c: Verse 6}
+Somewhere [F#]deep inside,
+You must know I [C#/F]miss you.
+But what can I [G#m]say?
+Rules must be o[C#]beyed.
+
+{c: Chorus 4}
+The judges [F#]will decide (will decide),
+The [A#]likes of [D#m]me abide (me abide),
+Spec[D#]tators of the [G#m]show (of the show),
+Always staying [C#]low (staying low).
+
+{c: Chorus 5}
+The game is [F#]on again (on again),
+A [A#]lover [D#m]or a friend (or a friend),
+[D#]A big thing or a [G#m]small (big or small),
+The winner takes it [C#]all (takes it all)!
+
+{c: Bridge}
+[-]
+
+{c: Verse 7}
+I don't wanna [F#]talk,
+If it makes you [C#/F]feel sad,
+And I under[G#m]stand
+You've come to shake my [C#]hand.
+
+{c: Verse 8}
+I apolo[F#]gize
+If it makes you [C#/F]feel bad,
+Seeing me so [G#m]tense,
+No self-confi[C#]dence.
+But you see...
+
+{c: Outro}
+The winner [F#]takes it all!    [A#]      [D#m]
+The [D#]winner [G#m]takes it all!    [C#]
+
+[F#]So the winn[A#]er [D#m]takes it all,    [D#]
+[G#m]And the loser [C#]has to fall.
+
+[F#]Throw the dice,    [A#]
+[D#m]Cold as ice,    [D#]
+[G#m]Way down here,
+[C#]Someone dear.
+
+[F#]Takes it all,    [A#]
+[D#m]Has to fall,    [D#]
+[G#m]And it's plain,
+[C#]Why complain?

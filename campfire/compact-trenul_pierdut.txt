@@ -1,0 +1,81 @@
+{title: Trenul pierdut}
+{artist: Compact}
+{key: D}
+{duration: 265}
+{x_sbp_tags: romanian,khameleon}
+
+{c: Intro}
+[D]            [G]
+[D]            [G]
+[D]            [G]
+[D]            [G]      [A]
+
+{c: Verse 1}
+[D]Trenul acesta pierdut,
+[G]Gânduri și vise deșarte,
+[D]Pleacă în necunoscut,
+[G]Tot mai și tot mai de[A]parte.
+
+{c: Pre-Chorus}
+Va[Em]goanele lui dezgo[Bm]lite,
+De-a[G]tâția și-atâția hoi[D]nari,
+M-or [Em]duce pe mine iu[Bm]bito,
+Unde [G]știu că-n sfârșit ai s-a[A]pari.
+
+{c: Chorus}
+[D]Drumul e lung și [G]tare aș vrea,
+[A]S-ajung la tine în [D]casa ta,
+[D]Știu că m-aștepți, [G]poate mai speri,
+[A]Că va fi totul cum a fost ieri.
+
+{c: Bridge}
+[D]            [G]
+[D]            [G]      [A]
+
+{c: Verse 2}
+[D]Roțile lui mă-nsoțesc,
+[G]Drumul ascultă de mine,
+[D]Trenul acesta-l iubesc,
+A[G]tunci cănd m-aduce la [A]tine,
+
+{c: Pre-Chorus}
+Va[Em]goanele lui dezgo[Bm]lite,
+De-a[G]tâția și-atâția hoi[D]nari,
+M-or [Em]duce pe mine iu[Bm]bito,
+Unde [G]știu că-n sfârșit ai s-a[A]pari.
+
+{c: Chorus}
+[D]Drumul e lung și [G]tare aș vrea,
+[A]S-ajung la tine în [D]casa ta,
+[D]Știu că m-aștepți, [G]poate mai speri,
+[A]Că va fi totul cum a fost ieri.
+
+{c: Chorus}
+[D]Drumul e lung și [G]tare aș vrea,
+[A]S-ajung la tine în [D]casa ta,
+[D]Știu că m-aștepți, [G]poate mai speri,
+[A]Că va fi totul cum a fost ieri.
+
+{c: Solo}
+[F]            [C]
+[A#]            [C]
+[F]            [C]
+[A#]            [A]      [G]
+[A]      [G]
+
+{c: Chorus}
+[D]Drumul e lung și [G]tare aș vrea,
+[A]S-ajung la tine în [D]casa ta,
+[D]Știu că m-aștepți, [G]poate mai speri,
+[A]Că va fi totul cum a fost ieri.
+
+{c: Chorus}
+[D]Drumul e lung și [G]tare aș vrea,
+[A]S-ajung la tine în [D]casa ta,
+[D]Știu că m-aștepți, [G]poate mai speri,
+[A]Că va fi totul cum a fost ieri.
+
+{c: Outro}
+[D]Drumul e lung!   [G]
+Drumul e l[D]ung!   [G]            [A]
+[D]
