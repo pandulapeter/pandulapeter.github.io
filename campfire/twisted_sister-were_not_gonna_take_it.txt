@@ -1,0 +1,90 @@
+{title: We're Not Gonna Take It}
+{artist: Twisted Sister}
+{key: E}
+{duration: 220}
+{x_sbp_tags: english}
+
+{c: Intro}
+We're not gonna take it,
+No, we ain't gonna take it,
+We're not gonna take it any[E5]more!
+      [D#5]      [C#5]      [B5]
+[E5]      [D#5]      [C#5]      [B5]
+
+{c: Verse 1}
+[E]We've got the [B]right to choose it,
+[E]There ain't no [A]way we'll lost it,
+[E]This is our [B]life, this is our [E]song.   [B]
+
+{c: Verse 2}
+[E]We'll fight the [B]powers that be just
+[E]Don't pick our [A]destiny 'cause
+[E]You don't know [B]us, you don't be[E]long.   [B]
+
+{c: Chorus}
+[E]We're not gonna [B]take it,
+[E]No, we ain't gonna [A]take it,
+[E]We're not gonna [B]take it any[E5]more!   [D#5]      [C#5]      [B5]
+
+{c Verse 3}
+[E]Oh, you're so [B]condescending,
+[E]Your gall is [A]never ending,
+[E]We don't want [B]nothin', not a thing from [E]you.   [B]
+
+{c: Verse 4}
+[E]Your life is [B]trite and jaded,
+[E]Boring and [A]confiscated,
+[E]If that's your [B]best, your best won't [E5]do.   [D#5]      [C#5]      [B5]
+
+{c: Bridge}
+[D5]Oh,    [C#5]      [B5]
+[D5]Oh,    [C#5]      [B5]
+We're [E]right! (Yeah!)
+We're [F]free! (Yeah!)
+We'll [F#]fight! (Yeah!)
+You'll [B]see! (Yeah!)
+
+{c: Chorus}
+Oh [E]we're not gonna [B]take it,
+[E]No, we ain't gonna [A]take it,
+[E]Oh we're not gonna [B]take it [E]anymore!   [B]
+
+{c: Chorus}
+[E]We're not gonna [B]take it,
+[E]No, we ain't gonna [A]take it,
+[E]We're not gonna [B]take it any[E5]more!   [D#5]      [C#5]      [B5]
+No way!
+
+{c: Solo}
+[E]            [B]            [E]            [A]
+[E]            [B]            [E]            [B]
+[E]            [B]            [E]            [A]
+[E]            [B]            [E5]      [D#5]      [C#5]      [B5]
+
+{c: Bridge}
+[D5]Oh,    [C#5]        [B5]
+[D5]Oh,    [C#5]        [B5]
+We're [E]right! (Yeah!)
+We're [F]free! (Yeah!)
+We'll [F#]fight! (Yeah!)
+You'll [B]see! (Yeah!)
+
+{c: Chorus}
+We're not gonna take it,
+No, we ain't gonna take it,
+We're not gonna take it anymore!   [B]
+
+{c: Chorus}
+Oh [E]we're not gonna [B]take it,
+[E]No, we ain't gonna [A]take it,
+[E]Oh we're not gonna [B]take it [E]anymore!
+(Just you try and make us!)   [B]
+
+{c: Outro}
+Oh [E]we're not gonna [B]take it, (Come on!)
+[E]No, we ain't gonna [A]take it, (You're all worthless and weak!)
+[E]Oh we're not gonna [B]take it [E]anymore!
+(Now drop and give me twenty) [B]
+Oh [E]we're not gonna [B]take it,
+[E]No, we ain't gonna [A]take it,
+[E]Oh we're not gonna [B]take it [E]anymore!

@@ -1,0 +1,68 @@
+{title: Wild World}
+{artist: Mr. Big}
+{key: F}
+{duration: 210}
+{x_sbp_tags: english}
+
+{c: Intro}
+[Dm]La, la, la, la, [G7]la, la, la, la, la, [C]la,
+La, la, [Fmaj7]la, la, la, la, la, [A#]la,
+La, la, [Gm]la, la, la, la, la, [A]la, la.
+
+{c: Verse 1}
+[Dm]Now that I've [G7]lost everything to [C]you,
+You say you [Fmaj7]want to start something [A#]new,
+And it's [Gm]breaking my heart you're [A]leaving,
+Baby, I'm grieving.
+
+{c: Pre-Chorus 1}
+[Dm]But if you want to [G7]leave, take good [C]care,
+Hope you have a [Fmaj7]lot of nice things to [A#]wear,
+But then a [Gm]lot of nice things turn [A]bad out [C7]there.
+
+{c: Chorus}
+[F]Oh, [C]baby, baby, it's a [A#]wild world,
+[C]It's hard to get [A#]by just upon a [F]smile.
+[F]Oh, [C]baby, baby, it's a [A#]wild world,
+[C]I'll always re[A#]member you like a [F]child, girl.   [Gm]        [A]
+
+{c: Verse 2}
+[Dm]You know, I've seen a [G7]lot of what the world can [C]do,
+And it's [Fmaj7]breaking my heart in [A#]two,
+'Cause I [Gm]never want to see you [A]sad girl,
+Don't be a bad girl.
+
+{c: Pre-Chorus 2}
+[Dm]But if you want to [G7]leave, take good [C]care,
+Hope you make a lot of [Fmaj7]nice friends out [A#]there,
+But just re[Gm]member there's a lot of bad, [A]and be[C7]ware,
+Beware.
+
+{c: Chorus}
+[F]Oh, [C]baby, baby, it's a [A#]wild world,
+[C]It's hard to get [A#]by just upon a [F]smile.
+[F]Oh, [C]baby, baby, it's a [A#]wild world,
+And I'll [C]always re[A#]member you like a [F]child, girl.   [Gm]        [A]
+
+{c: Solo}
+[Dm]    [G7]    [C]
+La, la, la, la, [Fmaj7]la, la, la, la, la, [A#]la,
+La, la, la, la, [Gm]la, la, la, la, la, [A]la, la.
+Baby I love you.
+
+{c: Pre-Chorus 2}
+[Dm]But if you want to [G7]leave, take good [C]care,
+Hope you make a lot of [Fmaj7]nice friends out [A#]there,
+But just re[Gm]member there's a lot of bad, [A]and be[C7]ware,
+
+{c: Chorus}
+[F]Oh, [C]baby, baby, it's a [A#]wild world,
+[C]It's hard to get [A#]by just upon a [F]smile.
+[F]Oh, [C]baby, baby, it's a [A#]wild world,
+And I'll [C]always re[A#]member you like a [F]child, girl.
+
+{c: Chorus}
+[F]Oh, [C]baby, baby, it's a [A#]wild world,
+[C]It's hard to get [A#]by just upon a [F]smile.
+[F]Oh, [C]baby, baby, it's a [A#]wild world,
+And I'll [C]always re[A#]member you like a [F]child, girl.

@@ -1,0 +1,125 @@
+{title: Whole Lotta Rosie}
+{artist: AC/DC}
+{key: A}
+{duration: 335}
+{x_sbp_tags: english}
+
+{c: Intro}
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]                          Wanna tell you story
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]                          About woman I know.
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]                          When it comes to lovin'
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]                          She steals the show.
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]                          She ain't exactly pretty,
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]                          Ain't exactly small.
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]                          Fourt'two, thirt'nine, fifty-six,
+You could say she's got it all!
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]
+
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+
+
+{c: Verse 1}
+[A5]Never had a woman,
+Ne[A5]ver [C5]had [A5]a wo[D5]man[A5] like[C5] you.[A5]        [A5]    [C5]    [A5]    [D5]    [A5]    [C5]
+[A5]Doin' all the things,
+Do[A5]in' [C5]all [A5]the [D5]thin[A5]gs y[C5]ou do.[A5]        [A5]    [C5]    [A5]    [D5]    [A5]    [C5]
+[A5]Ain't no fairy sto[A5]ry,   [C5]    [A5]    [D5]    [A5]    [C5]
+[A5]Ain't no skin and bones,[A5]    [C5]    [A5]    [D5]    [A5]
+[C5]But you [A5]give it all you got,
+Weigh[A5]in' [C5]in a[A5]t ni[D5]nete[A5]en s[C5]tone.[A5]        [A5]
+
+{c: Chorus}
+[C5]You're[A5] a wh[D5]ole [A5]lott[C5]a wo[F]man,
+A whole lotta [D]woman,
+Whole lotta [A]Rosie.   [G]
+Whole lotta [A]Rosie.   [G]
+Whole lotta [A]Rosie.   [G]
+And you're a whole lotta [G]woman. [D]    [G]    [D]    [G]    [D]
+
+{c: Bridge}
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+
+{c: Verse 2}
+[A5]Honey you can do it,
+D[A5]o it [C5]to m[A5]e al[D5]l ni[A5]ght [C5]long.  [A5]        [A5]    [C5]    [A5]    [D5]    [A5]    [C5]
+[A5]Only one who turn me,
+[A5]Only [C4]one [A5]who [D5]turn[A5] m[C5]e on.   [A5]        [A5]    [C5]    [A5]    [D5]    [A5]    [C5]
+[A5]All through the night time,   [A5]    [C5]    [A5]    [D5]    [A5]    [C5]
+[A5]Right around the clock,   [A5]    [C5]    [A5]    [D5]    [A5]    [C5]
+[A5]To my [A5]surpr[C5]ise,  [A5]    [D5]    [A5]    [C5]
+[A5]Rosie never stops! [A5]
+
+{c: Chorus}
+[C5]You're[A5] a wh[D5]ole [A5]lott[C5]a wo[F]man,
+Whole lotta [D]woman,
+Whole lotta [A]Rosie.   [G]
+Whole lotta [A]Rosie.   [G]
+Whole lotta [A]Rosie.   [G]
+A whole lotta [G]woman. [D]    [G]    [D]    [G]    [D]
+
+{c: Solo}
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+
+[F]
+[D]
+
+[-A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[-A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[-A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[-A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[-A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[-A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+
+[A5]
+
+{c: Chorus}
+[A5]Oh, [C5]you're[A5] a wh[D5]ole [A5]lott[C5]a wo[F]man,
+A whole lotta [D]woman,
+Whole lotta [A]Rosie.   [G]
+Whole lotta [A]Rosie.   [G]
+Whole lotta [A]Rosie.   [G]
+You're a whole lotta [G]woman. [D]    [G]    [D]    [G]    [D]
+
+{c: Outro}
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+[A5]    [C5]    [A5]    [D5]    [A5]    [C5]    [A5]
+
+[A5]
+[G5]
+[A5]
+[G5]
+[A5]

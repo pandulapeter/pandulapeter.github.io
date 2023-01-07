@@ -1,0 +1,83 @@
+{title: What Makes You Beautiful}
+{artist: One Direction}
+{key: E}
+{duration: 200}
+{x_sbp_tags: english}
+
+{c: Intro}
+[E]      [A]      [B]      [B]
+[E]      [A]      [B]      [B]
+
+{c: Verse 1}
+You're inse[E]cure,[A] don't know what [B]for,
+You're turning [E]heads when you [A]walk through the [B]do-o-or.
+Don't need make-[E]up[A] to cover [B]up,
+Being the [E]way that you [A]are is e[B]nou-ou-ough.
+
+{c: Pre-Chorus}
+[E]Everyone [A/C#]else in the[C#m/G#] room can [B/F#]see it,
+[E]Everyone [A/C#]else, but [B/F#-]you, ooh!
+
+{c: Chorus}
+Baby, you [E]light up my [A]world like no[B]body else,
+The way that [E]you flip your [A]hair gets me [B]overwhelmed,
+But when you [E]smile at the [A]ground, it ain't [C#m]hard to [B]tell,
+You don't [E]know, [-]oh-oh, you don't know you're beautiful!
+
+[E]If only [A]you saw what [B]I can see,
+You'll under[E]stand why I [A]want you so [B]desperately,
+Right now I'm [E]lookin' at [A]you, and I [C#m]can't be[B]lieve,
+You don't [E]know, oh-[A]oh, [C#m]you don't know you're [B]beautiful, [E]oh-[A]oh,
+[-]That's what makes you [B]beautiful!
+
+{c: Bridge 1}
+[E]      [A]      [C#m]      [B]
+
+{c: Verse 2}
+So c-come [E]on,[A] you got it [B]wrong,
+To prove I'm [E]right, I put [A]it in a [B]so-o-ong.
+I don't know [E]why [A]you're being [B]shy,
+And turn a[E]way when I [A]look into your [B]eye-eye-eyes.
+
+{c: Pre-Chorus}
+[E]Everyone [A/C#]else in the[C#m/G#] room can [B/F#]see it,
+[E]Everyone [A/C#]else, but [B/F#-]you, ooh!
+
+{c: Chorus}
+Baby, you [E]light up my [A]world like no[B]body else,
+The way that [E]you flip your [A]hair gets me [B]overwhelmed,
+But when you [E]smile at the [A]ground, it ain't [C#m]hard to [B]tell,
+You don't [E]know, [-]oh-oh, you don't know you're beautiful!
+
+[E]If only [A]you saw what [B]I can see,
+You'll under[E]stand why I [A]want you so [B]desperately,
+Right now I'm [E]lookin' at [A]you, and I [C#m]can't be[B]lieve,
+You don't [E]know, oh-[A]oh, [C#m]you don't know you're [B]beautiful, [E]oh-[A]oh,
+[-]That's what makes you [B]beautiful!
+
+{c: Bridge 2}
+[E]Na-na-na, [A]na-na-na, [C#m]na, [B]na-na,
+[E]Na-na-na, [A]na-na-na. [C#m]      [B]
+
+{c: Bridge 2}
+[E]Na-na-na, [A]na-na-na, [C#m]na, [B]na-na,
+[E]Na-na-na, [A]na-na-na. [C#m]      [B]
+
+{c: Bridge 3}
+Baby, you [A]light up my world like [B]nobody else,
+The way that [A]you flip your hair gets me [B]overwhelmed,
+But when you [A]smile at the ground, it ain't [B]hard to tell,
+(You don't [C#m]know, oh-oh), [-]you don't know you're beautiful!
+
+{c: Outro}
+Baby, you [E]light up my [A]world like no[B]body else,
+The way that [E]you flip your [A]hair gets me [B]overwhelmed,
+But when you [E]smile at the [A]ground, it ain't [C#m]hard to [B]tell,
+You don't [E]know, oh-[A]oh, [C#m]you don't know you're [B]beautiful!
+
+[E]If only [A]you saw what [B]I can see,
+You'll under[E]stand why I [A]want you so [B]desperately,
+Right now I'm [E]lookin' at [A]you, and I [C#m]can't be[B]lieve,
+You don't [E]know, oh-[A]oh, [C#m]you don't know you're [B]beautiful,
+[E]Oh-[A]oh, [C#m]you don't know you're [B]beautiful, [E]oh-[A]oh,
+[-]That's what makes you [B]beautiful!

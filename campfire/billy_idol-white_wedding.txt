@@ -1,0 +1,67 @@
+{title: White Wedding [lyrics only]}
+{artist: Billy Idol}
+{key: Bm}
+{duration: 250}
+{tempo: 147}
+{x_sbp_tags: english,backtrackers}
+
+{c: Intro}
+
+{c: Verse 1}
+Hey little sister, what have you done?
+Hey little sister, who's the only one?
+Hey little sister, who's your superman?
+Hey little sister, who's the one you want?
+Hey little sister, shotgun!
+
+{c: Chorus}
+It's a nice day to start again,
+It's a nice day for a white wedding.
+It's a nice day to start again!
+
+{c: Verse 2}
+Hey little sister, who is it you're with?
+Hey little sister, what's your vice and wish?
+Hey little sister, shotgun, oh yeah!
+Hey little sister, who's your superman?
+Hey little sister, shotgun!
+
+{c: Chorus}
+It's a nice day to start again,
+It's a nice day for a white wedding.
+It's a nice day to start again!
+
+{c: Solo}
+
+{c: Bridge 1}
+Pick it up!
+Take me back home, yeah!
+
+{c: Verse 3}
+Hey little sister, what have you done?
+Hey little sister, who's the only one?
+I've been away for so long (so long),
+I've been away for so long (so long),
+I let you go for so long...
+
+{c: Chorus}
+It's a nice day to start again,
+Come on, it's a nice day for a white wedding.
+It's a nice day to start again!
+
+{c: Bridge 2}
+There is nothin' fair in this world, baby,
+There is nothin' safe in this world,
+And there's nothin' sure in this world,
+And there's nothin' pure in this world,
+Look for something left in this world!
+
+{c: Chorus}
+Start again!
+Come on, it's a nice day for a white wedding!
+It's a nice day to start again!
+
+{c: Outro}
+It's a nice day to start again!
+It's a nice day to start again!
+It's a nice day to start again!

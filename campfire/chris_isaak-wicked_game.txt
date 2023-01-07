@@ -1,0 +1,73 @@
+{title: Wicked Game}
+{artist: Chris Isaak}
+{key: Bm}
+{duration: 290}
+{tempo: 120}
+{x_sbp_tags: english,backtrackers}
+
+{c: Intro}
+[Bm]      [A]      [E]      [E]
+[Bm]      [A]      [E]      [E]
+[Bm]      [A]      [E]      [E]
+[Bm]      [A]      [E]      [E]
+
+{c: Verse 1}
+The [Bm]world was on fire and [A]no one could save me but [E]you.
+It's [Bm]strange what desire will [A]make foolish people [E]do.
+[Bm]I'd never dreamed that [A]I'd meet somebody [E]like you,
+And [Bm]I'd never dreamed that [A]I'd lose somebody [E]like you.
+
+{c: Chorus}
+No,[Bm] I d[A]on't want to fall in [E]love.
+(This girl is only gonna break your heart)
+No,[Bm] I d[A]on't want to fall in [E]love.
+(This girl is only gonna break your heart)
+
+{c: Bridge}
+With you.   [Bm]      [A]      [E]      [E]
+With you.   [Bm]      [A]      [E]      [E]
+(This girl is only gonna break your heart)
+
+{c: Verse 2}
+[Bm]What a wicked [A]game you played, [E]to make me feel this way.
+[Bm]What a wicked [A]thing to do, [E]to let me dream of you.
+[Bm]What a wicked [A]thing to say, [E]you never felt this way.
+[Bm]What a wicked [A]thing to do, [E]to make me dream of you.
+
+{c: Chorus}
+No,[Bm] I d[A]on't want to fall in [E]love.
+(This girl is only gonna break your heart)
+No,[Bm] I d[A]on't want to fall in [E]love.
+(This girl is only gonna break your heart)
+
+{c: Solo}
+With you.
+[Bm]      [A]      [E]      [E]
+[Bm]      [A]      [E]      [E]
+[Bm]      [A]      [E]      [E]
+[Bm]      [A]      [E]      [E]
+
+{c: Verse 1}
+The [Bm]world was on fire and [A]no one could save me but [E]you.
+It's [Bm]strange what desire will [A]make foolish people [E]do.
+[Bm]I'd never dreamed that [A]I'd meet somebody [E]like you,
+And [Bm]I'd never dreamed that [A]I'd lose somebody [E]like you.
+
+{c: Chorus}
+No,[Bm] I d[A]on't want to fall in [E]love.
+(This girl is only gonna break your heart)
+No,[Bm] I d[A]on't want to fall in [E]love.
+(This girl is only gonna break your heart)
+
+{c: Bridge}
+With you.   [Bm]      [A]      [E]      [E]
+(This girl is only gonna break your heart)
+With you.   [Bm]      [A]      [E]      [E]
+(This girl is only gonna break your heart)
+
+{c: Outro}
+No, I...    [Bm]      [A]      [E]      [E]
+(This girl is only gonna break your heart)
+[Bm]      [A]      [E]      [E]
+(This girl is only gonna break your heart)
+[Bm -]Nobody [A]loves no one.   [E]

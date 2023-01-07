@@ -1,0 +1,81 @@
+{title: When You Say Nothing At All}
+{artist: Ronan Keating}
+{key: G}
+{duration: 255}
+{x_sbp_tags: english}
+
+{c: Intro}
+[G]        [D]        [Cadd9]        [D]
+[G]        [D]        [Cadd9]        [D]
+
+{c: Verse 1}
+[G]It's a[D]mazing how [Cadd9]you
+Can speak [D]right to my [G]heart.   [D]    [Cadd9]        [D]
+[G]Without [D]saying a [Cadd9]word,
+You can [D]light up the [G]dark.   [D]    [Cadd9]        [D]
+
+{c: Pre-Chorus 1}
+[Cadd9]Try as I may, I could [D]never explain
+[G]What I [D]hear when you [Cadd9]don't say a [D]thing.   [D]
+
+{c: Chorus}
+The [G]smile on your [D]face
+Lets me [Cadd9]know that you [D]need me,
+There's a [G]truth in your [D]eyes
+Saying [Cadd9]you'll never [D]leave me,
+The [G]touch of your [D]hand says you'll [Cadd9]catch me,
+Wherever I [D]fall.   [Cadd9]    [D]
+[Cadd9]You say it best   [D]
+When you say nothing at all.
+
+{c: Bridge}
+[G]        [D]        [Cadd9]        [D]
+[G]        [D]        [Cadd9]        [D]
+
+{c: Verse 2}
+[G]All day [D]long I can [Cadd9]hear
+People [D]talking out [G]loud,   [D]    [Cadd9]        [D]
+[Em]But when [Bm]you hold me [Cadd9]near,
+You [D]drown out the [G]crowd.   [D]    [Cadd9]        [D]
+
+{c: Pre-Chorus 2}
+[Cadd9]Try as they may, they can [D]never define
+[G]What's been [D]said between [Cadd9]your heart and [D]mine.
+
+{c: Chorus}
+The [G]smile on your [D]face
+Lets me [Cadd9]know that you [D]need me,
+There's a [G]truth in your [D]eyes
+Saying [Cadd9]you'll never [D]leave me,
+The [G]touch of your [D]hand says you'll [Cadd9]catch me,
+Wherever I [D]fall.   [Cadd9]    [D]
+[Cadd9]You say it best   [D]
+When you say nothing at all.
+
+{c: Solo}
+[E]        [B]        [A]        [B]
+[E]        [B]        [A]        [B]
+[E]        [B]        [A]        [B]
+[A]        [A]        [B]        [B]
+
+{c: Chorus}
+The [G]smile on your [D]face
+Lets me [Cadd9]know that you [D]need me,
+There's a [G]truth in your [D]eyes
+Saying [Cadd9]you'll never [-]leave me,
+The [G]touch of your [D]hand says you'll [Cadd9]catch me,
+Wherever I [D]fall.   [Cadd9]    [D]
+[Cadd9]You say it best   [D]
+When you say nothing at all.
+
+{c: Outro}
+[G]        [D]        [Cadd9]        [D]
+[G]        [D]        [Cadd9]        [D]
+([G]You say it [D]best,  when you say [Cadd9]nothing at [D]all)
+([G]You say it [D]best,  when you say [Cadd9]nothing at [D]all)
+That [G]smile on your [D]face,
+The [Cadd9]truth in your [D]eyes,
+The [G]touch of your [D]hand,
+Lets me [Cadd9]know that you [D]need me.
+[G]        [D]        [Cadd9]        [D]
+[G]        [D]        [Cadd9]        [D]
