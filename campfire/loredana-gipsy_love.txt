@@ -1,0 +1,100 @@
+{title: Gipsy Love}
+{artist: Loredana}
+{key: Gm}
+{duration: 210}
+{x_sbp_tags: romanian,khameleon}
+
+{c: Intro}
+[Gm]            [D#]            [A]            [D]
+[Gm]            [D#]            [A]            [D]
+
+[Gm]            [D#]            [A]            [D]
+[Gm]            [D#]            [A]            [D]
+
+{c: Bridge 1}
+[Gm]            [D#]            [A]            [D]
+[Gm]            [D#]            [A]            [D]
+
+[Gm]            [D#]            [A]            [D]
+[Gm]      [D#]      [A]      [D]      [Gm]      [D]      [Gm]
+
+
+{c: Verse 1}
+[Gm]Când mă vezi nu mai ai aer [D#]să respiri,
+[F]Ai-lala-lalai, [A#]la-la.
+[Cm]Că-s frumoasă și miros a [D]trandafiri,
+[D7]Ai-lalala-lalai, la-[Gm]la.
+
+{c: Verse 2}
+Mi-[Gm]ai da haina și cămașa [D#]dă pe tine,
+[F]Ai-lalai-lalai, [A#]la-la.
+Și [Cm]aș fugi da' ce-aș fugi cu [D]tine-n lume,
+[D7]Ai-lalala-lalai, la-[Gm]la-la.
+
+{c: Chorus}
+Au [Gm]aș fugi în lume ce-aș fu[D#]gi cu tine,
+[F]Desculță și numai cu ce [A#]am pe mine.
+[Cm]Ai da pentru [D]mine [Gm]și ultimul [D#]ban,
+[D]Și-o inimă de ți[Gm]gan.
+
+{c: Chorus}
+Au [Gm]aș fugi în lume ce-aș fu[D#]gi cu tine,
+[F]Desculță și numai cu ce [A#]am pe mine.
+[Cm]Ai da pentru [D]mine [Gm]și ultimul [D#]ban,
+[D]Și-o inimă de ți[Gm]gan.
+
+{c: Bridge 1}
+[Gm]            [D#]            [A]            [D]
+[Gm]            [D#]            [A]            [D]
+
+[Gm]            [D#]            [A]            [D]
+[Gm]      [D#]      [A]      [D]      [Gm]      [D]      [Gm]
+
+{c: Verse 3}
+[Gm]Trupul tău și ochii tăi rău [D#]m-au vrăjit,
+[F]Ai-lala-lalai, [A#]la-la.
+[Cm]Mi-au luat mințile ce rău m-au [D]zăpăcit,
+[D7]Lalalala-lalai, la-[Gm]la.
+
+{c: Verse 4}
+[Gm]Și din mintea mea nu pot să [D#]te mai scot,
+[F]Ai-lala-lalai, [A#]la-la.
+[Cm]Cânt mereu de dorul tău, și [D]nu mai pot,
+[D7]Lalalala-lalai, la-[Gm]la-la.
+
+{c: Chorus}
+Au [Gm]aș fugi în lume ce-aș fu[D#]gi cu tine,
+[F]Desculță și numai cu ce [A#]am pe mine.
+[Cm]Ai da pentru [D]mine [Gm]și ultimul [D#]ban,
+[D]Și-o inimă de ți[Gm]gan.
+
+{c: Chorus}
+Au [Gm]aș fugi în lume ce-aș fu[D#]gi cu tine,
+[F]Desculță și numai cu ce [A#]am pe mine.
+[Cm]Ai da pentru [D]mine [Gm]și ultimul [D#]ban,
+[D]Și-o inimă de ți[Gm]gan.
+
+{c: Bridge 1}
+[Gm]            [D#]            [A]            [D]
+[Gm]            [D#]            [A]            [D]
+
+[Gm]            [D#]            [A]            [D]
+[Gm]      [D#]      [A]      [D]      [Gm]      [D]      [Gm]
+
+{c: Bridge 2}
+Hey, [Gm]I can't take, can't [F]take it anymore,
+[D#maj7]I'd give it all, [D]there's no change for love.
+[Gm]Let's escape [F]far beyond this shore,
+[D#maj7]I'd give it all, [D]you're my Gipsy Love.
+
+{c: Chorus}
+Au [Gm]aș fugi în lume ce-aș fu[D#]gi cu tine,
+[F]Desculță și numai cu ce [A#]am pe mine.
+[Cm]Ai da pentru [D]mine [Gm]și ultimul [D#]ban,
+[D]Și-o inimă de ți[Gm]gan.
+
+{c: Chorus}
+Au [Gm]aș fugi în lume ce-aș fu[D#]gi cu tine,
+[F]Desculță și numai cu ce [A#]am pe mine.
+[Cm]Ai da pentru [D]mine [Gm]și ultimul [D#]ban,
+[D]Și-o inimă de ți[Gm]gan.

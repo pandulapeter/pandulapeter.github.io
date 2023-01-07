@@ -1,0 +1,125 @@
+{title: Gyere őrült}
+{artist: Edda}
+{key: D}
+{duration: 250}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[D]        [Dsus2]                [Dsus4]            [D]
+[D]        [Dsus2]                [Dsus4]            [D]
+
+{c: Verse 1}
+Az [D]élet [Dsus2]az ma cso[Dsus4]dás dolo[D]g,
+[D]És [Dsus2]én hozzá [Dsus4]idomulo[D]k,
+[G]Ezért [E/G#]vagyok [A]őrü[F#/A#]lt, kicsit [Bm]őrült.   [A]
+
+{c: Bridge 1}
+[D]                [D]
+[D]                [A]
+
+{c: Bridge 2}
+[D]        [Dsus2]                [Dsus4]            [D]
+[D]        [Dsus2]                [Dsus4]            [D]
+
+{c: Verse 2}
+A [D]tapétával [Dsus2]megpróbálok [Dsus4]összebú[D]jni,
+[D]S nem[Dsus2] ártani [Dsus4]senkinek, [D]
+[G]Bolond va[E/G#]gyok, ez [A]természe[F#/A#]tes, kicsit [Bm]őrült.   [D]    [A]
+
+{c: Verse 3}
+Ha [D]holnap[Dsus2] este el[Dsus4]indulok,  [D]
+[D]Azt, hogy[Dsus2] kivel tal[Dsus4]álkozom,  [D]
+Azt [G]senki nem [E/G#]mondja, [A]nem mondja [F#/A#]meg nekem e[Bm]lőre.   [A]
+
+{c: Bridge 3}
+[D]Lehet [D]őrült!
+
+{c: Verse 4}
+[D]Társra [Dsus2]vágyom [Dsus4]én is, ért[D]sd meg,
+[D]Ugyan[Dsus2]úgy, mint [Dsus4]te. Ne ké[D]rdezd!
+[G]Őrült le[E/G#]gyen, vagy [A]nem kell [F#/A#]senki se[Bm]m.
+Legyen[D] őrül[A]t!
+
+{c: Verse 5}
+[D]Csak én va[Dsus2]gyok, aki [Dsus4]megért [D]téged,
+[D]Persze csak [Dsus2]akkor, ha [Dsus4]rám hagyo[D]d.
+[G]Társ le[E/G#]gyen, de [A]őrül[F#/A#]tet akar[Bm]ok!   [D]    [A]
+
+{c: Chorus}
+Gyere [Bm]őrült, gyere [D]őrül[A]t,   [F#m]
+[Bm]Névsorolva[D]sás,   [A]
+[F#m]Gyere [G]őrült, gyere [F#m]őrült,   [Em]
+[G]Szükségem van [F#m]rád!   [A]
+
+{c: Chorus}
+Gyere [Bm]őrült, gyere [D]őrül[A]t,   [F#m]
+[Bm]Névsorolva[D]sás,   [A]
+[F#m]Gyere [G]őrült, gyere [F#m]őrült,   [Em]
+[G]Szükségem van [F#m]rád!   [A]
+
+{c: Bridge 1}
+[D]                [D]
+[D]                [A]
+
+{c: Verse 4}
+[D]Társra [Dsus2]vágyom [Dsus4]én is, ért[D]sd meg,
+[D]Ugyan[Dsus2]úgy, mint [Dsus4]te. Ne ké[D]rdezd!
+[G]Őrült le[E/G#]gyen, vagy [A]nem kell [F#/A#]senki se[Bm]m.
+Legyen[D] őrül[A]t!
+
+{c: Verse 5}
+[D]Csak én va[Dsus2]gyok, aki [Dsus4]megért [D]téged,
+[D]Persze csak [Dsus2]akkor, ha [Dsus4]rám hagyo[D]d.
+[G]Társ le[E/G#]gyen, de [A]őrül[F#/A#]tet akar[Bm]ok!   [D]    [A]
+
+{c: Chorus}
+Gyere [Bm]őrült, gyere [D]őrül[A]t,   [F#m]
+[Bm]Névsorolva[D]sás,   [A]
+[F#m]Gyere [G]őrült, gyere [F#m]őrült,   [Em]
+[G]Szükségem van [F#m]rád!   [A]
+
+{c: Chorus}
+Gyere [Bm]őrült, gyere [D]őrül[A]t,   [F#m]
+[Bm]Névsorolva[D]sás,   [A]
+[F#m]Gyere [G]őrült, gyere [F#m]őrült,   [Em]
+[G]Szükségem van [F#m]rád!   [A]
+
+{c: Solo}
+[E -]
+
+[Bm]                [D]        [A]        [F#m]
+[Bm]                [D]        [A]        [F#m]
+[G]                [F#m]        [F#m]        [Em]
+[G]                [F#m]        [F#m]        [A]
+
+[Bm]                [D]        [A]        [F#m]
+[Bm]                [D]        [A]        [F#m]
+[G]                [F#m]        [F#m]        [Em]
+[G]                [F#m]        [F#m]        [A]
+
+[D]                [D]                [D]                [D]
+[G]                [E/G#]                [A]                [F#/A#]
+
+[D]                [D]                [D]                [D]
+[G]        [E/G#]            [A]        [F#/A#]            [Bm]        [Bm]        [D]        [A]
+
+{c: Chorus}
+Gyere [Bm]őrült, gyere [D]őrül[A]t,   [F#m]
+[Bm]Névsorolva[D]sás,   [A]
+[F#m]Gyere [G]őrült, gyere [F#m]őrült,   [Em]
+[G]Szükségem van [F#m]rád!   [A]
+
+{c: Chorus}
+Gyere [Bm]őrült, gyere [D]őrül[A]t,   [F#m]
+[Bm]Névsorolva[D]sás,   [A]
+[F#m]Gyere [G]őrült, gyere [F#m]őrült,   [Em]
+[G]Szükségem van [F#m]rád! Gyere, gyere!   [A]
+
+{c: Chorus}
+Gyere [Bm]őrült, gyere [D]őrül[A]t,   [F#m]
+[Bm]Névsorolva[D]sás,   [A]
+[F#m]Gyere [G]őrült, gyere [F#m]őrült,   [Em]
+[G]Szükségem van [F#m]rád!   [A]
+
+{c: Outro}
+[E]

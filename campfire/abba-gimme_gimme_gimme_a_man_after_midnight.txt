@@ -1,0 +1,123 @@
+{title: Gimme! Gimme! Gimme! (A Man After Midnight)}
+{artist: ABBA}
+{key: Dm}
+{duration: 210}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[Dm]      [Dm#5]      [Dm4]      [Dm]
+[Dm#5]      [Dm]      [Dm4]      [Dm]
+
+[Dm]      [Dm#5]      [Dm4]      [Dm]
+[Dm#5]      [Dm]      [Dm4]      [Dm]
+
+[-]
+
+{c: Bridge 1}
+[Dm]                [F]
+[Am]            [Dm]
+
+[Dm]                [F]
+[Am]            [Dm]
+
+[Dm]
+
+{c: Verse 1}
+[Dm]Half-[C]past [A]twelve,
+[F]And I'm [G]watching the late show in my flat all alone,
+How I hate to spend the evening on my [Dm]own.
+
+{c: Verse 2}
+[Dm]Aut[C]umn [A]winds
+[F]Blowing [G]outside the window as I look around the room,
+And it makes me so depressed to see the [Dm]gloom.
+
+{c: Pre-Chorus}
+[A#]There's not a soul out there,
+[Gm]No one to hear my prayer...  [A7]
+
+{c: Chorus}
+[Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
+[A#]Won't somebody [Dm]help me chase the [C]shadows a[Dm]way?
+[Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
+[A#]Take me through the [Dm]darkness to the [C]break of the [Dm]day.
+
+{c: Bridge 1}
+[Dm]                [F]
+[Am]            [Dm]
+
+[Dm]                [F]
+[Am]            [Dm]
+
+[Dm]            [Dm]
+
+{c: Verse 3}
+[Dm]Mo[C]vie [A]stars,
+[F]Find the [G]end of the rainbow with a fortune to win,
+It's so different from the world I'm living [Dm]in.
+
+{c: Verse 4}
+[Dm]Tired [C]of [A]TV,  [F]
+I [G]open the window and I gaze into the night,
+But there's nothing there to see, no one in [Dm]sight.
+
+{c: Pre-Chorus}
+[A#]There's not a soul out there,
+[Gm]No one to hear my prayer...  [A7]
+
+{c: Chorus}
+[Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
+[A#]Won't somebody [Dm]help me chase the [C]shadows a[Dm]way?
+[Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
+[A#]Take me through the [Dm]darkness to the [C]break of the [Dm]day.
+
+{c: Bridge 2}
+[Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
+[A#]      [Dm]      [C]      [Dm]
+[Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
+[A#]      [Dm]      [C]      [Dm]
+
+{c: Solo}
+[Dm]
+[Dm]
+[Dm]
+[Dm]
+
+[Dm]
+[Dm]
+[Dm]
+[Dm]
+
+[Dm]
+[Dm]
+[Dm]
+[Dm]
+
+{c: Pre-Chorus}
+[A#]There's not a soul out there,
+[Gm]No one to hear my prayer...  [A7]
+
+{c: Chorus}
+[Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
+[A#]Won't somebody [Dm]help me chase the [C]shadows a[Dm]way?
+[Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
+[A#]Take me through the [Dm]darkness to the [C]break of the [Dm]day.
+
+{c: Chorus}
+[Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
+[A#]Won't somebody [Dm]help me chase the [C]shadows a[Dm]way?
+[Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
+[A#]Take me through the [Dm]darkness to the [C]break of the [Dm]day.
+
+{c: Outro}
+[Dm]                [F]
+[Am]            [Dm]
+
+[Dm]                [F]
+[Am]            [Dm]
+
+[Dm]                [F]
+[Am]            [Dm]
+
+[Dm]                [F]
+[Am]            [Dm]

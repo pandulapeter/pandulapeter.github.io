@@ -1,0 +1,99 @@
+{title: Gyűrd össze a lepedőt}
+{artist: Tankcsapda}
+{key: A}
+{duration: 320}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[A5]        [C5/A]        [D5/A]         [G5/A]
+[A5]        [C5/A]        [D5/A]         [G5/A]
+[A5]        [C5/A]        [D5/A]         [G5/A]
+[A5]        [C5/A]        [D5/A]         [G5/A]
+
+[A5]        [C5/A]        [D5/A]         [G5/A]
+[A5]        [C5/A]        [D5/A]         [G5/A]
+[A5]        [C5/A]        [D5/A]         [G5/A]
+[A5]        [C5/A]        [D5/A]         [G5/A]
+
+El[A5]hagyott, mint[C5/A] a kifut[D5/A]ópályát[G5/A] a gép.
+[A5]        [C5/A]        [D5/A]         [G5/A]
+[A5]Újra e[C5/A]gyedül, t[D5/A]udtam, hogy[G5/A] lelép.
+[A5]        [C5/A]        [D5/A]         [G5/A]
+Ő az [A5]égen, [C5/A]én meg [D5/A]a repülő[G5/A]téren.
+[A5]        [C5/A]        [D5/A]         [G5/A]
+Teke[A5]rek gyor[C5/A]san, talán[D5/A] még [G5/A]utolérem.
+[A5]        [A5]        [A5]         [A5]
+
+[A5]        [C5]        [D5]         [G5]
+[A5]        [C5]        [D5]         [G5]
+[A5]        [C5]        [D5]         [G5]
+[A5]        [C5]        [D5]         [D5]
+
+{c: Verse 1}
+A [A5]hüvelykujjam az égre mutat, a [G5]csizmámon vastag a [D5]por.
+[A5]Látom magam előtt az utat, [D5]ki vesz fel ilyen[G5]kor?
+Előttem [A5]kilométerek, [G5]mögötte mérföl[D5]dek,
+[A5]Néhány óra múlva egy új vi[D5]lágban ér föl[G5]det.
+
+{c: Pre-Chorus}
+[F]Várom, hogy [G]szóljon a telefon,
+[F]Látod, [G]könnyítek magamon.
+[F]Várom, hogy [G]újra itt legyen,
+[F]Elég, ha szól,
+
+{c: Chorus}
+[G5]Gyűrd össze a lepedőt [A5]velem!   [C5]
+[D5]Gyűrd össze a [G5]lepedőt [A]velem!   [C5]
+[D5]Gyűrd össze a [G5]lepedőt [A]velem!   [C5]
+[D5]Gyűrd össze a [G5]lepedőt [A]velem!   [C5]        [D5]
+
+{c: Verse 3}
+[A5]Elhagyott, mint a kifutópályát a [G5]gép.   [D5]
+[A5]Újra egyedül, tudtam, hogy le[D5]lép.   [G5]
+Ő az [A5]égen, én meg a repülő[G5]téren.   [D5]
+[A5]Tekerek gyorsan, talán még utol[D5]érem.   [G]
+
+{c: Pre-Chorus}
+[F]Várom, hogy [G]szóljon a telefon,
+[F]Látod, [G]könnyítek magamon.
+[F]Várom, hogy [G]újra itt legyen,
+[F]Elég, ha szól,
+
+{c: Chorus}
+[G5]Gyűrd össze a lepedőt [A5]velem!   [C5]
+[D5]Gyűrd össze a [G5]lepedőt [A]velem!   [C5]
+[D5]Gyűrd össze a [G5]lepedőt [A]velem!   [C5]
+[D5]Gyűrd össze a [G5]lepedőt [A]velem!   [C5]        [D5]
+
+{c: Solo 1}
+[Em]        [Em]        [C5]         [C5]
+[Em]        [Em]        [C5]         [C5]
+[Em]        [Em]        [C5]         [C5]
+[Em]        [Em]        [D5]         [C5]
+
+{c: Bridge}
+[A5]        [C5/A]        [D5/A]         [G5/A]
+[A5]        [C5/A]        [D5/A]         [G5/A]
+[A5]        [C5/A]        [D5/A]         [G5/A]
+[A5]        [C5/A]        [D5/A]         [G5/A]
+
+{c: Solo 2}
+[A5]        [C5]        [D5]         [G5]
+[A5]        [C5]        [D5]         [G5]
+[A5]        [C5]        [D5]         [G5]
+[A5]        [C5]        [D5]         [G5]
+
+{c: Pre-Chorus}
+[F]Várom, hogy [G]szóljon a telefon,
+[F]Látod, [G]könnyítek magamon.
+[F]Várom, hogy [G]újra itt legyen,
+[F]Elég, ha szól,
+
+{c: Chorus}
+[G5]Gyűrd össze a lepedőt [A5]velem!   [C5]
+[D5]Gyűrd össze a [G5]lepedőt [A]velem!   [C5]
+[D5]Gyűrd össze a [G5]lepedőt [A]velem!   [C5]
+[D5]Gyűrd össze a [G5]lepedőt [A]velem!   [C5]        [D5]
+
+{c: Outro}
+[A5]

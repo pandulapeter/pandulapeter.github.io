@@ -1,0 +1,7 @@
+{title: Gas Gas [placeholder]}
+{artist: Goran Bregović}
+{key: Bb}
+{duration: 180}
+{x_sbp_tags: serbian,khameleon}
+
+WIP
