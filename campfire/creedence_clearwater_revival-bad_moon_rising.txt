@@ -1,0 +1,60 @@
+{title: Bad Moon Rising}
+{artist: Creedence Clearwater Revival}
+{key: D}
+{duration: 145}
+{x_sbp_tags: english}
+
+{c: Intro}
+[D]            [A]      [G]
+[D]            [D]
+
+{c: Verse 1}
+[D]I see the [A]bad [G]moon a-[D]rising,
+[D]I see [A]trouble [G]on the [D]way,
+[D]I see [A]earth[G]quakes and [D]lightning,
+[D]I see [A]bad [G]times to[D]day.
+
+{c: Chorus}
+[G]Don't go around tonight,
+Well, it's [D]bound to take your life,
+[A]There's a [G]bad moon on the [D]rise.
+
+{c: Verse 2}
+[D]I hear [A]hurri[G]canes a-[D]blowing,
+[D]I know the [A]end is [G]coming [D]soon,
+[D]I fear [A]rivers [G]over[D]flowing,
+[D]I hear the [A]voice of [G]rage and [D]ruin.
+
+{c: Chorus}
+[G]Don't go around tonight,
+Well, it's [D]bound to take your life,
+[A]There's a [G]bad moon on the [D]rise.
+
+{c: Solo}
+[D]            [A]      [G]
+[D]            [D]
+
+[D]            [A]      [G]
+[D]            [D]
+
+[G]            [G]
+[D]            [D]
+
+[A]            [G]
+[D]            [D]
+
+{c: Verse 3}
+[D]Hope you [A]got your [G]things to[D]gether,
+[D]Hope you are [A]quite pre[G]pared to [D]die,
+[D]Looks like we're [A]in for [G]nasty [D]weather,
+[D]One eye is [A]taken [G]for an [D]eye.
+
+{c: Chorus}
+[G]Don't go around tonight,
+Well, it's [D]bound to take your life,
+[A]There's a [G]bad moon on the [D]rise.
+
+{c: Chorus}
+[G]Don't go around tonight,
+Well, it's [D]bound to take your life,
+[A]There's a [G]bad moon on the [D]rise.

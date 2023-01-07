@@ -1,0 +1,79 @@
+{title: Bad Day}
+{artist: Daniel Powter}
+{key: Eb}
+{duration: 235}
+{x_sbp_tags: english}
+
+{c: Intro}
+[D#]        [G#]        [A#]        [A#]
+
+{c: Verse 1}
+[D#]Where is the [G#]moment when we need it the [A#]most?
+[D#]You kick up the [G#]leaves and the magic is [A#]lost.
+[Cm]They tell me your [A#]blue skies fade to [G#]grey,
+They tell me your [D#]passion's gone a[Fm7]way,
+And I don't need no carryin’ [A#]on.
+
+{c: Verse 2}
+[D#]You stand in the [G#]line just to hit a new [A#]low,
+[D#]You're faking a [G#]smile with the coffee you [A#]go,
+[Cm]You tell me your [A#]life's been way off [G#]line,
+You're falling to [D#]pieces every [Fm7]time,
+And I don't need no carryin' [A#]on.
+
+{c: Chorus}
+‘Cause you had a bad [D#]day, you're taking one [G#]down,
+You sing a sad [Fm7]song just to turn it a[A#]round.
+You say you don't [D#]know, you tell me, don't [G#]lie,
+You work on a [Fm7]smile and you go for a [A#]ride.
+You had a bad [Cm]day, the camera don't [A#]lie,
+You're coming back [G#]down and you really don't [D#]mind,
+You had a bad [Fm7]day,   [A#]
+You had a bad day.
+
+{c: Bridge 1}
+[D#]        [G#]        [A#]        [A#]
+[D#]        [G#]        [A#]        [A#]
+
+{c: Bridge 2}
+[Cm]Well you need a [A#]blue sky holi[G#]day,
+The point is they [D#]laugh at what you [Fm7]say,
+And I don't need no carryin' [A#]on.
+
+{c: Chorus}
+You had a bad [D#]day, you're taking one [G#]down,
+You sing a sad [Fm7]song just to turn it a[A#]round.
+You say you don't [D#]know, you tell me, don't [G#]lie,
+You work on a [Fm7]smile and you go for a [A#]ride.
+You had a bad [Cm]day, the camera don't [A#]lie,
+You're coming back [G#]down and you really don't [D#]mind,
+You had a bad [Fm7]day.   [A#]
+You had a bad [D#]day.
+
+{c: Bridge 3}
+[A#]Sometimes the system goes on the blink
+And the [D#]whole thing it turns out wrong.
+You [A#]might not make it back and you know that
+You could [D#]be well oh that strong,
+Well I'm not [F]wrong.
+
+{c: Bridge 4}
+[D#]So where is the [G#]passion when you need it the [A#]most?
+[D#]You kick up the [G#]leaves and the magic is [A#]lost.
+
+{c: Chorus}
+‘Cause  you had a bad [D#]day, you're taking one [G#]down,
+You sing a sad [Fm7]song just to turn it a[A#]round.
+You say you don't [D#]know, you tell me, don't [G#]lie,
+You work on a [Fm7]smile and you go for a [A#]ride.
+You had a bad [Cm]day, you've seen what you [A#]like,
+And how does it [G#]feel for one more [D#]time,
+You had a bad [Fm7]day,   [A#]
+You had a bad day.
+
+{c: Bridge 1}
+[D#]        [G#]        [A#]        [A#]
+[D#]        [G#]        [A#]        [A#]
+
+{c: Outro}
+[D#]

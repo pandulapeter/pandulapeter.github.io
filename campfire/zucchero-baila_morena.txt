@@ -1,0 +1,7 @@
+{title: Baila Morena [placeholder]}
+{artist: Zucchero}
+{key: Gm}
+{duration: 245}
+{x_sbp_tags: spanish,english,khameleon}
+
+WIP

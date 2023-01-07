@@ -1,0 +1,56 @@
+{title: Blowin' in the Wind}
+{artist: Bob Dylan}
+{key: E}
+{duration: 170}
+{x_sbp_tags: english}
+
+{c: Intro}
+[E]
+
+{c: Verse 1}
+[E]How many [A]roads must a [E]man walk down,
+Be[E]fore you [A]call him a [E]man?
+[E]How many [A]seas must a [E]white dove sail,
+Be[E]fore she [A]sleeps in the [B]sand?
+How [E]many [A]times must the [E]cannon balls fly,
+Be[E]fore they're [A]forever [B]banned?
+
+{c: Chorus}
+The [A]answer, my [B]friend,
+Is [E]blowin' in the [A]wind
+The [A]answer is
+[B]Blowin' in the [E]wind.
+
+{c: Verse 2}
+[E]How many [A]years can a [E]mountain exist,
+Be[E]fore it's [A]washed to the [E]sea?
+[E]How many [A]years can some [E]people exist,
+Be[E]fore they're al[A]lowed to be [B]free?
+[E]How many [A]times can a [E]man turn his head,
+And pre[E]tend that he [A]just doesn't [B]see?
+
+{c: Chorus}
+The [A]answer, my [B]friend,
+Is [E]blowin' in the [A]wind
+The [A]answer is
+[B]Blowin' in the [E]wind.
+
+{c: Verse 3}
+[E]How many [A]times must a [E]man look up,
+Be[E]fore he [A]really sees the [E]sky?
+[E]How many [A]ears must [E]one person have,
+Be[E]fore he can [A]hear people [B]cry?
+[E]How many [A]deaths will it [E]take 'til he knows,
+That [E]too many [A]people have [B]died?
+
+{c: Chorus}
+The [A]answer, my [B]friend,
+Is [E]blowin' in the [A]wind
+The [A]answer is
+[B]Blowin' in the [E]wind.
+
+{c: Chorus}
+The [A]answer, my [B]friend,
+Is [E]blowin' in the [A]wind
+The [A]answer is
+[B]Blowin' in the [E]wind.

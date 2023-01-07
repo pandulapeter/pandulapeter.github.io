@@ -1,0 +1,84 @@
+{title: Basket Case}
+{artist: Green Day}
+{key: Eb}
+{duration: 185}
+{x_sbp_tags: english}
+
+{c: Verse 1}
+[D#]Do you have the [A#]time
+To [Cm]listen to me [Gm]whine
+A[G#]bout nothing and [D#]everything all [A#]at once?
+
+{c: Verse 2}
+[D#]I am one of [A#]those
+Me[Cm]lodramatic [Gm]fools,
+Neu[G#]rotic to the [D#]bone no doubt a[A#]bout it.
+
+{c: Chorus}
+[G#]Sometimes I [A#]give myself the [D#]creeps,
+[G#]Sometimes my [A#]mind plays tricks on [D#]me,
+It [G#]all keeps adding [A#]up,
+I [D#]think I'm [C#]cracking [Cm]up,
+Am [G#]I just para[A#]noid, or am I just stoned?
+
+{c: Bridge1}
+[D#]        [A#]        [Cm]        [A#]
+[D#]        [A#]        [Cm]        [A#]
+
+{c: Verse 3}
+I [D#]went to a [A#]shrink,
+To [Cm]analyze my [Gm]dreams,
+She [G#]says it's lack of [D#]sex that's bringing me[A#] down.
+
+{c: Verse 4}
+I [D#]went to a [A#]whore,
+She [Cm]said my life's a [Gm]bore,
+So [G#]quit my whining [D#]cause it's bringing her[A#] down.
+
+{c: Chorus}
+[G#]Sometimes I [A#]give myself the [D#]creeps,
+[G#]Sometimes my [A#]mind plays tricks on [D#]me,
+It [G#]all keeps adding [A#]up,
+I [D#]think I'm [C#]cracking [Cm]up,
+Am [G#]I just para[A#]noid? A ya-ya-ya!
+
+{c: Bridge 1}
+[D#]        [A#]        [Cm]        [A#]
+[D#]        [A#]        [Cm]        [A#]
+
+{c: Bridge1}
+[D#]        [A#]        [Cm]        [A#]
+[D#]        [A#]        [Cm]        [A#]
+
+{c: Bridge 2}
+[G#]Grasping to cont[A#]rol,
+So I better hold on!
+
+{c: Solo}
+[D#]        [A#]        [Cm]        [Gm]
+[G#]        [D#]        [A#]        [A#]
+
+[D#]        [A#]        [Cm]        [Gm]
+[G#]        [D#]        [A#]        [A#]
+
+{c: Chorus}
+[G#]Sometimes I [A#]give myself the [D#]creeps,
+[G#]Sometimes my [A#]mind plays tricks on [D#]me,
+It [G#]all keeps adding [A#]up,
+I [D#]think I'm [C#]cracking [Cm]up,
+Am [G#]I just para[A#]noid, or am I just stoned?
+
+{c: Outro}
+[D#]        [D#]        [Cm]        [Cm]
+[G#]        [D#]        [A#]        [A#]
+
+[D#]        [D#]        [Cm]        [Cm]
+[G#]        [D#]        [A#]        [A#]
+
+[D#]        [D#]        [Cm]        [Cm]
+[G#]        [D#]        [A#]        [A#]
+
+[D#]        [D#]        [Cm]        [Cm]
+[G#]        [D#]        [A#]        [A#]
+
+[G#]        [D#]        [A#]

@@ -1,0 +1,105 @@
+{title: Born To Be Wild}
+{artist: Steppenwolf}
+{key: E}
+{duration: 210}
+{tempo: 146}
+{x_sbp_tags: english,backtrackers}
+
+{c: Intro}
+[E5]                [E5]
+[E5]                [E6]        [E7]
+[E5]                [E5]
+[E5]                [E6]        [E7]
+
+[E5]                [E5]
+[E5]                [E6]        [E7]
+[E5]                [E5]
+[E5]                [E6]        [E7]
+
+{c: Verse 1}
+[E5]Get your motor runnin',    [E6]        [E7]
+[E5]Head out on the highway,    [E6]        [E7]
+[E5]Lookin' for adventure,    [E6]        [E7]
+And what[E5]ever comes our way.    [E6]        [E7]
+
+{c: Pre-Chorus}
+[G]Yeah, [A]darlin' go [E5]make it happen,
+[G]Take the [A]world in a [E5]love embrace.
+[G]Fire [A]all of your [E5]guns at once,
+And [G]expl[A]ode into [E5]space.
+
+{c: Verse 2}
+[E5]I like smoke and lightning,    [E6]        [E7]
+[E5]Heavy metal thunder,    [E6]        [E7]
+[E5]Racin' with the wind,    [E6]        [E7]
+And the [E5]feelin' that I'm under.    [E6]        [E7]
+
+{c: Pre-Chorus}
+[G]Yeah, [A]darlin' go [E5]make it happen,
+[G]Take the [A]world in a [E5]love embrace.
+[G]Fire [A]all of your [E5]guns at once,
+And [G]expl[A]ode into [E5]space.
+
+{c: Chorus}
+Like a [E5]true nature's child,
+We were [G]born, born to be wild,
+We can [A]climb so high,
+I [G]never wanna [E5]die!
+[E5]Born to be [D5]wild!   [C#5]       [D5]
+[E5]                [D5]        [C#5]        [D5]
+[E5]Born to be [D5]wild!   [C#5]       [D5]
+[E5]                [D5]        [C#5]        [D5]
+
+{c: Solo}
+[E5]                [E5]
+[E5]                [E6]        [E7]
+[E5]                [E5]
+[E5]                [E6]        [E7]
+
+[E5]                [E5]
+[E5]                [E6]        [E7]
+[E5]                [E5]
+[E5]                [E6]        [E7]
+
+[E5]                [E5]
+[E5]                [E6]        [E7]
+[E5]                [E5]
+[E5]                [E6]        [E7]
+
+[E5]                [E5]
+[E5]                [E6]        [E7]
+[E5]                [E5]
+[E5]                [E6]        [E7]
+
+{c: Verse 1}
+[E5]Get your motor runnin',    [E6]        [E7]
+[E5]Head out on the highway,    [E6]        [E7]
+[E5]Lookin' for adventure,    [E6]        [E7]
+And what[E5]ever comes our way.    [E6]        [E7]
+
+{c: Pre-Chorus}
+[G]Yeah, [A]darlin' go [E5]make it happen,
+[G]Take the [A]world in a [E5]love embrace.
+[G]Fire [A]all of your [E5]guns at once,
+And [G]expl[A]ode into [E5]space.
+
+{c: Chorus}
+Like a [E5]true nature's child,
+We were [G]born, born to be wild,
+We can [A]climb so high,
+I [G]never wanna [E5]die!
+[E5]Born to be [D5]wild!   [C#5]       [D5]
+[E5]                [D5]        [C#5]        [D5]
+[E5]Born to be [D5]wild!   [C#5]       [D5]
+[E5]                [D5]        [C#5]        [D5]
+
+{c: Outro}
+[E5]                [E5]
+[E5]                [E6]        [E7]
+[E5]                [E5]
+[E5]                [E6]        [E7]
+
+[E5]                [E5]
+[E5]                [E6]        [E7]
+[E5]                [E5]
+[E5]                [E6]        [E7]

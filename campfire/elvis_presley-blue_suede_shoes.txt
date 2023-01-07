@@ -1,0 +1,73 @@
+{title: Blue Suede Shoes}
+{artist: Elvis Presley}
+{key: A}
+{duration: 130}
+{x_sbp_tags: english}
+
+{c: Verse 1}
+Well, it's [A]on[-]e for the money,
+[A]Tw[-]o for the show,
+[A]Th[-]ree to get ready,
+Now go, cat, go!
+
+{c: Chorus}
+But [D7]don't you
+Step on my blue suede [A7]shoes.
+Well, you can [E7]do anything,
+But stay [D7]off of my blue suede [A7]shoes!
+
+{c: Verse 2}
+Well, you can [A]kn[-]ock me down,
+[A]St[-]ep in my face,
+[A]Sl[-]ander my name all [A]ov[-]er the place.
+Well, [A]do[-] anything that you [A]wa[-]nt to do,
+But [A]uh[-]-uh, honey lay off of them shoes.
+
+{c: Chorus}
+And [D7]don't you
+Step on my blue suede [A7]shoes.
+Well, you can [E7]do anything,
+But stay [D7]off of my blue suede [A7]shoes!
+
+{c: Solo 1}
+[A7]        [A7]        [A7]        [A7]
+[D7]        [D7]        [A7]        [A7]
+[E7]        [D7]        [A7]        [A7]
+
+{c: Verse 3}
+You can [A]bu[-]rn my house,
+[A]St[-]eal my car.
+[A]Dr[-]ink my liquor from an [A]ol[-]d fruit jar.
+Well [A]do[-] anything that you [A]wa[-]nt to do,
+But [A]uh[-]-uh, honey lay off of my shoes.
+
+{c: Chorus}
+And [D7]don't you
+Step on my blue suede [A7]shoes.
+Well, you can [E7]do anything,
+But stay [D7]off of my blue suede [A7]shoes!
+
+{c: Solo 2}
+[A7]        [A7]        [A7]        [A7]
+[D7]        [D7]        [A7]        [A7]
+[E7]        [D7]        [A7]        [A7]
+
+{c: Verse 1}
+Well, it's [A]on[-]e for the money,
+[A]Tw[-]o for the show,
+[A]Th[-]ree to get ready,
+Now [A]go[-], cat, go!
+
+{c: Chorus}
+But [D7]don't you
+Step on my blue suede [A7]shoes.
+Well, you can [E7]do anything,
+But stay [D7]off of my blue suede [A7]shoes!
+
+{c: Outro}
+Well, it's [A7]blue, blue, blue suede shoes.
+[A7]Blue, blue, blue suede shoes, yeah!
+[D7]Blue, blue, blue, suede shoes, baby.
+[A7]Blue, blue, blue suede shoes.
+Well, you can [E7]do anything,
+But stay [D7]off of my blue suede [A7]shoes!
