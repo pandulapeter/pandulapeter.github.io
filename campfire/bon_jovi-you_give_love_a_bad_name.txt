@@ -1,0 +1,84 @@
+{title: You Give Love a Bad Name [lyrics only]}
+{artist: Bon Jovi}
+{key: Cm}
+{duration: 220}
+{tempo: 123}
+{x_sbp_tags: english,backtrackers}
+
+{c: Intro}
+Shot through the heart and you're to blame,
+Darlin', you give love a bad name!
+
+{c: Bridge}
+
+{c: Verse 1}
+An angel's smile is what you sell,
+You promise me Heaven, then put me through hell.
+Chains of love got a hold on me,
+When passion's a prison, you can't break free.
+
+{c: Pre-Chorus}
+Oh, you're a loaded gun, yeah!
+Oh, there's nowhere to run,
+No one can save me,
+The damage is done!
+
+{c: Chorus}
+Shot through the heart and you're to blame,
+You give love a bad name (bad name)!
+I play my part and you play your game,
+You give love a bad name (bad name)!
+Hey, you give love,
+A bad name!
+
+{c: Bridge}
+
+{c: Verse 2}
+Paint your smile on your lips,
+Blood red nails on your fingertips.
+A school boy's dream, you act so shy,
+Your very first kiss was your first kiss goodbye.
+
+{c: Pre-Chorus}
+Whoa, you're a loaded gun!
+Whoa, there's nowhere to run,
+No one can save me,
+The damage is done!
+
+{c: Chorus}
+Shot through the heart and you're to blame,
+You give love a bad name (bad name)!
+I play my part and you play your game,
+You give love a bad name (bad name)!
+You give love...
+
+{c: Solo}
+
+{c: Chorus}
+Oh, shot through the heart and you're to blame,
+You give love a bad name!
+I play my part and you play your game,
+You give love a bad name (bad name)!
+
+{c: Chorus}
+Shot through the heart and you're to blame,
+You give love a bad name (bad name)!
+I play my part and you play your game,
+You give love a bad name (bad name)!
+
+{c: Outro}
+You give love,
+You give love
+A bad name!
+
+You give love,
+You give love
+A bad name!
+
+You give love,
+You give love
+A bad name!
+
+You give love,
+You give love
+A bad name!

@@ -1,0 +1,90 @@
+{title: You're The One That I Want}
+{artist: John Travolta and Olivia Newton-John}
+{key: C}
+{duration: 170}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[Am]
+[Am]
+
+{c: Verse 1}
+I got [Am]chills, they're multiplying,
+And I'm [F]losing con[C]trol,
+'Cause the [E]power you're supp[Am]lying,
+It's electri[Am]fying!
+
+{c: Pre-Chorus 1}
+You better shape [C]up,
+'Cause I [Em]need a man,
+[Am]And my heart is set on [F]you.
+You better shape [C]up,
+You better [Em]understand,
+[Am]To my heart I must be [F]true,
+Nothin' left, nothin' [F]left for me to do.
+
+{c: Chorus}
+You're the [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh, honey!
+The [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh, honey!
+The [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh!
+The one I [G]need (the one I need),
+Oh, yes in[G7]deed (yes, indeed).
+
+{c: Verse 2}
+If you're [Am]filled with affection,
+You're too [F]shy to con[C]vey,
+Medi[E]tate in my di[Am]rection.
+Feel your [Am]way.
+
+{c: Pre-Chorus 2}
+I better shape [C]up,
+'Cause you [Em]need a man (I need a man),
+[Am]Who can keep me satis[F]fied.
+I better shape [C]up,
+If I'm [Em]gonna prove (You better prove),
+[Am]That my faith is justi[F]fied.
+Are you sure?
+Yes, I'm [F]sure down deep inside!
+
+{c: Chorus}
+You're the [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh, honey!
+The [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh, honey!
+The [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh!
+The one I [G]need (the one I need),
+Oh, yes in[G7]deed (yes, indeed).
+
+{c: Chorus}
+You're the [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh, honey!
+The [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh, honey!
+The [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh!
+The one I [G]need (the one I need),
+Oh, yes in[G7]deed (yes, indeed).
+
+{c: Chorus}
+You're the [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh, honey!
+The [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh, honey!
+The [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh!
+The one I [G]need (the one I need),
+Oh, yes in[G7]deed (yes, indeed).
+
+{c: Chorus}
+You're the [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh, honey!
+The [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh, honey!
+The [C]one that I want (you are the one I want),
+Ooh, ooh, [F]ooh!
+The one I [G]need (the one I need),
+Oh, yes in[G7]deed (yes, indeed).

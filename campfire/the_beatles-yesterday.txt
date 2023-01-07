@@ -1,0 +1,48 @@
+{title: Yesterday}
+{artist: The Beatles}
+{key: F}
+{duration: 130}
+{x_sbp_tags: english}
+
+{c: Intro}
+[F]
+
+{c: Verse 1}
+[F]Yesterday
+[Em]All my [A7]troubles seemed so [Dm]far away.
+[A#]Now it [C7]looks as though they're [F]here to stay.
+Oh, [Dm]I bel[G7]ieve in [A#]yesterd[F]ay.
+
+{c: Verse 2}
+[F]Suddenly,
+[En]I'm not [A7]half the man I [Dm]used to be.
+[A#]There's a [C7]shadow hanging [F]over me.
+Oh, [Dm]yester[G7]day came [A#]suddenl[F]y.
+
+{c: Chorus}
+[Em]Why [A7]she [Dm]had [C]to g[A#]o?
+I don't [C]know, she wouldn't [F]say.
+[Em]I sa[A7]id s[Dm]ometh[C]ing wr[A#]ong.
+Now I [C]long for yester[F]day.
+
+{c: Verse 3}
+[F]Yesterday
+[Em]Love was [A7]such an easy [Dm]game to play.
+[A#]Now I n[C7]eed a place to [F]hide away.
+Oh, [Dm]I beli[G7]eve in [A#]yesterd[F]ay.
+
+{c: Chorus}
+[Em]Why [A7]she [Dm]had [C]to g[A#]o?
+I don't [C]know, she wouldn't [F]say.
+[Em]I sa[A7]id s[Dm]ometh[C]ing wr[A#]ong.
+Now I [C]long for yester[F]day.
+
+{c: Verse 3}
+[F]Yesterday
+[Em]Love was [A7]such an easy [Dm]game to play.
+[A#]Now I n[C7]eed a place to [F]hide away.
+Oh, [Dm]I beli[G7]eve in [A#]yesterd[F]ay.
+
+{c: Outro}
+[Dm]        [G7]
+[A#]        [F]
