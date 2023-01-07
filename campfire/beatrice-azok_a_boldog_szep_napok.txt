@@ -1,0 +1,71 @@
+{title: Azok a boldog szép napok}
+{artist: Beatrice}
+{key: F#}
+{duration: 205}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[F#]          [D#m]          [B]          [C#]
+
+{c: Verse 1}
+Már csak [F#]emlék,    [D#m]
+Mikor még [B]nem voltál.    [C#]
+Az volt az [F#]igazi nyár,    [D#m]
+Az [B]idő oly gyorsan [C#]száll.
+
+{c: Verse 2}
+Amikor [F#]nem vagy itt velem,    [D#m]
+Elfog a [B]rettegés.    [C#]
+Minden kis [F#]zajra felébre[D#m]dek,
+Mert [B]azt hiszem, megjöt[C#]tél.
+
+{c: Bridge}
+[F#]          [D#m]          [B]          [C#]
+
+{c: Verse 3}
+Te [F#]nem érzed,    [D#m]
+Nem érzed [B]azt a kínt,    [C#]
+Amikor [F#]éjjel itt maradsz,    [D#m]
+A [B]magányról álmodik a [C#]remény.
+
+{c: Verse 4}
+Ahogy [F#]megjöttél, rögtön [D#m]ősz lett,
+[B]Majd hirtelen [C#]tél,
+[F#]Más lett a föld és [D#m]más a világ,
+[B]Havat hord a [C#]szél.
+
+{c: Chorus}
+Azok a [F#]boldog, szép napok, [D#m]ég veled!
+Te [B]nem tudod, milyen jó [C#]nélküled.
+Azok a [F#]boldog, szép napok, [D#m]ég veled!
+Te [B]nem tudod, milyen jó [C#]nélküled.
+
+{c: Bridge}
+[F#]          [D#m]          [B]          [C#]
+
+{c: Verse 1}
+Ma már csak [F#]emlék,    [D#m]
+Mikor még [B]nem voltál.    [C#]
+Az volt az [F#]igazi nyár,    [D#m]
+Az [B]idő oly' gyorsan [C#]száll.
+
+{c: Verse 5}
+A legszebb [F#]pillanat, amikor [D#m]búcsúzunk,
+[B]És a vonatra [C#]felszállsz.
+Könnyes [F#]szemmel arra [D#m]gondolok,
+Hogy [-]nehogy lemarad[C#]jál!
+
+{c: Chorus}
+Azok a [F#]boldog, szép napok, [D#m]ég veled!
+Te [B]nem tudod, milyen jó [C#]nélküled.
+Azok a [F#]boldog, szép napok, [D#m]ég veled!
+Te [B]nem tudod, milyen jó [C#]nélküled.
+
+{c: Chorus}
+Azok a [F#]boldog, szép napok, [D#m]ég veled!
+Te [B]nem tudod, milyen jó [C#]nélküled.
+Azok a [F#]boldog, szép napok, [D#m]ég veled!
+Te [B]nem tudod, milyen jó [C#]nélküled.
+
+{c: Outro}
+[F#]

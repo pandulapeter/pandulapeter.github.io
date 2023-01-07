@@ -1,0 +1,58 @@
+{title: Authority Song [lyrics only]}
+{artist: John Mellencamp}
+{key: D}
+{duration: 210}
+{x_sbp_tags: english}
+
+{c: Intro}
+
+{c: Verse 1}
+They like to get you in a compromising position,
+Well, they like to get you there and smile in your face.
+Yeah, they think they're so cute when they got you in that condition,
+But I think it's a total disgrace!
+
+{c: Chorus}
+And I say, I fight authority, authority always wins,
+Well, I fight authority, authority always wins.
+Well, I've been doing it since I was a young kid, and I come out grinnin',
+Well, I fight authority, authority always wins. Oh yeah!
+
+{c: Bridge 1}
+
+{c: Verse 2}
+I call up my preacher, I say, "Give me strength for round 5",
+He said, "You don't need no strength, you need to grow up son".
+I said, "Growin' up leads to growin' old and then to dyin',
+Oh, and dyin' to me don't sound like all that much fun".
+
+{c: Chorus}
+And so I'll say, I fight authority, authority always wins,
+Well, I fight authority, authority always wins.
+Well, I've been doing it since I was a young kid, I come out grinnin',
+Well, I fight authority, authority always wins.
+
+{c: Solo}
+
+{c: Bridge 2}
+I say oh no, no no,
+I say oh no, no no,
+I say oh no, no no no,
+
+{c: Chorus}
+I fight authority, authority always wins,
+I fight authority, authority always wins (kick it in)!
+I've been doing it since I was a young kid and I come out grinnin',
+Well, I fight authority, authority always wins.
+
+{c: Chorus}
+Well, I fight authority, authority always wins,
+Well, I fight authority, authority always wins.
+I've been doing it since I was a young kid and I come out grinnin',
+Well, I fight authority, authority always wins.
+
+{c: Chorus}
+So I said I fight authority, authority always wins (Oh no),
+Well I fight authority, authority always wins (Oh no no).
+Well I've been doing it since I was a young kid (Oh no) and I come out grinnin' (Oh no),
+Well I fight authority, authority always wins.

@@ -1,0 +1,92 @@
+{title: Angel}
+{artist: Aerosmith}
+{key: Eb}
+{duration: 310}
+{x_sbp_tags: english}
+
+{c: Intro}
+        [D#]        [A#]        [G#]
+[A#]        [D#]        [A#]        [G#]
+[A#]        [D#]        [A#]        [G#]
+[A#]        [Cm]        [A#]        [G#]
+[G#sus4]                [G#]
+
+{c: Verse 1}
+I'm a[D#]lone,
+Yeah, I don't know if I can [G#]face the night.   [G#sus4]       [G#]
+I'm in [D#]tears,
+And the [Cm]cryin' that I do is for [Gm]you.   [G#]
+
+{c: Bridge 1}
+[A#]I want your [Cm]love,
+Let's [G#]break the walls between us.
+[A#]Don't make it [Cm]tough,
+I'll [G#]put away my pride.
+[A#]Enough's e[Cm]nough,
+I've [G#]suffered and I've seen the [A#]light, baby,
+
+{c: Chorus}
+You're my [D#]angel,   [A#]
+[G#]Come and save me [A#]ton[Cm]ight!   [A#]    [G#]
+You're [A#]my [D#]angel,   [A#]
+[G#]Come and make it [A#]all r[Cm]ight!   [A#]    [G#]    [G#sus4]       [G#]
+
+{c: Verse 2}
+[D#]Don't know what I'm gonna do
+About this [G#]feeling inside.   [G#sus4]       [G#]
+Yes it's [D#]true,
+[Cm]Loneliness took me for a [Gm]ride.   [G#]
+
+{c: Bridge 2}
+[A#]Without your [Cm]love,
+I'm [G#]nothing but a beggar.
+[A#]Without your [Cm]love,
+A [G#]dog without a bone.
+[A#]What can I [Cm]do,
+I'm [G#]sleeping in this bed a[A#]lone, baby,
+
+{c: Chorus}
+You're my [D#]angel,   [A#]
+[G#]Come and save me [A#]ton[Cm]ight!   [A#]    [G#]
+You're [A#]my [D#]angel,   [A#]
+[G#]Come and make it [A#]all r[Cm]ight!   [A#]    [G#]
+Come and save me [A#]tonight!
+
+{c: Solo}
+        [D#]        [A#]        [G#]
+[A#]        [Cm]        [A#]        [G#]
+
+[A#]        [D#]        [A#]        [G#]
+[A#]        [Cm]        [A#]        [G#]
+
+[A#]        [A#]
+
+{c: Brige 3}
+You're the reason I [G#]live,
+You're the reason I [D#]die,
+You're the reason I [Cm]give,
+When I break down and [G#]cry.
+Don't need no reason [A#]why,
+Baby, baby, baby,
+
+{c: Chorus}
+You're my [D#]angel,   [A#]
+[G#]Come and save me [A#]ton[Cm]ight!   [A#]    [G#]
+You're [A#]my [D#]angel,   [A#]
+[G#]Come and make it [A#]all r[Cm]ight!   [A#]    [G#]
+
+{c: Chorus}
+You're [A#]my [D#]angel,   [A#]
+[G#]Come and save me [A#]ton[Cm]ight!   [A#]    [G#]
+You're [A#]my [D#]angel,   [A#]
+[G#]Come and make it [A#]all r[Cm]ight!   [A#]    [G#]
+
+{c: Outro}
+Come and save me [A#]toni[D#]ght,
+Come and save me [A#]toni[G#]ght,
+Come and save me [A#]toni[Cm]ght,
+Come and save me [A#]toni[G#]ght,
+Come and save me [A#]toni[D#]ght!
+                [A#]        [G#]
+[A#]        [Cm]        [A#]        [G#]
+[A#]        [D#]

@@ -1,0 +1,96 @@
+{title: A kör}
+{artist: Edda}
+{key: Am}
+{duration: 275}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[Am]            [Am]
+[Am]            [Am]      [C5/A]
+[Am]            [Am]
+[Am]            [F]      [G]
+
+{c: Verse 1}
+[Am]Kör közepén állok,[C5/A]
+[Am]Körbevesznek [Dm]jó barátok
+[Am]Körbevesznek [Em]jó barátok és [Am]rosszak.  [F]    [G]
+
+{c: Verse 2}
+[Am]Kör közepén állok,[C5/A]
+[Am]Így könnyen [Dm]eltaláltok
+[Am]Így könnyen [Em]eltaláltok, [Am]rosszak.  [F]    [G]
+
+{c: Chorus}
+[C]Ha egyszer [G]odébbállok,
+A [Am]kör közepébõl [Em]majd hiányzok,
+[F]Rám többé [Em]nem találtok, [Am]rosszak.  [F]    [G]
+
+{c: Chorus}
+[C]Ha egyszer [G]odébbállok,
+A [Am]kör közepébõl [Em]majd hiányzok,
+[F]Rám többé [Em]nem találtok, [Am]rosszak.  [F]    [G]
+
+{c: Verse 3}
+[Am]Bohóc vagyok, de bátor,[C5/A]
+[Am]Pofonoktól [Dm]ég az arcom
+[Am]Pofonoktól [Em]piros az arcom, [Am]kaptam.  [F]    [G]
+
+{c: Verse 4}
+[Am]Nem adom fel, tudjátok,[C5/A]
+[Am]Láthatatlan, [Dm]lapos sumákok
+[Am]Istenem, de [Em]sokan vagytok, [Am]rosszak.  [F]    [G]
+
+{c: Chorus}
+[C]Ha egyszer [G]odébbállok,
+A [Am]kör közepébõl [Em]majd hiányzok,
+[F]Rám többé [Em]nem találtok, [Am]rosszak.  [F]    [G]
+
+{c: Chorus}
+[C]Ha egyszer [G]odébbállok,
+A [Am]kör közepébõl [Em]majd hiányzok,
+[F]Rám többé [Em]nem találtok, [Am]rosszak.  [F]    [G]
+
+{c: Solo}
+[Am]            [Am]
+[Am]            [Am]      [C5/A]
+[Am]            [Am]
+[Am]            [F]      [G]
+
+[Am]            [Am]
+[Am]            [Am]      [C5/A]
+[Am]            [Am]
+[Am]            [F]      [G]
+
+[C]            [G]
+[Am]            [Em]
+[F]            [Em]
+[Am]            [Am]
+
+[C]            [G]
+[Am]            [Em]
+[F]            [Em]
+[Am]            [Am]
+[Am]            [F]      [G]
+
+{c: Verse 5}
+[Am]Hitványak az álmok,[C5/A]
+[Am]Ha mindent [Dm]eltakartok,
+[Am]Fekete függöny [Em]mögé zavartok, [Am]rosszak.  [F]    [G]
+
+{c: Verse 6}
+[Am]Könyöröghetek bárhogy,[C5/A]
+[Am]Éles késsel [Dm]rám vadásztok,
+[Am]Ha megtaláltok, [Em]kicsináltok, [Am]rosszak.  [F]    [G]
+
+{c: Chorus}
+[C]Ha egyszer [G]odébbállok,
+A [Am]kör közepébõl [Em]majd hiányzok,
+[F]Rám többé [Em]nem találtok, [Am]rosszak.  [F]    [G]
+
+{c: Chorus}
+[C]Ha egyszer [G]odébbállok,
+A [Am]kör közepébõl [Em]majd hiányzok,
+[F]Rám többé [Em]nem találtok, [Am]rosszak.  [F]    [G]
+
+{c: Outro}
+[Am]

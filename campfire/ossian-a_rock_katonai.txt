@@ -1,0 +1,124 @@
+{title: A rock katonái}
+{artist: Ossian}
+{key: A}
+{duration: 285}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[A5]        [C5/A]        [D5/A]        [D5/A]
+[A5]        [C5/A]        [G5]        [E5]
+[A5]        [C5/A]        [D5/A]        [D5/A]
+[A5]        [C5/A]        [G5]        [G5 -]
+
+{c: Verse 1}
+[A5]Fölvi[C5/A]rradt a n[D5/A]agy nap,
+A [A5]rock ka[C5/A]tonái új[G5]ra együtt van[E5]nak.
+[A5]Reggel [C5/A]óta me[D5/A]gszállták a várost,
+[A5]Amerre [C5/A]nézek ro[Csus2]ckereket látok.
+
+{c: Verse 2}
+[A5]Jelvén[C5/A]yek és zá[D5/A]szlók,
+[A5]Farmerek, [C5/A]bőrök, f[G5]elvarrók és lán[E5]cok.
+[A5]Cigivel, [C5/A]sörrel kí[D5/A]nálnak meg engem,
+[A5]Mindenki [C5/A]várja, jö[Csus2]jjön már az este.
+
+{c: Pre-Chorus}
+[E5]Robbanjon a [D5]hang,
+[F5]Lángoljon a [E5]fény,
+[E5]Emelje a [D5]kezét
+[F5]Aki csak [C5]él!    [D5]
+
+{c: Chorus}
+[A5]Elhagynak [F5/A]százak, [D5/A]jönnek e[A5]zrek,
+A [A5]rock kat[F5/A]onái egyre [D5]többen [E5]lesznek.
+[A5]Állj közénk [C/B]te is, [C5]harcolj ve[F]lünk,
+[Dm]Bárki [E]jön elle[A5]nünk!   [G5]      [F5]      [E5]
+
+{c: Chorus}
+[A5]Elhagynak [F5/A]százak, [D5/A]jönnek e[A5]zrek,
+A [A5]rock kat[F5/A]onái egyre [D5]többen [E5]lesznek.
+[A5]Állj közénk [C/B]te is, [C5]harcolj ve[F]lünk,
+[Dm]Csakis [E]mi győzhe[A5]tünk!   [G5]      [F5]      [E5]
+[A5]        [G5]        [F5]        [E]
+[G5]        [G#5]
+
+{c: Bridge 1}
+[A5]        [C5/A]        [D5/A]        [D5/A]
+[A5]        [C5/A]        [G5]        [E5]
+
+[A5]        [C5/A]        [D5/A]        [D5/A]
+[A5]        [C5/A]        [G5]        [E5]
+
+{c: Verse 3}
+[A5]Készül[C5/A]már a b[D5/A]anda,
+A[A5] néző[C5/A]téren p[G5]okoli a [E5]lárma.
+[A5]Hangfal[C5/A] ágyúk b[D5/A]evetésre készek,
+[A5]Gitárp[C5/A]uskák a c[Csus2]élpontra néznek.
+
+{c: Verse 4}
+[A5]Szikr[C5/A]aeső vil[D5/A]lan,
+[A5]Földüb[C5/A]örög és [G5]megremeg a [E5]színpad.
+[A5]Füstfelh[C5/A]őn át, f[D5/A]ölgyúlnak a fények,
+A [A5]rock ka[C5/A]tonái eg[Csus2]yütt énekelnek.
+
+{c: Pre-Chorus}
+[E5]Robbanjon a [D5]hang,
+[F5]Lángoljon a [E5]fény,
+[E5]Emelje a [D5]kezét
+[F5]Aki csak [C5]él!    [D5]
+
+{c: Chorus}
+[A5]Elhagynak [F5/A]százak, [D5/A]jönnek e[A5]zrek,
+A [A5]rock kat[F5/A]onái egyre [D5]többen [E5]lesznek.
+[A5]Állj közénk [C/B]te is, [C5]harcolj ve[F]lünk,
+[Dm]Bárki [E]jön elle[A5]nünk!   [G5]      [F5]      [E5]
+
+{c: Chorus}
+[A5]Elhagynak [F5/A]százak, [D5/A]jönnek e[A5]zrek,
+A [A5]rock kat[F5/A]onái egyre [D5]többen [E5]lesznek.
+[A5]Állj közénk [C/B]te is, [C5]harcolj ve[F]lünk,
+[Dm]Csakis [E]mi győzhe[A5]tünk!   [G5]      [F5]      [E5]
+[A5]        [G5]        [F5]        [E]
+
+{c: Bridge 2}
+[B5]            [C5]      [B5]
+[B5]            [G5]      [F#5]
+
+[B5]            [C5]      [B5]
+[B5]            [G5]      [F#5]
+
+{c: Solo}
+[E5]            [E5]
+[E5]            [D5]
+
+[E5]            [E5]
+[E5]            [D5]
+
+{c: Chorus}
+[A5]Elhagynak [F5/A]százak, [D5/A]jönnek e[A5]zrek,
+A [A5]rock kat[F5/A]onái egyre [D5]többen [E5]lesznek.
+[A5]Állj közénk [C/B]te is, [C5]harcolj ve[F]lünk,
+[Dm]Bárki [E]jön elle[A5]nünk!   [G5]      [F5]      [E5]
+
+{c: Chorus}
+[A5]Elhagynak [F5/A]százak, [D5/A]jönnek e[A5]zrek,
+A [A5]rock kat[F5/A]onái egyre [D5]többen [E5]lesznek.
+[A5]Állj közénk [C/B]te is, [C5]harcolj ve[F]lünk,
+[Dm]Csakis [E]mi győzhe[A5]tünk!   [G5]      [F5]      [E5]
+[A5]        [G5]        [F5]        [E]
+
+{c: Outro}
+[A5]        [G5]        [F5]        [E5]
+[A5]        [G5]        [F5]        [E5]
+
+[A5]        [G5]        [F5]        [E5]
+[A5]        [G5]        [F5]        [E5]
+
+[A5]        [G5]        [F5]        [E5]
+[A5]        [G5]        [F5]        [E5]
+[-]
+
+Egy, két há' és!
+
+[A5]        [C5/A]        [D5/A]        [D5/A]
+[A5]        [C5/A]        [D5/A]

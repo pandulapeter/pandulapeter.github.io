@@ -1,0 +1,69 @@
+{title: All the Small Things}
+{artist: Blink 182}
+{key: C}
+{duration: 170}
+{x_sbp_tags: english}
+
+{I}
+[C]        [C]        [G]        [F]
+[C]        [C]        [G]        [F]
+
+{c: Verse 1}
+[C]All the [G]small things,
+[F]True care [G]truth brings,
+[C]I'll take [G]one lift,
+[F]Your ride - [G]best trip.
+
+{c: Verse 2}
+[C]Always, [G]I know,
+[F]You'll be [G]at my show,
+[C]Watching, [G]waiting,
+[F]Commi[G]serating.
+
+{c: Pre-Chorus}
+[C]Say it ain't so, I will not [G]go,
+Turn the lights [F]off, carry me home!
+
+{c: Chorus}
+[C]Na-na, na, na, na, na, na-na, na, na,
+[G]Na-na, na, na, na, [F]na, na-na, na, na.
+[C]Na-na, na, na, na, na, na-na, na, na,
+[G]Na-na, na, na, na, [F]na, na-na, na, na.
+
+{c: Bridge 1}
+[C]        [C]        [G]        [F]
+[C]        [C]        [G]        [F]
+
+{c: Verse 3}
+[C]Late night, [G]come home,
+[F]Work sucks, [G]I know,
+[C]She left me [G]roses by the [F]stairs,
+Surp[G]rises let me know she cares.
+
+{c: Pre-Chorus}
+[C]Say it ain't so, I will not [G]go,
+Turn the lights [F]off, carry me home!
+
+{c: Chorus}
+[C]Na-na, na, na, na, na, na-na, na, na,
+[G]Na-na, na, na, na, [F]na, na-na, na, na.
+[C]Na-na, na, na, na, na, na-na, na, na,
+[G]Na-na, na, na, na, [F]na, na-na, na, na.
+
+{c: Bridge 2}
+[C]        [C]        [G]        [F]
+[C]        [C]        [G]        [F]
+[C]        [C]        [G]        [F]
+[C]        [C]        [G]        [F]
+
+{c: Outro}
+[C]Say it ain't so, I will not [G]go,
+Turn the lights [F]off, carry me [C]home.
+Keep your head still, I'll be your [G]thrill,
+The night will go [F]on, my little win[C]dmill.
+Say it ain't so, I will not [G]go,
+Turn the lights [F]off, carry me [C]home.
+Keep your head still, I'll be your [G]thrill,
+The night will go [F]on,
+The night will go [F]on,
+My little wind[C]mill.

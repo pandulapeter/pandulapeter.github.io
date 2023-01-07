@@ -1,0 +1,117 @@
+{title: Araclema}
+{artist: Damian & Brothers ft. Lora}
+{key: Cm}
+{duration: 180}
+{x_sbp_tags: romanian,romani,khameleon}
+
+{c: Intro}
+[Cm]
+[Cm]
+[Cm]
+[Cm]
+
+{c: Verse 1}
+[Cm]Araclema pe uliță
+[D#]Kindem lache lubeniță
+[F]Hai-la, hai-la-le
+[G]Kindem lache sandale
+
+{c: Verse 1}
+[Cm]Araclema pe uliță
+[D#]Kindem lache lubeniță
+[F]Hai-la, hai-la-le
+[G]Kindem lache sandale
+
+{c: Chorus}
+[Cm]Hai-la, hai-lai-la
+[G#]Kindem lache sandalea
+[D]Hai-la, hai-lai-le
+[G]Kindem lache sandale
+
+{c: Chorus}
+[Cm]Hai-la, hai-lai-la
+[G#]Kindem lache sandalea
+[D]Hai-la, hai-lai-le
+[G]Kindem lache sandale
+
+{c: Bridge 1}
+[Cm]
+[Cm]
+[Cm]
+[Cm]
+
+{c: Verse 2}
+[Cm]Araclema ando foru
+[D#]Kindem lache gladioro
+[F]Hai-la, hai-la-le
+[G]Kindem lache sandale
+
+{c: Verse 2}
+[Cm]Araclema ando foru
+[D#]Kindem lache gladioro
+[F]Hai-la, hai-la-le
+[G]Kindem lache sandale
+
+{c: Chorus}
+[Cm]Hai-la, hai-lai-la
+[G#]Kindem lache sandalea
+[D]Hai-la, hai-lai-le
+[G]Kindem lache sandale
+
+{c: Chorus}
+[Cm]Hai-la, hai-lai-la
+[G#]Kindem lache sandalea
+[D]Hai-la, hai-lai-le
+[G]Kindem lache sandale
+
+{c: Bridge 2}
+[Cm]        [G#]        [D]        [G]
+[Cm]        [G#]        [D]        [G]
+[Cm]        [G#]        [D]        [G]
+[Cm]        [G#]        [D]        [G]
+[Cm]
+
+{c: Verse 3}
+[Cm]Araclemaaa povo shari
+[D#]Kindem lache lolo shari
+[F]Hai-la, hai-la-le
+[G]Kindem lache sandale
+
+{c: Verse 3}
+[Cm]Araclemaaa povo shari
+[D#]Kindem lache lolo shari
+[F]Hai-la, hai-la-le
+[G]Kindem lache sandale
+
+{c: Chorus}
+[Cm]Hai-la, hai-lai-la
+[G#]Kindem lache sandalea
+[D]Hai-la, hai-lai-le
+[G]Kindem lache sandale
+
+{c: Chorus}
+[Cm]Hai-la, hai-lai-la
+[G#]Kindem lache sandalea
+[D]Hai-la, hai-lai-le
+[G]Kindem lache sandale
+
+{c: Solo}
+[Cm]        [G#]        [D]        [G]
+[Cm]        [G#]        [D]        [G]
+[Cm]        [G#]        [D]        [G]
+[Cm]        [G#]        [D]        [G]
+
+[Cm]        [G#]        [D]        [G]
+[Cm]        [G#]        [D]        [G]
+[Cm]        [G#]        [D]        [G]
+[Cm]        [G#]        [D]        [G]
+
+{c: Outro}
+[Cm]Hai-la, hai-la-la
+[Cm]Hai-la, lai-la-le
+[Cm]Hai-la, hai-la-la
+[Cm]Hai-la, hai-la-le
+[Cm]Hai-la, hai-la-la
+[Cm]Hai-la, hai-la-le
+[Cm]Hai-la, hai-la-la
+[Cm]Hai-la, hai-la-le

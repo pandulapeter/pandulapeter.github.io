@@ -1,0 +1,96 @@
+{title: A Muki fia}
+{artist: Parno Graszt}
+{key: D}
+{duration: 225}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[D]          [G]          [E]            [A]
+[D]          [G]          [Em]      [A]      [D]
+[D]          [G]          [Em]      [A]      [D]
+
+{c: Verse 1}
+[D]Nem tudjátok, [G]hogy ki vagyok,
+[E]A Mukinak a Mukinak a [A]fia vagyok.
+
+{c: Chorus}
+[D]Ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Verse 2}
+[D]Csináld csináld, de [G]jól csináld,
+[E]Veszek neked, veszek neked [A]pálinkat
+
+{c: Chorus}
+[D]Ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Verse 1}
+[D]Nem tudjátok, [G]hogy ki vagyok,
+[E]A Mukinak a Mukinak a [A]fia vagyok.
+
+{c: Chorus}
+De [D]ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Chorus}
+[D]Ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Bridge}
+[D]          [G]          [E]            [A]
+[D]          [G]          [Em]      [A]      [D]
+[D]          [G]          [Em]      [A]      [D]
+
+{c: Verse 1}
+[D]Nem tudjátok, [G]hogy ki vagyok,
+[E]A Mukinak a Mukinak a [A]fia vagyok.
+
+{c: Chorus}
+De [D]ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Chorus}
+[D]Ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Verse 2}
+[D]Csináld csináld, de [G]jól csináld,
+[E]Veszek neked, veszek neked [A]pálinkat
+
+{c: Chorus}
+De [D]ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Chorus}
+[D]Ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Verse 1}
+[D]Nem tudjátok, [G]hogy ki vagyok,
+[E]A Mukinak a Mukinak a [A]fia vagyok.
+
+{c: Chorus}
+De [D]ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Chorus}
+[D]Ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Verse 2}
+De [D]csináld csináld, de [G]jól csináld,
+[E]Veszek neked, veszek neked [A]pálinkat
+
+{c: Chorus}
+De [D]ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Chorus}
+[D]Ránézek a [G]hosszú nyelű késre,
+[Em]Összeszúrlak-[A]összeváglak [D]benneteket.
+
+{c: Outro}
+[D]          [G]          [E]            [A]
+[D]          [G]          [Em]      [A]      [D]
+[D]          [G]          [Em]      [A]      [D]

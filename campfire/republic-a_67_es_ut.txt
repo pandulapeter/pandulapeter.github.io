@@ -1,0 +1,74 @@
+{title: A 67-es út}
+{artist: Republic}
+{key: D}
+{duration: 295}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[D]
+[D]      [A]      [Bm]      [G]
+[D]      [A]      [Bm]      [G]
+[G]
+
+{c: Verse 1}
+[D]Nagy esők jönnek és [A]elindulok,
+[Bm]Elmegyek innen [G]messze.
+A [D]67-es [A]úton
+[Bm]Várhatsz rám dide[G]regve.
+
+{c: Bridge}
+[D]Nyár éjszakán, ha [A]nem jövök,
+[Bm]Esik az eső és [G]mennydörög,
+A [D]csillagokkal ha [A]szédülök,
+[Bm]Esik az eső és [G]nem találsz rám.   [G]
+
+{c: Chorus}
+Csilla[Bm]gok, csilla[G]gok [A]mondjátok el ne[D]kem,
+Merre [Bm]jár, hol le[G]het [A]most a kedve[D]sem.
+Veszélyes [Bm]út amin [Em]jársz,
+Veszélyes [A]út amin [D]járok,
+Egyszer [Bm]te is hazata[Em]lálsz,
+Egyszer [A]én is hazata[D]lálok.   [A7]
+
+{c: Verse 2}
+[D]Nagy esők jönnek és [A]itt maradok,
+[Bm]Itt maradok ö[G]rökre,
+A [D]67-es [A]út mellett
+Az [Bm]árokparton [G]ülve.
+
+{c: Bridge}
+[D]Nyár éjszakán, ha [A]nem jövök,
+[Bm]Esik az eső és [G]mennydörög,
+A [D]csillagokkal ha [A]szédülök,
+[Bm]Esik az eső és [G]nem találsz rám.   [G]
+
+{c: Chorus}
+Csilla[Bm]gok, csilla[G]gok [A]mondjátok el ne[D]kem,
+Merre [Bm]jár, hol le[G]het [A]most a kedve[D]sem.
+Veszélyes [Bm]út amin [Em]jársz,
+Veszélyes [A]út amin [D]járok,
+Egyszer [Bm]te is hazata[Em]lálsz,
+Egyszer [A]én is hazata[D]lálok.   [A7]
+
+{c: Verse 1}
+[D]Nagy esők jönnek és [A]elindulok,
+[Bm]Elmegyek innen [G]messze.
+A [D]67-es [A]úton
+[Bm]Várhatsz rám dide[G]regve.
+
+{c: Bridge}
+[D]Nyár éjszakán, ha [A]nem jövök,
+[Bm]Esik az eső és [G]mennydörög,
+A [D]csillagokkal ha [A]szédülök,
+[Bm]Esik az eső és [G]nem találsz rám.   [G]
+
+{c: Chorus}
+Csilla[Bm]gok, csilla[G]gok [A]mondjátok el ne[D]kem,
+Merre [Bm]jár, hol le[G]het [A]most a kedve[D]sem.
+Veszélyes [Bm]út amin [Em]jársz,
+Veszélyes [A]út amin [D]járok,
+Egyszer [Bm]te is hazata[Em]lálsz,
+Egyszer [A]én is hazata[D]lálok.   [A7]
+
+{c: Outro}
+[D]
