@@ -1,0 +1,108 @@
+{title: Wings}
+{artist: Tyketto}
+{key: E}
+{duration: 270}
+{x_sbp_tags: english}
+
+{c: Into}
+[E]
+[Asus2]            [B]
+
+[C#m]      [E]      [B]
+[A]      [B]      [C#m]
+
+[C#m]      [E]      [B]    [B]    [A#]
+[Asus2]
+
+{c: Verse 1}
+[C#m]Falling so [E]hard for you [B]woman,
+Would you [A]say that [B]love's a [C#m]crime.
+[C#m]Jury can [E]call me in[B]guilty,
+But I wan[B]t w[A#]hat's [Asus2]mine!          [B]
+
+{c: Verse 2}
+And now I'm [C#m]crying [E]out in [B]anger,
+The night has [A]taken y[B]ou aw[C#m]ay.
+[C#m]Filin' the [E]sins of a[B]nother
+Can lock[B] you[A#] a[Asus2]way.          [B]
+
+{c: Pre-Chorus}
+And you can [Asus2]knock on [C#m]any [B]door,
+From [F#m]now until e[A]terni[B]ty,
+And you can [Asus2]keep on [C#m]lookin' [B]anywhere,
+You won't [F#m]find another [A]man like [B]me.
+
+{c: Chorus 1}
+If I only had the [E]wings to fly,
+Leave the chains of [C#m]love below,
+Take my heart up [Asus2]in the sky,
+I would never let you [B]go!
+
+{c: Verse 3}
+[C#m]Cuts like a [E]knife to re[B]member,
+Touch is [A]burnin' [B]skin to [C#m]skin.
+The [C#m]sweat on our [E]bodies [B]steamin'
+The love [B]that [A#]I'm [Asus2]in.          [B]
+
+{c: Pre-Chorus}
+And you can [Asus2]knock on [C#m]any [B]door,
+From [F#m]now until e[A]terni[B]ty,
+And you can [Asus2]keep on [C#m]lookin' [B]anywhere,
+You won't [F#m]find another [A]man like [B]me.
+
+{c: Chorus 1}
+If I only had the [E]wings to fly,
+Leave the chains of [C#m]love below,
+Take my heart up [Asus2]in the sky,
+I would never let you [B]go!
+
+{c: Chorus 2}
+If I could hear the thunder [E]in your heart,
+I know my love would [C#m]light the sky.
+I could do [Asus2]anything
+If I [B]had the wings to [C#m]fly.
+
+{c: Solo}
+[C#m]      [E]      [B]
+[A]      [B]      [C#m]
+
+[C#m]      [E]      [B]    [B]    [A#]
+[Asus2]            [B]
+
+[Asus2]      [C#m]      [B]
+[F#m]      [A]      [B]
+
+
+[Asus2]      [C#m]      [B]
+[F#m]      [A]      [B]
+
+{c: Verse 4}
+[C#m]Reach out your [E]hand to me [B]baby,
+I got the [A]faith to [B]lead the [C#m]way.
+[C#m]Give me your [E]all and [B]nothing,
+And drive[B] me[A#] a[Asus2]way!
+
+{c: Chorus 1}
+If I only had the [E]wings to fly,
+Leave the chains of [C#m]love below,
+Take my heart up [Asus2]in the sky,
+I would never let you [B]go!
+
+{c: Chorus 2}
+If I could hear the thunder [E]in your heart,
+I know my love would [C#m]light the sky.
+I could do [Asus2]anything
+If I had the wings to [B]fly.
+
+{c: Outro}
+[E]-
+If I only had the [C#m]wings,
+I'd fly back to your [Asus2]side,
+Make you my [B]own, never never let you go!
+
+[E]-
+If I could only hear your [C#m]heart,
+The thunder's in the [Asus2]sky,
+If I had the wings to [E]fly.
+[Asus2]            [B]
+[E]
