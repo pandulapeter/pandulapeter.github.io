@@ -1,0 +1,9 @@
+{title: One Way or Another [placeholder]}
+{artist: Blondie}
+{key: D}
+{duration: 210}
+{x_sbp_tags: english,khameleon}
+
+WIP
+{c: Intro, Verse}
+[D]      [Bm]
