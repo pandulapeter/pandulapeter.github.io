@@ -1,0 +1,72 @@
+{title: Doi pași în urma ta}
+{artist: Cargo}
+{key: C}
+{duration: 205}
+{x_sbp_tags: romanian}
+
+{c: Intro}
+[C]        [C]
+[A#]        [F]    [G]
+
+[C]        [C]
+[A#]        [F]    [-]
+
+{c: Verse 1}
+[C]Stau în urma [F]trenului
+Cu care [C]vei pleca, și-mi pare [G]rău.
+
+{c: Verse 2}
+[C]Cred că-i semnul [F]răului,
+Nici nu te-am [C]sărutat, tare mi-e [G]greu.
+
+{c: Chorus}
+[C]Doi pași nu sunt departe,
+[A#]Doi pași, [F]doi pași în [G]urma ta.
+[C]Doi pași nu sunt departe,
+[A#]Doi pași...[F]    [-]
+
+{c: Verse 3}
+[C]Stai să mai vor[F]bim puțin,
+Și să ne [C]amintim de prima [G]zi.
+
+{c: Verse 4}
+[C]Vreau ochii să ți-i [F]zăresc,
+Să pot să [C]îti șoptesc că te iu[G]besc.
+
+{c: Bridge}
+[A#]Văd cum la geam îti ap[C]rinzi o țigară,
+[A#]Tragi doar un fum și-o stri[C]vești.
+[A#]Mâna prin păr ți-o pe[C]treci într-o doară,
+[A#]Mă uit la ceas și of[G]tez.
+
+{c: Solo}
+[C]        [C]
+[F]        [F]
+[C]        [C]
+[G]        [G]
+
+[C]        [C]
+[F]        [F]
+[C]        [C]
+[G]        [G]
+
+{c: Bridge}
+[A#]Văd cum la geam îti ap[C]rinzi o țigară,
+[A#]Tragi doar un fum și-o stri[C]vești.
+[A#]Mâna prin păr ți-o pe[C]treci într-o doară,
+[A#]Mă uit la ceas și of[G]tez.
+
+{c: Chorus}
+[C]Doi pași nu sunt departe,
+[A#]Doi pași, [F]doi pași în [G]urma ta.
+[C]Doi pași nu sunt departe,
+[A#]Doi pași, [F]doi pași în [G]urma ta.
+
+{c: Chorus}
+[C]Doi pași nu sunt departe,
+[A#]Doi pași, [F]doi pași în [G]urma ta.
+[C]Doi pași nu sunt departe,
+[A#]Doi pași...[F]    [-]
+
+{c: Outro}
+[C]

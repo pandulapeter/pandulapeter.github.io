@@ -1,0 +1,75 @@
+{title: Don't Cry}
+{artist: Guns N' Roses}
+{key: G#m}
+{duration: 285}
+{x_sbp_tags: english}
+
+{c: Intro}
+[G#m]        [C#m]        [F#]        [B]    [B/A#]
+[G#m]        [C#m]        [F#]        [G#m]
+
+{c: Verse 1}
+[G#m]Talk to me [C#m]softly,
+There's [F#]something in your [B]eyes.   [B/A#]
+[G#m]Don't hang your [C#m]head in sorrow,
+[F#]And please don't [B]cry.   [B/A#]
+[G#m]I know how you [C#m]feel inside, I've,
+[F#]I've been there be[B]fore.   [B/A#]
+[G#m]Somethin's [C#m]changin' inside you,
+[F#]And don't you [B]kno[B/A#]w.     [G#m]
+
+{c: Chorus}
+[E]Don't you [F#]cry to[G#m]night, I still love you baby.
+[E]Don't you [F#]cry to[G#m]night.
+[E]Don't you [F#]cry to[B]night,
+There's a [B/A#]heaven a[G#m]bove you [F#]baby,
+[E]And don't you [F#]cry [G#m]tonight.
+
+{c: Verse 2}
+[G#m]Give me a [C#m]whisper,
+[F#]And give me a [B]sigh.   [B/A#]
+[G#m]Give me a [C#m]kiss before you
+[F#]Tell me good[B]bye.   [B/A#]
+[G#m]Don't you [C#m]take it so hard now,
+[F#]And please don't take it so [B]bad.   [B/A#]
+[G#m]I'll still be [C#m]thinkin' of you,
+[F#]And the times we [B]had[B/A#], baby.[G#m]    [F#]
+
+{c: Chorus}
+[E]And don't you [F#]cry to[G#m]night.
+[E]Don't you [F#]cry to[G#m]night.
+[E]Don't you [F#]cry to[B]night,
+There's a [B/A#]heaven a[G#m]bove you [F#]baby,
+[E]And don't you [F#]cry [G#m]tonight.
+
+{c: Solo}
+[C#m]        [E]        [F#]        [G#m]    [F#]
+[E]        [F#]        [G#m]        [G#m]
+[E]        [F#]        [D#m]        [E]
+[E]        [F#]        [G#m]        [G#m]
+
+{c: Bridge}
+[C#m]And please re[F#]member,
+[B]That I [B/A#]never [G#m]lied.
+[C#m]And please re[F#]member,
+[B]How I [B/A#]felt in[G#m]side now honey.
+[C#m]You gotta [F#]make it your own way,
+[B]But you'll [B/A#]be al[G#m]right now sugar.
+[C#m]You'll feel [F#]better tomorrow,
+[B]Come the [B/A#]morning [G#m]light now [F#]baby.
+
+{c: Chorus}
+[E]And don't you [F#]cry to[G#m]night.
+[E]And don't you [F#]cry to[G#m]night.
+[E]And don't you [F#]cry to[B]night,
+There's a [B/A#]heaven a[G#m]bove you [F#]baby,
+
+{c: Outro}
+[E]And don't you [F#]cry,
+[E]Don't you ever [F#]cry,
+[E]Don't you [F#]cry [D#m]tonight.
+Baby, [E]maybe someday,
+[E]Don't you [F#]cry,
+[E]Don't you ever [F#]cry,
+[E]Don't you [F#]cry,
+To[B]night.
