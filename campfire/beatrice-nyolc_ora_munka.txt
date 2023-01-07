@@ -1,0 +1,74 @@
+{title: Nyolc óra munka}
+{artist: Beatrice}
+{key: A}
+{duration: 190}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[A]
+
+{c: Verse 1}
+A [A]munkának vége, kijössz a gyárból,
+Egy [E]vodkától erős vagy és bátor.
+Egy [A]részeg fazon a kezed után nyúl,
+[E]Nem tudod miért, jól belerúgsz.
+
+{c: Verse 2}
+Mer' [A]elfogyott a türelmed már,
+Pedig [E]szabad a csók, szabad a tánc.
+[A]Száz éve Párizsban az volt a jó,
+A [E]kommün ezért kötelet adott.
+
+{c: Chorus}
+[D]Nyolc óra munka, [A]nyolc óra pihenés,
+[E]Nyolc óra szórako[A]zás.
+[D]Nyolc óra munka, [A]nyolc óra pihenés,
+[E]Nyolc óra szórako[A]zás.
+
+{c: Verse 3}
+A [A]kocsmában, ott van a nagy élet,
+[E]Tompulnak az agyak, élesek a kések.
+[A]Sűrű a levegő az olcsó sör szagától,
+[E]Eleged van már e kibaszott világból.
+
+{c: Chorus}
+[D]Nyolc óra munka, [A]nyolc óra pihenés,
+[E]Nyolc óra szórako[A]zás.
+[D]Nyolc óra munka, [A]nyolc óra pihenés,
+[E]Nyolc óra szórako[A]zás.
+
+{c: Solo}
+[A]                [E]
+[A]                [E]
+[D]        [A]        [E]        [A]
+[D]        [A]        [E]        [A]
+
+{c: Verse 1}
+De a [A]munkának vége, kijössz a gyárból,
+Egy [E]vodkától erős vagy és bátor,
+Egy [A]részeg fazon a kezed után nyúl,
+Nem [E]tudod miért, jól belerúgsz.
+
+{c: Verse 4}
+[A]Nézed, hogy mi folyik itt,
+[E]Ami befolyik, az rögtön kifolyik.
+A [A]világos sörtől savanyú a szád,
+[E]Nem ígéri senki, jobb élet vár rád.
+
+{c: Chorus}
+[D]Nyolc óra munka, [A]nyolc óra pihenés,
+[E]Nyolc óra szórako[A]zás.
+[D]Nyolc óra munka, [A]nyolc óra pihenés,
+[E]Nyolc óra szórako[A]zás.
+
+{c: Chorus}
+[D]Nyolc óra munka, [A]nyolc óra pihenés,
+[E]Nyolc óra szórako[A]zás.
+[D]Nyolc óra munka, [A]nyolc óra pihenés,
+[E]Nyolc óra szórako[A]zás.
+
+{c: Chorus}
+[D]Nyolc óra munka, [A]nyolc óra pihenés,
+[E]Nyolc óra szórako[A]zás.
+[D]Nyolc óra munka, [A]nyolc óra pihenés,
+[E]Nyolc óra szórako[A]zás.

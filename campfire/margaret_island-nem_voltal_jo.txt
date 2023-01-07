@@ -1,0 +1,55 @@
+{title: Nem voltál jó}
+{artist: Margaret Island}
+{key: D}
+{duration: 150}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[D]        [Dsus4]                [D]
+
+{c: Verse 1}
+Én [D]nem voltam szégyenlős,
+Nem vártam, hogy hős le[Bm]gyél, óh [A]nem.
+És [D]engedtem [Dsus4]mindent, és
+[D]Hagytam, hogy bármit te[Bm]gyél, óh i[A]gen.
+
+{c: Chorus 1}
+Ha azt hin[G]néd, hogy jó vol[A]tál,
+Hát nem voltál [D]jó.   [Dsus4]        [D]
+
+{c: Verse 2}
+Én [D]kértem, hogy engedj el,
+Engem már nem érde[Bm]kel, hol [A]jársz.
+[D]Nem hagytál [Dsus4]elmenni,
+És [D]nem tudtam érezni [Bm]már, úgy [A]fáj.
+
+{c: Chorus 2}
+S te jöttél [G]még és csókol[A]tál,
+És azt hit[Bm]ted, hogy jó vol[F#m]tál,
+És nem mond[G]tam, mert nincs rá [A]szó,
+De nem voltál [D]jó.   [Dsus4]        [D]
+
+{c: Verse 3}
+Hát [D]engedj el békében,
+Nincs harag szívemben [Bm]már, nincs [A]már.
+[D]Érzem, hogy [Dsus4]engem még
+[D]Vár, ki majd szíven ta[Bm]lál, még [A]vár.
+
+{c: Chorus 3}
+Ha jönnél [G]még és csókol[A]nál,
+És azt hin[Bm]néd, hogy jó vol[F#m]nál,
+Hát elmon[G]dom, bár nincs rá [A]szó,
+Hogy nem volnál [Bm]jó.   [A]
+Látod [G]már, hogy téved[A]tél,
+És nem voltál [G]jó.    [D]
+
+{c: Solo}
+[G]        [D]
+[G]        [D]
+[G]        [A]
+
+{c: Chorus 4}
+S ha jönnél[G] még és csókol[A]nál,
+És azt hin[Bm]néd, hogy jó vol[F#m]nál,
+Én elmon[G]dom, bár nincs rá [A]szó,
+De nem voltál [D]jó.

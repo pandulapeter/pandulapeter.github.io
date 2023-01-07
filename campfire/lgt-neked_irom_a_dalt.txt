@@ -1,0 +1,76 @@
+{title: Neked írom a dalt}
+{artist: LGT}
+{key: B}
+{duration: 325}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[B]            [B]        [E]
+[B]            [B]        [E]
+
+{c: Verse 1}
+[B]Hé,   [E]
+[B]Te, aki az utcán újságot [E]árulsz
+És [B]ötkor kelsz, zötyögsz a villamo[E]son,
+[B]Éjjel tanulsz és fáj a [E]szemed,
+S a [B]fáradtságtól a könnyed [E]kicsor[F#]dul,
+Adj egy percet nekem az [E]életed[B]ből!   [E]
+
+{c: Verse 2}
+[B]Hé,   [E]
+[B]Te, aki nappal dolgodat [E]végzed,
+[B]Géped vezeted s hajtod [E]magad,
+[B]S embert gyógyítasz s gyermeket [E]tanítsz,
+[B]S este fáradtan várod az [E]álmo[F#]dat,
+Te is adj egy percet az [E]életed[B]ből!
+
+{c: Chorus}
+Vártam rá, hogy [E]elmondjam,
+Hogy elénekeljem, hogy tudd, hogy érezd,
+Hogy elhidd nekem, hogy neked szól a gitár,
+Neked zörög a dob, neked gyúlnak a fények
+És csak neked írom a [B]dalt, neked [E]éneke[F#]lek,
+Neked [E]írom a [B]dalt, neked [E]éneke[F#]lek.
+
+{c: Bridge}
+[B]            [B]        [E]
+[B]            [B]        [E]
+
+{c: Verse 3}
+[B]Asszony,   [E]
+[B]Te, aki életet adtál ke[E]zembe,
+Hogy [B]neked is írjon egy dalt,  [E]
+Most [B]ülj le szépen, tedd öledbe [E]kezed,
+És [B]hunyd le a szemed és csendben [E]figyelj [F#]rám,
+Még egy percet kérek az [E]életed[B]ből!
+
+{c: Chorus}
+Vártam rá, hogy [E]elmondjam,
+Hogy elénekeljem, hogy tudd, hogy érezd,
+Hogy elhidd nekem, hogy neked szól a gitár,
+Neked zörög a dob, neked gyúlnak a fények
+És csak neked írom a [B]dalt, neked [E]éneke[F#]lek,
+Neked [E]írom a [B]dalt, neked [E]éneke[F#]lek.
+
+{c: Bridge}
+[B]            [B]        [E]
+[B]            [B]        [E]
+
+{c: Verse 4}
+[B]Lány,
+Most [B]te jössz a sorban, kinek tudnia [E]kell,
+Hogy [B]rád is vár még egy dal,   [E]
+Ó de [B]nem az a dal, egy sokkal [E]szebb,
+Ami [B]csak a tiéd, oh, most [E]figyelj [F#]rám.
+Adj egy percet nekem az [E]életed[B]ből!
+
+{c: Chorus}
+Vártam rá, hogy [E]elmondjam,
+Hogy elénekeljem, hogy tudd, hogy érezd,
+Hogy elhidd nekem, hogy neked szól a gitár,
+Neked zörög a dob, neked gyúlnak a fények
+És csak neked írom a [B]dalt, neked [E]éneke[F#]lek,
+Neked [E]írom a [B]dalt, neked [E]éneke[F#]lek.
+
+{c: Outro}
+[B]

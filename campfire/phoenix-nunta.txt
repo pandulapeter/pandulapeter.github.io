@@ -1,0 +1,7 @@
+{title: Nunta [placeholder]}
+{artist: Phoenix}
+{key: C}
+{duration: 200}
+{x_sbp_tags: romanian,khameleon}
+
+WIP
