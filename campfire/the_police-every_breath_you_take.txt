@@ -1,0 +1,88 @@
+{title: Every Breath You Take}
+{artist: The Police}
+{key: Ab}
+{duration: 255}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[G#add9]            [G#add9]            [Fmadd9]            [Fmadd9]
+[C#]            [D#]            [G#add9]            [G#add9]
+
+{c: Verse 1}
+Every breath you [G#add9]take,
+Every move you [Fmadd9]make,
+Every bond you [C#]break,
+Every step you [D#]take,
+I'll be watching [Fmadd9]you.
+
+{c: Verse 2}
+Every single [G#add9]day,
+Every word you [Fmadd9]say,
+Every game you [C#]play,
+Every night you [D#]stay,
+I'll be watching [G#add9]you.
+
+{c: Chorus}
+Oh can't you [C#]see,   [B]
+You belong to [G#add9]me.
+My poor heart [A#add9]aches,
+With every step you [D#]take.
+
+{c: Verse 3}
+Every move you [G#add9]make,
+Every vow you [Fmadd9]break,
+Every smile you [C#]fake,
+Every claim you [D#]stake,
+I'll be watching [Fmadd9]you.
+
+{c: Bridge}
+[E]Since you've gone, I've been lost without a trace,
+[F#]I dream at night I can only see your face.
+[E]I look around but it's you I can't replace,
+[F#]I feel so cold and I long for your embrace.
+[E]I keep crying baby, baby, please.
+
+{c: Solo}
+[G#add9]            [G#add9]            [Fmadd9]            [Fmadd9]
+[C#]            [D#]            [Fmadd9]            [Fmadd9]
+
+[G#add9]            [G#add9]            [Fmadd9]            [Fmadd9]
+[C#]            [D#]            [G#add9]            [G#add9]
+
+{c: Chorus}
+Oh can't you [C#]see,   [B]
+You belong to [G#add9]me.
+My poor heart [A#add9]aches,
+With every step you [D#]take.
+
+{c: Verse 3}
+Every move you [G#add9]make,
+Every vow you [Fmadd9]break,
+Every smile you [C#]fake,
+Every claim you [D#]stake,
+I'll be watching [Fmadd9]you.
+
+{c: Outro}
+Every move you [C#]make,
+Every step you [D#]take,
+I'll be watching [Fmadd9]you...
+[Fmadd9]
+I'll be watching [G#add9]you.
+(Every breath you take, every move you [Fmadd9]make,
+every bond you [C#]break, every step you take)
+I'll be watching [G#add9]you.
+(Every single day, every word you [Fmadd9]say,
+every game you [C#]play, every night you stay)
+I'll be watching [G#add9]you.
+(Every move you make, every vow you [Fmadd9]break,
+every smile you fake, every claim you stake)
+I'll be watching [G#add9]you.
+(Every single day, every word you [Fmadd9]say,
+every game you [C#]play, every night you stay)
+I'll be watching [G#add9]you.
+(Every breath you take, every move you [Fmadd9]make,
+every bond you [C#]break, every step you take)
+I'll be watching [G#add9]you.
+(Every single day, every word you [Fmadd9]say,
+every game you [C#]play, every night you stay)
+I'll be watching [G#add9]you.

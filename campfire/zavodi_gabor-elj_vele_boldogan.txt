@@ -1,0 +1,67 @@
+{title: Élj vele boldogan}
+{artist: Závodi Gábor}
+{key: Bb}
+{duration: 200}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[G]        [F]        [G]        [F]
+[G]        [F]        [G]        [F]
+[G]        [F]        [G]        [F]
+[G]        [F]        [G]        [F]
+
+[G]        [F]        [G]        [F]
+[G]        [F]        [G]        [F]
+[G]        [F]        [G]        [F]
+[D#]        [F]        [A#]
+
+{c: Chorus}
+[A#]Élj vele boldogan, [D#]áldásom [F]rád.
+[A#]Ő talán elvisel [D#]minden vi[F]tát.
+[A#]Én már [Gm]távozom,[D#] ezt megúsztam szárazon
+És [Dm]bárhogy is [Gm]számolom, [D#]egy csep[F]pet se [A#]bánt.
+
+{c: Bridge}
+Most [F]élek [D#]majd [F]végre [D#]szabadon,
+[F]Gond nél[D#]kül [F]járok [D#]utamon,
+[F]Morcos[D#]kám, [F]nem [D#]szólhatsz [A#]rám.
+Idáig [F]szenved[D#]tem [F]éppen [D#]eleget,
+[F]Holnap[D#]tól [F]én is [D#]nevetek,
+[F]Úgy, mint [D#]más, [F]ez jobb szo[A#]kás.
+[F]Száz évig...
+
+{c: Chorus}
+[A#]Élj vele boldogan, [D#]áldásom [F]rád.
+[A#]Ő talán elvisel [D#]minden vi[F]tát.
+[A#]Én már [Gm]távozom,[D#] ezt megúsztam szárazon
+És [Dm]bárhogy is [Gm]számolom, [D#]egy csep[F]pet se [A#]bánt.
+
+{c: Solo}
+[G]        [F]        [G]        [F]
+[G]        [F]        [G]        [F]
+[G]        [F]        [G]        [F]
+[G]        [F]        [G]        [F]
+
+[G]        [F]        [G]        [F]
+[G]        [F]        [G]        [F]
+[G]        [F]        [G]        [F]
+[D#]        [F]        [A#]
+
+{c: Bridge}
+Most [F]élek [D#]majd [F]végre [D#]szabadon,
+[F]Gond nél[D#]kül [F]járok [D#]utamon,
+[F]Morcos[D#]kám, [F]nem [D#]szólhatsz [A#]rám.
+Idáig [F]szenved[D#]tem [F]éppen [D#]eleget,
+[F]Holnap[D#]tól [F]én is [D#]nevetek,
+[F]Úgy, mint [D#]más, [F]ez jobb szo[A#]kás.
+[F]Száz évig...
+
+{c: Chorus}
+[A#]Élj vele boldogan, [D#]áldásom [F]rád.
+[A#]Ő talán elvisel [D#]minden vi[F]tát.
+[A#]́n már [Gm]távozom,[D#] ezt megúsztam szárazon
+És [Dm]bárhogy is [Gm]számolom, [D#]egy csep[F]pet se [A#]bánt.
+
+{c: Outro}
+[D#]Egy csep[F]pet se [A#]bánt.
+[D#]Élj más[F]sal to[A#]vább!

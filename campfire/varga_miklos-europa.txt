@@ -1,0 +1,61 @@
+{title: Európa}
+{artist: Varga Miklós}
+{key: Am}
+{duration: 285}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[Am]        [Am]        [Am]       [G]
+[Am]        [Am]        [Am]       [G]
+
+{c: Verse 1}
+[Am]Dús hajába tép a [G]szél,
+[Am]Kék szemében ott a [G]szenvedély,
+[F]Foltos sokszín ruhája [C]oly sokszor elszakadt,
+[G]Álma adja az álmo[Am]kat.
+
+{c: Verse 2}
+[Am]Megszülte hűtlen gyerme[G]két,
+[Am]Nem sírt akkor sem, ha [G]elvetélt,
+[F]Akármi történt mindig [C]büszke nő maradt,
+[G]Így élt a sok-sok év a[Am]latt.
+
+{c: Chorus}
+Ezért [F]értsd meg, szeretem [C]őt,
+A vén Eu[G]rópát, a büszke [Am]nőt.
+Nagyon [F]kérlek, becsüld meg [C]őt,
+A vén Eu[G]rópát, a gyönyörű nőt.
+
+{c: Bridge}
+[Am]        [Am]        [Am]        [G]
+[Am]        [Am]        [Am]        [G]
+
+{c: Verse 3}
+[Am]Magából ad, ha enni [G]kérsz,
+[Am]Testével véd, amikor [G]visszatérsz,
+[F]Ölén a szerelem minden [C]öröme hívogat,
+[G]Arcában látod az arco[Am]dat.
+
+{c: Verse 4}
+[Am]Olasz csizmáján a [G]nap,
+[Am]Remélem mindörökre [G]megmarad.
+[F]A sötét felhő végre [C]mind aludni tér,
+[G]Földjében túl sok már a [Am]vér.
+
+{c: Chorus}
+Ezért [F]értsd meg, szeretem [C]őt,
+A vén Eu[G]rópát, a büszke [Am]nőt.
+Nagyon [F]kérlek, becsüld meg [C]őt,
+A vén Eu[G]rópát, a gyönyörű [Am]nőt.
+
+{c: Chorus}
+Ezért [F]értsd meg, szeretem [C]őt,
+A vén Eu[G]rópát, a büszke [Am]nőt.
+Nagyon [F]kérlek, becsüld meg [C]őt,
+A vén Eu[G]rópát, a gyönyörű [Am]nőt.
+
+{c: Chorus}
+Ezért [F]értsd meg, szeretem [C]őt,
+A vén Eu[G]rópát, a büszke [Am]nőt.
+Nagyon [F]kérlek, becsüld meg [C]őt,
+A vén Eu[G]rópát, a gyönyörű [Am]nőt.

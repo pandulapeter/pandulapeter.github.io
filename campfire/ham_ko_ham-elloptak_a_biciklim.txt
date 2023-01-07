@@ -1,0 +1,73 @@
+{title: Ellopták a biciklim}
+{artist: Ham Ko Ham}
+{key: Am}
+{duration: 175}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[Am]        [Am]        [Dm]        [E]
+[Am]        [Am]        [Dm]        [E]
+
+{c: Chorus}
+[Am]Ellopták a biciklim, a piros fehér-biciklim,
+A [Dm]kereke még ott maradt a [E]Deák téri pad alatt.
+[Am]Megitták a fröccsömet, a száraz fehér fröccsömet,
+Az [Dm]üres pohár ott maradt, a [E]Deák téri pad alatt.
+
+{c: Bridge 1}
+[Am]        [E]
+
+{c: Verse 1}
+[Am]A tegnap este úgy alakult, nem emlékszem semmire,
+Csak [Dm]arra, hogy nem voltam józan s [E]megálltam egy cseppnyire.
+[Am]Az is lehet, elkábultam néhány percig fetrengve,
+[Dm]Felébredtem, s nem volt már ott [E]csak az egyik kereke.
+
+{c: Pre-Chorus}
+[F]Nincsen most már [G]biciklim, hogy [Am]járjak,
+[Dm]Hogy vágjak bele az éjsza[E]kába?
+
+{c: Chorus}
+[Am]Ellopták a biciklim, a piros fehér-biciklim,
+A [Dm]kereke még ott maradt a [E]Deák téri pad alatt.
+[Am]Megitták a fröccsömet, a száraz fehér fröccsömet,
+Az [Dm]üres pohár ott maradt, a [E]Deák téri pad alatt.
+
+{c: Bridge 2}
+[Am]        [Am]        [Dm]        [E]
+
+{c: Verse 2}
+[Am]Holnap reggel, az már biztos, elindulok keresni,
+[Dm]Nem veszhet el ilyen könnyen a [E]piros-fehér bicikli.
+[Am]Józanodás szépen lassan, ezt terveztem ma estig,
+Ha [Dm]meglenne a kerékpárom, [E]ropnám megint hajnalig.
+
+{c: Pre-Chorus}
+[F]Nincsen most már [G]biciklim, hogy [Am]járjak,
+[Dm]Hogy vágjak bele az éjsza[E]kába?
+
+{c: Chorus}
+[Am]Ellopták a biciklim, a piros fehér-biciklim,
+A [Dm]kereke még ott maradt a [E]Deák téri pad alatt.
+[Am]Megitták a fröccsömet, a száraz fehér fröccsömet,
+Az [Dm]üres pohár ott maradt, a [E]Deák téri pad alatt.
+
+{c: Solo}
+[Am]        [Am]        [Dm]        [E]
+[Am]        [Am]        [Dm]        [E]
+
+{c: Chorus}
+[Am]Ellopták a biciklim, a piros fehér-biciklim,
+A [Dm]kereke még ott maradt a [E]Deák téri pad alatt.
+[Am]Megitták a fröccsömet, a száraz fehér fröccsömet,
+Az [Dm]üres pohár ott maradt, a [E]Deák téri pad alatt.
+
+{c: Chorus}
+[Am]Ellopták a biciklim, a piros fehér-biciklim,
+A [Dm]kereke még ott maradt a [E]Deák téri pad alatt.
+[Am]Megitták a fröccsömet, a száraz fehér fröccsömet,
+Az [Dm]üres pohár ott maradt, a [E]Deák téri pad alatt.
+
+{c: Outro}
+[Am]        [Am]        [Dm]        [E]
+[Am]

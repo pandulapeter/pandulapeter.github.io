@@ -1,0 +1,75 @@
+{title: Everything About You}
+{artist: Ugly Kid Joe}
+{key: Db}
+{duration: 260}
+{x_sbp_tags: english}
+
+{c: Intro}
+[C#]        [G#]        [C#]        [G#]
+[C#]        [G#]        [C#]        [G#]
+
+[C#]        [G#]        [C#]        [G#]
+[C#]        [G#]        [C#]        [G#]
+
+{c: Verse 1}
+[C#]I ha[G#]te the rain and sunny [C#]weather,   [G#]
+And [C#]I ha[G#]te the beach and mountains [C#]too,   [G#]
+And [C#]I do[G#]n't like a thing about the [C#]city, no, [G#]no,
+And [C#]I, I, [G#]I hate the country side [C#]too.   [G#]
+
+{c: Chorus}
+And [F#]I hate [G#]eve[-]rything about [C#]you!   [G#]
+Everything about [C#]you!   [G#]
+
+{c: Verse 2}
+And [C#]I do[G#]n't like a thing about your [C#]mother,   [G#]
+And [C#]I, I[G#] hate your daddy's guts [C#]too.   [G#]
+[C#]I d[G#]on't like a thing about your [C#]sister, no, [G#]no,
+'Cause [C#]I, I, [G#]I think sex is overrated [C#]too.   [G#]
+
+{c: Chorus}
+And [F#]I, get [G#]sick when I'm around,
+[F#]I can't [G#]stand to be around,
+[F#]I hate [G#]eve[-]rything about [C#]you!   [G#]
+Everything about [C#]you,   [G#]
+Everything about [C#]you,   [G#]
+Everything about [C#]you!   [B]    [G#]
+
+{c: Bridge 1}
+[F#]Some say I got a bad attitude,
+[G#]But that don't change the way I feel about you,
+[F#]And if you think this might be bringing me down,
+[G#]Look again cause I ain't wearin' no frown!
+
+{c: Solo}
+[C#]        [G#]        [C#]        [G#]
+[C#]        [G#]        [C#]        [G#]
+
+[F#]        [G#]        [F#]        [G#]
+[F#]        [G#]   [-]             [C#]
+
+{c: Bridge 2}
+[C#]        [G#]        [C#]        [G#]
+[C#]        [G#]        [C#]        [G#]
+
+{c: Bridge 3}
+[C#]I don't really care about your sister,
+[G#]Forget the little bitch 'cause I already kissed her.
+[C#]One thing that I did to your lady,
+[G#]Put her on the bed and she didn't say maybe.
+[C#]I know, you know, everybody knows,
+[G#]The way it comes, the way it goes,
+[C#]You think it's sad, well that's too bad,
+'Cause I'm [G#]havin' a ball and never cared a thing about [C#]you!   [G#]
+Everything about [C#]you!   [G#]
+
+{c: Outro}
+Everything about...
+[F#]I get [G#]sick when I'm around,
+[F#]I can't [G#]stand to be around,
+[F#]I...
+[G#]Hat[-]e everything about...
+You.
+[C#5]        [B5]        [A#5]        [A5]
+[G#5]
+[C#]

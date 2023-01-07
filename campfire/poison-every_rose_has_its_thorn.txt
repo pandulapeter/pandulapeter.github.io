@@ -1,0 +1,76 @@
+{title: Every Rose Has Its Thorn}
+{artist: Poison}
+{key: F#}
+{duration: 265}
+{x_sbp_tags: english}
+
+{c: Intro}
+[F#]        [Badd9]
+[F#]        [Badd9]
+
+{c: Verse 1}
+[F#]We both lie silently still
+In the [Badd9]dead of the night.
+Although we [F#]both lie close together,
+We feel [Badd9]miles apart inside.
+Was it [F#]something I said or [Badd9]something I did?
+Did my [F#]words not come out [Badd9]right?
+Though I [C#]tried not to hurt you,
+Though I [B]tried,
+But I guess that's why they say
+
+{c: Chorus}
+[F#]Every rose has its [Badd9]thorn,
+Just like [F#]every night has its [Badd9]dawn,
+Just like [F#]every [C#]cowboy sings a [B]sad, sad [F#]song,
+[F#]Every rose has its [B]thorn.
+
+{c: Solo 1}
+[F#]        [Badd9]
+[F#]        [Badd9]
+
+{c: Verse 2}
+I [F#]listen to our favorite song
+Playing on the [Badd9]radio.
+Hear the [F#]DJ say love's a game of easy come and
+[Badd9]Easy go.
+But I [F#]wonder does [Badd9]he know?
+Has he [F#]ever felt like [Badd9]this?
+And I [C#]know that you'd be here right now
+If I [B]could have let you know somehow, I guess
+
+{c: Chorus}
+[F#]Every rose has its [Badd9]thorn,
+Just like [F#]every night has its [Badd9]dawn,
+Just like [F#]every [C#]cowboy sings a [B]sad, sad [F#]song,
+[F#]Every rose has its [B]thorn.
+
+{c: Bridge}
+[D#m]Though it's been a [C#]while now,
+I can [B]still feel so much [F#]pain.
+[D#m]Like a knife that [C#]cuts you, the wound heals,
+[B]But the scar, that scar remains.
+
+{c: Solo}
+[F#]                [Badd9]                [F#]                [Badd9]
+[D#m]        [C#]        [B]        [F#]        [D#m]        [C#]        [B]        [B]
+[F#]                [Badd9]                [F#]                [Badd9]
+
+{c: Verse 3}
+[F#]I know I could have saved a love that night
+If I'[Badd9]d known what to say.
+In[F#]stead of makin' love,
+We both [Badd9]made our separate ways.
+And now I [F#]hear you found some[Badd9]body new,
+And that I [F#]never meant that [Badd9]much to you.
+To [C#]hear that tears me up inside,
+And to [B]see you cuts me like a knife, I guess
+
+{c: Chorus}
+[F#]Every rose has its [Badd9]thorn,
+Just like [F#]every night has its [Badd9]dawn,
+Just like [F#]every [C#]cowboy sings a [B]sad, sad [F#]song,
+[F#]Every rose has its [B]thorn.
+
+{c: Outro}
+[F#]

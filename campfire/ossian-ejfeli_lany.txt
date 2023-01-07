@@ -1,0 +1,95 @@
+{title: Éjféli lány}
+{artist: Ossian}
+{key: Dm}
+{duration: 265}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[Dm]        [Dm]        [Dm]        [C]
+[Dm]        [Dm]        [Dm]        [G]
+
+[Dm]        [Dm]        [Dm]        [C]
+[Dm]        [Dm]        [Dm]        [G]
+
+{c: Verse 1}
+[Dm]A színpad vak sötét,
+Olyan [A#]csendes, olyan [C]árva most a [Dm]nézőtér,
+Egy koncert ami [Gm]elmúlt, ami [F]véget ért,
+[Gm]Csak a [F]szívek[Dm]ben él. [C]
+
+{c: Verse 2}
+[Dm]Törött dobverő,
+Ciga[A#]rettafüstben [C]úszó, kopott [Dm]öltöző,
+Egy magányos gi[Gm]tár, néhány [F]papírpohár,
+[Gm]Elment [F]mindenk[Dm]i már. [C]
+
+{c: Verse 3}
+[Dm]A csendet hallgatom,
+Fejem [A#]zúg, benne [C]égnek elavult [Dm]dallamok,
+Mélyen legbel[Gm]ül, még [F]várok,
+De [Gm]biztos [F]nem j[Dm]ön ma m[C]ár.
+
+{c: Pre-Chorus}
+[Dm]        [Dm]        [Dm]        [C]
+
+{c: Chorus}
+[Dm]Éjféli [F]lány,
+[Gm]Sok sok éve [C]annak, hogy várok [Dm]rá.
+Kerestem [F]őt,
+[Gm]Üres csendben, [C]hazug szavak mö[Dm]gött.
+Éjféli [F]lány,
+[Gm]Tudom, hogy egyszer [C]eljön és rám ta[Dm]lál.
+Perzselő [F]láng,
+A [Gm]remény [C]mindig ég to[Dm]vább.   [F]    [Dm]
+
+{c: Verse 4}
+[Dm]Csak ő érti meg,
+Őrült [A#]álmaim, [C]sosem nyugvó [Dm]szívemet,
+Lázban égő [Gm]lelkemet, az [F]életemet,
+[Gm]Várom [F]amíg l[Dm]ehet. [C]
+
+{c: Pre-Chorus}
+[Dm]        [Dm]        [Dm]        [C]
+
+{c: Chorus}
+[Dm]Éjféli [F]lány,
+[Gm]Sok sok éve [C]annak, hogy várok [Dm]rá.
+Kerestem [F]őt,
+[Gm]Üres csendben, [C]hazug szavak mö[Dm]gött.
+Éjféli [F]lány,
+[Gm]Tudom, hogy egyszer [C]eljön és rám ta[Dm]lál.
+Perzselő [F]láng,
+A [Gm]remény [C]mindig ég to[Em]vább.   [Em]
+
+{c: Solo}
+[Em]        [Am]        [B]        [B]
+[Em]        [Am]        [B]        [B]
+[Em]        [Am]        [B]        [B]
+
+{c: Pre-Chorus}
+[Em]        [Em]        [Em]        [D]
+
+{c: Chorus}
+[Em]Éjféli [G]lány,
+[Am]Sok sok éve [D]annak, hogy várok [Em]rá.
+Kerestem [G]őt,
+[Am]Üres csendben, [D]hazug szavak mö[Em]gött.
+Éjféli [G]lány,
+[Am]Tudom, hogy egyszer [D]eljön és rám ta[Em]lál.
+Perzselő [G]láng,
+A [Am]remény [D]mindig ég to[Em]vább.
+
+{c: Chorus}
+Éjféli [G]lány,
+[Am]Sok sok éve [D]annak, hogy várok [Em]rá.
+Kerestem [G]őt,
+[Am]Üres csendben, [D]hazug szavak mö[Em]gött.
+Éjféli [G]lány,
+[Am]Tudom, hogy egyszer [D]eljön és rám ta[Em]lál.
+Perzselő [G]láng,
+A [Am]remény [D]mindig ég tovább.
+
+{c: Outro}
+[Em]        [Am]        [B]
+[Em]        [Am]        [B]
+[Em]

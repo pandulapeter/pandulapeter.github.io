@@ -1,0 +1,142 @@
+{title: Elmegyek, elmegyek}
+{artist: Dánielfy Gergő és az Utazók}
+{key: Dm}
+{duration: 225}
+{x_sbp_tags: hungarian}
+
+{c: Verse 1}
+[Dm]Hosszú volt az este és te [A]nem jöttél,
+Pedig [Gm]téged vágytalak egész [Dm]éjjel.
+[Dm]Ablakodba küldtem egy kis [A]csillagot,
+De a [Gm]fénye sajnos hozzád már nem [Dm]ért el.
+
+{c: Pre-Chorus}
+[Gm]Volt úgy, hogy a Hold a [Dm]vállamra hajolt,
+[A]Én meg éppen pont a Napba[A#] né[C]zte[A]m,
+[Gm]Elmúlt az a nap, de [Dm]minden ugyanaz,
+És a [A]szívem én [A#]másik[C]ra cse[Dm]rélem.
+
+{c: Chorus}
+[Dm]Elmegyek, elmegyek [A]jó messzi[Dm]re,
+[F]Nem leszek senkinek [C]a terhé[F]re,
+[Dm]Nem írok [Gm]levelet, [A7]nem is [Dm]üzenek,
+[Dm]Lesz még tavasz, [A]lesz még nyár
+[A#]Ha én [C]nem le[Dm]szek.
+[F]Nem írok [Gm]levelet, [A7]nem is [Dm]üzenek,
+[Dm]Lesz még tavasz, [A]lesz még nyár
+[A#]Ha én [C]nem le[Dm]szek.
+
+{c: Bridge}
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+{c: Verse 2}
+[Dm]Szerettelek, azt mondtad ez [A]szerelem,
+[Gm]Örökké tart bennem minden [Dm]óra.
+[Dm]Nagy a világ de nincs benne [A]türelem,
+[Gm]Elszöktél és nem tehetek [Dm]róla.
+
+{c: Pre-Chorus}
+[Gm]Volt úgy, hogy a Hold a [Dm]vállamra hajolt,
+[A]Én meg éppen pont a Napba [Dm]néztem,
+[Gm]Elmúlt az a nap, de [Dm]minden ugyanaz,
+És a [A]szívem én másikra cse[Dm]rélem.
+
+{c: Chorus}
+[Dm]Elmegyek, elmegyek [A]jó messzi[Dm]re,
+[F]Nem leszek senkinek [C]a terhé[F]re,
+[Dm]Nem írok [Gm]levelet, [A7]nem is [Dm]üzenek,
+[Dm]Lesz még tavasz, [A]lesz még nyár
+[A#]Ha én [C]nem le[Dm]szek.
+[F]Nem írok [Gm]levelet, [A7]nem is [Dm]üzenek,
+[Dm]Lesz még tavasz, [A]lesz még nyár
+[A#]Ha én [C]nem le[Dm]szek.
+
+{c: Bridge}
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+{c: Verse 3}
+[Dm]Se nappalom, se éjjelem [A]nélküled,
+[Gm]Sose jössz már vissza de én [Dm]várlak.
+[Dm]Ablakodba küldök el egy [A]csillagot,
+[Gm]Becsukom a szemem, újra [Dm]látlak.
+
+{c: Pre-Chorus}
+[Gm]Volt úgy, hogy a Hold a [Dm]vállamra hajolt,
+[A]Én meg éppen pont a Napba [Dm]néztem,
+[Gm]Elmúlt az a nap, de [Dm]minden ugyanaz,
+És a [A]szívem én másikra cse[Dm]rélem.
+
+{c: Chorus}
+[Dm]Elmegyek, elmegyek [A]jó messzi[Dm]re,
+[F]Nem leszek senkinek [C]a terhé[F]re,
+[Dm]Nem írok [Gm]levelet, [A7]nem is [Dm]üzenek,
+[Dm]Lesz még tavasz, [A]lesz még nyár
+[A#]Ha én [C]nem le[Dm]szek.
+[F]Nem írok [Gm]levelet, [A7]nem is [Dm]üzenek,
+[Dm]Lesz még tavasz, [A]lesz még nyár
+[A#]Ha én [C]nem le[Dm]szek.
+
+{c: Bridge}
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+[Dm]            [Dm]      [C]
+[Dm]            [A]      [C]
+
+{c: Verse 1}
+[Dm]Hosszú volt az este és te [A]nem jöttél,
+Pedig [Gm]téged vágytalak egész [Dm]éjjel.
+[Dm]Ablakodba küldtem egy kis [A]csillagot,
+De a [Gm]fénye sajnos hozzád már nem [Dm]ért el.
+
+{c: Pre-Chorus}
+[Gm]Volt úgy, hogy a Hold a [Dm]vállamra hajolt,
+[A]Én meg éppen pont a Napba [Dm]néztem,
+[Gm]Elmúlt az a nap, de [Dm]minden ugyanaz,
+És a [A]szívem én másikra cse[Dm]rélem.
+
+{c: Chorus}
+[Dm]Elmegyek, elmegyek [A]jó messzi[Dm]re,
+[F]Nem leszek senkinek [C]a terhé[F]re,
+[Dm]Nem írok [Gm]levelet, [A7]nem is [Dm]üzenek,
+[Dm]Lesz még tavasz, [A]lesz még nyár
+[A#]Ha én [C]nem le[Dm]szek.
+[F]Nem írok [Gm]levelet, [A7]nem is [Dm]üzenek,
+[Dm]Lesz még tavasz, [A]lesz még nyár
+[A#]Ha én [C]nem le[Dm]szek.
+
+{c: Chorus}
+[Dm]Elmegyek, elmegyek [A]jó messzi[Dm]re,
+[F]Nem leszek senkinek [C]a terhé[F]re,
+[Dm]Nem írok [Gm]levelet, [A7]nem is [Dm]üzenek,
+[Dm]Lesz még tavasz, [A]lesz még nyár
+[A#]Ha én [C]nem le[Dm]szek.
+[F]Nem írok [Gm]levelet, [A7]nem is [Dm]üzenek,
+[Dm]Lesz még tavasz, [A]lesz még nyár
+[A#]Ha én [C]nem le[Dm]szek.
