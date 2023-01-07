@@ -1,0 +1,100 @@
+{title: Summer of '69}
+{artist: Bryan Adams}
+{key: D}
+{duration: 220}
+{x_sbp_tags: english,khameleon}
+
+{c: intro}
+[D]
+[D]
+
+{c: Verse 1}
+[D]I got my first real six-string,
+[A]Bought it at the five-and-dime,
+[D]Played it 'til my fingers bled,
+[A]Was the summer of sixty-nine.
+
+{c: Verse 2}
+[D]Me and some guys from school,
+[A]Had a band and we tried real hard.
+[D]Jimmy quit, Jody got married,
+[A]I should've known we'd never get far.
+
+{c: Chorus 1}
+[Bm]Oh, when I [A]look back now,
+[D]That summer seemed to [G]last forever,
+[Bm]And if I [A]had the choice,
+[D]Yeah, I'd always [G]wanna be there,
+[Bm]Those were the [A]best days of my [Dsus2]life.
+        [D]        [Dsus4]        [D]        [Dsus2]        [D]
+[Asus2]        [A]        [Asus4]        [A]        [Asus2]        [A]
+
+{c: Verse 3}
+[D]Ain't no use in complainin',
+[A]When you've got a job to do.
+[D]Spent my evenings down at the drive-in,
+[A]And that's when I met you, yeah!
+
+{c: Chorus 2}
+[Bm]Standin' on your [A]mama's porch,
+[D]You told me that you'd [G]wait forever.
+[Bm]Oh, and when you [A]held my hand,
+[D]I knew that it was [G]now or never,
+[Bm]Those were the [A]best days of my [Dsus2]life.
+              [D]        [Dsus4]        [D]        [Dsus2]
+[D]Oh, [Asus2]yeah,      [A]    [Asus4]
+[A]Back in the [Asus2]summer [A]of [Dsus2]sixty-nine,
+        [D]        [Dsus4]        [D]        [Dsus2]        [D]
+[Asus2]        [A]        [Asus4]        [A]        [Asus2]        [A]
+
+
+{c: Bridge 1}
+[F]Man, we were [A#]killin' time,
+We were [C]young and restless,
+We [A#]needed to unwind.
+[F]I guess [A#]nothin' can last for[C]ever, forever, no!
+
+{c: Bridge 2}
+[Dsus2]        [D]        [Dsus4]        [D]        [Dsus2]        [D]
+[Asus2]        [A]        [Asus4]        [A]        [Asus2]        [A]
+
+[Dsus2]        [D]        [Dsus4]        [D]        [Dsus2]        [D]
+[Asus2]        [A]        [Asus4]        [A]        [Asus2]        [A]
+
+{c: Verse 3}
+[D]And now the times are changin',
+[A]Look at everything that's come and gone.
+[D]Sometimes when I play that old six-string,
+[A]I think about you, wonder what went wrong.
+
+{c: Chorus 2}
+[Bm]Standin' on your [A]mama's porch,
+[D]You told me that it'd [G]last forever.
+[Bm]Oh, and when you [A]held my hand,
+[D]I knew that it was [G]now or never,
+[Bm]Those were the [A]best days of my [Dsus2]life.
+              [D]        [Dsus4]        [D]        [Dsus2]
+[D]Oh, [Asus2]yeah,      [A]    [Asus4]
+[A]Back in the [Asus2]summer [A]of [Dsus2]sixty-nine,
+                  [D]        [Dsus4]        [D]        [Dsus2]        [D]
+[Asus2]Oh!         [A]        [Asus4]        [A]        [Asus2]        [A]
+
+{c: Outro}
+It [A]was the [Asus2]summer [A]of [Dsus2]sixty-nine,
+              [D]        [Dsus4]        [D]        [Dsus2]
+[D]Oh, [Asus2]yeah,      [A]    [Asus4]
+Me and [A]my[Asus2] baby i[A]n s[Dsus2]ixty-nine,
+              [D]        [Dsus4]        [D]        [Dsus2]        [D]
+[Asus2]Oh!      [A]        [Asus4]        [A]        [Asus2]        [A]
+
+[Dsus2]        [D]        [Dsus4]        [D]        [Dsus2]        [D]
+[Asus2]        [A]        [Asus4]        [A]        [Asus2]        [A]
+
+[Dsus2]        [D]        [Dsus4]        [D]        [Dsus2]        [D]
+[Asus2]        [A]        [Asus4]        [A]        [Asus2]        [A]
+
+[Dsus2]        [D]        [Dsus4]        [D]        [Dsus2]        [D]
+[Asus2]        [A]        [Asus4]        [A]        [Asus2]        [A]
+
+[Dsus2]        [D]        [Dsus4]        [D]        [Dsus2]        [D]
+[Asus2]        [A]        [Asus4]        [A]        [Asus2]        [A]

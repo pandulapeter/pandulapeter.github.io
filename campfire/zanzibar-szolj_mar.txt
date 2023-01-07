@@ -1,0 +1,69 @@
+{title: Szólj már}
+{artist: Zanzibár}
+{key: A}
+{duration: 230}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[A/C#]        [D]        [A]        [E]
+[A/C#]        [D]        [A]        [E]
+
+{c: Verse 1}
+[A/C#]Kifogytunk [D]csendben az [A]ünne[E]pekből,
+A [A/C#]szép percek [D]elmúltak [A]rég.   [E]
+[A/C#]Csak a [D]félelem a [A]féle[E]lemtől,
+[A/C#]Ami együtt [D]tart minket [A]még.   [E]
+
+{c: Verse 2}
+Mint régi [A/C#]filmeke[D]n a h[A]ajnali [E]táj,
+[A/C#]Egyszerre [D]szép és [A]egyszerre [E]fáj.
+Az a [A/C#]pillana[D]t, ha [A]eljön az [E]érzés,
+Hogy [A/C#]elköszö[D]nni musz[A]áj.   [E]
+
+{c: Bridge}
+[C#m]Veled [D]ébredek, s a [A]hajnal hangja [E]téged éltet,
+[C#m]Hol van a [D]szó, [F]tiszta szemed [G]el nem rejthet.
+
+{c: Chorus}
+[Am]Szólj már, a [Dm]szívem rég csak egy [G]szót vár.
+[Em]Mért kínzol, [F]szólj már, ha [Dm]te is így gondo[E]lod.
+[Am]Szólj már, a [Dm]szívem rég csak egy [G]szót vár,
+[Em]Mért kínzol, [F]szólj már, a [Dm]tiéd már nem va[E]gyok.
+
+{c: Verse 3}
+[A/C#]Vártam a [D]reggelt, hogy [A]álmosan rám fi[E]gyelj.
+[A/C#]Vártam a [D]nappalt, hogy [A]mindenre fel[E]elj.
+[A/C#]Minden percem [D]érted élt, de [A]nem számít, [E]tudom.
+[A/C#]Álmaimban [D]azt reméltem, [A]te vagy a holna[E]pom.
+
+{c: Bridge}
+[C#m]Veled [D]ébredek, s a [A]hajnal hangja [E]téged éltet,
+[C#m]Hol van a [D]szó, [F]tiszta szemed [G]el nem rejthet.
+
+{c: Chorus}
+[Am]Szólj már, a [Dm]szívem rég csak egy [G]szót vár.
+[Em]Mért kínzol, [F]szólj már, ha [Dm]te is így gondo[E]lod.
+[Am]Szólj már, a [Dm]szívem rég csak egy [G]szót vár,
+[Em]Mért kínzol, [F]szólj már, a [Dm]tiéd már nem va[E]gyok.
+
+{c: Solo}
+[A/C#]        [D]        [A]        [E]
+[A/C#]        [D]        [A]        [E]
+[A/C#]        [D]        [A]        [E]
+[A/C#]        [D]        [A]        [E]
+
+{c: Bridge}
+[C#m]Veled [D]ébredek, s a [A]hajnal hangja [E]téged éltet,
+[C#m]Hol van a [D]szó, [F]tiszta szemed [G]el nem rejthet.
+
+{c: Chorus}
+[Am]Szólj már, a [Dm]szívem rég csak egy [G]szót vár.
+[Em]Mért kínzol, [F]szólj már, ha [Dm]te is így gondo[E]lod.
+[Am]Szólj már, a [Dm]szívem rég csak egy [G]szót vár,
+[Em]Mért kínzol, [F]szólj már, a [Dm]tiéd már nem va[E]gyok.
+
+{c: Chorus}
+[Am]Szólj már, a [Dm]szívem rég csak egy [G]szót vár.
+[Em]Mért kínzol, [F]szólj már, ha [Dm]te is így gondo[E]lod.
+[Am]Szólj már, a [Dm]szívem rég csak egy [G]szót vár,
+[Em]Mért kínzol, [F]szólj már, a [Dm]tiéd már nem va[E]gyok.

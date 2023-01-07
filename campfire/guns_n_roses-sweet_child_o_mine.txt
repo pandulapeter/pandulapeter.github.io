@@ -1,0 +1,99 @@
+{title: Sweet Child O' Mine}
+{artist: Guns N' Roses}
+{key: Db}
+{duration: 360}
+{x_sbp_tags: english}
+
+{c: Intro}
+[C#]      [B]      [F#]      [C#]
+[C#]      [B]      [F#]      [C#]
+
+{c: Verse 1}
+[C#]She's got a smile it seems to me,
+Re[B]minds me of childhood memories,
+Where [F#]everything was as fresh
+As the bright blue [C#]sky.
+
+{c: Verse 2}
+[C#]Now and then when I see her face,
+She [B]takes me away to that special place,
+And if I'd [F#]stare too long,
+I'd probably break down and [C#]cry.
+
+{c: Chorus}
+[G#]Oh, oh, [B]oh,
+Sweet child o' [C#]mine.
+[G#]Oh, oh, oh, [B]oh,
+Sweet love of [C#]mine.
+
+{c: Solo 1}
+[C#]      [B]      [F#]      [C#]
+
+{c: Verse 3}
+[C#]She's got eyes of the bluest skies,
+As [B]if they thought of rain,
+I [F#]hate to look into those eyes
+And [C#]see an ounce of pain.
+
+{c: Verse 4}
+Her [C#]hair reminds me of a warm safe place,
+Where [B]as a child I'd hide,
+And [F#]pray for the thunder and the rain
+To [C#]quietly pass me by.
+
+{c: Chorus}
+[G#]Oh, oh, [B]oh,
+Sweet child o' [C#]mine.
+[G#]Oh, oh, oh, [B]oh,
+Sweet love of [C#]mine.
+
+{c: Solo 2}
+[C#]      [B]      [F#]      [C#]
+[C#]      [B]      [F#]      [C#]
+
+{c: Chorus}
+[G#]Oh, oh, [B]oh,
+Sweet child o' [C#]mine.
+[G#]Oh, oh, oh, [B]oh,
+Sweet love of [C#]mine.
+
+{c: Chorus}
+[G#]Oh, oh, oh, [B]oh,
+Sweet child o' [C#]mine, oh, yeah, yeah,
+[G#]Oh, [B]oh,
+Sweet love of [C#]mine.   [D]
+
+{c: Solo 3}
+[D#m]      [B]      [A#]      [G#]
+[D#m]      [B]      [A#]      [G#]
+[D#m]      [B]      [A#]      [G#]
+[D#m]      [B]      [A#]      [G#]
+
+[G#]            [G#]
+
+[D#m]      [F#]      [G#]      [B]   [C#]
+[D#m]      [F#]      [G#]      [B]   [C#]
+[D#m]      [F#]      [G#]      [B]   [C#]
+[D#m]      [F#]      [G#]      [B]   [C#]
+
+{c: Outro}
+[D#m]Where do we go?
+[F#]Where do we go now?
+[G#]Where do we go?   [B]    [C#]
+[D#m]Where do we go?   [F#]
+Oh, [G#]where do we go now?   [B]    [C#]
+[D#m]Where do we go? ([F#]Sweet child)
+Oh, [G#]where do we go now?   [B]    [C#]
+[D#m]Ay-ay-ay-ay-[F#]ay-ay-ay-ay,
+[G#]Where do we go now, [B]oh?   [C#]
+[D#m]Where do we go?   [F#]
+Oh, [G#]where do we go now?   [B]    [C#]
+[D#m]Where do we go?   [F#]
+Oh, [G#]where do we go now?   [B]    [C#]
+[D#]Where do we go?   [F#]
+Oh, [G#]where do we go now?
+[D#5]Now, [C#5]now, [A#5]now,
+[A#5]Now, [G#5]now, [F#5]now, [D#m]now.
+Sweet [F#]child,
+Sweet [G#]child...   [B]    [C#]
+...of [D#m]mine.

@@ -1,0 +1,94 @@
+{title: Strada ta}
+{artist: Iris}
+{key: G}
+{duration: 325}
+{x_sbp_tags: romanian}
+
+{c: Intro}
+[G]          [D]          [C]          [D]
+[G]          [D]          [C]          [D]
+[G]          [D]          [C]          [C]
+[D]          [Dsus4]          [D]          [Dsus4]          [D]
+
+[G]          [D]          [C]          [D]
+[G]          [D]          [C]          [D]
+[G]          [D]          [C]          [C]
+[D]          [Dsus4]          [D]          [Dsus4]          [D]
+
+{c: Verse 1}
+[G]Ieri am tre[D]cut pe strada [C]ta,   [D]
+[G]Și soare[D]le se tot ju[C]ca:   [D]
+[G]Când apă[D]rea, când dispa[C]rea,   [D]
+[G]Din calea [D]norilor [C]fugea.   [D]
+
+{c: Bridge}
+[Em]Doar o pri[C]vire,
+[Em]Atâta aștep[C]tam,
+[Em]Doar o pri[C]vire mai spe[D]ram.   [C/D]      [B/D]      [A/D]
+
+{c: Verse 2}
+[G]Ai apă[D]rut la geam târ[C]ziu,   [D]
+[G]Ce oră er[D]a nici nu mai [C]știu,   [D]
+[G]O clipă [D]doar tu m-ai ză[C]rit,   [D]
+[G]Și te-am stri[D]gat, dar n-ai ve[C]nit.   [D]
+
+{c: Bridge}
+[Em]Doar o pri[C]vire,
+[Em]Atâta aștep[C]tam,
+[Em]Doar o pri[C]vire mai spe[D]ram.   [C/D]      [B/D]      [A/D]
+
+{c: Chorus}
+Te voi [G]aștepta,   [D]   [C]
+[D]Voi veni pe [G]strada ta,   [D]    [C]    [D]
+Te aș[G]tept mereu,   [D]    [C]
+Fără [C]tine mi-e [D]greu.   [C/D]      [B/D]      [A/D]
+
+{c: Chorus}
+Te voi [G]aștepta,   [D]   [C]
+[D]Voi veni pe [G]strada ta,   [D]    [C]    [D]
+Te aș[G]tept mereu,   [D]    [C]
+Fără [C]tine mi-e [D]greu.   [C/D]      [B/D]      [A/D]
+
+{c: Solo}
+[Em]                  [C]
+[Em]                  [C]
+[Em]                  [C]
+[D]        [C/D]          [B/D]           [A/D]
+
+{c: Bridge}
+[Em]Doar o pri[C]vire,
+[Em]Atâta aștep[C]tam,
+[Em]Doar o pri[C]vire mai spe[D]ram.   [C/D]      [B/D]      [A/D]
+
+{c: Chorus}
+Te voi [G]aștepta,   [D]   [C]
+[D]Voi veni pe [G]strada ta,   [D]    [C]    [D]
+Te aș[G]tept mereu,   [D]    [C]
+Fără [C]tine mi-e [D]greu.   [C/D]      [B/D]      [A/D]
+
+{c: Chorus}
+Te voi [G]aștepta,   [D]   [C]
+[D]Voi veni pe [G]strada ta,   [D]    [C]    [D]
+Te aș[G]tept mereu,   [D]    [C]
+Fără [C]tine mi-e [D]greu.   [C/D]      [B/D]      [A/D]
+
+{c: Chorus}
+Te voi [G]aștepta,   [D]   [C]
+[D]Voi veni pe [G]strada ta,   [D]    [C]    [D]
+Te aș[G]tept mereu,   [D]    [C]
+Fără [C]tine mi-e [D]greu.   [Dsus4]        [D]    [Dsus4]        [D]
+
+{c: Chorus}
+Da, te voi [A]aștepta,   [E]   [D]
+[E]Voi veni pe [A]strada ta,   [E]    [D]    [E]
+Te aș[A]tept mereu,   [E]    [D]
+Fără [D]tine mi-e [E]greu.   [E]
+
+{c: Chorus}
+Da, te voi [A]aștepta,   [E]   [D]
+[E]Voi veni pe [A]strada ta,   [E]    [D]    [E]
+Te aș[A]tept mereu,   [E]    [D]
+Fără [D]tine mi-e [E]greu.   [E]
+
+{c: Outro}
+[A]

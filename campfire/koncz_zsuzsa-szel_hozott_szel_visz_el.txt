@@ -1,0 +1,40 @@
+{title: Szél hozott, szél visz el}
+{artist: Koncz Zsuzsa}
+{key: D}
+{duration: 105}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[D]        [G]        [A]        [D]
+[D]        [Em]        [A]        [D]
+[D]
+
+{c: Verse 1}
+[D]Köd előttem, [G]köd mögöttem,
+[A]Isten tudja, [D]honnan jöttem.
+[D]Szél hozott, [Em]szél visz el.
+[A]Minek kérdjem, [D]mért visz el?
+
+{c: Verse 2}
+[D]Sose néztem, [G]merre jártam.
+[A]A felhőkkel [D]kiabáltam.
+[D]Erdő jött, [Em]jaj be szép!
+[A]Megcibáltam [D]üstökét.
+
+{c: Bridge}
+[D]Jött az erdő, [Bm]nekivágtam.
+[D]A bozótban [D7]őzet láttam.
+[G]Kergettem, [D]ottmaradt,
+[G]Cirógattam, [A]elszaladt.
+
+{c: Verse 3}
+[D]Ha elszaladt, [G]hadd szaladjon,
+[A]Csak szeretőm [D]megmaradjon.
+[D]Szeretőm a [G]titok,
+[A]Ő se tudja, [D]ki vagyok.
+
+{c: Verse 4}
+[D]Isten tudja, [G]honnan jöttem,
+[A]Köd előttem, [D]köd mögöttem.
+[D]Szél hozott, [Em]szél visz el.
+[A]Bolond kérdi, [D]mért visz el.

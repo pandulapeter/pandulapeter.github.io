@@ -1,0 +1,113 @@
+{title: Shut Up and Dance with Me}
+{artist: Walk the Moon}
+{key: Db}
+{duration: 200}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[C#]        [F#/C#]
+[C#]        [G#/C#]
+Oh don't you [C#]dare look [F#/C#]back,
+Just keep your [C#]eyes on [G#/C#]me.
+I said you're [C#]holding [F#/C#]back,
+She said shut [C#]up and [G#/C#]dance with me!
+[C#]This [F#/C#]woman is my [C#]destin[G#/C#]y,
+She said [C#]oh oh [F#/C#]oh!
+Shut [A#m]up and [G#]dance with me!
+
+{c: Bridge 1}
+[F#]        [G#]        [A#m]        [G#]
+[F#]        [G#]        [C#]        [C#/C]
+
+{c: Verse 1}
+[A#m]We were [F#]victims [G#]of the night,   [A#m]
+The [G#]chemical, [F#]physical, [G#]kryptonite,   [C#]
+[C#/C]Helpless [A#m]to the [F#]bass and the [G#]fading light.   [A#m]
+[G#]Oh we were [F#]bound to get to[G#]gether,
+Bound [C#]to get[C#/C] together.   [A#m]
+
+{c: Bridge 2}
+[F#]She took my [G#]arm,
+[C#]I don't know [C#/C]how it [A#m]happened.
+[F#]We took the [G#]floor and she [G#]said...
+
+{c: Chorus}
+Oh don't you [C#]dare look [F#]back,
+Just keep your [A#m]eyes on [G#]me.
+I said you're [C#]holding [F#]back,
+She said shut [A#m]up and [G#]dance with me!
+[C#]This [F#]woman is my [A#m]destin[G#]y,
+She said [C#]oh oh [F#]oh!
+Shut [A#m]up and [G#]dance with me!
+
+{c: Bridge 3}
+[F#]        [G#]        [A#m]
+
+{c: Verse 2}
+A [G#]backless [F#]dress and some [G#]beat up sneaks,   [A#m]
+My [G#]discotheque [F#]Juliet [G#]teenage dream.   [C#]
+I [C#/C]felt it [A#m]in my [F#]chest as she [G#]looked at me,   [A#m]
+I [G#]knew we were [F#]bound to get to[G#]gether,
+Bound [C#]to get[C#/C] together.   [A#m]
+
+{c: Bridge 2}
+[F#]She took my [G#]arm,
+[C#]I don't know [C#/C]how it [A#m]happened.
+[F#]We took the [G#]floor and she [G#]said...
+
+{c: Chorus}
+Oh don't you [C#]dare look [F#]back,
+Just keep your [A#m]eyes on [G#]me.
+I said you're [C#]holding [F#]back,
+She said shut [A#m]up and [G#]dance with me!
+[C#]This [F#]woman is my [A#m]destin[G#]y,
+She said [C#]oh oh [F#]oh!
+Shut [A#m]up and [G#]dance with me!   [F#]
+
+{c: Solo}
+[A#m]        [C#]        [F#]        [G#]
+[A#m]        [C#]        [F#]        [G#]
+[A#m]        [C#]        [F#]        [G#]
+[A#m]        [C#]        [F#]        [G#]
+
+{c: Bridge 4}
+[F#]Deep in her [G#]eyes,
+[C#]I think I [C#/C]see the [A#m]future.
+[F#]I rea[G#]lize, [C#]this is my [G#]last chance.
+
+{c: Bridge 2}
+[F#]She took my [G#]arm,
+[C#]I don't know [C#/C]how it [A#m]happened.
+[F#]We took the [G#]floor and she [G#]said...
+
+{c: Bridge 5}
+[C#]        [F#/C#]
+[C#]        [G#/C#]
+
+[C#]        [F#/C#]
+[C#]        [G#/C#]
+
+{c: Bridge 6}
+Oh don't you [C#]dare look [F#/C#]back,
+Just keep your [C#]eyes on [G#/C#]me.
+I said you're [C#]holding [F#/C#]back,
+She said shut [C#]up and [G#/C#]dance with me!
+[C#]This [F#/C#]woman is my [C#]destin[G#/C#]y,
+She said [C#]oh oh [F#/C#]oh!
+Shut up and dance!
+
+{c: Chorus}
+Don't you [C#]dare look [F#]back,
+Just keep your [A#m]eyes on [G#]me.
+I said you're [C#]holding [F#]back,
+She said shut [A#m]up and [G#]dance with me!
+[C#]This [F#]woman is my [A#m]destin[G#]y,
+She said [C#]oh oh [F#]oh!
+Shut [A#m]up and [G#]dance with me!
+
+{c: Outro}
+[C#]        [F#]        [A#m]        [G#]
+[C#]Oh oh [F#]oh, shut [A#m]up and [G#]dance with me!
+[C#]        [F#]        [A#m]        [G#]
+[C#]Oh oh [F#]oh, shut [A#m]up and [G#]dance with me!
+[A#m]        [C#]         [F#]         [G#]

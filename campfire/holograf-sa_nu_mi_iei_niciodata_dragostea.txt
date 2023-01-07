@@ -1,0 +1,117 @@
+{title: Să nu-mi iei niciodată dragostea}
+{artist: Holograf}
+{key: G}
+{duration: 305}
+{x_sbp_tags: romanian,khameleon}
+
+{c: Intro}
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+{c: Verse 1}
+[G]Poţi să-mi iei [Gsus4]tot ce-am mai [G]scump pe lume,  [Gsus2]
+Poţi să-mi iei [G]zilele, [Gsus4]nopţile sau [G]anii de vrei. [Gsus2]
+Să mă [G]laşi [Gsus4]singur într-un [G]loc anume, [Gsus2]
+De unde să [G]nu pot vreo[Gsus4]dată să mă [G]întorc la ai mei. [Gsus2]
+
+{c: Chorus}
+Dar să [C]nu-mi iei nicio[D]dată drago[G]stea,  [Gsus4]       [G]    [Gsus4]
+Dar să [C]nu-mi iei nicio[D]dată drago[G]stea.  [Gsus4]       [G]
+
+{c: Verse 2}
+[G]Poţi să mă [Gsus4]faci una [G]cu pământul, [Gsus2]
+Să mă [G]calci în pi[Gsus4]cioare de-o [G]mie de ori, [Gsus2]
+Să mă [G]sfâşii cu [Gsus4]dinţii şi-a[G]poi să chemi [Gsus2]vântul,
+Să-mi îm[G]prăştie [Gsus4]trupul într-o [G]mie de zări. [Gsus2]
+
+{c: Chorus}
+Dar să [C]nu-mi iei nicio[D]dată drago[G]stea,  [Gsus4]       [G]    [Gsus4]
+Dar să [C]nu-mi iei nicio[D]dată drago[G]stea.  [Gsus4]       [G]
+
+{c: Bridge 1}
+Fiindcă atunci am să [Em]mor  [D]    [C]
+[D]De dorul [G]tău.
+Fiindcă atunci am să [Em]mor  [D]    [C]
+[D]De dorul [G]tău.
+Fiindcă atunci am să [Em]mor  de dorul [D]tău.
+Şi zile[C]le vor fi din [G]nou aşa cum [Am]au mai fost,   [D]
+De dorul tău...
+
+{c: Bridge 2}
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+{c: Verse 3}
+[G]Poţi să mă [Gsus4]torni într-un pa[G]har cu apă, [Gsus2]
+Sau să mă [G]uiţi pe fundul [Gsus4]mării printre [G]peştii răpitori, [Gsus2]
+Să mă [G]laşi să plu[Gsus4]tesc pe un [G]val în Marea [Gsus2]Moartă,
+Sau din [G]cer cu [Gsus4]ploaia în[G]cet să mă co[Gsus2]bor.
+
+{c: Chorus}
+Dar să [C]nu-mi iei nicio[D]dată drago[G]stea,  [Gsus4]       [G]    [Gsus4]
+Dar să [C]nu-mi iei nicio[D]dată drago[G]stea.  [Gsus4]       [G]
+
+{c: Bridge 1}
+Fiindcă atunci am să [Em]mor  [D]    [C]
+[D]De dorul [G]tău.
+Fiindcă atunci am să [Em]mor  [D]    [C]
+[D]De dorul [G]tău.
+Fiindcă atunci am să [Em]mor  de dorul [D]tău.
+Şi zile[C]le vor fi din [G]nou aşa cum [Am]au mai fost,   [D]
+
+{c: Solo}
+[D]
+[D]
+
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+[C]        [D]            [G]            [A]
+[C]        [D]            [Em]      [D]      [C]      [G]
+[Am]            [D]
+
+{c: Verse 1}
+[G]Poţi să-mi iei [Gsus4]tot ce-am mai [G]scump pe lume,  [Gsus2]
+Poţi să-mi iei [G]zilele, [Gsus4]nopţile sau [G]anii de vrei. [Gsus2]
+Să mă [G]laşi [Gsus4]singur într-un [G]loc anume, [Gsus2]
+De unde să [G]nu pot vreo[Gsus4]dată să mă [G]întorc la ai mei. [Gsus2]
+
+{c: Chorus}
+Dar să [C]nu-mi iei nicio[D]dată drago[G]stea,  [Gsus4]       [G]    [Gsus4]
+Dar să [C]nu-mi iei nicio[D]dată drago[G]stea.  [Gsus4]       [G]
+
+{c: Bridge 1}
+Fiindcă atunci am să [Em]mor  [D]    [C]
+[D]De dorul [G]tău.
+Fiindcă atunci am să [Em]mor  [D]    [C]
+[D]De dorul [G]tău.
+Fiindcă atunci am să [Em]mor  de dorul [D]tău.
+Şi zile[C]le vor fi din [G]nou aşa cum [Am]au mai fost,   [D]
+De dorul tău...
+
+{c: Outro}
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+[G]        [Gsus4]        [G]        [Gsus4]
+[G]        [Gsus4]        [G]        [Gsus4]
+
+[G]

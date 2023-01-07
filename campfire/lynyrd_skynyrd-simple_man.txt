@@ -1,0 +1,83 @@
+{title: Simple Man}
+{artist: Lynyrd Skynyrd}
+{key: G#m}
+{duration: 360}
+{x_sbp_tags: english}
+
+{c: Intro}
+[B]        [F#]        [G#m]        [G#m]
+[B]        [F#]        [G#m]        [G#m]
+[B]        [F#]        [G#m]        [G#m]
+[B]        [F#]        [G#m]        [G#m]
+
+{c: Verse 1}
+Mama [B]told me[F#] when I was [G#m]young,
+"Come sit be[B]side me,[F#] my only [G#m]son,
+And listen [B]closely[F#] to what I [G#m]say,
+And if you [B]do this it'll [F#]help you some [G#m]sunny day."
+
+{c: Bridge}
+[B]        [F#]        [G#m]        [G#m]
+
+{c: Bridge}
+[B]        [F#]        [G#m]        [G#m]
+
+{c: Verse 2}
+"Oh, take your [B]time,[F#] don't live [G#m]too fast.
+Troubles will [B]come[F#] and they will [G#m]pass.
+You'll find a [B]woman[F#] and you'll find [G#m]love,
+And don't for[B]get, son, there is [F#]someone up a[G#m]bove."
+
+{c: Chorus}
+"And be a [B]simple[F#] kind of [G#m]man,
+Oh, be [B]something[F#] you love and un[G#m]derstand.
+Baby be a [B]simple[F#] kind of [G#m]man,
+Oh, won't you [B]do this for me, [F#]son, if you [G#m]can."
+
+{c: Bridge}
+[B]        [F#]        [G#m]        [G#m]
+
+{c: Verse 3}
+"Forget your [B]lust[F#] for the rich man's [G#m]gold,
+All that you [B]need[F#] is in your [G#m]soul.
+And you can [B]do this, oh [F#]baby, if you [G#m]try,
+All that I [B]want for you, my [F#]son, is to be satis[G#m]fied."
+
+{c: Chorus}
+"And be a [B]simple[F#] kind of [G#m]man,
+Oh, be [B]something[F#] you love and un[G#m]derstand.
+Baby be a [B]simple[F#] kind of [G#m]man,
+Oh, won't you [B]do this for me, [F#]son, if you [G#m]can."
+
+{c: Solo}
+[B]        [F#]        [G#m]        [G#m]
+[B]        [F#]        [G#m]        [G#m]
+
+[B]        [F#]        [G#m]        [G#m]
+[B]        [F#]        [G#m]        [G#m]
+
+[B]        [F#]        [G#m]        [G#m]
+
+{c: Bridge}
+[B]        [F#]        [G#m]        [G#m]
+
+{c: Bridge}
+[B]        [F#]        [G#m]        [G#m]
+
+{c: Verse 4}
+"Boy, don't you [B]worry,[F#] you'll find your[G#m]self,
+Follow your [B]heart[F#] and nothing [G#m]else,
+And you can [B]do this, oh [F#]baby, if you [G#m]try,
+All that I [B]want for you, my [F#]son, is to be satis[G#m]fied."
+
+{c: Chorus}
+"And be a [B]simple[F#] kind of [G#m]man,
+Oh, be [B]something[F#] you love and un[G#m]derstand.
+Baby be a [B]simple[F#] kind of [G#m]man,
+Oh, won't you [B]do this for me, [F#]son, if you [G#m]can."
+
+{c: Chorus}
+"Baby, be a [B]simple,[F#] really simple [G#m]man,
+Oh, be [B]something[F#] you love and un[G#m]derstand.
+Baby be a [B]simple[F#] kind of [G#m]man,
+Oh, won't you [B]do this for me, [F#]son, if you [G#m]can."

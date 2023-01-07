@@ -1,0 +1,67 @@
+{title: Sex on Fire [lyrics only]}
+{artist: Kings of Leon}
+{key: E}
+{duration: 205}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+
+{c: Verse 1}
+Lay where you're laying,
+Don't make a sound,
+I know they're watching,
+They're watching.
+
+{c: Verse 2}
+All the commotion,
+The kiddie-like play,
+Has people talking,
+They're talking.
+
+{c: Chorus 1}
+You, your sex is on fire!
+
+{c: Verse 3}
+The dark of the alley,
+The breaking of day,
+Head while I'm driving,
+I'm driving.
+
+{c: Verse 4}
+Soft lips are open,
+Them knuckles are pale,
+Feels like you're dying,
+You're dying.
+
+{c: Chorus 1}
+You, your sex is on fire!
+
+{c: Chorus 2}
+Consumed with what's just transpired.
+
+{c: Verse 5}
+Hot as a fever,
+Rattling bones,
+I could just taste it,
+Chased it.
+
+{c: Verse 6}
+But it's not forever,
+But it's just tonight,
+Oh, we're still the greatest,
+The greatest, the greatest.
+
+{c: Chorus 1}
+And you, your sex is on fire!
+
+{c: Chorus 1}
+You, your sex is on fire!
+
+{c: Chorus 2}
+Consumed with what's just transpired.
+
+{c: Chorus 1}
+And you, your sex is on fire!
+
+{c: Chorus 2}
+Consumed with what's just transpired.

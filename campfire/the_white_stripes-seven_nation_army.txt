@@ -1,0 +1,69 @@
+{title: Seven Nation Army [lyrics only]}
+{artist: The White Stripes}
+{key: E}
+{duration: 235}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+
+{c: Verse 1}
+I'm gonna fight 'em all,
+A seven nation army couldn't hold me back!
+They're gonna rip it off,
+Taking their time right behind my back.
+
+{c: Verse 2}
+And I'm talking to myself at night,
+Because I can't forget.
+Back and forth through my mind,
+Behind a cigarette.
+
+{c: Pre-Chorus}
+And the message coming from my eyes,
+Says, "Leave it alone"!
+
+{c: Solo 1}
+
+{c: Intro}
+
+{c: Verse 3}
+Don't wanna hear about it,
+Every single one's got a story to tell.
+Everyone knows about it,
+From the Queen of England to the Hounds of Hell.
+
+{c: Verse 4}
+And if I catch it coming back my way,
+I'm gonna serve it to you.
+And that ain't what you want to hear,
+But that's what I'll do.
+
+{c: Pre-Chorus}
+And the feeling coming from my bones,
+Says, "Find a home"!
+
+{c: Solo 2}
+
+{c: Solo 3}
+
+{c: Intro}
+
+{c: Verse 5}
+I'm going to Wichita,
+Far from this opera forevermore.
+I'm gonna work the straw,
+Make the sweat drip out of every pore.
+
+{c: Verse 6}
+And I'm bleeding, and I'm bleeding, and I'm bleeding,
+Right before the Lord.
+All the words are gonna bleed from me,
+And I will sing no more.
+
+{c: Pre-Chorus}
+And the stains coming from my blood,
+Tell me, "Go back home"!
+
+{c: Solo 4}
+
+{c: Outro}

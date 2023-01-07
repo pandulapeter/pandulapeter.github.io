@@ -1,0 +1,78 @@
+{title: Szállj el kismadár}
+{artist: Republic}
+{key: C}
+{duration: 295}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[C]        [G]        [Am]        [F]
+
+{c: Verse 1}
+[C]Szállj el, kismadár,
+[G]Nézd meg, hogy merre jár,
+[Am]Mondd el, hogy merre járhat [F]ő.
+
+{c: Verse 2}
+[C]Mondd el, hogy szeretem,
+[G]Mondd el, hogy kell nekem,
+[Am]Mondd el, hogy semmi más nem [F]kell.
+
+{c: Chorus}
+Csak a hold az [C]égen, csak a nap ra[E]gyogjon,
+Simogasson a [Am]szél, simo[F]gasson ha [G]arcomhoz [C]ér.
+Csak a hold ra[E]gyogjon, csak a nap az [Am]égen,
+Nekem [F]semmi [G]más nem [C]kell.
+
+{c: Verse 3}
+[C]Kell, hogy rátalálj,
+[G]Szállj el, kismadár,
+[Am]Nézd meg, hogy merre járhat [F]ő.
+
+{c: Verse 4}
+[C]Vidd el a levelem,
+[G]Mondd el, hogy kell nekem,
+[Am]Mondd el, hogy semmi más nem [F]kell.
+
+{c: Chorus}
+Csak a hold az [C]égen, csak a nap ra[E]gyogjon,
+Simogasson a [Am]szél, simo[F]gasson ha [G]arcomhoz [C]ér.
+Csak a hold ra[E]gyogjon, csak a nap az [Am]égen,
+Nekem [F]semmi [G]más nem [C]kell.
+
+{c: Bridge}
+[C]Soha ne gyere, ha most nem [G]jössz,
+[Am]Soha ne szeress, ha most nem vagy [F]itt.
+[C]Soha ne gyere, ha most nem [G]jössz,
+[Am]Soha ne szeress, ha most nem vagy [F]itt.
+
+{c: Verse 5}
+[C]Vap-vap-vap-suvap.
+[G]Vap-vap-suvappap.
+[Am]Vap-vap-vap-suvappa[F]ppé.
+
+{c: Verse 6}
+[C]Vap-vap-suvappap.
+[G]Vap-vap-vap-suvap.
+[Am]Vap-vap-vap-suvappa[F]ppé.
+
+{c: Chorus}
+Csak a hold az [C]égen, csak a nap ra[E]gyogjon,
+Simogasson a [Am]szél, simo[F]gasson ha [G]arcomhoz [C]ér.
+Csak a hold ra[E]gyogjon, csak a nap az [Am]égen,
+Nekem [F]semmi [G]más nem [C]kell.
+
+{c: Verse 5}
+[C]Vap-vap-vap-suvap.
+[G]Vap-vap-suvappap.
+[Am]Vap-vap-vap-suvappa[F]ppé.
+
+{c: Verse 6}
+[C]Vap-vap-suvappap.
+[G]Vap-vap-vap-suvap.
+[Am]Vap-vap-vap-suvappa[F]ppé.
+
+{c: Chorus}
+Csak a hold az [C]égen, csak a nap ra[E]gyogjon,
+Simogasson a [Am]szél, simo[F]gasson ha [G]arcomhoz [C]ér.
+Csak a hold ra[E]gyogjon, csak a nap az [Am]égen,
+Nekem [F]semmi [G]más nem [C]kell.

@@ -1,0 +1,7 @@
+{title: Something About the Way You Look Tonight [placeholder]}
+{artist: Elton John}
+{key: A}
+{duration: 90}
+{x_sbp_tags: english,khameleon}
+
+WIP

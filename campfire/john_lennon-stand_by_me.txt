@@ -1,0 +1,72 @@
+{title: Stand by Me}
+{artist: John Lennon}
+{key: A}
+{duration: 215}
+{x_sbp_tags: english}
+
+{c: Intro}
+[A]        [A]        [F#m]        [F#m]
+[D]        [E]        [A]        [A]
+
+{c: Verse 1}
+When the [A]night has come,
+[F#m]And the land is dark,
+And the [D]moon is the [E]only
+Light [A]we'll see.
+
+{c: Verse 2}
+No I [A]won't be afraid,
+No, I [F#m]won't be afraid,
+Just as [D]long as you [E]stand,
+Stand [A]by me.
+
+{c: Chorus}
+And darlin', darlin', [A]stand by me,
+Oh, now, now, [F#m]stand by me,
+[D]Stand by me, [E]stand by [A]me.
+
+{c: Verse 3}
+If the [A]sky that we look upon,
+[F#m]Should tumble and fall,
+And the [D]mountains should [E]crumble
+[A]To the sea.
+
+{c: Verse 4}
+I won't [A]cry, I won't cry,
+No I [F#m]won't shed a tear,
+Just as [D]long as you [E]stand,
+Stand [A]by me.
+
+{c: Chorus}
+And darlin', darlin', [A]stand by me,
+Oh, [F#m]stand by me,
+[D]Stand by me, [E]stand by me,
+[A]Stand by me, yeah!
+
+{c: Solo}
+[A]        [A]        [F#m]        [F#m]
+[D]        [E]        [A]        [A]
+
+[A]        [A]        [F#m]        [F#m]
+[D]        [E]        [A]        [A]
+
+{c: Chorus}
+Whenever you're in trouble won't you [A]stand by me,
+Oh, now, now, [F#m]stand by me,
+Oh, [D]stand by me, stand [E]by me,
+[A]Stand by me.
+
+{c: Chorus}
+Darling, darling, [A]stand by me,
+[F#m]Stand by me,
+Oh, [D]stand by me, stand [E]by me,
+[A]Stand by me.
+
+{c: Bridge}
+[A]        [A]        [F#m]        [F#m]
+[D]        [E]        [A]        [A]
+
+{c: Chorus}
+Darling, darling, [A]stand by me,
+Oh, now, now, [F#m]stand by me,
+[D]Stand by me, [E]stand by me.   [A]

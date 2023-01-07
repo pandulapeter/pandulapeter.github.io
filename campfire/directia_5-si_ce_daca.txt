@@ -1,0 +1,83 @@
+{title: Și ce dacă}
+{artist: Direcția 5}
+{key: A}
+{duration: 215}
+{x_sbp_tags: romanian,khameleon}
+
+{c: Intro}
+[A]
+
+{c: Verse 1}
+Și ce [A]dacă nu pot dormi,
+Și ce [F#m]dacă noaptea e zi?
+Port în [D]minte cu[D/C#]vintele [Bm]tale,
+Fur[E]tuna ta [A]dragă.
+
+{c: Verse 2}
+Și ce [A]dacă lumea e rea
+Și po[F#m]sacă, și nu ne vrea?
+Eu te [D]vreau, tu mă [D/C#]vrei,
+Lumea [Bm]noastră e O[E]K și îmi e [A]dragă.
+
+{c: Chorus}
+[A]N-am avere, decât iubirea,
+Nu, [D]nu, n-am ambiții, decât fericirea,
+Da, [Bm]da, te am pe tine, și [E]lumea întreaga e a [A]mea.
+
+{c: Chorus}
+[A]N-am avere, decât iubirea,
+Nu, [D]nu, n-am ambiții, decât fericirea,
+Da, [Bm]da, te am pe tine, și [E]lumea întreaga e a [A]mea.
+
+{c: Verse 3}
+Și ce [A]dacă plouă mereu,
+Și e [F#m]ceată în jurul meu?
+Tu îmi a[D]pari ca un [D/C#]val,
+Și mă a[Bm]duci la li[E]man, și la [A]viață.
+
+{c: Verse 4}
+Și ce [A]dacă viața e așa
+Compli[F#m]cată? În viața mea
+Totu-i [D]simplu de [D/C#]când
+Te-am vă[Bm]zut sură[E]zând prima [A]dată.
+
+{c: Chorus}
+[A]N-am avere, decât iubirea,
+Nu, [D]nu, n-am ambiții, decât fericirea,
+Da, [Bm]da, te am pe tine, și [E]lumea întreaga e a [A]mea.
+
+{c: Chorus}
+[A]N-am avere, decât iubirea,
+Nu, [D]nu, n-am ambiții, decât fericirea,
+Da, [Bm]da, te am pe tine, și [E]lumea întreaga e a [A]mea.
+
+{c: Solo}
+[A]      [A]
+[D]      [D]
+[Bm]      [E]
+[A]      [A]
+
+[A]      [A]
+[D]      [D]
+[Bm]      [E]
+[A]      [A]
+
+{c: Chorus}
+[A]N-am avere, decât iubirea,
+Nu, [D]nu, n-am ambiții, decât fericirea,
+Da, [Bm]da, te am pe tine, și [E]lumea întreaga e a [A]mea.
+
+{c: Chorus}
+[A]N-am avere, decât iubirea,
+Nu, [D]nu, n-am ambiții, decât fericirea,
+Da, [Bm]da, te am pe tine, și [E]lumea întreaga e a [A]mea.
+
+{c: Chorus}
+[A]N-am avere, decât iubirea,
+Nu, [D]nu, n-am ambiții, decât fericirea,
+Da, [Bm]da, te am pe tine, și [E]lumea întreaga e a [A]mea.
+
+{c: Chorus}
+[A]N-am avere, decât iubirea,
+Nu, [D]nu, n-am ambiții, decât fericirea,
+Da, [Bm]da, te am pe tine, și [E]lumea întreaga e a [A]mea.

@@ -1,0 +1,75 @@
+{title: Someone Like You}
+{artist: Adele}
+{key: A}
+{duration: 290}
+{x_sbp_tags: english}
+
+{c: Intro}
+[A]      [C#m]      [F#m]      [D]
+
+{c: Verse 1}
+I [A]heard, that you're [C#m]settled down,
+That you [F#m]found a girl and you're, [D]married now.
+
+{c: Verse 2}
+[A]I heard, that your [C#m]dreams came true,
+Guess she [F#m]gave you things I didn't [D]give to you.
+
+{c: Verse 3}
+Ol[A]d friend, why are you [C#m]so shy?
+Ain't like [F#m]you to hold back or [D]hide from the light.
+
+{c: Pre-Chorus}
+I [E]hate to turn up out of the [F#m]blue uninvited,
+But I [D]couldn't stay away, I couldn't fight it.
+I had [E]hoped you'd see my face,
+And [F#m]that you be reminded that for [D]me it isn't over.
+
+{c: Chorus}
+[A]Never mind I'll [E]find someone like [F#m]you,   [D]
+I wish [A]nothing but the [E]best for [F#m]you [D]two,
+Don't for[A]get me, I [E]beg, I'll re[F#m]member you [D]said,
+"Sometimes it [A]lasts in love, but [E]sometimes it hurts in[F#m]stead,   [D]
+Sometimes it [A]lasts in love, but [E]sometimes it hurts in[F#m]stead, [D]yeah."
+
+{c: Verse 4}
+[A]You know how the [C#m]time flies,
+Only [F#m]yesterday it was the [D]time of our lives.
+
+{c: Verse 5}
+We were [A]born and raised in a [C#m]summer haze,
+Bound [F#m]by the surprise of our [D]glory days.
+
+{c: Pre-Chorus}
+I [E]hate to turn up out of the [F#m]blue uninvited,
+But I [D]couldn't stay away, I couldn't fight it.
+I had [E]hoped you'd see my face,
+And [F#m]that you be reminded that for [D]me it isn't over.
+
+{c: Chorus}
+[A]Never mind I'll [E]find someone like [F#m]you,   [D]
+I wish [A]nothing but the [E]best for [F#m]you [D]two,
+Don't for[A]get me, I [E]beg, I'll re[F#m]member you [D]said,
+"Sometimes it [A]lasts in love, but [E]sometimes it hurts in[F#m]stead, [D]yeah."
+
+{c: Bridge}
+[E]Nothing compares, no worries or cares,
+Reg[F#m]rets and mistakes their memories made.
+[D]Who would have known, how bitter[Bm]sweet,
+[A]This would [D]taste?
+
+{c: Chorus}
+[A]Never mind I'll [E]find someone like [F#m]you,   [D]
+I wish [A]nothing but the [E]best for [F#m]you,   [D]
+Don't for[A]get me, I [E]beg, I'll re[F#m]member you [D]said,
+"Sometimes it [A]lasts in love, but [E]sometimes it hurts in[F#m]stead."   [D]
+
+{c: Chorus}
+[A]Never mind I'll [E]find someone like [F#m]you,   [D]
+I wish [A]nothing but the [E]best for [F#m]you [D]two,
+Don't for[A]get me, I [E]beg, I'll re[F#m]member you [D]said,
+"Sometimes it [A]lasts in love, but [E]sometimes it hurts in[F#m]stead,   [D]
+Sometimes it [A]lasts in love, but [E]sometimes it hurts in[F#m]stead, [D]yeah."
+
+{c: Outro}
+[A]
