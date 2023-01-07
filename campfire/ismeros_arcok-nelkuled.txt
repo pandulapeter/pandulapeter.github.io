@@ -1,9 +1,3 @@
-{title: Nélküled}
-{artist: Ismerős Arcok}
-{key: Gm}
-{duration: 220}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Cm]            [Cm]            [Gm]            [Gm]
 [Cm]            [Cm]            [Gm]            [Gm]

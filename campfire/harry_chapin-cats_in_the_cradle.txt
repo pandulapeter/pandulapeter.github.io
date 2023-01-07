@@ -1,9 +1,3 @@
-{title: Cats in the Cradle}
-{artist: Harry Chapin}
-{key: F}
-{duration: 215}
-{x_sbp_tags: english}
-
 {c: Intro}
 [F]
 

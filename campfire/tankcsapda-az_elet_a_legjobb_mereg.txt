@@ -1,9 +1,3 @@
-{title: Az élet a legjobb méreg}
-{artist: Tankcsapda}
-{key: A}
-{duration: 250}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [A]        [C]        [D]        [D]
 [A]        [C]        [D]        [D]

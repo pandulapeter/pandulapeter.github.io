@@ -1,9 +1,3 @@
-{title: Living Next Door to Alice}
-{artist: Smokie}
-{key: A}
-{duration: 210}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [A]
 

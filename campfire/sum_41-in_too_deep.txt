@@ -1,9 +1,3 @@
-{title: In Too Deep}
-{artist: Sum 41}
-{key: E}
-{duration: 210}
-{x_sbp_tags: english}
-
 {c: Intro}
 [E]                [A]
 [E]                [A]

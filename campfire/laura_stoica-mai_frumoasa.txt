@@ -1,9 +1,3 @@
-{title: Mai frumoasă}
-{artist: Laura Stoica}
-{key: E}
-{duration: 280}
-{x_sbp_tags: romanian,khameleon}
-
 {c: Verse 1}
 [E]Ești departe și ai asupra mea o pu[A]tere imensă,
 [E]Mă trezesc zâmbind în fie[A]care zi.

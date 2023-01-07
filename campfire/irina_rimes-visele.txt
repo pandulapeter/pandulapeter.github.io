@@ -1,8 +1,2 @@
-{title: Visele [placeholder]}
-{artist: Irina Rimes}
-{key: C#m}
-{duration: 200}
-{x_sbp_tags: romanian,khameleon}
-
 WIP
 [C#m]        [G#]        [A]        [F#]

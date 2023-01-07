@@ -1,9 +1,3 @@
-{title: Knockin' on Heaven's Door}
-{artist: Guns N' Roses}
-{key: F#}
-{duration: 340}
-{x_sbp_tags: english}
-
 {c: Intro}
 [F#]        [C#]        [B]        [B]
 [F#]        [C#]        [B]        [B]

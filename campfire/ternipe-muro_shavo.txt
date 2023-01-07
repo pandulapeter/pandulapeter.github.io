@@ -1,9 +1,3 @@
-{title: Muro Shavo}
-{artist: Ternipe}
-{key: Dm}
-{duration: 140}
-{x_sbp_tags: romani,khameleon}
-
 {c: Verse 1}
 [A#]Muro ilo losharel, [F]kana, Devla, dumadel
 [A#]Le vastenca sika[Dm]vel (hop hop!).

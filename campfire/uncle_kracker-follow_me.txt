@@ -1,9 +1,3 @@
-{title: Follow Me}
-{artist: Uncle Kracker}
-{key: F}
-{duration: 220}
-{x_sbp_tags: english}
-
 {c: Intro}
 [F]                [A#]        [C]
 [F]                [C]        [F]

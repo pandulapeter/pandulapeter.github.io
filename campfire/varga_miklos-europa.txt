@@ -1,9 +1,3 @@
-{title: Európa}
-{artist: Varga Miklós}
-{key: Am}
-{duration: 285}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Am]        [Am]        [Am]       [G]
 [Am]        [Am]        [Am]       [G]

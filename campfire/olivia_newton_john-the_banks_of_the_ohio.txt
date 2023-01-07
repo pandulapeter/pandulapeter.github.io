@@ -1,9 +1,3 @@
-{title: The Banks of the Ohio}
-{artist: Olivia Newton-John}
-{key: C}
-{duration: 160}
-{x_sbp_tags: english}
-
 {c: Intro}
 [C]
 

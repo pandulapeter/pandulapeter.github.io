@@ -1,9 +1,3 @@
-{title: Nem voltál jó}
-{artist: Margaret Island}
-{key: D}
-{duration: 150}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]        [Dsus4]                [D]
 

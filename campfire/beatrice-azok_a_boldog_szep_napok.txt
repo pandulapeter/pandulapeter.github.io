@@ -1,9 +1,3 @@
-{title: Azok a boldog szép napok}
-{artist: Beatrice}
-{key: F#}
-{duration: 205}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [F#]          [D#m]          [B]          [C#]
 

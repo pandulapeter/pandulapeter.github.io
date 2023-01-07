@@ -1,9 +1,3 @@
-{title: Andrii popa}
-{artist: Phoenix}
-{key: D}
-{duration: 195}
-{x_sbp_tags: romanian}
-
 {c: Intro}
 [D]      [Dsus4]            [D]      [Dsus2]
 [D]      [Dsus4]            [D]      [Dsus2]

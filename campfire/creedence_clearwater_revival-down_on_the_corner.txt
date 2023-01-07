@@ -1,9 +1,3 @@
-{title: Down on the Corner}
-{artist: Creedence Clearwater Revival}
-{key: C}
-{duration: 170}
-{x_sbp_tags: english}
-
 {c: Intro}
 [C]        [C]        [G]        [C]
 [C]        [C]        [G]        [C]

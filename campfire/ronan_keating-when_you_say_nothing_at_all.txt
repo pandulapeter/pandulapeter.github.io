@@ -1,9 +1,3 @@
-{title: When You Say Nothing At All}
-{artist: Ronan Keating}
-{key: G}
-{duration: 255}
-{x_sbp_tags: english}
-
 {c: Intro}
 [G]        [D]        [Cadd9]        [D]
 [G]        [D]        [Cadd9]        [D]

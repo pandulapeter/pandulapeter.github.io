@@ -1,9 +1,3 @@
-{title: Hero}
-{artist: Enrique Iglesias}
-{key: G}
-{duration: 265}
-{x_sbp_tags: english}
-
 {c: Intro}
 [G]            [G/Em]            [G/C]            [G/D]
 

@@ -1,9 +1,3 @@
-{title: Szállj el kismadár}
-{artist: Republic}
-{key: C}
-{duration: 295}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [C]        [G]        [Am]        [F]
 

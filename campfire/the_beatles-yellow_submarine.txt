@@ -1,9 +1,3 @@
-{title: Yellow Submarine}
-{artist: The Beatles}
-{key: F#}
-{duration: 160}
-{x_sbp_tags: english}
-
 {c: Verse 1}
 In the [C#]town where [B]I was [F#]born,
 [D#m]Lived a [G#m]man who [B]sailed to [C#]sea,

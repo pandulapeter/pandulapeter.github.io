@@ -1,9 +1,3 @@
-{title: Amilyen hülye vagy, úgy szeretlek}
-{artist: Kowalsky meg a Vega}
-{key: G}
-{duration: 255}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Em]        [C]        [G]        [D]
 [Em]        [C]        [G]        [D]

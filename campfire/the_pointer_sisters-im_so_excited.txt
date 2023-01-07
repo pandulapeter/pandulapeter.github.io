@@ -1,9 +1,3 @@
-{title: I'm So Excited}
-{artist: The Pointer Sisters}
-{key: Gm}
-{duration: 225}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [Gm]            [Cm7]            [D#]            [A#sus4]        [A#]
 [Gm]            [Cm7]            [D#]            [A#sus4]        [A#]

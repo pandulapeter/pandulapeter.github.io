@@ -1,9 +1,3 @@
-{title: Lazy Song}
-{artist: Bruno Mars}
-{key: B}
-{duration: 195}
-{x_sbp_tags: english}
-
 {c: Chorus}
 To[B]day I don't feel [F#]like doing [E]anything,
 [B]I just wanna [F#]lay in my [E]bed.

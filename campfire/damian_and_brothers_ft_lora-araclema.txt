@@ -1,9 +1,3 @@
-{title: Araclema}
-{artist: Damian & Brothers ft. Lora}
-{key: Cm}
-{duration: 180}
-{x_sbp_tags: romanian,romani,khameleon}
-
 {c: Intro}
 [Cm]
 [Cm]

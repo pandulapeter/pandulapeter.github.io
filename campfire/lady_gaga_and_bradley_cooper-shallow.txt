@@ -1,9 +1,3 @@
-{title: Shallow}
-{artist: Lady Gaga and Bradley Cooper}
-{key: Em}
-{duration: 220}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [Em7]        [D/F#]        [G]
 [C]                [G]        [D]

@@ -1,9 +1,3 @@
-{title: Pocsolyába léptem}
-{artist: Takáts Tamás Dirty Blues Band}
-{key: D}
-{duration: 330}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]
 

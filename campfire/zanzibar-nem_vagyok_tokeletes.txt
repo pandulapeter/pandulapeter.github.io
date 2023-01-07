@@ -1,9 +1,3 @@
-{title: Nem vagyok tökéletes}
-{artist: Zanzibár}
-{key: Am}
-{duration: 220}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Am]        [F]
 [Am]        [F]

@@ -1,7 +1,1 @@
-{title: Sing It Back [placeholder]}
-{artist: Moloko}
-{key: D#m}
-{duration: 90}
-{x_sbp_tags: english,khameleon}
-
 WIP

@@ -1,9 +1,3 @@
-{title: Elmegyek, elmegyek}
-{artist: Dánielfy Gergő és az Utazók}
-{key: Dm}
-{duration: 225}
-{x_sbp_tags: hungarian}
-
 {c: Verse 1}
 [Dm]Hosszú volt az este és te [A]nem jöttél,
 Pedig [Gm]téged vágytalak egész [Dm]éjjel.

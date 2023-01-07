@@ -1,12 +1,5 @@
-{title: Tábortűz}
-{artist: Emberek}
-{key: D}
-{duration: 355}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]        [G]        [A]        [G]
-
 
 {c: Verse 1}
 [D]Isten hozott, hisz csak a [Em]jók jöhetnek el,

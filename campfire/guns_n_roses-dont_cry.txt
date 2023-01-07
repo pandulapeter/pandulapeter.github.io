@@ -1,9 +1,3 @@
-{title: Don't Cry}
-{artist: Guns N' Roses}
-{key: G#m}
-{duration: 285}
-{x_sbp_tags: english}
-
 {c: Intro}
 [G#m]        [C#m]        [F#]        [B]    [B/A#]
 [G#m]        [C#m]        [F#]        [G#m]

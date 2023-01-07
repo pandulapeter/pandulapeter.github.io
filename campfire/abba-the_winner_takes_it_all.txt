@@ -1,9 +1,3 @@
-{title: The Winner Takes It All}
-{artist: ABBA}
-{key: F#}
-{duration: 300}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [F#]          [A#]      [D#m]          [D#]
 [G#m]                [C#]

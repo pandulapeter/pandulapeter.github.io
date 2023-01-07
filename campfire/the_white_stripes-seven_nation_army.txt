@@ -1,9 +1,3 @@
-{title: Seven Nation Army [lyrics only]}
-{artist: The White Stripes}
-{key: E}
-{duration: 235}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 
 {c: Verse 1}

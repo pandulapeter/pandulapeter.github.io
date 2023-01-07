@@ -1,7 +1,1 @@
-{title: Bella Ciao [placeholder]}
-{artist: Goran Bregović}
-{key: Bbm}
-{duration: 240}
-{x_sbp_tags: italian,khameleon}
-
 WIP

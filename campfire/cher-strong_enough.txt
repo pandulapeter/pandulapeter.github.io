@@ -1,9 +1,3 @@
-{title: Strong Enough}
-{artist: Cher}
-{key: Dm}
-{duration: 225}
-{x_sbp_tags: english,khameleon}
-
 {c: Verse 1}
 I don't [Cm]need your [Fm]sympathy,
 There's [A#]nothing you can say or [D#]do for me.

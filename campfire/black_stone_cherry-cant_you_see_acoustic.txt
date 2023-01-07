@@ -1,9 +1,3 @@
-{title: Can't You See (Acoustic)}
-{artist: Black Stone Cherry}
-{key: Db}
-{duration: 300}
-{x_sbp_tags: english}
-
 {c: Intro}
 [C#]        [B]        [F#]        [C#]
 [C#]        [B]        [F#]        [C#]

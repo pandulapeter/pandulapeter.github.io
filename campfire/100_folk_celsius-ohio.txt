@@ -1,9 +1,3 @@
-{title: Ohio}
-{artist: 100 Folk Celsius}
-{key: D}
-{duration: 250}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]        [D]        [A]        [A]
 [A7]        [A7]        [D]        [D]

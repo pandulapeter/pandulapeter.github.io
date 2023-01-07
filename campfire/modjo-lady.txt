@@ -1,7 +1,1 @@
-{title: Lady [placeholder]}
-{artist: Modjo}
-{key: Am}
-{duration: 220}
-{x_sbp_tags: english,khameleon}
-
 WIP

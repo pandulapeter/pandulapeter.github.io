@@ -1,9 +1,3 @@
-{title: Green River}
-{artist: Creedence Clearwater Revival}
-{key: E}
-{duration: 155}
-{x_sbp_tags: english}
-
 {c: Intro}
 [E7]                [E7]
 [E7]                [E7]

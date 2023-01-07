@@ -1,9 +1,3 @@
-{title: It's My Life}
-{artist: Bon Jovi}
-{key: Cm}
-{duration: 225}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [Cm]                [G#]        [G]
 [Cm]                [G#]        [G]

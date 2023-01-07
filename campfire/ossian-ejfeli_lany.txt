@@ -1,9 +1,3 @@
-{title: Éjféli lány}
-{artist: Ossian}
-{key: Dm}
-{duration: 265}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Dm]        [Dm]        [Dm]        [C]
 [Dm]        [Dm]        [Dm]        [G]

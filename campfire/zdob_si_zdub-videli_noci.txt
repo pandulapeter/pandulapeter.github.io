@@ -1,9 +1,3 @@
-{title: Videli noci}
-{artist: Zdob și Zdub}
-{key: F}
-{duration: 280}
-{x_sbp_tags: russian,khameleon}
-
 {c: Intro}
 [F]      [C]      [Dm]      [A#]
 [F]      [C]      [Dm]      [A#]

@@ -1,9 +1,3 @@
-{title: American Pie}
-{artist: Don McLean}
-{key: G}
-{duration: 520}
-{x_sbp_tags: english}
-
 {c: Intro}
 A [G]long,[D/F#] long t[Em]ime ago,
 [Am]I can still reme[C]mber how that music[Em] used to make me [D]smile.

@@ -1,9 +1,3 @@
-{title: Gimme Hope Jo'anna}
-{artist: Eddy Grant}
-{key: Bb}
-{duration: 245}
-{x_sbp_tags: english}
-
 {c: Intro}
 [A#]          [D#]          [A#]            [F]
 [A#]          [D#]          [A#]      [F]      [A#]

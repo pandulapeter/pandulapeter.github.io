@@ -1,9 +1,3 @@
-{title: Proud Mary}
-{artist: Creedence Clearwater Revival}
-{key: D}
-{duration: 190}
-{x_sbp_tags: english}
-
 {c: Intro}
 [C]            [A]            [C]            [A]
 [C]            [A]      [G]      [F]      [F]      [F]      [D]

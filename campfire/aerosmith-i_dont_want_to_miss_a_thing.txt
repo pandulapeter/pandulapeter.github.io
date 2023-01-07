@@ -1,9 +1,3 @@
-{title: I Don't Want to Miss a Thing}
-{artist: Aerosmith}
-{key: D}
-{duration: 300}
-{x_sbp_tags: english}
-
 {c: Intro}
 [Asus2/B]            [Asus2/C#]            [Asus2/E]            [Asus2/E]
 [Asus2/B]            [Asus2/C#]            [Asus2/E]            [Asus2/E]

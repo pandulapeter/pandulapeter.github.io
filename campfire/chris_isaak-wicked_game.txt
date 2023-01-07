@@ -1,10 +1,3 @@
-{title: Wicked Game}
-{artist: Chris Isaak}
-{key: Bm}
-{duration: 290}
-{tempo: 120}
-{x_sbp_tags: english,backtrackers}
-
 {c: Intro}
 [Bm]      [A]      [E]      [E]
 [Bm]      [A]      [E]      [E]

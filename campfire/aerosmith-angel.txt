@@ -1,9 +1,3 @@
-{title: Angel}
-{artist: Aerosmith}
-{key: Eb}
-{duration: 310}
-{x_sbp_tags: english}
-
 {c: Intro}
         [D#]        [A#]        [G#]
 [A#]        [D#]        [A#]        [G#]

@@ -1,9 +1,3 @@
-{title: Sex on Fire [lyrics only]}
-{artist: Kings of Leon}
-{key: E}
-{duration: 205}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 
 {c: Verse 1}

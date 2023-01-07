@@ -1,9 +1,3 @@
-{title: Jailhouse Rock}
-{artist: Elvis Presley}
-{key: Eb}
-{duration: 150}
-{x_sbp_tags: english}
-
 {c: Intro}
 [D5]      [D#5]
 [D5]      [D#5]

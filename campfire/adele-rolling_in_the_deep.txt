@@ -1,9 +1,3 @@
-{title: Rolling in the Deep}
-{artist: Adele}
-{key: Bm}
-{duration: 230}
-{x_sbp_tags: english}
-
 {c: Intro}
 [Bm]
 

@@ -1,9 +1,3 @@
-{title: Everything}
-{artist: Michael Bublé}
-{key: D}
-{duration: 215}
-{x_sbp_tags: english}
-
 {c: Intro}
 [D]        [Bm7]             [E7]         [Em7]
 [D]        [Bm7]             [E7]         [Em7]

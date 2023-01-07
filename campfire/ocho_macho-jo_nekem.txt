@@ -1,9 +1,3 @@
-{title: Jó nekem}
-{artist: Ocho Macho}
-{key: Em}
-{duration: 220}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Em]        [C]        [G]        [D]
 [Em]

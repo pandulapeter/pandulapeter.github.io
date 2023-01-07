@@ -1,9 +1,3 @@
-{title: Don't Stop Believing}
-{artist: Journey}
-{key: E}
-{duration: 255}
-{x_sbp_tags: english}
-
 {c: Intro}
 [E]        [B]       [C#m]         [A]
 [E]        [B]       [G#m]         [A]

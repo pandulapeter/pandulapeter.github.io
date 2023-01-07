@@ -1,9 +1,3 @@
-{title: Szél hozott, szél visz el}
-{artist: Koncz Zsuzsa}
-{key: D}
-{duration: 105}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]        [G]        [A]        [D]
 [D]        [Em]        [A]        [D]

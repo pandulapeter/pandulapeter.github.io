@@ -1,9 +1,3 @@
-{title: Trenul pierdut}
-{artist: Compact}
-{key: D}
-{duration: 265}
-{x_sbp_tags: romanian,khameleon}
-
 {c: Intro}
 [D]            [G]
 [D]            [G]

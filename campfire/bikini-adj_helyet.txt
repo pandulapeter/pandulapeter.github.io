@@ -1,9 +1,3 @@
-{title: Adj helyet}
-{artist: Bikini}
-{key: Am}
-{duration: 215}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Am]        [D]        [Dm]        [Am]
 [C]        [G]        [E7]        [Am]

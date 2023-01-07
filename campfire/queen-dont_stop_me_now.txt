@@ -1,9 +1,3 @@
-{title: Don’t Stop Me Now}
-{artist: Queen}
-{key: F}
-{duration: 215}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 To[F]night I'm gonna have my[Am]self
 A real [Dm]good time, I feel a[Gm]live,    [C]

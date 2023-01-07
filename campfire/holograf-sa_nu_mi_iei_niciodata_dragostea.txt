@@ -1,9 +1,3 @@
-{title: Să nu-mi iei niciodată dragostea}
-{artist: Holograf}
-{key: G}
-{duration: 305}
-{x_sbp_tags: romanian,khameleon}
-
 {c: Intro}
 [G]        [Gsus4]        [G]        [Gsus4]
 [G]        [Gsus4]        [G]        [Gsus4]

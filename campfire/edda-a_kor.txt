@@ -1,9 +1,3 @@
-{title: A kör}
-{artist: Edda}
-{key: Am}
-{duration: 275}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Am]            [Am]
 [Am]            [Am]      [C5/A]

@@ -1,9 +1,3 @@
-{title: Lonely People}
-{artist: Gotthard}
-{key: G}
-{duration: 205}
-{x_sbp_tags: english}
-
 {c: Intro}
 [G]    [D]            [Cadd9]
 [D]                [G]

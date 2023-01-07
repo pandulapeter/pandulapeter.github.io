@@ -1,9 +1,3 @@
-{title: I Want to Break Free}
-{artist: Queen}
-{key: E}
-{duration: 260}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [A]            [B]            [C#m]            [C#m]      [B]
 [A]            [B]            [C#m]            [C#m]      [B]

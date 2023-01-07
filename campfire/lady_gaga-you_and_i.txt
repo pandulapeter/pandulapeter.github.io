@@ -1,9 +1,3 @@
-{title: You and I}
-{artist: Lady Gaga}
-{key: A}
-{duration: 310}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [A]        [Asus4]
 [A]        [G]

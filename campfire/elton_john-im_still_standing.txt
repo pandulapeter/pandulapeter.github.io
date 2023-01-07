@@ -1,9 +1,3 @@
-{title: I'm Still Standing}
-{artist: Elton John}
-{key: Bbm}
-{duration: 185}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [A#m]                [D#m/A#]                [F/A#]                    [F#/A#]      [G#/A#]
 [A#m]                [D#m/A#]                [F/A#]                    [F#/A#]      [G#/A#]

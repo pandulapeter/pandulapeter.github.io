@@ -1,9 +1,3 @@
-{title: Gyere őrült}
-{artist: Edda}
-{key: D}
-{duration: 250}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]        [Dsus2]                [Dsus4]            [D]
 [D]        [Dsus2]                [Dsus4]            [D]

@@ -1,9 +1,3 @@
-{title: Can You Fell the Love Tonight}
-{artist: Elton John}
-{key: Bb}
-{duration: 240}
-{x_sbp_tags: english}
-
 {c: Intro}
 [A#]            [F/A]
 [D#]            [A#]

@@ -1,9 +1,3 @@
-{title: Big Bang Theory Theme}
-{artist: Barenaked Ladies}
-{key: G}
-{duration: 110}
-{x_sbp_tags: english}
-
 {c: Intro}
 Our [C]whole uni[D]verse was in a
 [G]Hot, [D/F#]dense [Em]state,

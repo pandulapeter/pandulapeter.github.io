@@ -1,9 +1,3 @@
-{title: Have You Ever Seen the Rain}
-{artist: Creedence Clearwater Revival}
-{key: C}
-{duration: 160}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [Am]            [F]
 [C]            [G]

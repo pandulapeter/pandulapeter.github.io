@@ -1,9 +1,3 @@
-{title: Ha az életben}
-{artist: Kispál és a Borz}
-{key: D}
-{duration: 205}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]
 

@@ -1,9 +1,3 @@
-{title: Valaki mondja meg}
-{artist: LGT}
-{key: Bb}
-{duration: 180}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [A#]        [D#]        [F]        [F]
 [A#]        [D#]        [F]        [F]

@@ -1,9 +1,3 @@
-{title: Learn to Fly}
-{artist: Foo Fighters}
-{key: B}
-{duration: 240}
-{x_sbp_tags: english}
-
 {c: Intro}
 [B]        [F#m]         [E]        [E]
 [B]        [F#m]         [E]        [E]

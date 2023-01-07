@@ -1,7 +1,1 @@
-{title: Cake By the Ocean [placeholder]}
-{artist: DNCE}
-{key: Em}
-{duration: 220}
-{x_sbp_tags: english,khameleon}
-
 WIP

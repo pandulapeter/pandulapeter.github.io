@@ -1,9 +1,3 @@
-{title: Nem akarok elszakadni}
-{artist: Depresszió}
-{key: D}
-{duration: 200}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D5]        [A#5]        [F5]        [G5]
 [D5]        [A#5]        [C5]        [F5]

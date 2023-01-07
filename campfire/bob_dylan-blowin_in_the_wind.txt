@@ -1,9 +1,3 @@
-{title: Blowin' in the Wind}
-{artist: Bob Dylan}
-{key: E}
-{duration: 170}
-{x_sbp_tags: english}
-
 {c: Intro}
 [E]
 

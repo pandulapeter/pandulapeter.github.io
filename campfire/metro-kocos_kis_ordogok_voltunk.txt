@@ -1,9 +1,3 @@
-{title: Kócos kis ördögök voltunk}
-{artist: Metro}
-{key: Ab}
-{duration: 155}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [G#]        [C#]        [G#]        [D#]
 

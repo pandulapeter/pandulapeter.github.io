@@ -1,9 +1,3 @@
-{title: Doi pași în urma ta}
-{artist: Cargo}
-{key: C}
-{duration: 205}
-{x_sbp_tags: romanian}
-
 {c: Intro}
 [C]        [C]
 [A#]        [F]    [G]

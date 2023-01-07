@@ -1,9 +1,3 @@
-{title: Basket Case}
-{artist: Green Day}
-{key: Eb}
-{duration: 185}
-{x_sbp_tags: english}
-
 {c: Verse 1}
 [D#]Do you have the [A#]time
 To [Cm]listen to me [Gm]whine

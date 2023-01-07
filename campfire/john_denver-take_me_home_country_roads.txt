@@ -1,9 +1,3 @@
-{title: Take Me Home, Country Roads}
-{artist: John Denver}
-{key: A}
-{duration: 190}
-{x_sbp_tags: english}
-
 {c: Intro}
 [A]
 

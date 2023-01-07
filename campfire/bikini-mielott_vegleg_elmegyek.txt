@@ -1,9 +1,3 @@
-{title: Mielőtt végleg elmegyek}
-{artist: Bikini}
-{key: G}
-{duration: 230}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [C]                [F]
 [C]                [F]

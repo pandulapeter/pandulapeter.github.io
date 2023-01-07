@@ -1,9 +1,3 @@
-{title: Redemption Song}
-{artist: Bob Marley and the Wailers}
-{key: G}
-{duration: 235}
-{x_sbp_tags: english}
-
 {c: Intro}
 [G]            [G]            [C]            [D]
 [G]            [G]            [C]      [Am]      [G]

@@ -1,9 +1,3 @@
-{title: Neked írom a dalt}
-{artist: LGT}
-{key: B}
-{duration: 325}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [B]            [B]        [E]
 [B]            [B]        [E]

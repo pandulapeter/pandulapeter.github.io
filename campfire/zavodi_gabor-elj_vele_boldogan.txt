@@ -1,9 +1,3 @@
-{title: Élj vele boldogan}
-{artist: Závodi Gábor}
-{key: Bb}
-{duration: 200}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [G]        [F]        [G]        [F]
 [G]        [F]        [G]        [F]

@@ -1,7 +1,1 @@
-{title: Moves Like Jagger [placeholder]}
-{artist: Maroon 5}
-{key: Am}
-{duration: 220}
-{x_sbp_tags: english,khameleon}
-
 WIP

@@ -1,7 +1,1 @@
-{title: It's Raining Men [placeholder]}
-{artist: The Weather Girls}
-{key: Fm}
-{duration: 295}
-{x_sbp_tags: english,khameleon}
-
 WIP

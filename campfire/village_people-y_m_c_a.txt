@@ -1,7 +1,1 @@
-{title: Y.M.C.A. [placeholder]}
-{artist: Village People}
-{key: F#}
-{duration: 240}
-{x_sbp_tags: english,khameleon}
-
 WIP

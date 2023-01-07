@@ -1,9 +1,3 @@
-{title: În umbra marelui urs}
-{artist: Phoenix}
-{key: Em}
-{duration: 360}
-{x_sbp_tags: romanian}
-
 {c: Intro}
 [G]        [D]        [Em]        [Em]
 [C]

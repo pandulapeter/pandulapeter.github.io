@@ -1,9 +1,3 @@
-{title: A Muki fia}
-{artist: Parno Graszt}
-{key: D}
-{duration: 225}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]          [G]          [E]            [A]
 [D]          [G]          [Em]      [A]      [D]

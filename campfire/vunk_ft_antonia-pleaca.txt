@@ -1,9 +1,3 @@
-{title: Pleacă}
-{artist: Vunk ft. Antonia}
-{key: E}
-{duration: 175}
-{x_sbp_tags: romanian,khameleon}
-
 {c: Intro}
 [Em]            [C]
 [D]            [G]      [B]

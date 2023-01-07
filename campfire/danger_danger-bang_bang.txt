@@ -1,9 +1,3 @@
-{title: Bang Bang}
-{artist: Danger Danger}
-{key: A}
-{duration: 240}
-{x_sbp_tags: english}
-
 {c: Intro}
 Bang! Bang!
 [A]        [D]          [G]      [D]    [A]

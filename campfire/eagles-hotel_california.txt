@@ -1,9 +1,3 @@
-{title: Hotel California}
-{artist: Eagles}
-{key: Bm}
-{duration: 450}
-{x_sbp_tags: english}
-
 {c: Intro}
 [Bm]        [F#7]        [A]        [E]
 [G]        [D]        [Em]        [F#]

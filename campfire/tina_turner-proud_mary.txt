@@ -1,9 +1,3 @@
-{title: Proud Mary}
-{artist: Tina Turner}
-{key: D}
-{duration: 330}
-{x_sbp_tags: english}
-
 {c: Intro}
 [D]
 You know, every now and then I think you might like to hear something from us nice and easy.

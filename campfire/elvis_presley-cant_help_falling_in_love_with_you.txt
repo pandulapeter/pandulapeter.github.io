@@ -1,9 +1,3 @@
-{title: Can't Help Falling in Love with You}
-{artist: Elvis Presley}
-{key: D}
-{duration: 180}
-{x_sbp_tags: english}
-
 {c: Intro}
 [D]        [A]        [D]        [A]
 

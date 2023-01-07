@@ -1,9 +1,3 @@
-{title: Hallelujah}
-{artist: Leonard Cohen}
-{key: C}
-{duration: 280}
-{x_sbp_tags: english}
-
 {c: Intro}
 [C]        [G]
 

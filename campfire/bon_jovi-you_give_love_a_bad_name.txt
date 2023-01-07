@@ -1,10 +1,3 @@
-{title: You Give Love a Bad Name [lyrics only]}
-{artist: Bon Jovi}
-{key: Cm}
-{duration: 220}
-{tempo: 123}
-{x_sbp_tags: english,backtrackers}
-
 {c: Intro}
 Shot through the heart and you're to blame,
 Darlin', you give love a bad name!

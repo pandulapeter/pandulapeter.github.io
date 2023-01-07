@@ -1,9 +1,3 @@
-{title: Örökké tart}
-{artist: Tankcsapda}
-{key: E}
-{duration: 275}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [E]        [A/E]
 [E]        [A/E]

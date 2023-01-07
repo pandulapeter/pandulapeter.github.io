@@ -1,9 +1,3 @@
-{title: Egyszerű dal}
-{artist: Tankcsapda}
-{key: Em}
-{duration: 180}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Em]        [G]        [D]        [C]
 [Em]        [G]        [D]        [C]

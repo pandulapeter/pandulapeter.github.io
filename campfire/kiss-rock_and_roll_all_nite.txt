@@ -1,10 +1,3 @@
-{title: Rock and Roll All Nite [lyrics only]}
-{artist: Kiss}
-{key: Ab}
-{duration: 220}
-{tempo: 145}
-{x_sbp_tags: english,backtrackers}
-
 {c: Intro}
 
 {c: Verse 1}

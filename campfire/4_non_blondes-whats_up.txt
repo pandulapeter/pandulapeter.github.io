@@ -1,9 +1,3 @@
-{title: What's Up}
-{artist: 4 Non Blondes}
-{key: A}
-{duration: 295}
-{x_sbp_tags: english}
-
 {c: Intro}
 [A]      [Bm]      [D]      [A]
 [A]      [Bm]      [D]      [A]

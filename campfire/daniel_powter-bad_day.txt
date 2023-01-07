@@ -1,9 +1,3 @@
-{title: Bad Day}
-{artist: Daniel Powter}
-{key: Eb}
-{duration: 235}
-{x_sbp_tags: english}
-
 {c: Intro}
 [D#]        [G#]        [A#]        [A#]
 

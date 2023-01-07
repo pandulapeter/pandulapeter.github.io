@@ -1,9 +1,3 @@
-{title: Stand by Me}
-{artist: Ben E. King}
-{key: Bb}
-{duration: 180}
-{x_sbp_tags: english}
-
 {c: Intro}
 [A#]            [A#]            [Gm]            [Gm]
 [D#]            [F]            [A#]            [A#]

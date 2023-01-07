@@ -1,9 +1,3 @@
-{title: Ki visz haza}
-{artist: Bikini}
-{key: C}
-{duration: 200}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [C]        [Em]                [F]
 [C]        [Em]                [F]

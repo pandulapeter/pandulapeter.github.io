@@ -1,9 +1,3 @@
-{title: Thinking Out Loud}
-{artist: Ed Sheeran}
-{key: D}
-{duration: 285}
-{x_sbp_tags: english}
-
 {c: Verse 1}
 [D]When your [D/F#]legs don't work like they [G]used to before,   [A]
 [D]And I [D/F#]can't sweep you off of your [G]feet.   [A]

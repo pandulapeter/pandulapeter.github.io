@@ -1,9 +1,3 @@
-{title: Rockstar}
-{artist: Nickelback}
-{key: G}
-{duration: 255}
-{x_sbp_tags: english}
-
 {c: Verse 1}
 I'm through with [G]standin' in lines to clubs I'll never get in,
 It's like the [C]bottom of the ninth and I'm never gonna win,

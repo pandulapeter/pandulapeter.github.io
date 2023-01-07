@@ -1,9 +1,3 @@
-{title: Ha itt lennél velem}
-{artist: Republic}
-{key: D}
-{duration: 205}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]        [A]
 [D]        [A]

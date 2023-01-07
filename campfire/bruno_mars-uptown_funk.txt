@@ -1,9 +1,3 @@
-{title: Uptown Funk [lyrics only]}
-{artist: Bruno Mars}
-{key: D}
-{duration: 270}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 
 {c: Verse 1}

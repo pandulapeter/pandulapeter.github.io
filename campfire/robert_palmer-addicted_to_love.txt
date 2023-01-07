@@ -1,9 +1,3 @@
-{title: Addicted to Love}
-{artist: Robert Palmer}
-{key: A}
-{duration: 360}
-{x_sbp_tags: english}
-
 {c: Intro}
 [A]        [G]        [D]        [A]
 [A]        [G]        [D]        [A]

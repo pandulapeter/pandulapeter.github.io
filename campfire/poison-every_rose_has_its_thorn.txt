@@ -1,9 +1,3 @@
-{title: Every Rose Has Its Thorn}
-{artist: Poison}
-{key: F#}
-{duration: 265}
-{x_sbp_tags: english}
-
 {c: Intro}
 [F#]        [Badd9]
 [F#]        [Badd9]

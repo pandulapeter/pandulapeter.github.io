@@ -1,10 +1,3 @@
-{title: Highway to Hell}
-{artist: AC/DC}
-{key: A}
-{duration: 210}
-{tempo: 116}
-{x_sbp_tags: english,backtrackers,khameleon}
-
 {c: Intro}
         [A]
 ‎[A]        [D/F#]

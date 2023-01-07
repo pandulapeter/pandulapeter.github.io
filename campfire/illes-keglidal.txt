@@ -1,9 +1,3 @@
-{title: Kéglidal}
-{artist: Illés}
-{key: A}
-{duration: 235}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 Sok kérdést már megoldottunk,
 Nem volt soha ilyen jó dolgunk,

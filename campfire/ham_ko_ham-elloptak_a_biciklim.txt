@@ -1,9 +1,3 @@
-{title: Ellopták a biciklim}
-{artist: Ham Ko Ham}
-{key: Am}
-{duration: 175}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Am]        [Am]        [Dm]        [E]
 [Am]        [Am]        [Dm]        [E]

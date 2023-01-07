@@ -1,9 +1,3 @@
-{title: I Love Rock 'n' Roll}
-{artist: Joan Jett & the Blackhearts}
-{key: E}
-{duration: 180}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [E]            [E]            [G]
 [A]            [B]            [G]

@@ -1,9 +1,3 @@
-{title: Cântă cucul}
-{artist: Andra}
-{key: Cm}
-{duration: 180}
-{x_sbp_tags: romanian,khameleon}
-
 {c: Intro}
 [D#]            [G#]      [A#]
 [Cm]            [Fm]      [Gm]

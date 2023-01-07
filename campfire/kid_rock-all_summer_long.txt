@@ -1,9 +1,3 @@
-{title: All Summer Long}
-{artist: Kid Rock}
-{key: D}
-{duration: 300}
-{x_sbp_tags: english}
-
 {c: Intro}
 [D]        [C]        [G]        [G]
 [D]        [C]        [G]        [G]

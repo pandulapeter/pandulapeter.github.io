@@ -1,9 +1,3 @@
-{title: Földvár felé félúton}
-{artist: Bródy János}
-{key: Am}
-{duration: 275}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Am]            [F]            [G]            [Am]
 [Am]            [F]            [G7]            [C]

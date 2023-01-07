@@ -1,9 +1,3 @@
-{title: I'm a Believer}
-{artist: The Monkees}
-{key: G}
-{duration: 165}
-{x_sbp_tags: english}
-
 {c: Intro}
 [G]        [C]        [D]        [D]
 

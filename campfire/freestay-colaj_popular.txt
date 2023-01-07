@@ -1,9 +1,3 @@
-{title: Colaj popular}
-{artist: Freestay}
-{key: Em}
-{duration: 215}
-{x_sbp_tags: romanian,khameleon}
-
 {c: Intro}
 [Em]            [D]        [G]    [D/F#]
 [Em]            [D]        [Em -]

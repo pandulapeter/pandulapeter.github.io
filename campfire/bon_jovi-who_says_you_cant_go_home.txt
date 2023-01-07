@@ -1,9 +1,3 @@
-{title: Who Says You Can't Go Home}
-{artist: Bon Jovi}
-{key: G}
-{duration: 280}
-{x_sbp_tags: english}
-
 {c: Intro}
 [G]        [C]        [Am]        [C]
 [G]        [C]        [Am]        [D]

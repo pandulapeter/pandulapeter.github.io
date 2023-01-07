@@ -1,9 +1,3 @@
-{title: Vidéki sanzon}
-{artist: Magna Cum Laude}
-{key: Gm}
-{duration: 220}
-{x_sbp_tags: hungarian}
-
 {c: Chorus}
 Na-na [Gm]na, na [C7]na na-na-[Fmaj7]na,
 Na-na[A#maj7] na, na n[A7]a-na na-na-[Dm]na.

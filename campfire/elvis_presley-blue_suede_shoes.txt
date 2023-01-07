@@ -1,9 +1,3 @@
-{title: Blue Suede Shoes}
-{artist: Elvis Presley}
-{key: A}
-{duration: 130}
-{x_sbp_tags: english}
-
 {c: Verse 1}
 Well, it's [A]on[-]e for the money,
 [A]Tw[-]o for the show,

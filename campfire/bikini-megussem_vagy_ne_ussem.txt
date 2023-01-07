@@ -1,9 +1,3 @@
-{title: Megüssem vagy ne üssem}
-{artist: Bikini}
-{key: G}
-{duration: 215}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [G]        [C]        [D]        [C]
 [G]        [C]        [D]        [C]

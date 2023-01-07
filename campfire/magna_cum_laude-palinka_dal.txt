@@ -1,9 +1,3 @@
-{title: Pálinka dal}
-{artist: Magna Cum Laude}
-{key: Gm}
-{duration: 275}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Gm]        [Gm]        [Cm]        [D]
 [Gm]        [Gm]        [Cm]        [D]

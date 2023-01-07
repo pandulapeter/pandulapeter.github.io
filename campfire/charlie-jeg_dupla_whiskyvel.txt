@@ -1,9 +1,3 @@
-{title: Jég dupla whiskyvel}
-{artist: Charlie}
-{key: Dm}
-{duration: 275}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D5]
 

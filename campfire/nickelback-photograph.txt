@@ -1,9 +1,3 @@
-{title: Photograph}
-{artist: Nickelback}
-{key: Eb}
-{duration: 260}
-{x_sbp_tags: english}
-
 {c: Verse 1}
 [D#]Look at this photo[A#]graph,
 Every time I do it makes me [C#]laugh,

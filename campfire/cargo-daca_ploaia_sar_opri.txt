@@ -1,9 +1,3 @@
-{title: Dacă ploaia s-ar opri}
-{artist: Cargo}
-{key: Am}
-{duration: 305}
-{x_sbp_tags: romanian}
-
 {c: Intro}
 [Dm]        [E]        [Am]        [Am]
 [Dm]        [G]        [Am]        [Am]

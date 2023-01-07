@@ -1,9 +1,3 @@
-{title: Born To Be My Baby}
-{artist: Bon Jovi}
-{key: F#m}
-{duration: 280}
-{x_sbp_tags: english}
-
 {c: Intro}
 [F#m]                [D]
 [E]                [A]         [E/G#]

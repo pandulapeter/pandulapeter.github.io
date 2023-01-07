@@ -1,9 +1,3 @@
-{title: Petróleumlámpa}
-{artist: Omega}
-{key: F}
-{duration: 200}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [F]
 
@@ -53,7 +47,8 @@ Milyen [Am]szép a láng[C7]ja.
 [F]Kislány, ha itt jársz, az árnyékod kék óriás,
 Meg[G#]néz [A#]és elva[F]rázsol.
 [F]Bámulsz, hogy mi van, nézel, mint a moziban,
-És [G#]két szép[A#] szemedben [F]táncol.
+És [G#]két szép[A#] szemedben [F]táncol.
+
 {c: Chorus}
 [F]Petróleum lám[E7]pa,
 Milyen [Am]szép a láng[C7]ja.

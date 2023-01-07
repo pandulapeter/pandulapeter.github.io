@@ -1,9 +1,3 @@
-{title: Girl with One Eye}
-{artist: Florence + The Machine}
-{key: Dm}
-{duration: 220}
-{x_sbp_tags: english}
-
 {c: Intro}
 [Dm]
 

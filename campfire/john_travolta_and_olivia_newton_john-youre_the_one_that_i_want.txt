@@ -1,9 +1,3 @@
-{title: You're The One That I Want}
-{artist: John Travolta and Olivia Newton-John}
-{key: C}
-{duration: 170}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [Am]
 [Am]

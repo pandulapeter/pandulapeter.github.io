@@ -1,9 +1,3 @@
-{title: Gyöngyhajú lány}
-{artist: Omega}
-{key: Fm}
-{duration: 350}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [Fm]        [D#]        [A#m]         [Fm]
 [Fm]        [D#]        [A#m]         [Fm]

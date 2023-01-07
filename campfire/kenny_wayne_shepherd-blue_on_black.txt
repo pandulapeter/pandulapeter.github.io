@@ -1,9 +1,3 @@
-{title: Blue on Black}
-{artist: Kenny Wayne Shepherd}
-{key: D}
-{duration: 335}
-{x_sbp_tags: english}
-
 {c: Intro}
 [D5]            [D5]
 [Cadd9]            [G/B]      [G]

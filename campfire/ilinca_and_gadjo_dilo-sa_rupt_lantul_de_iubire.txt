@@ -1,9 +1,3 @@
-{title: S-a rupt lanțul de iubire [placeholder]}
-{artist: Ilinca & Gadjo Dilo}
-{key: Em}
-{duration: 190}
-{x_sbp_tags: romanian,khameleon}
-
 {c: Solo}
 [Em]      [Am]      [D]      [G]
 [Em]      [C]      [B7]      [Em]

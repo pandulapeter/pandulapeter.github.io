@@ -1,9 +1,3 @@
-{title: Most múlik pontosan}
-{artist: Quimby}
-{key: G}
-{duration: 210}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [G]
 

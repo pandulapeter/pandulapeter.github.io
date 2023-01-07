@@ -1,9 +1,3 @@
-{title: Numai una}
-{artist: Talisman}
-{key: A}
-{duration: 260}
-{x_sbp_tags: romanian}
-
 {c: Intro}
 Pe umeri [A]plete[F#m]le-i curg [E]râu.   [A]
 Mlădie, [A]ca un [F#m]spic de [E]grâu,   [A]

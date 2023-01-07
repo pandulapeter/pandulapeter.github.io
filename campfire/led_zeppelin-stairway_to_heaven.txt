@@ -1,9 +1,3 @@
-{title: Stairway to Heaven [lyrics only]}
-{artist: Led Zeppelin}
-{key: Am}
-{duration: 480}
-{x_sbp_tags: english,backtrackers}
-
 {c: Intro}
 
 {c: Verse 1}

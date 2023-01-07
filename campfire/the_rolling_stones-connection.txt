@@ -1,9 +1,3 @@
-{title: Connection}
-{artist: The Rolling Stones}
-{key: C}
-{duration: 130}
-{x_sbp_tags: english}
-
 {c: Intro}
 [E]                [F]
 All I want to [C]do,   [G]

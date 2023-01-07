@@ -1,9 +1,3 @@
-{title: Vino la mine}
-{artist: N&D}
-{key: A}
-{duration: 220}
-{x_sbp_tags: romanian,khameleon}
-
 {c: Intro}
 [A]            [F#m]
 [D]            [F#m]      [E]

@@ -1,9 +1,3 @@
-{title: Still Alive}
-{artist: Jonathan Coulton}
-{key: D}
-{duration: 255}
-{x_sbp_tags: english}
-
 {c: Verse 1}
 This was a [D]triumph.   [Bm]    [D]
 I'm [Bm]making a [D]note here:

@@ -1,9 +1,3 @@
-{title: How Do You Do}
-{artist: Roxette}
-{key: C}
-{duration: 190}
-{x_sbp_tags: english,khameleon}
-
 {c: Verse 1}
 I see you comb your [C]hair and [F]give me that [G]grin,
 It's [F]making me [C]spin now, [F]spinnin' with[G]in,

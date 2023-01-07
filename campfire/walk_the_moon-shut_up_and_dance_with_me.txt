@@ -1,9 +1,3 @@
-{title: Shut Up and Dance with Me}
-{artist: Walk the Moon}
-{key: Db}
-{duration: 200}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [C#]        [F#/C#]
 [C#]        [G#/C#]

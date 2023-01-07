@@ -1,9 +1,3 @@
-{title: Az utcán}
-{artist: Illés}
-{key: A}
-{duration: 190}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [A]        [D]        [E]        [A]
 [A]        [D]        [E]        [A]

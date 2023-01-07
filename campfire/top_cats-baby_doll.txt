@@ -1,9 +1,3 @@
-{title: Baby Doll}
-{artist: Top Cats}
-{key: Am}
-{duration: 180}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [Am]        [F]        [C]        [E]
 

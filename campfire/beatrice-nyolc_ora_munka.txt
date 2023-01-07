@@ -1,9 +1,3 @@
-{title: Nyolc óra munka}
-{artist: Beatrice}
-{key: A}
-{duration: 190}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [A]
 

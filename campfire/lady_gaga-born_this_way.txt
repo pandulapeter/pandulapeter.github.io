@@ -1,7 +1,1 @@
-{title: Born This Way [placeholder]}
-{artist: Lady Gaga}
-{key: E}
-{duration: 90}
-{x_sbp_tags: english,khameleon}
-
 WIP

@@ -1,9 +1,3 @@
-{title: I Will Survive}
-{artist: Gloria Gaynor}
-{key: Am}
-{duration: 265}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [E7]
 

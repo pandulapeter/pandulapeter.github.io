@@ -1,9 +1,3 @@
-{title: Cât de departe}
-{artist: Holograf}
-{key: D}
-{duration: 185}
-{x_sbp_tags: romanian}
-
 {c: Intro}
 [D]                [D]
 

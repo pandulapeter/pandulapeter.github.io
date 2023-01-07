@@ -1,9 +1,3 @@
-{title: The Bitch is Back}
-{artist: Elton John}
-{key: Ab}
-{duration: 225}
-{x_sbp_tags: english}
-
 {c: Intro}
 [G#]            [C#]
 [G#]            [C#]

@@ -1,9 +1,3 @@
-{title: Always}
-{artist: Bon Jovi}
-{key: E}
-{duration: 355}
-{x_sbp_tags: english}
-
 {c: Intro}
 [E]                [A]
 [C#m]        [B]        [A]

@@ -1,10 +1,4 @@
-{title: All the Small Things}
-{artist: Blink 182}
-{key: C}
-{duration: 170}
-{x_sbp_tags: english}
-
-{I}
+{c: Intro}
 [C]        [C]        [G]        [F]
 [C]        [C]        [G]        [F]
 

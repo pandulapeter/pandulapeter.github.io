@@ -1,9 +1,3 @@
-{title: House of the Rising Sun}
-{artist: The Animals}
-{key: Am}
-{duration: 270}
-{x_sbp_tags: english}
-
 {c: Intro}
 [Am]        [C]        [D]        [F]
 [Am]        [E]        [Am]        [E]

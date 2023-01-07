@@ -1,9 +1,3 @@
-{title: Walk of Life}
-{artist: Dire Straits}
-{key: E}
-{duration: 250}
-{x_sbp_tags: english}
-
 {c: Intro}
 [E]                [A]
 [B]                [A]        [B]

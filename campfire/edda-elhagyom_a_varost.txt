@@ -1,9 +1,3 @@
-{title: Elhagyom a várost}
-{artist: Edda}
-{key: G}
-{duration: 290}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
                         [D]
 [Em]        [C7]        [G]        [D]

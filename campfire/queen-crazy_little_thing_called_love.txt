@@ -1,9 +1,3 @@
-{title: Crazy Little Thing Called Love}
-{artist: Queen}
-{key: D}
-{duration: 320}
-{x_sbp_tags: english,khameleon}
-
 {c: Intro}
 [D]        [Dsus4]                [D]
 [D]        [Dsus4]                [D]

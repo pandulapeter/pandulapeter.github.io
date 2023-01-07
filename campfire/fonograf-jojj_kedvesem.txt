@@ -1,9 +1,3 @@
-{title: Jöjj kedvesem}
-{artist: Fonográf}
-{key: D}
-{duration: 255}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]
 

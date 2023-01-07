@@ -1,9 +1,3 @@
-{title: Be vagyok rúgva}
-{artist: Tankcsapda}
-{key: C}
-{duration: 210}
-{x_sbp_tags: hungarian}
-
 {c: Verse 1}
 Többé [C]az sem érdekel, ha ki vagyok [G]rúgva.
 [Am]Eleget ittam és most má' be vagyok [Em]rúgva.

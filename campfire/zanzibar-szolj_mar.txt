@@ -1,9 +1,3 @@
-{title: Szólj már}
-{artist: Zanzibár}
-{key: A}
-{duration: 230}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [A/C#]        [D]        [A]        [E]
 [A/C#]        [D]        [A]        [E]

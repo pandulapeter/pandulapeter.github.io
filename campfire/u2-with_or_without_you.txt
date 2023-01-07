@@ -1,9 +1,3 @@
-{title: With or Without You}
-{artist: U2}
-{key: D}
-{duration: 295}
-{x_sbp_tags: english}
-
 {c: Intro}
 [D]
 [D]        [A]        [Bm]        [G]

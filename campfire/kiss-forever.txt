@@ -1,9 +1,3 @@
-{title: Forever}
-{artist: Kiss}
-{key: Db}
-{duration: 235}
-{x_sbp_tags: english}
-
 {c: Verse 1}
 [C#]I gotta [Badd9]tell you what I'm [F#]feelin' in[C#]side,
 I could [D#m]lie to my[C#]self, but it's [Badd9]true.
