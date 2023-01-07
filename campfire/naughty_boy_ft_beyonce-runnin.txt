@@ -1,0 +1,80 @@
+{title: Runnin'}
+{subtitle: Lose It All}
+{artist: Naughty Boy ft. Beyoncé}
+{key: G#m}
+{duration: 220}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[G#m]      [B]      [F#]      [C#]
+
+{c: Verse 1}
+[G#m]These four lonely walls have changed
+The [B]way I feel,
+The [F#]way I feel,
+I'm [C#]standing still.
+
+{c: Verse 2}
+And [G#m]nothing else matters now, you're not here,
+So [B]where are you?
+I've been [F#]callin' you,
+I'm [C#]missin' you.
+
+{c: Pre-Chorus 1}
+[G#m]Where else can I go?
+[B]Where else can I go?
+Chasin' [F#]you,
+Chasin' [C#]you.
+
+{c: Pre-Chorus 2}
+[G#m]Memories turn to dust,
+[B]Please don't bury us,
+I got [F#]you,
+I got [C#]you.
+
+{c: Chorus}
+[G#m]Runnin', runnin', runnin', runnin',
+[B]Runnin', runnin', runnin',
+Ain't runnin' from my[F#]self no more,
+Together we'll [C#]win it all.
+I ain't [G#m]runnin', runnin', runnin', runnin',
+[B]Runnin', runnin', runnin',
+Ain't runnin' from my[F#]self no more,
+I'm ready to [C#]face it all.
+
+{c: Bridge}
+If I [D#5]lose my[F5]self, I [F#5]lose it [A#5]all.  [B]
+
+{c: Verse 3}
+[G#m]I've outrun the fears that chased,
+They're [B]standin' still,
+I'm [F#]runnin' still,
+I'm [C#]runnin' still.
+
+{c: Verse 4}
+And every [G#m]voice that cried inside my head,
+For[B]ever drives,
+For[F#]ever drives,
+I've [C#]killed the lights, oh!
+
+{c: Pre-Chorus 1}
+[G#m]Where else can I go?
+And [B]where else can I go?
+Chasing [F#]you,
+Chasing [C#]you oh.
+
+{c: Chorus}
+[G#m]Runnin', runnin', runnin', runnin',
+[B]Runnin', runnin', runnin',
+Ain't runnin' from my[F#]self no more,
+Together we'll [C#]win it all.
+I ain't [G#m]runnin', runnin', runnin', runnin',
+[B]Runnin', runnin', runnin',
+Ain't runnin' from my[F#]self no more,
+I'm ready to [C#]face it all.
+
+{c: Outro}
+If I [D#5]lose my[F5]self, I [F#5]lose it [A#5]all.  [B]
+If I [D#5]lose my[F5]self, I [F#5]lose it [A#5]all.  [B]
+If I [D#5]lose my[F5]self, I [F#5]lose it [A#5]all.  [B]
+If I [D#5]lose my[F5]self, I [F#5]lose it [A#5]all.  [B]

@@ -1,0 +1,59 @@
+{title: Rock and Roll All Nite [lyrics only]}
+{artist: Kiss}
+{key: Ab}
+{duration: 220}
+{tempo: 145}
+{x_sbp_tags: english,backtrackers}
+
+{c: Intro}
+
+{c: Verse 1}
+You show us everything you've got,
+You keep on dancin' and the room gets hot,
+You drive us wild, we'll drive you crazy!
+
+{c: Verse 2}
+You say you wanna go for a spin,
+The party's just begun, we'll let you in,
+You drive us wild, we'll drive you crazy!
+
+{c: Pre-Chorus}
+You keep on shoutin', you keep on shoutin'!
+
+{c: Chorus}
+I wanna rock and roll all night and party every day!
+I wanna rock and roll all night and party every day!
+I wanna rock and roll all night and party every day!
+I wanna rock and roll all night and party every day!
+
+{c: Verse 3}
+You keep on saying you'll be mine for a while,
+You're lookin' fancy and I like your style,
+You drive us wild, we'll drive you crazy!
+
+{c: Verse 4}
+You show us everything you've got,
+Baby, baby that's quite a lot,
+And you drive us wild, we'll drive you crazy!
+
+{c: Pre-Chorus}
+You keep on shoutin', you keep on shoutin'!
+
+{c: Chorus}
+I wanna rock and roll all night and party every day!
+I wanna rock and roll all night and party every day!
+I wanna rock and roll all night and party every day!
+I wanna rock and roll all night and party every day!
+
+{c: Solo}
+
+{c: Pre-Chorus}
+You keep on shoutin', you keep on shoutin'!
+
+{c: Chorus}
+I wanna rock and roll all night and party every day!
+I wanna rock and roll all night and party every day!
+I wanna rock and roll all night and party every day!
+I wanna rock and roll all night and party every day!
+
+{c: Outro}
