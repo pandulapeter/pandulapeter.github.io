@@ -1,0 +1,78 @@
+{title: Valaki mondja meg}
+{artist: LGT}
+{key: Bb}
+{duration: 180}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[A#]        [D#]        [F]        [F]
+[A#]        [D#]        [F]        [F]
+
+{c: Bridge}
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Halálesőt permeteznek.
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Fekete könnyel megvéreznek.
+
+{c: Bridge}
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Halálesőt permeteznek.
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Fekete könnyel megvéreznek.
+
+{c: Verse 1}
+[A#]Valaki mondja meg, milyen az élet,
+[D#]Valaki mondja meg, [A#]mér' ilyen,
+[A#]Valaki mondja meg, mér' szép az élet,
+[D#]Valaki mondja meg, [A#]miért nem,
+[A#]Valaki mondja meg, mér' jó az ember,
+[D#]Valaki [D]mondja meg, [Gm]miér' nem,
+[A#]Valaki mondja meg, [F]mér' lesz gonosszá,
+[D#]Valaki mondja meg, [A#]miért nem!
+
+{c: Verse 1}
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Halálesőt permeteznek.
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Fekete könnyel megvéreznek.
+
+{c: Verse 2}
+[A#]Valaki mondja meg, kinek kell hinnem,
+[D#]Valaki mondja meg, [A#]kinek nem,
+[A#]Valaki mondja meg, ki hova érhet,
+[D#]Milyen az íze az [A#]élet vizének.
+[A#]Valaki mondja meg, a hosszú évek,
+[D#]Mért tűnnek [D]úgy mint egy [Gm]pillanat,
+[A#]Valaki mondja meg, [F]mi az, hogy elmúlt,
+[D#]Valaki mondja meg, [A#]hol maradt.
+
+{c: Bridge}
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Halálesőt permeteznek.
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Fekete könnyel megvéreznek.
+
+{c: Verse 3}
+[A#]Valaki mondja meg, hogyan kell élni,
+[D#]Apám azt mondta, [A#]ne bánts mást,
+[A#]Valaki látta, hogy bántottalak már,
+[D#]Valaki látta, hogy [A#]bántottál.
+[A#]Valaki mondja meg, miért vagyunk itt,
+[D#]Anyám [D]azt mondta, hogy [Gm]boldog légy,
+[A#]De anyám azt nem mondta, [F]mért nem e földön,
+[D#]Anyám nem mondta, [A#]mondd, miért.
+
+{c: Bridge}
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Halálesőt permeteznek.
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Fekete könnyel megvéreznek.
+
+{c: Bridge}
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Halálesőt permeteznek.
+[A#]Madarak jönnek, [D#]madarak jönnek,
+[F]Fekete könnyel megvéreznek
+
+{c: Outro}
+[A#]

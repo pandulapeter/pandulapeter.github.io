@@ -1,0 +1,105 @@
+{title: Vino la mine}
+{artist: N&D}
+{key: A}
+{duration: 220}
+{x_sbp_tags: romanian,khameleon}
+
+{c: Intro}
+[A]            [F#m]
+[D]            [F#m]      [E]
+
+[A]            [F#m]
+[D]            [F#m]      [E]
+
+[A]            [F#m]
+[D]            [F#m]      [E]
+
+[A]            [F#m]
+[D]            [F#m]      [E]
+
+{c: Verse 1}
+[A]Încerc acum să-ți spun că am greșit (am greșit),
+Dar [F#m]tu nu vrei să asculți, nici măcar nu te uiți la mine.
+[D]Iubito, nu e bine mai lasă de la tine,
+Știu, sunt [F#m]vinovat, de ce ai plecat? Revino în viața [E]mea!
+
+{c: Verse 2}
+Nu vreau de[A]cât dragostea ta, nu vreau decât dragostea ta.
+Nu vreau de[F#m]cât să fii a mea, nu vreau decât să fii a mea.
+Nu vreau de[D]cât să înțelegi cât de mult te iubesc,
+Fără [F#m]tine nici-o clipă nu pot să tră[E]iesc!
+
+{c: Pre-Chorus}
+[A]Nu pot să cred ca m-ai ui[F#m]tat,
+[D]Nu înțeleg, [F#m]oare de ce [E]ai ple[A]cat?
+
+{c: Chorus}
+Haide, vino îna[F#m]poi,
+Să fim iar amân[D]doi,
+Vino la mine,
+[F]Vreau să fiu [G]iar cu [A]tine!
+
+{c: Chorus}
+Haide, vino îna[F#m]poi,
+Să fim iar amân[D]doi,
+Vino la mine,
+[F]Vreau să fiu [G]iar cu [A]tine!
+
+{c: Verse 3}
+Vin a[A]cum, vreau să te simt lângă mine,
+Să ne amin[F#m]tim de clipele când totul era bine.
+Amân[D]doi de mână ne plimbam,
+În [F#m]nopțile târzii sub ploaie ne săru[E]tam.
+
+{c: Verse 4}
+În ochi [A]te priveam (te priveam) și spuneam (și spuneam),
+Te iu[F#m]besc, n-o să te părăsesc, te iubesc, n-o să te părăsesc.
+Nicio[D]dată nu voi iubi o altă fată,
+În[F#m]toarce-te, iubito, vreau să fim din nou ca [E]altă dată.
+
+{c: Pre-Chorus}
+[A]Nu pot să cred ca m-ai ui[F#m]tat,
+[D]Nu înțeleg, [F#m]oare de ce [E]ai ple[A]cat?
+
+{c: Chorus}
+Haide, vino îna[F#m]poi,
+Să fim iar amân[D]doi,
+Vino la mine,
+[F]Vreau să fiu [G]iar cu [A]tine!
+
+{c: Chorus}
+Haide, vino îna[F#m]poi,
+Să fim iar amân[D]doi,
+Vino la mine,
+[F]Vreau să fiu [G]iar cu [A]tine!
+
+{c: Bridge}
+Vreau să fiu iar cu [F#m]tine!
+Vreau să fiu iar cu [D]tine!
+            [F#m]      [E]
+
+[A]            [F#m]
+[D]            [F#m]      [E]
+
+{c: Chorus}
+[A]Haide, vino îna[F#m]poi,
+Să fim iar amân[D]doi,
+Vino la mine,
+[F]Vreau să fiu [G]iar cu [A]tine!
+
+{c: Chorus}
+Haide, vino îna[F#m]poi,
+Să fim iar amân[D]doi,
+Vino la mine,
+[F]Vreau să fiu [G]iar cu [A]tine!
+
+{c: Outro}
+[A]Nu pot să cred ca m-ai ui[F#m]tat!
+[D]            [F#m]      [E]
+[A]Haide, vino îna[F#m]poi,
+Să fim iar amân[D]doi,
+Vino la mine,  [F#m]
+Vreau să fiu [E]iar cu [A]tine!
+Vreau să fiu iar cu [F#m]tine!
+[D]
+[F#m]Vreau să fiu [E]iar cu [A]tine!

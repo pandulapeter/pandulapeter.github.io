@@ -1,0 +1,77 @@
+{title: Videli noci}
+{artist: Zdob și Zdub}
+{key: F}
+{duration: 280}
+{x_sbp_tags: russian,khameleon}
+
+{c: Intro}
+[F]      [C]      [Dm]      [A#]
+[F]      [C]      [Dm]      [A#]
+
+{c: Verse 1}
+My [F]vyshli iz doma, kag[C]da va vseh oknah,
+Pa[Dm]gasli agni, a[A#]din za adin.
+My [F]videli kak uej[C]eaet paslednii tram[Dm]vai.    [A#]
+
+{c: Verse 2}
+[F]Ezdeat taksi, no nam [C]necem platiti,
+I nam [Dm]nezacem ehati, my gu[A#]leaiem adni.
+Na [F]nashem kasetnike [C]koncilasi pleonka ma[Dm]tai. [A#]Iei-iei-iei-iei!
+
+
+{c: Chorus}
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra, [A#]iei-iei-iei-iei!
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+
+{c: Verse 3}
+Zai[F]ti v telefonuiu [C]butku
+Skajy shtob zak[Dm]ryli dveri v kvar[A#]tire tvoiei.
+Sni[F]mi svoiu obuvi, my [C]budem haditi pasi[Dm]kom.    [A#]
+
+{c: Verse 4}
+[F]Esti sigarety, [C]spiciki, butylka,
+Vin[Dm]a i ana pa[A#]mojet nam jdati.
+Pa[F]mojet paveriti shto [C]vse speat i my zdesi v dva[Dm]iom. [A#]Iei-iei-iei-iei!
+
+{c: Chorus}
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra, [A#]iei-iei-iei-iei!
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+
+{c: Solo}
+[F]      [C]      [Dm]      [A#]
+[F]      [C]      [Dm]      [A#]
+[F]      [C]      [Dm]      [A#]
+[F]      [C]      [Dm]      [A#]
+
+{c: Verse 1}
+My [F]vyshli iz doma, kag[C]da va vseh oknah,
+Pa[Dm]gasli agni, a[A#]din za adin.
+My [F]videli kak uej[C]eaet paslednii tram[Dm]vai.    [A#]
+
+{c: Verse 2}
+[F]Ezdeat taksi, no nam [C]necem platiti,
+I nam [Dm]nezacem ehati, my gu[A#]leaiem adni.
+Na [F]nashem kasetnike [C]koncilasi pleonka ma[Dm]tai.    [A#]
+
+{c: Chorus}
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra, [A#]iei-iei-iei-iei!
+
+{c: Chorus}
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+[F]Videli noci, gu[C]leali vsiu noci da ut[Dm]ra.    [A#]
+
+{c: Outro}
+[F]      [C]      [Dm]      [A#]
+[F]      [C]      [Dm]      [A#]
+[F]      [C]      [Dm]      [A#]
+[F]      [C]      [Dm]      [A#]
+[F]
