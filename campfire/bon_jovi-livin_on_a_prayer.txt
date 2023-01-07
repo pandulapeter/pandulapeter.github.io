@@ -1,0 +1,98 @@
+{title: Livin' on a Prayer}
+{artist: Bon Jovi}
+{key: Em}
+{duration: 250}
+{x_sbp_tags: english}
+
+{c: Intro}
+[Em]
+[Em]
+[Em]
+[Em]
+[Em]
+[Em]
+[Em]
+[Em]
+[C]            [D]            [Em]            [Em]
+[C]Once upon a time [D]not so long ago...   [Em]
+
+{c: Verse 1}
+[Em]Tommy used to work on the docks,
+Union's been on strike,
+He's down on his luck,
+It's [C]tough, [D]so tough.   [Em]
+
+{c: Verse 2}
+[Em]Gina works the diner all day.
+Working for her man,
+She brings home her pay,
+For [C]love, [D]for love.   [Em]
+
+{c: Pre-Chorus 1}
+She says, we've got to [C]hold [D]on to what we've [Em]got,
+It [C]doesn't make a [D]difference if we make it or [Em]not,
+We've [C]got each [D]other and that's a [Em]lot for [C]love,
+We'll [D]give it a shot.
+
+{c: Chorus}
+[Em]Woah[C], we're [D]half way there,
+[G]Woa[C]h, li[D]vin' on a prayer.
+[Em]Take my [C]hand, we'll [D]make it I swear,
+[G]Woa[C]h, li[D]vin' on a prayer.
+
+{c: Bridge 1}
+[Em]
+
+{c: Verse 3}
+[Em]Tommy's got his six-string in hock,
+Now he's holding in
+What he used to make it talk,
+So [C]tough,[D] it's [Em]tough.
+
+{c: Verse 4}
+[Em]Gina dreams of running away,
+When she cries in the night, Tommy whispers
+Baby, it's [C]okay,   [D]
+Some[Em]day.
+
+{c: Pre-Chorus 1}
+We've got to [C]hold [D]on to what we've [Em]got,
+It [C]doesn't make a [D]difference if we make it or [Em]not,
+We've [C]got each [D]other and that's a [Em]lot for [C]love,
+We'll [D]give it a shot.
+
+{c: Chorus}
+[Em]Woah[C], we're [D]half way there,
+[G]Woa[C]h, li[D]vin' on a prayer.
+[Em]Take my [C]hand, we'll [D]make it I swear,
+[G]Woa[C]h, li[D]vin' on a prayer.
+
+{c: Solo}
+[Csus2]Livin' on a prayer!
+[Em]            [C]            [D]            [D]
+[G]            [C]            [D]            [D]
+
+[Em]            [C]            [D]            [D]
+[G]            [C]            [Em]            [Em]
+
+{c: Pre-Chorus 2}
+Oh, we've got to [C]hold [D]on, ready or [Em]not,
+You [C]live for the fight when it's [D]all that you've got!
+
+{c: Chorus}
+[Gm]Woah[D#], we're [F]half way there,
+[A#]Woa[D#]h, li[F]vin' on a prayer.
+[Gm]Take my [D#]hand, we'll [F]make it I swear,
+[A#]Woa[D#]h, li[F]vin' on a prayer.
+
+{c: Chorus}
+[Gm]Woah[D#], we're [F]half way there,
+[A#]Woa[D#]h, li[F]vin' on a prayer.
+[Gm]Take my [D#]hand, we'll [F]make it I swear,
+[A#]Woa[D#]h, li[F]vin' on a prayer.
+
+{c: Chorus}
+[Gm]Woah[D#], we're [F]half way there,
+[A#]Woa[D#]h, li[F]vin' on a prayer.
+[Gm]Take my [D#]hand, we'll [F]make it I swear,
+[A#]Woa[D#]h, li[F]vin' on a prayer.

@@ -1,0 +1,99 @@
+{title: Livin' La Vida Loca}
+{artist: Ricky Martin}
+{key: C#m}
+{duration: 225}
+{x_sbp_tags: english,spanish,khameleon}
+
+{c: Intro}
+[C#m]
+[C#m]
+[C#m]
+[C#m]
+
+{c: Verse 1}
+[C#m]She's into superstitions,
+[C#m]Black cats and voodoo dolls.
+[C#m]I feel a premonition,
+[C#m]That girl's gonna make me fall.
+
+{c: Bridge 1}
+[C#m]
+[C#m]
+
+{c: Verse 2}
+[C#m]She's into new sensations,
+[C#m]New kicks in the candlelight.
+[C#m]She's got a new addiction,
+[C#m]For every day and night.
+
+{c: Pre-Chorus 1}
+She'll [F#m]make you take your clothes off and go [G#m]dancing in the rain,
+She'll [A]make you live her crazy life, but she'll [B]take away your pain,
+Like a [G#7]bullet to your brain!
+
+{c: Chorus}
+[C#m]Upside, inside out, she's [B]livin' la vida [C#m]loca!
+She'll [C#m]push and pull you down, [B]livin' la vida [C#m]loca!
+Her [C#m]lips are devil red and her [B]skin's the color [C#m]mocha.
+[C#m]She will wear you out, [B]livin' la vida [C#m]loca!
+[B]Livin' la vida [C#m]loca!
+She's [B]livin' la vida [C#m]loca!
+
+{c: Bridge 2}
+[C#m]
+[C#m]
+[C#m]
+[C#m]
+
+{c: Verse 3}
+[-]Woke up in New York City,
+[C#m]In a funky cheap hotel.
+[C#m]She took my heart and she took my money,
+[C#m]She must've slipped me a sleeping pill.
+
+{c: Pre-Chorus 2}
+She [F#m]never drinks the water and makes you [G#m]order French champagne,
+[A]Once you've had a taste of her you'll [B]never be the same,
+Yeah, she'll [G#7]make you go insane!
+
+{c: Chorus}
+[C#m]Upside, inside out, she's [B]livin' la vida [C#m]loca!
+She'll [C#m]push and pull you down, [B]livin' la vida [C#m]loca!
+Her [C#m]lips are devil red and her [B]skin's the color [C#m]mocha.
+[C#m]She will wear you out, [B]livin' la vida [C#m]loca!
+[B]Livin' la vida [C#m]loca!
+She's [B]livin' la vida [C#m]loca!
+
+{c: Solo 1}
+[C#m]
+[B]      [C#m]
+[C#m]
+[B]      [C#m]
+
+{c: Pre-Chorus 1}
+She'll [F#m]make you take your clothes off and go [G#m]dancing in the rain,
+She'll [A]make you live her crazy life, but she'll [B]take away your pain,
+Like a [G#7]bullet to your brain!
+
+{c: Chorus}
+[C#m]Upside, inside out, she's [B]livin' la vida [C#m]loca!
+She'll [C#m]push and pull you down, [B]livin' la vida [C#m]loca!
+Her [C#m]lips are devil red and her [B]skin's the color [C#m]mocha.
+[C#m]She will wear you out, [B]livin' la vida [C#m]loca!
+[B]Livin' la vida [C#m]loca!
+She's [B]livin' la vida [C#m]loca!
+
+{c: Solo 2}
+[C#m]
+[B]      [C#m]
+[C#m]
+[B]      [C#m]
+
+[C#m]
+[B]      [C#m]
+[C#m]
+
+{c: Outro}
+[B]Gotta la vida [C#m]loca!
+[B]Gotta, gotta, gotta la [C#m]vida loca!
+[B]Gotta, gotta, gotta la [C#m]vi'...

@@ -1,0 +1,91 @@
+{title: Learn to Fly}
+{artist: Foo Fighters}
+{key: B}
+{duration: 240}
+{x_sbp_tags: english}
+
+{c: Intro}
+[B]        [F#m]         [E]        [E]
+[B]        [F#m]         [E]        [E]
+
+{c: Verse 1}
+[B]Run and tell all of the [F#m]angels,
+[E]This could take all night.
+[B]Think I need a devil to [F#m]help me
+Get things [E]right.
+
+{c: Verse 2}
+[B]Hook me up a new revo[F#m]lution,
+'Cause [E]this one is a lie.
+We [B]sat around laughing
+And [F#m]watching the last one [E]die.
+
+{c: Chorus}
+I'm [B]looking to the sky to [F#m]save me,
+[E]Looking for a sign of life,
+[B]Looking for something to [F#m]help me burn out [E]bright.
+I'm [B]looking for a compli[F#m]cation,
+[E]Looking 'cause I'm tired of lying,
+[G]Make my way back [A]home,
+When I learn to fly high.
+
+{c: Bridge 1}
+[B]        [F#m]         [E]        [E]
+[B]        [F#m]         [E]        [E]
+
+{c: Verse 3}
+[B]Think I'm done nursing the [F#m]patience,
+[E]It can wait one night.
+I'd [B]give it all away,
+If you [F#m]give me one last [E]try.
+
+{c: Verse 4}
+[B]We live happily [F#m]ever trapped
+If [E]you just save my life,
+[B]Run and tell the angels
+That [F#m]everything is all [E]right.
+
+{c: Chorus}
+I'm [B]looking to the sky to [F#m]save me,
+[E]Looking for a sign of life,
+[B]Looking for something to [F#m]help me burn out [E]bright.
+I'm [B]looking for a compli[F#m]cation,
+[E]Looking 'cause I'm tired of trying,
+[G]Make my way back [A]home,
+When I learn to fly [E]high.
+
+{c: Bridge 2}
+[G]Make my way back [A]home,
+When I learn to [B]fly
+...a[G]long with me,
+I [D]can't quite make it a[E]lone,
+[G]Try to make this [A]life my own.
+[B]Fly a[G]long with me,
+I [D]can't quite make it a[E]lone,
+[G]Try to make this [A]life my own.
+
+{c: Chorus}
+I'm [B]looking to the sky to [F#m]save me,
+[E]Looking for a sign of life,
+[B]Looking for something to [F#m]help me burn out [E]bright.
+I'm [B]looking for a compli[F#m]cation,
+[E]Looking 'cause I'm tired of trying,
+[G]Make my way back [A]home,
+When I learn to...
+
+{c: Chorus}
+[B]Looking to the sky to [F#m]save me,
+[E]Looking for a sign of life,
+[B]Looking for something to [F#m]help me burn out [E]bright.
+I'm [B]looking for a compli[F#m]cation,
+[E]Looking 'cause I'm tired of trying,
+[G]Make my way back [A]home,
+When I learn to fly [E]high.
+
+{c: Outro}
+[G]Make my way back [A]home,
+When I learn to fly.   [E]
+[G]Make my way back [A]home,
+When I learn to...
+[B]                [B]
+[B]        [D#]        [F#]

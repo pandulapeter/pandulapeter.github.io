@@ -1,0 +1,69 @@
+{title: Long Black Train}
+{artist: Josh Turner}
+{key: Bb}
+{duration: 250}
+{x_sbp_tags: english}
+
+{c: Intro}
+[A#]
+
+{c: Verse 1}
+There's a [A#]long black train coming down the line,
+[A#]Feeding off the souls that are [Gm]lost and [A#]cryin'.
+[A#]Rails of sin only evil remains,
+[A#]Watch out brother for that [F]long black [A#]train.
+
+{c: Verse 2}
+[A#]Look to the heavens, you can look to the skies,
+[A#]You can find redemption staring [Gm]back into your [A#]eyes.
+[A#]There is protection and there is peace the same,
+[A#]Burn in your ticket for that [F]long black [A#]train.
+
+{c: Chorus}
+'Cause there's [A#]victory in the Lord I say,
+[A#]Victory in the [F]Lord.
+[Gm]Cling to the [A#]Father and his [D#]holy [A#]name,
+And [Gm]don't go [A#]riding on that [F]long black [A#]train.
+
+{c: Verse 3}
+There's an [A#]engineer on that long black train,
+[A#]Making you wonder if your [Gm]ride is worth the [A#]pain,
+[A#]He's just waitin on your heart to say,
+"[A#]Let me ride on that [F]long black [A#]train".
+
+{c: Chorus}
+But you know there's [A#]victory in the Lord I say,
+[A#]Victory in the [F]Lord.
+[Gm]Cling to the [A#]Father and his [D#]holy [A#]name,
+And [Gm]don't go [A#]riding on that [F]long black [A#]train.
+
+{c: Solo}
+        [A#]
+[A#]        [A#]
+[A#]        [A#]
+[Gm]        [A#]
+
+[A#]        [A#]
+[A#]        [A#]
+[A#]        [A#]
+[F]        [A#]
+
+[A#]
+
+{c: Verse 4}
+Well [A#]I can hear the whistle from a mile away,
+It [A#]sounds so good, but I [Gm]must stay a[A#]way.
+That [A#]train is a beauty making everybody stare,
+But its [A#]only destination is the [F]middle of no[A#]where.
+
+{c: Chorus}
+But you know there's [A#]victory in the Lord I say,
+[A#]Victory in the [F]Lord.
+[Gm]Cling to the [A#]Father and his [D#]holy [A#]name,
+And [Gm]don't go [A#]riding on that [F]long black [A#]train.
+
+{c: Outro}
+I said [Gm]cling to the [A#]Father and his [D#]holy [A#]name,
+And [Gm]don't go [A#]riding on that [F]long black [A#]train.
+Yes [Gm]watch out [A#]brother for that [F]long black [A#]train,
+The [Gm]devil's [A#]ridin' that [F]long black [A#]train.

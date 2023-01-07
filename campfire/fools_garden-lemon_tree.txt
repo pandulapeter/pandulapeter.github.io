@@ -1,0 +1,72 @@
+{title: Lemon Tree}
+{artist: Fools Garden}
+{key: Fm}
+{duration: 195}
+{x_sbp_tags: english}
+
+{c: Intro}
+[Fm]        [Fm]        [Cm]        [Cm]
+[Fm]        [Fm]        [Cm]        [Cm]
+[A#m]        [A#m]        [Cm]        [Cm]
+[Fm]        [Cm]        [Fm]        [-]
+
+{c: Verse 1}
+I'm [Fm]sitting here in the [Cm]boring room,
+It's [Fm]just another rainy Sunday [Cm]afternoon,
+I'm [Fm]wasting my time, I got [Cm]nothing to do,
+I'm [Fm]hanging around, I'm [Cm]waiting for you,
+But [A#m]nothing ever happens[Cm] and I [Fm]wonder.   [Cm]    [Fm]    [-]
+
+{c: Verse 2}
+I'm [Fm]driving around [Cm]in my car,
+I'm [Fm]driving too fast, I'm [Cm]driving too far.
+I'd [Fm]like to change my [Cm]point of view,
+I [Fm]feel so lonely, I'm [Cm]waiting for you,
+But [A#m]nothing ever happens[Cm] and I [Fm]wonder.   [Cm]    [Fm]
+
+{c: Chorus}
+I [Ab]wonder how, I [D#]wonder why,
+[Fm]Yesterday you told me 'bout the [Cm]blue blue sky,
+And [Db]all that I can [D#]see is just a yellow [Ab]lemon-tree. [D#]
+I'm [Ab]turning my head [D#]up and down,
+I'm [Fm]turning, turning, turning, turning, [Cm]turning around,
+And [Db]all that I can [Bb7]see is just another [D#]lemon-tree.
+
+{c: Bridge 1}
+[Fm]        [Fm]        [Cm]        [Cm]
+[Fm]        [Fm]        [Cm]        [Cm]
+[A#m]        [A#m]        [Cm]        [Cm]
+[Fm]        [Cm]        [Fm]   [-]
+
+{c: Verse 3}
+I'm [Fm]sitting here, I [Cm]miss the power.
+I'd [Fm]like to go out, [Cm]taking a shower,
+But [Fm]there's a heavy cloud in[Cm]side my head,
+I [Fm]feel so tired, put my[Cm]self into bed,
+While [A#m]nothing ever happens[Cm] and I [Fm]wonder.   [Cm]    [Fm]
+
+{c: Bridge 2}
+[A#m]Isolation [Fm]is not good for me.
+[D#]Isolation, [Ab]I don't want to [Cm]sit on the lemon-tree.
+
+{c: Verse 4}
+I'm [Fm]steppin' around in the [Cm]desert of joy,
+[Fm]Baby anyhow I'll get a[Cm]nother toy,
+And [A#m]everything will happen,[Cm] and you [Fm]wonder.   [Cm]    [Fm]
+
+{c: Chorus}
+I [Ab]wonder how, I [D#]wonder why,
+[Fm]Yesterday you told me 'bout the [Cm]blue blue sky,
+And [Db]all that I can [D#]see is just a yellow [Ab]lemon-tree. [D#]
+I'm [Ab]turning my head [D#]up and down,
+I'm [Fm]turning, turning, turning, turning, [Cm]turning around,
+And [Db]all that I can [Bb7]see is just another [D#]lemon-tree.
+And I [D#]wonder, wonder,
+
+{c: Outro}
+I [Ab]wonder how, I [D#]wonder why,
+[Fm]Yesterday you told me 'bout the [Cm]blue blue sky,
+And [Db]all that I can [D#]see,
+And [Db]all that I can [D#]see,
+And [Db]all that I can [D#]see,
+Is just a yellow [Ab]lemon-tree.

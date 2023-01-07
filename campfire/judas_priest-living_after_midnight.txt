@@ -1,0 +1,87 @@
+{title: Living After Midnight}
+{artist: Judas Priest}
+{key: E}
+{duration: 215}
+{x_sbp_tags: english}
+
+{c: Intro}
+[E]            [D]      [A]            [B]
+[E]            [D]      [A]            [B]
+[E]            [D]      [A]            [B]
+[B]                  [B]
+
+{c: Chorus}
+[E]Living [D]after [A]midnight,   [B]
+[E]Rockin' [D]to the [A]dawn.   [B]
+[E]Lovin' [D]'til the [A]morning,   [B]
+Then I'm [B]gone, I'm [B]gone.
+
+{c: Verse 1}
+[E]I took the city 'bout one A.M,
+[G]Load[E]ed, [G]load[E]ed.
+[E]I'm all geared up to score again,
+[G]Load[E]ed, [G]load[E]ed.
+[G]I come alive in the neon light,
+[F#]That's when I [B]make my moves right.
+
+{c: Chorus}
+[E]Living [D]after [A]midnight,   [B]
+[E]Rockin' [D]to the [A]dawn.   [B]
+[E]Lovin' [D]'til the [A]morning,   [B]
+Then I'm [B]gone, I'm [B]gone.
+
+{c: Verse 2}
+[E]Got gleaming chrome, reflecting steel,
+[G]Load[E]ed, [G]load[E]ed.
+[E]Ready to take on every deal,
+[G]Load[E]ed, [G]load[E]ed.
+[G]My pulse is racing, I'm hot to take,
+[F#]This motor's [B]revved up, fit to break.
+
+{c: Chorus}
+[E]Living [D]after [A]midnight,   [B]
+[E]Rockin' [D]to the [A]dawn.   [B]
+[E]Lovin' [D]'til the [A]morning,   [B]
+Then I'm [B]gone, I'm [B]gone.
+
+{c: Bridge}
+[A]        [Asus4]                [A]        [Asus4]                [A]
+[E]I'm [G]aim[E]ing for ya,
+[A]        [Asus4]                [A]        [Asus4]                [A]
+[E]I'm [G]gonn[E]a floor ya!
+[A]        [Asus4]                [A]        [Asus4]                [A]
+[E]My [G]bod[E]y's coming,
+[A]        [Asus4]                [A]        [Asus4]                [A]
+[B]All [D]night [B]long!
+
+{c: Solo}
+[E]            [D]      [A]            [B]
+[E]            [D]      [A]            [B]
+[E]            [D]      [A]            [B]
+[B]                  [B]
+
+{c: Verse 3}
+[E]The air's electric, sparkin' power,
+[G]Load[E]ed, [G]load[E]ed.
+[E]I'm getting hotter by the hour,
+[G]Load[E]ed, [G]load[E]ed.
+I [G]set my sights and then home in,
+[F#]The joint starts [B]flying when I begin.
+
+{c: Chorus}
+[E]Living [D]after [A]midnight,   [B]
+[E]Rockin' [D]to the [A]dawn.   [B]
+[E]Lovin' [D]'til the [A]morning,   [B]
+Then I'm [B]gone, I'm [B]gone.
+
+{c: Chorus}
+[E]Living [D]after [A]midnight,   [B]
+[E]Rockin' [D]to the [A]dawn.   [B]
+[E]Lovin' [D]'til the [A]morning,   [B]
+Then I'm [B]gone, I'm [B]gone.
+
+{c: Chorus}
+[E]Living [D]after [A]midnight,   [B]
+[E]Rockin' [D]to the [A]dawn.   [B]
+[E]Lovin' [D]'til the [A]morning,   [B]
+Then I'm [B]gone, I'm [B]gone.
