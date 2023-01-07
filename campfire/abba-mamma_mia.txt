@@ -1,0 +1,92 @@
+{title: Mamma Mia}
+{artist: ABBA}
+{key: D}
+{duration: 215}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[D]        [Daug]
+[D]        [Daug]
+[D]        [Daug]
+[D]        [Daug]
+
+{c: Verse 1}
+[D]I've been cheated by you since I don't know [G]when,
+[D]So I made up my mind, it must come to an [G]end.
+[D]Look at me now, [Daug]will I ever learn,
+[D]I don't know [Daug]how, but I suddenly [G]lose control,
+There's a fire with[A]in my soul.
+
+{c: Pre-Chorus}
+[G]Just [D]one [A]look and I can hear a bell ring
+[G]One [D]more [A]look and I forget everything, whoa.
+
+{c: Chorus 1}
+[D]Mamma mia, here I go again,
+[G]My, my, how can I resist you?
+[D]Mamma mia, does it show again,
+[G]My, my, just how much I've missed you?
+
+{c: Chorus 2}
+[D]Yes, I've been [A/C#]brokenhearted,
+[Bm]Blue since the [F#m/A]day we parted,  [G]
+[C]Why, [G]why [Em]did I ever [A]let you go?
+
+{c: Post-Chorus}
+[D]Mamma mia, [Bm]now I really know,  [G]
+[C]My, [G]my, [Em]I could never [A]let you go!
+
+{c: Bridge 1}
+[D]        [Daug]
+[D]        [Daug]
+
+{c: Verse 2}
+[D]I've been angry and sad about things that you [G]do,
+[D]I can't count all the times that I've told you we're [G]through.
+[D]And when you go, [Daug]when you slam the door,
+[D]I think you know [Daug]that you won't be a[G]way too long,
+You know that I'm [A]not that strong.
+
+{c: Pre-Chorus 1}
+[G]Just [D]one [A]look and I can hear a bell ring
+[G]One [D]more [A]look and I forget everything, whoa.
+
+{c: Chorus 1}
+[D]Mamma mia, here I go again,
+[G]My, my, how can I resist you?
+[D]Mamma mia, does it show again,
+[G]My, my, just how much I've missed you?
+
+{c: Chorus 2}
+[D]Yes, I've been [A/C#]brokenhearted,
+[Bm]Blue since the [F#m/A]day we parted,  [G]
+[C]Why, [G]why [Em]did I ever [A]let you go?
+
+{c: Bridge 2}
+[D]Mamma mia, even if I say,  [G]
+[C]Bye-[G]bye, leave me now or never.
+
+[D]Mamma mia, it's a game we play,  [G]
+[C]Bye-[G]bye doesn't mean forever.
+
+[D]Mamma mia, here I go again,  [G]
+[C]My, [G]my, how can I resist you?
+
+[D]Mamma mia, does it show again,  [G]
+[C]My, [G]my, just how much I've missed you?
+
+{c: Chorus 2}
+[D]Yes, I've been [A/C#]brokenhearted,
+[Bm]Blue since the [F#m/A]day we parted,  [G]
+[C]Why, [G]why [Em]did I ever [A]let you go?
+
+{c: Post-Chorus}
+[D]Mamma mia, [Bm]now I really know,  [G]
+[C]My, [G]my, [Em]I could never [A]let you go!
+
+{c: Outro}
+[D]        [Daug]
+[D]        [Daug]
+[D]        [Daug]
+[D]        [Daug]
+[D]

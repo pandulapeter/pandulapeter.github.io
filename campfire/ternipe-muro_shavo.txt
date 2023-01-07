@@ -1,0 +1,59 @@
+{title: Muro Shavo}
+{artist: Ternipe}
+{key: Dm}
+{duration: 140}
+{x_sbp_tags: romani,khameleon}
+
+{c: Verse 1}
+[A#]Muro ilo losharel, [F]kana, Devla, dumadel
+[A#]Le vastenca sika[Dm]vel (hop hop!).
+[A#]Shukar san tu, muro shavo, [F]tu san muro kutyaripo.
+[Gm]Chumidau tyo [A]ilo[Dm]ro (Brega pita, ha-ha!).
+
+{C: Chorus}
+[A#]            [F]
+[A#]            [Dm]
+[A#]            [F]
+[Gm]      [A]      [Dm]
+
+{c: Verse 2}
+[A#]Kana pe leste dikhaw, [F]gilyi leske me penaw
+[A#]Oi si shavo, te me[Dm]rau (hop hop hop!).
+[A#]Vorbil mange, khelel manghe, [F]si te merau pala leste.
+[Gm]Ai, Devlale, [A]juti[Dm]le (Giabo,hop hop!).
+
+{c: Chorus}
+[A#]            [F]
+[A#]            [Dm]
+[A#]            [F]
+[Gm]      [A]      [Dm]
+
+{c: Verse 3}
+[A#]Kade, Kiki, kade malav, [F]sar me tuke sikavaw.
+[A#]Sar me tuke sika[Dm]vaw (Ji ha, ha-he!).
+[A#]Dikh chak, tata, sar khelaw, [F]le changasa malavaw
+[Gm]Tuke voia [A]me ke[Dm]raw (Giabo,hop hop!).
+
+{c: Chorus}
+[A#]            [F]
+[A#]            [Dm]
+[A#]            [F]
+[Gm]      [A]      [Dm]
+
+{c: Chorus}
+[A#]            [F]
+[A#]            [Dm]
+[A#]            [F]
+[Gm]      [A]      [Dm]
+
+{c: Verse 3}
+[A#]Kade, Kiki, kade malav, [F]sar me tuke sikavaw.
+[A#]Sar me tuke sika[Dm]vaw.
+[A#]Dikh chak, tata, sar khelaw, [F]le changasa malavaw
+[Gm]Tuke voia [A]me ke[Dm]raw.
+
+{c: Chorus}
+[A#]            [F]
+[A#]            [Dm]
+[A#]            [F]
+[Gm]      [A]      [Dm]

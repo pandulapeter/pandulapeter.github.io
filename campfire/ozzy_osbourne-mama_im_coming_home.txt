@@ -1,0 +1,77 @@
+{title: Mama I'm Coming Home}
+{artist: Ozzy Osbourne}
+{key: Eb}
+{duration: 255}
+{x_sbp_tags: english}
+
+{c: Intro}
+[D#]
+[D#]
+
+{c: Verse 1}
+[D#]Times have changed and times are strange,
+Here I come, but I ain't the same,
+[G#]Mama, I'm coming [D#]home.
+
+{c: Verse 2}
+[D#]Times gone by, seems to be,
+You could have been a better friend to me,
+[G#]Mama, I'm coming [D#]home.
+
+{c: Pre-Chorus 1}
+You [Cm]took me in and you [G#]drove me out,
+Yeah, you [D#]had me hypnotized.
+[Cm]Lost and found and [G#]turned around,
+By the [A#]fire in your eyes.
+
+{c: Verse 3}
+You [D#]made me cry, you told me lies,
+But, I can't stand to say goodbye,
+[G#]Mama, I'm coming [D#]home.
+
+{c: Verse 4}
+I [D#]could be right, I could be wrong,
+It hurts so bad, it's been so long,
+[G#]Mama, I'm coming [D#]home.
+
+{c: Pre-Chorus 2}
+[Cm]Selfish love yeah we're [G#]both alone,
+The [D#]ride before the fall yeah.
+But [Cm]I'm gonna take this [G#]heart of stone
+I just [A#]got to have it all.   [F]        [G]
+
+{c: Chorus}
+[G#]I've seen your face a hundred [D#]times,
+[G#]Everyday we've been a[D#]part.
+[G#]I don't [A#]care about the [D#]sunshine, ye[G#]ah,
+'Cause [G#]mama, [A#]mama, I'm coming [B]home,   [C#]        [D#]
+I'm coming [B]home.   [C#]        [A#]
+
+{c: Solo}
+[F#]    [G#]    [D#]    [D#]
+[F#]    [G#]    [D#]    [D#]
+[F#]    [G#]    [D#]    [D#]
+[A#]    [A#]    [A#]    [A#]
+
+[G#]                [D#]
+[G#]                [D#]
+[G#]        [A#]        [Cm]    [A#]    [G#]
+[A#]
+
+{c: Pre-Chorus 1}
+You [Cm]took me in and you [G#]drove me out,
+Yeah, you [D#]had me hypnotized.
+[Cm]Lost and found and [G#]turned around,
+By the [A#]fire in your eyes.   [F]        [G]
+
+{c: Chorus}
+[G#]I've seen your face a thousand [D#]times,
+[G#]Everyday we've been a[D#]part.
+[G#]I don't [A#]care about the [D#]sunshine, ye[G#]ah,
+'Cause [G#]mama, [A#]mama, I'm coming [B]home,   [C#]        [D#]
+I'm coming [B]home.   [C#]        [D#]
+
+{c: Outro}
+I'm coming [B]home.   [C#]        [D#]
+I'm coming [B]home.   [C#]        [D#]
+[D#]

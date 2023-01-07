@@ -1,0 +1,77 @@
+{title: Mai frumoasă}
+{artist: Laura Stoica}
+{key: E}
+{duration: 280}
+{x_sbp_tags: romanian,khameleon}
+
+{c: Verse 1}
+[E]Ești departe și ai asupra mea o pu[A]tere imensă,
+[E]Mă trezesc zâmbind în fie[A]care zi.
+Ce [C#m]șansă că te-am cunos[G#m]cut,
+Nu mai cre[F#m]deam în iu[G#m]bire de [A]mult.
+
+{c: Verse 2}
+[E]Vreau să rămân în lumea ta plină [A]de iubire,
+[E]N-am mai fost îndrăgostită așa [A]nicicând.
+Feri[C#m]cirea pe care-o pri[G#m]mesc,
+Doar cu [F#m]tine [G#m]vreau s-o tră[A]iesc.
+
+{c: Pre-Chorus}
+Cu [E]tine în[B]văț să iu[A]besc, [B]ooo...
+
+{c: Chorus}
+[E]Tu mă [C#m]vezi mai fru[A]moasă decât știu [B]eu,
+Mă [E]faci să [C#m]simt că sunt [F#m]centrul lumii, [B]eu.
+[E]Și mă a[C#m]linți, mă alinți, mă a[A]linți cu vorbe [B]dulci,
+Inima [A]mea nu vrea s-o [B]minți, nu vrea s-o [E]uiți.
+[B]
+[B]
+
+{c: Verse 3}
+[E]Vreau să rămân în lumea ta plină [A]de iubire,
+[E]Să mă trezesc zâmbind în fie[A]care zi.
+Feri[C#m]cirea pe care-o pri[G#m]mesc,
+Doar cu [F#m]tine [G#m]vreau s-o tră[A]iesc.
+
+{c: Pre-Chorus}
+Cu [E]tine în[B]văț să iu[A]besc, [B]ooo...
+
+{c: Chorus}
+[E]Tu mă [C#m]vezi mai fru[A]moasă decât știu [B]eu,
+Mă [E]faci să [C#m]simt că sunt [F#m]centrul lumii, [B]eu.
+[E]Și mă a[C#m]linți, mă alinți, mă a[A]linți cu vorbe [B]dulci,
+Inima [A]mea nu vrea s-o [B]minți, nu vrea s-o [E]uiți.
+[B]
+
+{c: Bridge 1}
+[G#m]Uneo[C#m]ri, fără tine, [F#m]drumul e [B]greu,
+[G#m]Aș vrea să [C#m]fii cu mine, [F#m]cu mine me[B]reu.
+
+{c: Solo}
+[E]            [A]
+[E]            [A]
+
+{c: Bridge 2}
+Feri[C#m]cirea pe care-o pri[G#m]mesc,
+Doar cu [F#m]tine [G#m]vreau s-o tră[A]iesc.
+[A]Ooo...
+
+{c: Chorus}
+[E]Tu mă [C#m]vezi mai fru[A]moasă decât știu [B]eu,
+Mă [E]faci să [C#m]simt că sunt [F#m]centrul lumii, [B]eu.
+[E]Și mă a[C#m]linți, mă alinți, mă a[A]linți cu vorbe [B]dulci,
+Inima [A]mea nu vrea s-o [B]minți, nu vrea s-o [E]uiți.
+[B]Ooo...
+
+{c: Chorus}
+[E]Tu mă [C#m]vezi mai fru[A]moasă decât știu [B]eu,
+Mă [E]faci să [C#m]simt că sunt [F#m]centrul lumii, [B]eu.
+[E]Și mă a[C#m]linți, mă alinți, mă a[A]linți cu vorbe [B]dulci,
+Inima [A]mea nu vrea s-o [B]minți, nu vrea s-o [E]uiți.
+[B]Ooo...
+
+{c: Chorus}
+[E]Tu mă [C#m]vezi mai fru[A]moasă decât știu [B]eu,
+Mă [E]faci să [C#m]simt că sunt [F#m]centrul lumii, [B]eu.
+[E]Și mă a[C#m]linți, mă alinți, mă a[A]linți cu vorbe [B]dulci,
+Inima [A]mea nu vrea s-o [B]minți, nu vrea s-o [E]uiți.
