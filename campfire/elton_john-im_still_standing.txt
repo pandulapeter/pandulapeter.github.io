@@ -1,0 +1,74 @@
+{title: I'm Still Standing}
+{artist: Elton John}
+{key: Bbm}
+{duration: 185}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[A#m]                [D#m/A#]                [F/A#]                    [F#/A#]      [G#/A#]
+[A#m]                [D#m/A#]                [F/A#]                    [F#/A#]      [G#/A#]
+
+{c: Verse 1}
+[A#]You could never know [Cm7/A#]what it's like,
+Your [A#sus2]blood like winter freezes [A#]just like ice,
+And there's a [D#]cold lonely light that shines from [F]you,
+You'll [Gm]wind up like the wreck you [D#]hide behind that [A#]mask you use.
+
+{c: Verse 2}
+[A#]And did you think this fool could [Cm7/A#]never win?
+Well [A#sus2]look at me, I'm coming [A#]back again!
+I got a [D#]taste of love in a simple [F]way,
+And if you [Gm]need to know while I'm still [D#]standing, you just [A#]fade away.
+
+{c: Pre-Chorus}
+Don't you know [A#m7]I'm still standing better than I [Fm]ever did,
+Looking like a [D#m7]true survivor, feeling like a [F#maj7]little kid.  [G#]
+[A#m7]I'm still standing after [Fm]all this time,
+Picking up the [D#m7]pieces of my life without you [F7]on my mind.
+
+{c: Chorus}
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+
+{c: Verse 2}
+[A#]Once I never could have [Cm7/A#]hoped to win,
+You're [A#sus2]starting down the road leaving [A#]me again.
+The [D#]threats you made were meant to cut me [F]down,
+And if our [Gm]love was just a [D#]circus, you'd be a [A#]clown by now.
+
+{c: Pre-Chorus}
+You know [A#m7]I'm still standing better than I [Fm]ever did,
+Looking like a [D#m7]true survivor, feeling like a [F#maj7]little kid.  [G#]
+[A#m7]I'm still standing after [Fm]all this time,
+Picking up the [D#m7]pieces of my life without you [F7]on my mind.
+
+{c: Chorus}
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+
+{c: Solo}
+[A#]                [Cm7/A#]                [A#sus2]                [A#]
+[D#]                        [F]        [Gm]                [D#]
+[A#]                [A#]
+
+{c: Pre-Chorus}
+You know [A#m7]I'm still standing better than I [Fm]ever did,
+Looking like a [D#m7]true survivor, feeling like a [F#maj7]little kid.  [G#]
+[A#m7]I'm still standing after [Fm]all this time,
+Picking up the [D#m7]pieces of my life without you [F7]on my mind.
+
+{c: Chorus}
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+
+{c: Chorus}
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+
+{c: Chorus}
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+
+{c: Chorus}
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!
+[F#]I'm [G#]still [A#m7]standing ([D#m7]Yeah, yeah, [F7]yeah)!

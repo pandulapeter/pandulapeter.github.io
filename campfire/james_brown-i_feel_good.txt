@@ -1,0 +1,54 @@
+{title: I Feel Good [lyrics only]}
+{artist: James Brown}
+{key: B}
+{duration: 165}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+Whoa!
+
+{c: Verse 1}
+I feel good, I knew that I would, now.
+I feel good, I knew that I would, now.
+So good, so good, I got you! Whoa!
+
+{c: Verse 2}
+I feel nice, like sugar and spice.
+I feel nice, like sugar and spice.
+So nice, so nice, I got you!
+
+{c: Bridge}
+
+{c: Chorus}
+When I hold you in my arms,
+I know that I can't do no wrong.
+And when I hold you in my arms,
+My love won't do you no harm!
+
+{c: Verse 2}
+And I feel nice, like sugar and spice.
+I feel nice, like sugar and spice.
+So nice, so nice, I got you!
+
+{c: Bridge}
+
+{c: Chorus}
+When I hold you in my arms,
+I know that I can't do no wrong.
+And when I hold you in my arms,
+My love can't do me no harm.
+
+{c: Verse 2}
+And I feel nice, like sugar and spice.
+I feel nice, like sugar and spice.
+So nice, so nice, 'cause I got you! Whoa!
+
+{c: Verse 1}
+I feel good, I knew that I would, now.
+I feel good, I knew that I would.
+So good, so good, 'cause I got you!
+
+{c: Outro}
+So good, so good, 'cause I got you!
+So good, so good, 'cause I got you!
+Hey!

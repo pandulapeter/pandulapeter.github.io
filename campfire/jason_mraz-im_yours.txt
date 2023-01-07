@@ -1,0 +1,75 @@
+{title: I'm Yours}
+{artist: Jason Mraz}
+{key: B}
+{duration: 245}
+{x_sbp_tags: english}
+
+{c: Intro}
+[B]        [F#]        [G#m]        [E]
+
+{c: Verse 1}
+Well [B]you done done me and you bet I felt it,
+I [F#]tried to be chill but you're so hot I melted,
+I [G#m]fell right through the cracks,
+And now I'm [E]trying to get back.
+
+{c: Verse 2}
+Before the [B]cool done run out I'll be giving it my best-est,
+And [F#]nothing's going to stop me but divine intervention,
+I [G#m]reckon it's again my turn,
+To [E]win some or learn some.
+
+{c: Chorus 1}
+But [B]I won't hesi[F#]tate no more, no [G#m]more,
+It cannot [E]wait, I'm yours.
+
+{c: Bridge}
+[B]        [F#]        [G#m]        [E]
+
+{c: Verse 3}
+[B]Well open up your mind and see like [F#]me,
+Open up your plans and damn you're [G#m]free.
+Look into your heart and you'll find [E]love, love, love, love.
+
+{c: Verse 4}
+[B]Listen to the music of the moment people dance and [F#]sing,
+We are just one big fami[G#m]ly,
+And it's our God-forsaken right to be [E]loved, loved, loved, loved,
+[C#7]Loved...
+
+{c: Chorus 2}
+So [B]I won't hesi[F#]tate no more, no [G#m]more,
+It cannot [E]wait I'm sure,
+
+{c: Chorus 3}
+There's no [B]need to compli[F#]cate, our time is [G#m]short.
+This is our [E]fate, I'm yours.
+
+{c: Bridge}
+[B]        [F#]        [G#m]        [E]
+[B]        [F#]        [G#m]        [E]
+
+{c: Verse 5}
+I've been [B]spending way too long checking my tongue in the mirror,
+And [F#]bending over backwards just to try to see it clearer,
+But my [G#m]breath fogged up the glass,
+And so I [E]drew a new face and I laughed.
+
+{c: Verse 6}
+I [B]guess what I've been saying is there ain't no better reason,
+To [F#]rid yourself of vanity and just go with the seasons,
+It's [G#m]what we aim to do,
+Our [E]name is our virtue.
+
+{c: Chorus 1}
+But [B]I won't hesi[F#]tate no more, no [G#m]more,
+It cannot [E]wait, I'm yours.
+
+{c: Outro}
+[B]Well open up your mind and see like [F#]me,
+Open up your plans and damn you're [G#m]free.
+Look into your heart and you'll find [E]the sky is yours.
+So [B]please don't, please don't, please don't,
+There's no [F#]need to complicate,
+'Cause our [G#m]time is short.
+This, oh this, this is our [E]fate, I'm yours.[C#7]

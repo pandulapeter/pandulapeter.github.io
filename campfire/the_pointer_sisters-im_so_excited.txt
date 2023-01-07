@@ -1,0 +1,67 @@
+{title: I'm So Excited}
+{artist: The Pointer Sisters}
+{key: Gm}
+{duration: 225}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[Gm]            [Cm7]            [D#]            [A#sus4]        [A#]
+[Gm]            [Cm7]            [D#]            [A#sus4]        [A#]
+
+{c: Verse 1}
+To[Gm]night's the night we're gonna make it [Cm7]happen,
+To[D#]night we'll put all other things a[A#sus4]side.          [A#]
+Give [Gm]in this time and show me some a[Cm7]ffection,
+We're [D#]goin' for those pleasures in the [A#sus4]night.          [A#]
+
+{c: Pre-Chorus}
+I want to [Am]love you, feel you,
+[Gm]Wrap myself a[Dm7]round you!
+I want to [Am]squeeze you, please you,
+I [Gm]just can't get enough!
+And if you [Cm]move real [Dm]slow, I'll let it [F]go!
+
+{c: Chorus}
+I'm so ex[Gm]cited, and I just can't [D#]hide it,
+[D#]I'm about to lose con[F]trol and I think I [Gm]like it!
+I'm so ex[Gm]cited, and I just can't [D#]hide it,
+And [D#]I know, I know, I [F]know, I know, I know I [Gm]want you!
+
+{c: Verse 2}
+And we [Gm]shouldn't even think about to[Cm7]morrow,
+Sweet [D#]memories will last a long, long [A#sus4]time.          [A#]
+And we'll [Gm]have a good time, baby, don't you [Cm7]worry,
+And if [D#]we're still playin' around, boy, that's just [A#sus4]fine.          [A#]
+
+{c: Chorus}
+Let's get ex[Gm]cited, we just can't [D#]hide it,
+[D#]I'm about to lose cont[F]rol and I think I [Gm]like it!
+I'm so ex[Gm]cited, and I just can't [D#]hide it,
+And [D#]I know, I know, I [F]know, I know, I know I [Gm]want you!
+
+{c: Solo}
+[Gm]            [Cm7]            [D#]            [A#sus4]        [A#]
+[Gm]            [Cm7]            [D#]            [A#sus4]        [A#]
+
+{c: Pre-Chorus}
+Oh boy, I want to [Am]love you, feel you,
+[Gm]Wrap myself a[Dm7]round you!
+I want to [Am]squeeze you, please you,
+I [Gm]just can't get enough!
+And if you [Cm]move real [Dm]slow, I'll let it [F]go!
+
+{c: Chorus}
+I'm so ex[Gm]cited, and I just can't [D#]hide it,
+[D#]I'm about to lose con[F]trol and I think I [Gm]like it!
+I'm so ex[Gm]cited, and I just can't [D#]hide it,
+And [D#]I know, I know, I [F]know, I know, I know I [Gm]want you!
+
+{c: Outro}
+I'm so ex[Gm]cited (look what you do to me), I just can't [D#]hide it (you got me burning up),
+[D#]I'm about to lose con[F]trol and I think I [Gm]like it, yeah!
+I'm so ex[Gm]cited (how did you get to me? [D#]I've got to give it up),
+[D#]Oh ([F]I know, I know I [Gm]want you)!
+I'm so ex[Gm]cited!
+            [D#]            [D#]      [F]      [Gm]
+[Gm]            [D#]            [D#]      [F]      [Gm]
+[Gm]            [D#]            [D#]      [F]      [Gm]

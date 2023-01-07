@@ -1,0 +1,92 @@
+{title: I Love Rock 'n' Roll}
+{artist: Joan Jett & the Blackhearts}
+{key: E}
+{duration: 180}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[E]            [E]            [G]
+[A]            [B]            [G]
+
+[E]            [E]            [G]
+[A]            [B]      [G]      [E]
+
+[E]
+
+{c: Verse 1}
+I [E]saw him dancing there by the record ma[E]chine,
+I [E]knew he must have been about seven[B]teen.
+The [A]beat was going [B]strong, [E]playing my favorite [A]song.
+
+{c: Pre-Chorus 1}
+I could tell it wouldn't be long 'till he was with me,
+Yeah me!
+I could tell it wouldn't be long 'till he was with [B]me,
+Yeah me, singing
+
+{c: Chorus}
+[E]I love [E]rock and roll,  [G]
+So [A]put another dime in the [B]jukebox baby,
+[E]I love [E]rock and roll,  [G]
+So [A]come and take your time and [B]dance [G]with [E]me!
+[E]
+
+{c: Verse 2}
+He [E]smiled so I got up and asked for his [E]name,
+But [E]that don't matter he said cuz it's all the [B]same.
+He [A]said "Can I take ya [B]home, where [E]we can be al[A]one".
+
+{c: Pre-Chorus 2}
+And next we're moving on, he was with me,
+Yeah me!
+Next we were movin' on, he was with [G]me,
+Yeah me, singing
+
+{c: Chorus}
+[E]I love [E]rock and roll,  [G]
+So [A]put another dime in the [B]jukebox baby,
+[E]I love [E]rock and roll,  [G]
+So [A]come and take your time and [B]dance [G]with [E]me!
+[E]
+
+{c: Solo}
+[E]
+[E]
+[E]
+[B]
+
+{c: Bridge}
+He [A]said "Can I take ya [B]home, where [E]we can be al[A]one".
+
+{c: Pre-Chorus 3}
+Next we're moving on, he was with me,
+Yeah me!
+And we'll be movin' on and singing that same old song,
+Yeah with me, singing
+
+{c: Chorus}
+I love rock and roll,
+So put another dime in the jukebox baby,
+I love rock and roll,
+So come and take your time and dance with me!
+
+{c: Outro}
+[E]I love [E]rock and roll,  [G]
+So [A]put another dime in the [B]jukebox baby,
+[E]I love [E]rock and roll,  [G]
+So [A]come and take your time and [B]dance [G]with
+
+[E]I love [E]rock and roll,  [G]
+So [A]put another dime in the [B]jukebox baby,
+[E]I love [E]rock and roll,  [G]
+So [A]come and take your time and [B]dance [G]with
+
+[E]I love [E]rock and roll,  [G]
+So [A]put another dime in the [B]jukebox baby,
+[E]I love [E]rock and roll,  [G]
+So [A]come and take your time and [B]dance [G]with
+
+[E]I love [E]rock and roll,  [G]
+So [A]put another dime in the [B]jukebox baby,
+[E]I love [E]rock and roll,  [G]
+So [A]come and take your time and [B]dance [G]with [E]me!

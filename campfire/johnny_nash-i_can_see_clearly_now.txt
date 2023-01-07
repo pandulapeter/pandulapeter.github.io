@@ -1,0 +1,42 @@
+{title: I Can See Clearly Now}
+{artist: Johnny Nash}
+{key: D}
+{duration: 170}
+{x_sbp_tags: english}
+
+{c: Intro}
+[D]
+
+{c: Verse 1}
+[D]I can see [G]clearly now, the [D]rain is gone,
+[D]I can see [G]all obstacles [A]in my way.
+[D]Gone are the [G]dark clouds that [D]had me blind,
+It's gonna be a [C]bright (bright), [G]bright (bright) sun-shiny [D]day.
+It's gonna be a [C]bright (bright), [G]bright (bright) sun-shiny [D]day.
+
+{c: Verse 2}
+[D]I think I can [G]make it now, the [D]pain is gone,
+[D]All of the [G]bad feelings have [A]disappeared.
+[D]Here is the [G]rainbow I've been [D]prayin' for,
+It's gonna be a [C]bright (bright), [G]bright (bright) sun-shiny [D]day.
+
+{c: Bridge}
+[F]Look all around, there's nothin' but [C]blue skies,
+[F]Look straight ahead, nothin' but [A]blue skies.
+
+{c: Solo}
+[C#m]        [G]
+[C#m]        [G]
+[C]        [Bm]
+[A]        [A7]
+
+{c: Verse 1}
+[D]I can see [G]clearly now, the [D]rain is gone,
+[D]I can see [G]all obstacles [A]in my way.
+[D]Gone are the [G]dark clouds that [D]had me blind,
+It's gonna be a [C]bright (bright), [G]bright (bright) sun-shiny [D]day.
+It's gonna be a [C]bright (bright), [G]bright (bright) sun-shiny [D]day.
+
+{c: Outro}
+It's gonna be a [C]bright (bright), [G]bright (bright) sun-shiny [D]day.
+Oh, a [C]bright (bright), [G]bright (bright) sun-shiny [D]day.

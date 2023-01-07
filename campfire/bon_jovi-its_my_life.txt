@@ -1,0 +1,80 @@
+{title: It's My Life}
+{artist: Bon Jovi}
+{key: Cm}
+{duration: 225}
+{x_sbp_tags: english,khameleon}
+
+{c: Intro}
+[Cm]                [G#]        [G]
+[Cm]                [G#]        [G]
+
+{c: Verse 1}
+[Cm]This ain't a song for the
+Broken-hearted,[Cm]        [G#]    [G]
+No [Cm]silent prayer for the
+Faith-departed.[Cm]        [G#]    [G]
+[Cm]I ain't gonna be just a face in the crowd,
+You're gonna [F]hear my voice when I shout it out loud.
+
+{c: Chorus}
+It's my [Cm]life, it's [G#]now or never.
+[D#]I ain't gonna [A#]live forever.
+[Cm]I just want to [G#]live while I'm a[A#]live.
+(It's [Bdim]my life)
+[Cm]My heart is like an [G#]open highway,
+[D#]Like Frankie said I [A#]did it my way.
+[Cm]I just want to [G#]live while I'm a[A#]live.
+It's [Bdim]my life.
+
+{c: Bridge 1}
+[Cm]                [G#]        [G]
+[Cm]                [G#]        [G]
+
+{c: Verse 2}
+[Cm]This is for the ones who
+Stood their ground.[Cm]        [G#]    [G]
+It's for [Cm]Tommy and Gina who
+Never backed down.[Cm]        [G#]    [G]
+To[Cm]morrow's getting harder, make no mistake,
+[F]Luck ain't enough you've got to make your own breaks.
+
+{c: Chorus}
+It's my [Cm]life, it's [G#]now or never.
+[D#]I ain't gonna [A#]live forever.
+[Cm]I just want to [G#]live while I'm a[A#]live.
+(It's [Bdim]my life)
+[Cm]My heart is like an [G#]open highway,
+[D#]Like Frankie said I [A#]did it my way.
+[Cm]I just want to [G#]live while I'm a[A#]live.
+It's [Bdim]my life.
+
+{c: Solo}
+[G#]                [A#]
+[Cm]                [F]
+
+{c: Bridge 2}
+You [Cm]better stand tall when they're calling you out,
+Don't bend, don't break, baby, don't back down.
+
+{c: Chorus}
+It's my [Cm]life, it's [G#]now or never.
+[D#]I ain't gonna [A#]live forever.
+[Cm]I just want to [G#]live while I'm a[A#]live.
+(It's [Bdim]my life)
+[Cm]My heart is like an [G#]open highway,
+[D#]Like Frankie said I [A#]did it my way.
+[Cm]I just want to [G#]live while I'm a[A#]live.
+It's [Bdim]my life.
+
+{c: Chorus}
+[Cm]And it's [G#]now or never.
+[D#]I ain't gonna [A#]live forever.
+[Cm]I just want to [G#]live while I'm a[A#]live.
+(It's [Bdim]my life)
+[Cm]My heart is like an [G#]open highway,
+[D#]Like Frankie said I [A#]did it my way.
+[Cm]I just want to [G#]live while I'm a[A#]live.
+It's [Bdim]my life.
+
+{c: Outro}
+[Cm]
