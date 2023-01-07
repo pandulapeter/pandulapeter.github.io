@@ -1,0 +1,79 @@
+{title: Jailhouse Rock}
+{artist: Elvis Presley}
+{key: Eb}
+{duration: 150}
+{x_sbp_tags: english}
+
+{c: Intro}
+[D5]      [D#5]
+[D5]      [D#5]
+[D5]      [D#5]
+[D5]      [D#5]
+
+{c: Verse 1}
+[D5]    The [D#5]warden threw a party in the county jail,
+[D5]    The [D#5]prison band was there and they began to wail.
+[D5]    The [D#5]band was jumpin' and the joint began to swing,
+[D5]    You [D#5]shou[-]ld've heard them knocked-out jailbirds sing.
+
+{c: Chorus}
+Let's [G#7]rock everybody, let's [D#]rock!
+Every[A#7]body in the whole cell [G#7]block,
+Was [D#]dancin' to the Jailhouse Rock.
+
+{c: Verse 2}
+[D5]    [D#5]Spider Murphy played the tenor saxophone,
+[D5]    [D#5]Little Joe was blowin' on the slide trombone.
+[D5]    The [D#5]drummer boy from Illinois went crash, boom, bang,
+[D5]    The [D#5]whol[-]e rhythm section was the Purple Gang.
+
+{c: Chorus}
+Let's [G#7]rock everybody, let's [D#]rock!
+Every[A#7]body in the whole cell [G#7]block,
+Was [D#]dancin' to the Jailhouse Rock.
+
+{c: Verse 3}
+[D5]    [D#5]Number forty-seven said to number three,
+[D5]    [D#5]\"You're the cutest jailbird I ever did see.
+[D5]      I [D#5]sure would be delighted with your company,
+[D5]    Come [D#5]on a[-]nd do the Jailhouse Rock with me.\"
+
+{c: Chorus}
+Let's [G#7]rock everybody, let's [D#]rock!
+Every[A#7]body in the whole cell [G#7]block,
+Was [D#]dancin' to the Jailhouse Rock.
+
+{c: Solo}
+[G#7]            [G#7]
+[D#]            [D#]
+[A#7]            [G#7]
+[D#]            [D#]
+
+{c: Verse 4}
+[D5]    [D#5]Sad sack was sittin' on a block of stone,
+[D5]    Way [D#5]over in the corner weepin' all alone.
+[D5]    The [D#5]warden said, \"hey, buddy, don't you be no square,
+[D5]    If you [D#5]can'[-]t find a partner, use a wooden chair.\"
+
+{c: Chorus}
+Let's [G#7]rock everybody, let's [D#]rock!
+Every[A#7]body in the whole cell [G#7]block,
+Was [D#]dancin' to the Jailhouse Rock.
+
+{c: Verse 5}
+[D5]    [D#5]Shifty Henry said to Bugs, \"For Heaven's sake,
+[D5]    No [D#5]one's lookin' now's our chance to make a break.\"
+[D5]    [D#5]Bugsy turned to Shifty and he said, \"Nix, Nix,
+[D5]      I [D#5]want[-] to stick around a while and get my kicks.\"
+
+{c: Chorus}
+Let's [G#7]rock everybody, let's [D#]rock!
+Every[A#7]body in the whole cell [G#7]block,
+Was [D#]dancin' to the Jailhouse Rock.
+
+{c: Outro}
+[D5]    [D#5]Dancin' to the Jailhouse Rock.
+[D5]    [D#5]Dancin' to the Jailhouse Rock.
+[D5]    [D#5]Dancin' to the Jailhouse Rock.
+[D5]    [D#5]Dancin' to the Jailhouse Rock.
+[D5]    [D#5]Dancin' to the Jailhouse Rock.

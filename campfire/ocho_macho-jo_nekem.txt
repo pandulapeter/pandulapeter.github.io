@@ -1,0 +1,87 @@
+{title: Jó nekem}
+{artist: Ocho Macho}
+{key: Em}
+{duration: 220}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[Em]        [C]        [G]        [D]
+[Em]
+
+{c: Verse 1}
+Reggel mikor [C]kinéztem és lát[G]tam,
+De sajnos sze[D]membe sütött a [Em]Nap.
+Reggel mikor [C]kinéztem és lát[G]tam,
+De sajnos sze[D]membe sütött a [Em]Nap.
+
+{c: Verse 2}
+Láttam a [C]madarakat szállni az [G]égen,
+Sajnos sze[D]membe sütött a [Em]Nap.
+Láttam az [C]embereket járni a [G]réten,
+Sajnos sze[D]membe sütött a [Em]Nap.
+
+{c: Verse 3}
+Az öreg raszta [C]tanítja everything’s [G]alright,
+Az öreg raszta [D]tanítja everything’s [Em]alright,
+Az öreg raszta [C]tanítja everything’s [G]alright,
+Csak dúdo[D]lom azt, hogy jó, jó, [Em]jó,
+
+{c: Chorus}
+Jó, [C]jó, jó, de jó ne[G]kem,   [D]
+Azt hogy [Em]jó, jó, [C]jó, jó, de jó ne[G]kem,
+Jó ne[D]kem.
+
+{c: Bridge 1}
+[Em]        [C]        [G]        [D]
+[Em]        [C]        [G]        [D]
+[Em]
+
+{c: Verse 4}
+Azt mondják, hogy [C]pozitívan éljek,[G]
+De nem re[D]zeg bennem már semmi [Em]sem.
+Azt mondják, hogy [C]pozitívan éljek,[G]
+De nem re[D]zeg bennem már semmi [Em]sem.
+
+{c: Verse 5}
+Lekéstem a [C]gépemet, nem me[G]gyek,
+Nem me[D]gyek én már ha[Em]za.
+Lekéstem a [C]gépemet, nem me[G]gyek,
+Csak dúdo[D]lom azt, hogy jó, jó, [Em]jó,
+
+{c: Chorus}
+Jó, [C]jó, jó, de jó ne[G]kem,   [D]
+Azt hogy [Em]jó, jó, [C]jó, jó, de jó ne[G]kem,
+Jó ne[D]kem.
+
+{c: Bridge 2}
+[Em]        [C]        [G]        [D]
+[Em]        [C]        [G]        [D]
+[Em]        [C]        [G]        [D]
+[Em]        [C]        [G]        [D]
+[Em]
+
+{c: Verse 1}
+Reggel mikor [C]kinéztem és lát[G]tam,
+De sajnos sze[D]membe sütött a [Em]Nap.
+Reggel mikor [C]kinéztem és lát[G]tam,
+De sajnos sze[D]membe sütött a [Em]Nap.
+
+{c: Verse 2}
+Láttam a [C]madarakat szállni az [G]égen,
+Sajnos sze[D]membe sütött a [Em]Nap.
+Láttam az [C]embereket járni a [G]réten,
+Sajnos sze[D]membe sütött a [Em]Nap.
+
+{c: Verse 3}
+Az öreg raszta [C]tanítja everything’s [G]alright,
+Az öreg raszta [D]tanítja everything’s [Em]alright,
+Az öreg raszta [C]tanítja everything’s [G]alright,
+Csak dúdo[D]lom azt, hogy jó, jó, [Em]jó,
+
+{c: Chorus}
+Jó, [C]jó, jó, de jó ne[G]kem,   [D]
+Azt hogy [Em]jó, jó, [C]jó, jó, de jó ne[G]kem,
+Jó ne[D]kem.
+
+{c: Outro}
+[Em]
