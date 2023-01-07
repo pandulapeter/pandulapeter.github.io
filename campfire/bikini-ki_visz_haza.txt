@@ -1,0 +1,64 @@
+{title: Ki visz haza}
+{artist: Bikini}
+{key: C}
+{duration: 200}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[C]        [Em]                [F]
+[C]        [Em]                [F]
+
+{c: Verse 1}
+[C]Ez a vi[Em]lág már nagyon [F]szűk nekem,
+[C]Nem ta[Em]lálom benne [F]régi helyem,
+[C]Ez az [Em]út biztos a [F]pokolba megy.
+
+{c: Bridge 1}
+[F]Lezárt [G]agyam kulcsát [Am]eldobom,
+[F]Alko[G]holba fojtom [Am]bánatom.
+
+{c: Chorus}
+[F]Ma éjjel [G]nem hat rám a [C]józan[C/B]ság sza[Am]va.    [G]
+[F]Részegen [G]ki [-]visz majd haza?
+
+{c: Bridge 2}
+[C]        [Em]                [F]
+[C]        [Em]                [F]
+
+{c: Verse 2}
+[C]Hazavisz[Em]nek és ágyba [F]tesznek,
+[C]Hideg [Em]párnák közé [F]temetnek,
+[C]Az Úrhoz [Em]fohászkodnak [F]értem.
+
+{c: Bridge 3}
+[F]Kit si[G]rattok, miért [Am]sirattok?
+[F]Úgy é[G]lek, hogy majdnem [Am]belehalok.
+
+{c: Chorus}
+[F]Ma éjjel [G]nem hat rám a [C]józan[C/B]ság sza[Am]va.    [G]
+[F]Részegen [G]ki [-]visz majd haza?
+
+{c: Bridge 2}
+[C]        [Em]                [F]
+[C]        [Em]                [F]
+
+{c: Solo}
+[D]        [F#m]                [G]
+[D]        [F#m]                [G]
+[D]        [F#m]                [G]
+[D]        [F#m]                [G]
+
+{c: Bridge 1}
+[F]Lezárt [G]agyam kulcsát [Am]eldobom,
+[F]Alko[G]holba fojtom [Am]bánatom.
+
+{c: Chorus}
+[F]Ma éjjel [G]nem hat rám a [C]józan[C/B]ság sza[Am]va.    [G]
+[F]Részegen [G]ki [-]visz majd haza?
+
+{c: Outro}
+[C]        [Em]                [F]
+[C]        [Em]                [F]
+[C]        [Em]                [F]
+[C]        [Em]                [F]
+[C]

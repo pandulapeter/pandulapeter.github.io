@@ -1,0 +1,7 @@
+{title: Kalashnikov [placeholder]}
+{artist: Goran Bregović}
+{key: F}
+{duration: 90}
+{x_sbp_tags: serbian,khameleon}
+
+WIP

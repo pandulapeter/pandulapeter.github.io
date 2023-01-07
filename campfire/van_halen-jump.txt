@@ -1,0 +1,63 @@
+{title: Jump [lyrics only]}
+{artist: Van Halen}
+{key: C}
+{duration: 235}
+{tempo: 129}
+{x_sbp_tags: english,backtrackers}
+
+{c: Intro}
+
+{c: Verse 1}
+I get up and nothin' gets me down,
+You got it tough, I've seen the toughest around!
+
+{c: Verse 2}
+And I know, baby, just how you feel,
+You got to roll with the punches and get to what's real!
+
+{c: Pre-Chorus}
+Ah, can't you see me standin' here?
+I got my back against the record machine.
+I ain't the worst that you've seen,
+Ah, can't you see what I mean?
+
+{c: Chorus}
+Ah, might as well jump (jump),
+Might as well jump!
+Go ahead and jump (jump),
+Go ahead and jump!
+
+{c: Verse 3}
+Ow, oh, hey, you, who said that? Baby, how you been?
+You say you don't know, you won't know until you begin!
+
+{c: Pre-Chorus}
+So can't ya see me standing here?
+I got my back against the record machine.
+I ain't the worst that you've seen,
+Ah, can't you see what I mean?
+
+{c: Chorus}
+Ah, might as well jump (jump),
+Go ahead and jump!
+Might as well jump (jump),
+Go ahead and jump!
+Jump!
+
+{c: Solo 1}
+
+{c: Solo 2}
+
+{c: Bridge}
+
+{c: Chorus}
+Might as well jump (jump),
+Go ahead and jump!
+Get it in, jump (jump),
+Go ahead and jump!
+Jump!
+
+{c: Outro}
+Jump!
+Jump!
+Jump!

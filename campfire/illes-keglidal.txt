@@ -1,0 +1,85 @@
+{title: Kéglidal}
+{artist: Illés}
+{key: A}
+{duration: 235}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+Sok kérdést már megoldottunk,
+Nem volt soha ilyen jó dolgunk,
+Mégis az ember néha érzi,
+Bosszantó, hogy sehol egy kégli.
+
+{c: Bridge 1}
+[A]            [A]            [G]      [G#]
+[A]            [A]            [G]      [G#]
+
+{c: Verse 1}
+[A]Azt mondtuk, megértheted, hogy
+Keressünk egy jó kis helyet még [D]ma,
+Ahol a szomszéd elvi[E]sel,   [D#]    [D]
+-
+S nem szól ránk a házmester.
+
+{c: Bridge 1}
+[A]            [A]            [G]      [G#]
+[A]            [A]            [G]      [G#]
+
+{c: Verse 2}
+[A]Így aztán otthonra leltünk,
+Nagy család, mind együtt élünk [D]már.
+Megosztjuk bárki[E]vel,   [D#]    [D]
+-
+S nem szól ránk a házmester.
+
+{c: Bridge 2}
+[A]            [A]            [G]      [G#]
+[A]            [A]            [G#]      [G]
+
+{c: Chorus}
+[F#m]A vadvirág fel[D]nő a ház fal[A]án,
+[E]Örül hogy él, i[A]gen.   [G#]    [G]
+[F#m]Egy tábla lóg a [D]házunk ajta[A]ján:
+[E]Itt nem zavar senki [E7]sem.
+
+{c: Verse 3}
+A [A]lányokkal jól megvagyunk,
+A konyhában rájuk hagyunk min[D]dent,
+És ha reggel mennek [E]el,   [D#]    [D]
+-
+Nem szól ránk a házmester.
+
+{c: Bridge 1}
+[A]            [A]            [G]      [G#]
+[A]            [A]            [G]      [G#]
+
+{c: Solo}
+[A]            [A]
+[A]            [A]
+[D]            [D]
+[D]            [D]
+[E]            [E]            [D#]      [D]
+
+{c: Bridge 2}
+[A]            [A]            [G]      [G#]
+[A]            [A]            [G#]      [G]
+
+{c: Chorus}
+[F#m]A vadvirág fel[D]nő a ház fal[A]án,
+[E]Örül hogy él, i[A]gen.   [G#]    [G]
+[F#m]Egy tábla lóg a [D]házunk ajta[A]ján:
+[E]Itt nem zavar senki [E7]sem.
+
+{c: Verse 3}
+A [A]lányokkal jól megvagyunk,
+A konyhában rájuk hagyunk min[D]dent,
+És ha reggel mennek [E]el,   [D#]    [D]
+-
+Nem szól ránk a házmester.
+
+{c: Bridge 1}
+[A]            [A]            [G]      [G#]
+[A]            [A]            [G]      [G#]
+
+{c: Outro}
+[A]
