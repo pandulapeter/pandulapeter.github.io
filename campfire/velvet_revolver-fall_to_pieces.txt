@@ -1,0 +1,72 @@
+{title: Fall to Pieces}
+{artist: Velvet Revolver}
+{key: Db}
+{duration: 275}
+{x_sbp_tags: english}
+
+{c: Intro}
+[C#]        [C#]        [B]        [F#]
+[C#]        [C#]        [B]        [F#]
+
+{c: Verse 1}
+[C#]It's been a long year [B]since you've [F#]been gone.
+[C#]I've been alone here, [B]I've grown [F#]old.
+[C#]Fall to pieces, [B]I'm fall[F#]ing.
+[C#]Fell to pieces [B]and I'm still [F#]falling.
+
+{c: Pre-Chorus}
+[G#]Every time I'[F#]m fa[C#]lling down,
+[G#]All alone I fa[F#]ll to [G#]pieces.
+
+{c: Bridge 1}
+[C#]        [C#]        [B]        [F#]
+[C#]        [C#]        [B]        [F#]
+
+{c: Verse 2}
+[C#]I keep a journal [B]of me[F#]mories.
+[C#]I'm feeling lonely, [B]I can't [F#]breathe.
+[C#]Fall to pieces, [B]I'm fall[F#]ing.
+[C#]Fell to pieces [B]and I'm still [F#]falling.
+
+{c: Pre-Chorus}
+[G#]Every time I'[F#]m fa[C#]lling down,
+[G#]All alone I fa[F#]ll to [G#]pieces.
+
+{c: Chorus}
+[C#]Every time I'[B]m fa[F#]lling down,
+[C#]All alone I fa[B]ll to [F#]pieces.
+
+{c: Chorus}
+[C#]Every time I'[B]m fa[F#]lling down,
+[C#]All alone I fa[B]ll to [F#]pieces.
+
+{c: Bridge 2}
+[A#m]All the years I've tried,
+[F#]With more to go.
+[A#m]Will the memories die,
+[F#]I'm waiting.
+[A#m]Will I find you,
+[G#]Can I find you,
+[F#]We're falling down, I'm falling...
+
+{c: Solo}
+[C#]        [C#]        [B]        [F#]
+[C#]        [C#]        [B]        [F#]
+[C#]        [C#]        [B]        [F#]
+[D#m]        [D#m]        [F#]        [G#]
+
+{c: Chorus}
+[C#]Every time I'[B]m fa[F#]lling down,
+[C#]All alone I fa[B]ll to [F#]pieces.
+
+{c: Chorus}
+[C#]Every time I'[B]m fa[F#]lling down,
+[C#]All alone I fa[B]ll to [F#]pieces.
+
+{c: Chorus}
+[C#]Every time I'[B]m fa[F#]lling down,
+[C#]All alone I fa[B]ll to [F#]pieces.
+
+{c: Chorus}
+[C#]Every time I'[B]m fa[F#]lling down,
+[C#]All alone I fa[B]ll to [F#]pieces.

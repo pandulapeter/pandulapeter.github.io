@@ -1,0 +1,74 @@
+{title: Forever}
+{artist: Kiss}
+{key: Db}
+{duration: 235}
+{x_sbp_tags: english}
+
+{c: Verse 1}
+[C#]I gotta [Badd9]tell you what I'm [F#]feelin' in[C#]side,
+I could [D#m]lie to my[C#]self, but it's [Badd9]true.
+
+{c: Verse 2}
+[C#]There's no de[Badd9]nying when I [F#]look in your [C#]eyes,
+Girl I'm [D#m]out of my [C#]head over [Badd9]you.
+
+{c: Pre-Chorus 1}
+[G#m]And I lived so [F#/A#]long believin' [B]all love is [C#]blind,
+But [G#m]everything a[F#/A#]bout you is [B]tellin' me this [C#]time,
+
+{c: Chorus}
+It's for[F#]ever,[C#]
+[D#m]This time I [B]know and there's no [G#m7]doubt in my [C#]mind,
+For[F#]ever,[C#]
+[F#]Until my [G#m7]life is through,
+[F#/A#]Girl I'll be [B]lovin' you for[C#]ever.[B]
+
+{c: Verse 3}
+[C#]I hear the [Badd9]echo of a [F#]promise I [C#]made,
+When you're [D#m]strong you can [C#]stand on your [Badd9]own.
+
+{c: Verse 4}
+[C#]But those words grow [Badd9]distant as I [F#]look at your [C#]face,
+No, I [D#m]don't want to [C#]go it a[Badd9]lone.
+
+{c: Pre-Chorus 2}
+[G#m]I never [F#/A#]thought I'd lay my [B]heart on the [C#]line,
+But [G#m]everything a[F#/A#]bout you is [B]tellin' me this [C#]time,
+
+{c: Chorus}
+It's for[F#]ever,[C#]
+[D#m]This time I [B]know and there's no [G#m7]doubt in my [C#]mind,
+For[F#]ever,[C#]
+[F#]Until my [G#m7]life is through,
+[F#/A#]Girl I'll be [B]lovin' you for[C#]ever.[B]
+
+{c: Solo}
+[C#]        [B]        [F#]        [C#]
+[D#m]        [C#]        [B]        [B]
+
+[C#]        [B]        [F#]        [C#]
+[D#m]        [C#]        [B]        [B]
+
+{c: Pre-Chorus 3}
+[G#m]I see my [F#/A#]future when I [B]look in your [C#]eyes,
+[G#m]It took your [F#/A#]love to make my [B]heart come a[C#]live,
+[G#m]'Cause I lived my [F#/A#]life believin' [B]all love is [C#]blind,
+But [G#m]everything a[F#/A#]bout you is [B]tellin' me this [C#]time,
+[C#]
+
+{c: Chorus}
+It's for[F#]ever,[C#]
+[D#m]This time I [B]know and there's no [G#m7]doubt in my [C#]mind,
+For[F#]ever,[C#]
+[F#]Until my [G#m7]life is through,
+[F#/A#]Girl I'll be [B]lovin' you for[C#]ever.[B]
+
+{c: Chorus}
+Oh, for[F#]ever,[C#]
+[D#m]This time I [B]know and there's no [G#m7]doubt in my [C#]mind,
+For[F#]ever,[C#]
+[F#]Until my [G#m7]life is through,
+[F#/A#]Girl I'll be [B]lovin' you for[C#]ever.[B]
+
+{c: Outro}
+[B]

@@ -1,0 +1,102 @@
+{title: Follow Me}
+{artist: Uncle Kracker}
+{key: F}
+{duration: 220}
+{x_sbp_tags: english}
+
+{c: Intro}
+[F]                [A#]        [C]
+[F]                [C]        [F]
+
+{c: Verse 1}
+You [F]don't know how you met me,
+You [A#]don't know why,
+You [F]can't turn around,
+And [A#]say [C]goodb[F]ye.
+
+{c: Verse 2}
+All you [F]know is when I'm with you,
+I [A#]make you free,
+And [F]swim through your veins,
+Like a [A#]fish in [C]the se[F]a. I'm singin'
+
+{c: Chorus}
+[F]Follow [F/Am]me,
+Every[A#]thing is all[C]right.
+[F]I'll be the [F/Am]one to tuck you [A#]in at [C]night,
+And if you [F]want to [F/Am]leave I can [A#]guaran[C]tee,
+You won't [F]find nobody[A#] else [C]like [F]me.
+
+{c: Verse 3}
+[F]I'm not worried
+'Bout the [A#]ring you wear,
+'Cause as [F]long as no one knows,
+Then no[A#]body [C]can c[F]are.
+
+{c: Verse 4}
+[F]You're feelin' guilty,
+And [A#]I'm well aware,
+But [F]you don't look ashamed,
+And baby[A#] I'm n[C]ot sca[F]red. I'm singin'
+
+{c: Chorus}
+[F]Follow [F/Am]me,
+Every[A#]thing is all[C]right.
+[F]I'll be the [F/Am]one to tuck you [A#]in at [C]night,
+And if you [F]want to [F/Am]leave I can [A#]guaran[C]tee,
+You won't [F]find nobody[A#] else [C]like [F]me.
+
+{c: Solo}
+[F]            [F/Am]            [A#]            [C]
+[F]            [F/Am]            [A#]            [C]
+[F]            [F/Am]            [A#]            [C]
+[F]            [A#]            [C]            [F]
+
+{c: Bridge}
+[Gm]Won't give you money,
+I can't [C]give you the sky,
+[F]You're better off if you[Fsus4] don't ask w[F]hy.
+[Gm]I'm not the reason that you,
+[Gm7]Go astray.
+[C]We'll be alright,
+If you don't ask me to stay.
+
+{c: Chorus}
+[F]Follow [F/Am]me,
+Every[A#]thing is all[C]right.
+[F]I'll be the [F/Am]one to tuck you [A#]in at [C]night,
+And if you [F]want to [F/Am]leave I can [A#]guaran[C]tee,
+You won't [F]find nobody[A#] else [C]like [F]me.
+
+{c: Verse 1}
+You [F]don't know how you met me,
+You [A#]don't know why,
+You [F]can't turn around,
+And [A#]say [C]goodb[F]ye.
+
+{c: Verse 2}
+All you [F]know is when I'm with you,
+I [A#]make you free,
+And [F]swim through your veins,
+Like a [A#]fish in [C]the se[F]a. I'm singin'
+
+{c: Chorus}
+[F]Follow [F/Am]me,
+Every[A#]thing is all[C]right.
+[F]I'll be the [F/Am]one to tuck you [A#]in at [C]night,
+And if you [F]want to [F/Am]leave I can [A#]guaran[C]tee,
+You won't [F]find nobody[A#] else [C]like [F]me. I'm singin'
+
+{c: Chorus}
+[F]Follow [F/Am]me,
+Every[A#]thing is all[C]right.
+[F]I'll be the [F/Am]one to tuck you [A#]in at [C]night,
+And if you [F]want to [F/Am]leave I can [A#]guaran[C]tee,
+You won't [F]find nobody[A#] else [C]like [F]me. I'm singin'
+
+{c: Chorus}
+[F]Follow [F/Am]me,
+Every[A#]thing is all[C]right.
+[F]I'll be the [F/Am]one to tuck you [A#]in at [C]night,
+And if you [F]want to [F/Am]leave I can [A#]guaran[C]tee,
+You won't [F]find nobody[A#] else [C]like [F]me.

@@ -1,0 +1,118 @@
+{title: Free Bird}
+{artist: Lynyrd Skynyrd}
+{key: G}
+{duration: 550}
+{x_sbp_tags: english}
+
+{c: Intro}
+[G]        [D]        [Em]        [Em]
+[F]        [C]        [D]        [D]
+
+[G]        [D]        [Em]        [Em]
+[F]        [C]        [D]        [D]
+
+{c: Bridge 1}
+[G]        [D]        [Em]        [Em]
+[F]        [C]        [D]        [D]
+
+[G]        [D]        [Em]        [Em]
+[F]        [C]        [D]        [D]
+
+{c: Verse 1}
+[G]If I [D]leave here to[Em]morrow,
+[F]Would you [C]still remember [D]me?
+[G]For I must [D]be traveling [Em]on, now,
+[F]'Cause there's too many [C]places I've got to [D]see.
+
+{c: Verse 2}
+[G]But, if I [D]stayed here with [Em]you, girl,
+[F]Things just [C]couldn't be the [D]same.
+[G]'Cause I'm as [D]free as a [Em]bird now,
+[F]And this [C]bird you cannot [D]change!
+
+{c: Pre-Chorus 1}
+Oh, oh, oh, oh, oh!
+[F]And this [C]bird you cannot [D]change,
+[F]And this [C]bird you cannot [D]change,
+[F]Lord [C]knows, I can't [D]change!
+
+{c: Bridge 1}
+[G]        [D]        [Em]        [Em]
+[F]        [C]        [D]        [D]
+
+[G]        [D]        [Em]        [Em]
+[F]        [C]        [D]        [D]
+
+{c: Verse 3}
+[G]Bye, [D]bye, baby, it's been a [Em]sweet love,
+[F]Though this [C]feeling I can't [D]change.
+[G]But please don't [D]take it so [Em]badly,
+[F]Cause Lord [C]knows I'm to [D]blame.
+
+{c: Verse 2}
+[G]But, if I [D]stayed here with [Em]you, girl,
+[F]Things just [C]couldn't be the [D]same.
+[G]'Cause I'm as [D]free as a [Em]bird now,
+[F]And this [C]bird you cannot [D]change!
+
+{c: Pre-Chorus 2}
+Oh, oh, oh, oh, oh!
+[F]And this [C]bird you cannot [D]change,
+[F]And this [C]bird you cannot [D]change,
+[F]Lord [C]knows, I can't [D]change,
+[F]Lord [C]help me, I can't [D]change!
+
+{c: Bridge 2}
+.[G]        [A#]Lord, I can't [C]change,
+Won't you [G]fly [A#]high, [C]free bird, yeah!
+
+{c: Solo}
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
+[G]        [A#]        [C]        [C]
