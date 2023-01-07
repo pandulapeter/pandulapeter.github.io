@@ -1,0 +1,59 @@
+{title: Use Somebody}
+{artist: Kings of Leon}
+{key: C}
+{duration: 235}
+{x_sbp_tags: english}
+
+{c: Intro}
+[C]        [C/E]        [F]        [F]
+[C]        [C/E]        [F]        [F]
+
+[Am]        [C]        [F]        [F]
+[Am]        [C]        [F]        [F]
+
+{c: Verse 1}
+I've been roaming a[C]round, always looking [C/E]down at all I [F]see,
+Painted [C]faces, fill the [C/E]places I can't [F]reach.
+You know that I could [Am]use somebody, [C]    [F]
+You know that I could [Am]use somebody... [C]    [F]
+
+{c: Verse 2}
+Someone like [C]you, and all you [C/E]know, and how you [F]speak,
+Countless [C]lovers under [C/E]cover of the [F]street.
+You know that I could [Am]use somebody, [C]    [F]
+You know that I could [Am]use somebody... [C]    [F]
+
+{c: Chorus}
+Someone like [C]you!   [C/E]        [F]        [F]
+[C]        [C/E]        [F]        [F]
+
+[Am]        [C]        [F]        [F]
+[Am]        [C]        [F]        [F]
+
+{c: Verse 3}
+Off in the [C]night, while you live it [C/E]up, I'm off to [F]sleep,
+Waging [C]wars to shape the [C/E]poet and the [F]beat.
+I hope it's gonna [Am]make you notice, [C]    [F]
+I hope it's gonna [Am]make you notice... [C]    [F]
+
+{c: Chorus}
+Someone like [C]me!   [C/E]        [F]        [F]
+Someone like [C]me!   [C/E]        [F]        [F]
+Someone like [Am]me, somebody. [C]        [F]        [F]
+[Am]        [C]        [F]        [F]
+
+{c: Bridge}
+[D]I'm ready now, I'm [F#]ready now, I'm ready now,
+I'm [D]ready now, I'm ready now, I'm [F]ready now, I'm [Bm -]ready now!
+
+{c: Solo}
+[C]        [C/E]        [F]        [F]
+[Am]        [C]        [F]        [F]
+
+{c: Chorus}
+Someone like [Am]you, somebody. [C]        [F]        [F]
+Someone like [Am]you, somebody. [C]        [F]        [F]
+Someone like [Am]you, somebody. [C]        [F]
+
+{c: Outro}
+I've been roaming a[C]round, always looking [C/E]down at all I [F]see...
