@@ -1,1 +1,53 @@
-WIP
+{c: Intro}
+[E]      [E]      [E]      [E]
+[A]      [A]      [E]      [E]
+[B]      [A-]      [E]      [B]
+
+{c: Verse 1}
+We're goin' [E]up, we're goin' [E]down,
+We're goin' [E]up, down, down, up,
+[E]Any way you want to let it [A]roll,
+[A]Yeah, yeah, [E]yeah!  [E]
+
+{c: Chorus}
+You got me [B]doin' what you want me,
+Oh [A-]baby what you want me to [E]do?  [B]
+
+{c: Verse 2}
+You got me [E]peepin' you got me [E]hidin',
+You got me [E]peep-hide-hide-peep,
+[E]Any way you want to let it [A]roll,
+[A]Yeah, yeah, [E]yeah!  [E]
+
+{c: Chorus}
+You got me [B]doin' what you want me,
+Oh [A-]baby what you want me to [E]do?  [B]
+
+{c: Solo}
+[E]      [E]      [E]      [E]
+[A]      [A]      [E]      [E]
+[B]      [A-]      [E]      [B]
+
+{c: Verse 1}
+We're goin' [E]up, we're goin' [E]down,
+We're goin' [E]up, down, down, up,
+[E]Any way you want to let it [A]roll,
+[A]Yeah, yeah, [E]yeah!  [E]
+
+{c: Chorus}
+You got me [B]doin' what you want me,
+Oh [A-]baby what you want me to [E]do?  [B]
+
+{c: Verse 2}
+You got me [E]peepin' you got me [E]hidin',
+You got me [E]peep-hide-hide-peep,
+[E]Any way you want to let it [A]roll,
+[A]Yeah, yeah, [E]yeah!  [E]
+
+{c: Chorus}
+You got me [B]doin' what you want me,
+Oh [A-]baby what you want me to [E]do?  [B]
+
+{c: Outro}
+[B]      [E]
+[E]

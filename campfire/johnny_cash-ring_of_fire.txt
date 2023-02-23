@@ -1,45 +1,52 @@
 {c: Intro}
+[G]      [C]      [G]      [G]
+[G]      [D]      [G]      [G]
 
 {c: Verse 1}
-Love is a burning thing,
-And it makes a fiery ring.
-Bound by wild desire,
-I fell into a ring of fire.
+[G]Love is a [C]burning [G]thing,  [C]      [G]      [G]
+And it [G]makes a [D]fiery [G]ring.  [D]      [G]      [G]
+[G]Bound by [C]wild de[G]sire,  [C]      [G]      [G]
+[G]I fell into a [D]ring of [G]fire.
 
 {c: Chorus}
-I fell into a burning ring of fire,
-I went down, down, down and the flames went higher.
-And it burns, burns, burns,
-The ring of fire, the ring of fire.
+[D]I fell into a [C]burning ring of [G]fire,
+I went [D]down, down, down and the [C]flames went [G]higher.
+And it [G]burns, burns, burns,
+The [D]ring of [G]fire, the [D]ring of [G]fire.
 
-{c: Solo 1}
+{c: Bridge}
+[G]      [C]      [G]      [G]
+[G]      [D]      [G]      [G]
+
+[G]      [C]      [G]      [G]
+[G]      [D]      [G]      [G]
 
 {c: Chorus}
-I fell into a burning ring of fire,
-I went down, down, down and the flames went higher.
-And it burns, burns, burns,
-The ring of fire, the ring of fire.
+[D]I fell into a [C]burning ring of [G]fire,
+I went [D]down, down, down and the [C]flames went [G]higher.
+And it [G]burns, burns, burns,
+The [D]ring of [G]fire, the [D]ring of [G]fire.
 
 {c: Verse 2}
-The taste of love is sweet,
-When hearts like ours meet.
-I fell for you like a child,
-Oh, but the fire went wild.
+The [G]taste of [C]love is [G]sweet,  [C]      [G]      [G]
+When [G]hearts like [D]ours [G]meet.  [D]      [G]      [G]
+[G]I fell for you [C]like a [G]child,  [C]      [G]      [G]
+[G]Oh, but the [D]fire went [G]wild.
 
 {c: Chorus}
-I fell into a burning ring of fire,
-I went down, down, down and the flames went higher.
-And it burns, burns, burns,
-The ring of fire, the ring of fire.
+[D]I fell into a [C]burning ring of [G]fire,
+I went [D]down, down, down and the [C]flames went [G]higher.
+And it [G]burns, burns, burns,
+The [D]ring of [G]fire, the [D]ring of [G]fire.
 
 {c: Chorus}
-I fell into a burning ring of fire,
-I went down, down, down and the flames went higher.
-And it burns, burns, burns,
-The ring of fire, the ring of fire.
+[D]I fell into a [C]burning ring of [G]fire,
+I went [D]down, down, down and the [C]flames went [G]higher.
+And it [G]burns, burns, burns,
+The [D]ring of [G]fire, the [D]ring of [G]fire.
 
 {c: Outro}
-And it burns, burns, burns,
-The ring of fire, the ring of fire,
-The ring of fire, the ring of fire,
-The ring of fire.
+And it [G]burns, burns, burns,
+The [D]ring of [G]fire, the [D]ring of [G]fire,
+The [D]ring of [G]fire, the [D]ring of [G]fire,
+The [D]ring of [G]fire.
