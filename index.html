@@ -26,7 +26,7 @@
 				background-position: bottom right;
 				background-repeat: no-repeat;
 				background-attachment: fixed;
-				background-size: calc(120px + 24vh + 12vw);
+				background-size: min(48vh, 48vmin);
 				color: var(--text-normal);
 				font-family: Arial, Helvetica, sans-serif;
 			}
@@ -72,7 +72,8 @@
 			li {
 				font-size: calc(8px + 0.8vw);
 				list-style-type: none;
-				padding-left: calc(16px + 1.6vw);
+				padding-left: calc(24px + 1.6vw);
+				margin-left: -32px;
 				background-size: contain;
 				background-repeat: no-repeat;
 				margin-bottom: calc(2px + 0.2vw);
@@ -80,8 +81,8 @@
 
 			.block-content {
 				position: absolute;
-				min-width: calc(160px + 1.6vw);
-				padding: calc(32px + 3.2vw);
+				min-width: calc(160px + 10vw);
+				padding: calc(8px + 5.6vmin);
 			}
 
 		</style>
