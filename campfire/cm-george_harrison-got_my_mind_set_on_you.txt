@@ -1,8 +1,20 @@
+{title: [CM] Got My Mind Set On You}
+{artist: George Harrison}
+{key: E}
+{x_sbp_tags: english,calling-memphis}
+
 {c: Chorus}
-I got my mind set on you,
-I got my mind set on you.
-I got my mind set on you,
-I got my mind set on you.
+[-]            [C#m]        [G#7]        [C#m]
+[-]            [E]        [B]        [E]
+
+[-]            [C#m]        [G#7]        [C#m]
+[-]            [E]        [B]        [E]
+
+{c: Chorus}
+I got my min[C#m]d set [G#7]on yo[C#m]u,
+I got my mind [E]set [B]on [E]you.
+I got my min[C#m]d set [G#7]on yo[C#m]u,
+I got my mind [E]set [B]on [E]you.
 
 {c: Verse 1}
 But it's gonna take [E]money,   [A]    [B]
@@ -77,16 +89,8 @@ Umm, to [E]do it, to [A]do it,
 To [E]do it, to [A]do it,
 To [E]do it, to [A]do it [E]right!
 
-{c: Outro}
-[C#m]  Set [G#7]on yo[C#m]u,
-[E]Set [B]on [E]you.
-[C#m]  Set [G#7]on yo[C#m]u,
-[E]Set [B]on [E]you.
-[C#m]  Set [G#7]on yo[C#m]u,
-[E]Set [B]on [E]you.
-[C#m]  Set [G#7]on yo[C#m]u,
-[E]Set [B]on [E]you.
-[C#m]  Set [G#7]on yo[C#m]u,
-[E]Set [B]on [E]you.
-[C#m]  Set [G#7]on yo[C#m]u,
-[E]Set [B]on [E]you.
+{c: Chorus}
+I got my min[C#m]d set [G#7]on yo[C#m]u,
+I got my mind [E]set [B]on [E]you.
+I got my min[C#m]d set [G#7]on yo[C#m]u,
+I got my mind [E]set [B]on [E]you.

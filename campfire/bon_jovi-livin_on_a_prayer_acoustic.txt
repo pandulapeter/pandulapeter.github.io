@@ -1,13 +1,9 @@
 {c: Intro}
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
 
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
 
 {c: Verse 1}
 [D#m]Tommy used to [D#sus2]work on the [D#m]docks,  [D#sus2]
@@ -34,10 +30,8 @@ We'll [C#]give it a shot.
 [F#]Woa[B]h, li[C#]vin' on a prayer.
 
 {c: Bridge 1}
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
 
 {c: Verse 3}
 Well [D#m]Tommy's got his [D#sus2]six-string in [D#m]hock,  [D#sus2]
@@ -66,23 +60,16 @@ We'll [C#]give it a shot.
 {c: Solo}
 [B]We're livin' on a prayer!
 
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[B]      [B]
-[C#]      [C#]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
+[B]            [B]      [C#]            [C#]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
 
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
-[B]      [B]
-[C#]      [C#]
-[D#m]      [D#sus2]
-[D#m]      [D#sus2]
+
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
+[B]            [B]      [C#]            [C#]
+[D#m]      [D#sus2]            [D#m]      [D#sus2]
 
 {c: Pre-Chorus 2}
 We've got to [B]hold [C#]on, ready or [D#m]not,
