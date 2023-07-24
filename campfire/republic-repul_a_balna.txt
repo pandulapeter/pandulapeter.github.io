@@ -1,9 +1,3 @@
-{title: Repül a bálna}
-{artist: Republic}
-{key: D}
-{duration: 195}
-{x_sbp_tags: hungarian}
-
 {c: Intro}
 [D]        [D]
 [D]        [D]
