@@ -1,0 +1,88 @@
+{title: Repül a bálna}
+{artist: Republic}
+{key: D}
+{duration: 195}
+{x_sbp_tags: hungarian}
+
+{c: Intro}
+[D]        [D]
+[D]        [D]
+
+{c: Verse 1}
+[D]Kicsi vagyok, kicsi vagyok,
+[D]Ha megnövök, beléd rúgok.
+[G]Még, még, még, még, [A]még,
+Ennyi nem e[D]lég!
+
+{c: Verse 2}
+[D]Egyre feljebb furakodom,
+[D]Jaj, de magas ez a torony.
+[G]Még, még, még, még, [A]még,
+Ennyi nem e[D]lég!
+
+{c: Chorus 1}
+[G]Repül a bálna, repül a bálna,
+[D]Ez a parancs, érik a narancs.
+[G]Repül a bálna, repül a bálna,
+[E]Aki hülye, [A]az is marad!
+
+{c: Verse 3}
+[D]Nagyon szeret, nagyon szeret,
+[D]Nagyon szeretném azt veled.
+[G]Még, még, még, még, [A]még,
+Ennyi nem e[D]lég!
+
+{c: Verse 4}
+[D]Add ide a csöpp kis szádat,
+[D]Lerángatom a ruhádat.
+[G]Még, még, még, még, [A]még,
+Ennyi nem e[D]lég!
+
+{c: Chorus 2}
+[G]Repül a bálna, repül a bálna,
+[D]Mindenki álljon vigyázba!
+[G]Repül a bálna, repül a bálna,
+[E]Bele köpök a [A]nagy Dunába!
+
+{c: Solo}
+[D]
+[D]
+[G]Még, még, még, még, [A]még,
+Ennyi nem e[D]lég!
+[D]
+[D]
+[G]Még, még, még, még, [A]még,
+Ennyi nem e[D]lég!
+
+{c: Chorus 3}
+[G]Repül a bálna, repül a bálna,
+[D]Körbe-körbe repül a földön!
+[G]Holnaptól repül a bálna,
+[E]Megírta a [A]Magyar Közlöny!
+
+{c: Break}
+[-]
+
+{c: Verse 5}
+[-]Megtanultam, tudom a választ,
+Kicsi az ország nagy a bánat.
+Még, még, még, még, még,
+Ennyi nem elég!
+
+{c: Verse 1}
+[D]Kicsi vagyok, kicsi vagyok,
+[D]Ha megnövök, beléd rúgok.
+[G]Még, még, még, még, [A]még,
+Ennyi nem e[D]lég!
+
+{c: Chorus 2}
+[G]Repül a bálna, repül a bálna,
+[D]Mindenki álljon vigyázba!
+[G]Repül a bálna, repül a bálna,
+[E]Bele köpök a [A]nagy Dunába!
+
+{c: Chorus 1}
+[G]Repül a bálna, repül a bálna,
+[D]Ez a parancs, érik a narancs.
+[G]Repül a bálna, repül a bálna,
+[E]Aki hülye, [A]az is marad!
