@@ -1,0 +1,79 @@
+{c: Verse 1}
+[E]Színes zokni lép a bárba,
+[E]Pohárból felébredtem.
+[E]Talán üres lépcsőházban,
+[E]Találkozunk [B-]véletlen.
+
+{c: Bridge 1}
+[E]            [E]            [C#m]            [B]
+[E]            [E]            [C#m]            [B]
+
+{c: Verse 2}
+[E]Kigyúltak a [C#m]lámpa[B]fények,
+[E]A kocsma is [C#m]mindjárt [A]zár.    [B]
+[E]Ha nem baj, én [C#m]hazakí[B]sérlek,
+[E]Úgysincs ki [C#m]otthon [A]vár.    [B]
+
+{c: Pre-Chorus 1}
+[B]Otthagyjuk a sörünk, le[A]lépünk gyorsan,
+[B]Azt az egyet mégis csak el kell mondjam.
+
+{c: Chorus}
+[E]Ó te román [G#]lány,
+[F#m]De jó vol[C#m]nál.    [B]
+[E]Bárcsak érte[G#]ném,
+[F#m]Mit is mond[C#m]tál.    [B]
+
+{c: Bridge 2}
+[A7]            [A6]      [A]      [A7]            [A6]      [A]
+[E]            [A]            [E]            [A]
+
+[A7]            [A6]      [A]      [A7]            [A6]      [A]
+[E-]                        [C#m]            [B]
+
+{c: Verse 3}
+[E]Még pár perc és [C#m]mindjárt [B]reggel,
+[E]Neked nem áll [C#m]bé a [A]szád.    [B]
+[E]Én hallgatom [C#m]bódult [B]fejjel a[E]hogy,
+Becsenged a [C#m]főut[A]cát.    [B]
+
+{c: Pre-Chorus 2}
+[B]És kettőnk közzül te vagy a [A]körmönfontabb,
+Csak [B]várom, hogy a karodat körémfonjad.
+
+{c: Chorus}
+[E]Ó te román [G#]lány,
+[F#m]De jó vol[C#m]nál.    [B]
+[E]Bárcsak érte[G#]ném,
+[F#m]Mit is mond[C#m]tál.    [B]
+
+{c: Bridge 3}
+[A7]            [A6]      [A]      [A7]            [A6]      [A]
+[E]            [A]            [E]            [A]
+[A7]            [A6]      [A]      [A7]            [A6]      [A]
+
+{c: Solo}
+[E]            [E]            [C#m]            [B]
+[E]            [E]            [C#m]      [A]      [B]
+
+[E]            [E]            [C#m]            [B]
+[E]            [E]            [C#m]      [A]      [B]
+
+{c: Pre-Chorus 2}
+[B]Kettőnk közzül te vagy a [A]körmönfontabb,
+Csak [B]várom, hogy a karodat körémfonjad.
+
+{c: Chorus}
+[E]Ó te román [G#]lány,
+[F#m]De jó vol[C#m]nál.    [B]
+[E]Bárcsak érte[G#]ném,
+[F#m]Mit is mond[C#m]tál.    [B]
+
+{c: Chorus}
+[E]Ó te román [G#]lány,
+[F#m]De jó vol[C#m]nál.    [B]
+[E]Bárcsak érte[G#]ném,
+[F#m]Mit is mond[C#m]tál.    [B]
+
+{c: Outro}
+[E]
