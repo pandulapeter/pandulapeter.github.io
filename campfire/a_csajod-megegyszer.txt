@@ -1,62 +1,88 @@
 {c: Intro}
+[Cmaj7]            [Cmaj7]      [C6]
+[Em]            [D]
+[Cmaj7]            [Cmaj7]      [Dmaj7]
+[Em]            [D#maj7]      [D#6]
+
+[Cmaj7]            [Cmaj7]      [C6]
+[Em]            [D]
+[Cmaj7]            [Cmaj7]      [Dmaj7]
+[Em]            [D#maj7]      [D#6]
 
 {c: Verse 1}
-Értelmet nehéz látni az órában.
-Nem leszünk mindig ebben a formában.
-Míg valahogy lehalkítod a telefont,
-Egy sarkot a szobádból a pók telefont.
+[Gmaj7]Értelmet [Bm]nehéz [Em]látni az órában.
+[Gmaj7]Nem leszünk [Bm]mindig [Em]ebben a formában.
+[Gmaj7]Míg vala[Bm]hogy le[Em]halkítod a telefont,
+Egy [Gmaj7]sarkot a [Bm]szobád[Em]ból a pók telefont.
 
 {c: Verse 2}
-Hát nyomom én is, de ha csak tessék-lássék
-A falakról lassan pattog le a festék,
-Úgyhogy inkább végleg lekaparom,
-És újra festem úgy ahogy akarom,
+[Gmaj7]Hát nyomom [Bm]én is, de [Em]ha csak tessék-lássék,
+A [Gmaj7]falakról [Bm]lassan [Em]pattog le a festék,
+[Gmaj7]Úgyhogy [Bm]inkább [Em]végleg lekaparom,
+És [Gmaj7]újra [Bm]festem [Em]úgy ahogy akarom,
 
 {c: Pre-Chorus}
-Még egyszer, még egyszer, még egyszer.
+[Gmaj7]Még [G]egyszer, [Adim]még egy[Em]szer, [A]még [C]egyszer.
 
-{c: Chorus 1}
-Az égen nézd a holdat!
-Hogyha kérded válaszolgat
-Míg a fűben hanyatt fekszel,
-De a mindenségben nincsen rendszer.
+{c: Chorus}
+Az [G]égen[C] nézd a [G]holdat![C]
+Hogyha [Am]kérded[C] vála[F]szolgat
+[D]Míg a [G]fűben[C] hanyatt [G]fekszel,[C]
+De a [Am]minden[C]ségben [D#]nincsen [D]rendszer.
 
-{c: Bridge}
+{c: Solo 1}
+[Cmaj7]            [Cmaj7]      [C6]
+[Em]            [D]
+[Cmaj7]            [Cmaj7]      [Dmaj7]
+[Em]            [D#maj7]      [D#6]
+
+[Cmaj7]            [Cmaj7]      [C6]
+[Em]            [D]
+[Cmaj7]            [Cmaj7]      [Dmaj7]
+[Em]            [D#maj7]      [D#6]
 
 {c: Verse 3}
-Gondokkal a kupac önmagát felrakja.
-Valamivel mindig el vagyok maradva,
-Hát induljunk a cél lehet bárhol.
-Kisimulnak a fodrok a ruhádról.
+[Gmaj7]Gondokkal [Bm]a kupac [Em]önmagát felrakja.
+[Gmaj7]Valamivel [Bm]mindig [Em]el vagyok maradva,
+[Gmaj7]Hát indul[Bm]junk a [Em]cél lehet bárhol.
+[Gmaj7]Kisimul[Bm]nak a [Em]fodrok a ruhádról.
 
 {c: Verse 4}
-A tavaszra nem veszünk nagykabátot.
-A gyűrűdbe nem számoljuk a karátot.
-A jövőt még megtartjuk rövid pórázon.
-Nem sikerülhet egyből, de próbálom,
+[Gmaj7]A tavasz[Bm]ra nem [Em]veszünk nagykabátot.
+A [Gmaj7]gyűrűdbe [Bm]nem szá[Em]moljuk a karátot.
+A [Gmaj7]jövőt [Bm]megtart[Em]juk rövid pórázon.
+[Gmaj7]Nem sike[Bm]rülhet [Em]egyből, de próbálom,
 
 {c: Pre-Chorus}
-Még egyszer, még egyszer, még egyszer.
+[Gmaj7]Még [G]egyszer, [Adim]még egy[Em]szer, [A]még [C]egyszer.
 
 {c: Chorus}
-Az égen nézd a holdat
-Hogyha kérded válaszolgat
-Míg a fűben hanyatt fekszel
-De a mindenségben nincsen rendszer.
+Az [G]égen[C] nézd a [G]holdat![C]
+Hogyha [Am]kérded[C] vála[F]szolgat
+[D]Míg a [G]fűben[C] hanyatt [G]fekszel,[C]
+De a [Am]minden[C]ségben [D#]nincsen [D]rendszer.
 
-{c: Solo}
+{c: Solo 2}
+[Cmaj7]            [Cmaj7]      [C6]
+[Em]            [D]
+[Cmaj7]            [Cmaj7]      [Dmaj7]
+[Em]            [D#maj7]      [D#6]
 
-{c: Pre-Chorus}
-Még egyszer, még egyszer, még egyszer.
+[Cmaj7]            [Cmaj7]      [C6]
+[Em]            [D]
+[Cmaj7]            [Cmaj7]      [Dmaj7]
+[Em]            [D#maj7]      [D#6]
+
+[Gmaj7]Még [G]egyszer, [Adim]még egy[Em]szer, [A]még [C]egyszer.
 
 {c: Chorus}
-Az égen nézd a holdat!
-Hogyha kérded válaszolgat
-Míg a fűben hanyatt fekszel
-De a mindenségben nincsen...
+Az [G]égen[C] nézd a [G]holdat![C]
+Hogyha [Am]kérded[C] vála[F]szolgat
+[D]Míg a [G]fűben[C] hanyatt [G]fekszel,[C]
+De a [Am]minden[C]ségben [D#]nincsen...
 
 {c: Outro}
-A talpad sárba süpped,
-Minden lépés egyre könnyebb
-Úgyhogy éljünk most a perccel,
-Mert nem mindig lesz még egyszer.
+A [E]talpad[A] sárba [E]süpped,[A]
+Minden [F#m]lépés[A] egyre [D]könnyebb
+[B]Úgyhogy [E]éljünk[A] most a [E]perccel,[A]
+Mert [F#m]nem min[D]dig lesz [H]még egy[E]szer.

@@ -1,0 +1,57 @@
+{c: Verse 1}
+[A]A sárban táncolsz foltos [C#]a ruhád,
+De téged [F#m]nem zavar, hogy [E]néznek [B]rád,
+Vagy, hogy [D]mennyit takar a [Dmaj7]lábadból a szok[B]nyád.
+
+{c: Verse 2}
+[A]És a tekinteted [C#]megkapó,
+Tán a [F#m]sátrad is be[E]lakha[B]tó,
+A [D]kétely belőlem [Dmaj7]gyorsan kimosha[B]tó.
+
+{c: Chorus}
+[C#]Fesd meg a hajad kékre, vagy szürké[F#]re,  [E]      [F#]
+[B]Hogy este rád ismerjek a sötét[E]ben.  [D]      [C#m]      [Bm]
+
+{c: Bridge 1}
+[A]
+
+{c: Verse 3}
+[A]A hajam jól áll, éppen [C#]elestem,
+Míg a [F#m]lábnyomaid [E]keres[B]tem,
+Az agyam [D]fékez, de [Dmaj7]nem figyel a tes[B]tem.
+
+{c: Verse 4}
+[A]Ha bárki kérdi nem tu[C#]dom neved,
+És nem [F#m]ismerem a [E]nyelve[B]det,
+De nem kell [D]beszélj, én [Dmaj7]így is megérte[B]lek.
+
+{c: Chorus}
+[C#]Fesd meg a hajad kékre, vagy szürké[F#]re,  [E]      [F#]
+[B]Hogy este rád ismerjek a sötét[E]ben.  [D]      [C#m]      [Bm]
+
+{c: Bridge 2}
+[G]Reggel a patakban [Bm]fürdünk majd meztelen
+[C]Azt hiszed [D]viccelek, de [A]nem!
+
+{c: Solo}
+      [A]      [C#]      [C#]
+[F#m]      [E]      [B]      [B]
+[D]      [D]      [Dmaj7]      [Dmaj7]
+[B]      [B]      [B]      [B]
+
+[A]      [A]      [C#]      [C#]
+[F#m]      [E]      [B]      [B]
+[D]      [D]      [Dmaj7]      [Dmaj7]
+[B]      [B]      [B]      [-]
+
+{c: Chorus}
+Fesd [C#]meg a hajad kékre, vagy szürké[F#]re,  [E]      [F#]
+[H]Hogy este rád ismerjek a sötét[E]ben.  [F#m]      [G#m]      [A]
+
+{c: Chorus}
+Kérlek, hogy [C#]fesd meg a hajad kékre, vagy szürk[F#-]ére,  [E]      [F#]
+[B]Hogy este rád ismerjek a sötét[E]ben.  [D]      [C#m]      [Bm]
+
+{c: Outro}
+[E]      [D]      [C#m]      [Bm]
+[A]
