@@ -1,127 +1,151 @@
 {c: Intro}
+[E]            [E]      [F/E]
+[E]            [F/E]      [F/E]
 
-{c: Bridge 1}
+{c: Bridge}
+[E]            [E]      [F/E]
+[E]            [D/A]
 
 {c: Verse 1}
-Jó estét, jó estét, Ég s Föld fia,
-Te vagy a Jézuska, ő Mária,
-Bátyád aranyos Nap sugara,
-Húgocskád ezüstös Hold sugara.
+[E]Jó estét, jó estét, Ég s Föld fia,
+[E]Te vagy a Jézuska, ő Mária,   [F/E]
+[E]Bátyád aranyos Nap sugara,
+[E]Húgocskád ezüstös [A]Hold [B]suga[E]ra.
 
-{c: Bridge 1}
+{c: Bridge}
+[E]            [E]      [F/E]
+[E]            [D/A]
 
 {c: Verse 2}
-Csicsíja, baba, csicsíja, baba,
-Ne sírj, Máriánál van vacsora!
-Tejet iszik az Isten fia,
-Édes tejet iszik Isten fia.
+[E]Csicsíja, baba, csicsíja, baba,
+[E]Ne sírj, Máriánál van vacsora!    [F/E]
+[E]Tejet iszik az Isten fia,
+[E]Édes tejet iszik [A]Is[B]ten fi[E]a.
 
-{c: Bridge 2}
+{c: Pre-Chorus}
+[E]            [E]
+[E]      [E/F#]      [E/G#]
 
 {c: Chorus 1}
-Falu végén van egy házikócska,
-Falu végén van egy házikócska,
-Abban van egy rengengő bölcsőcske,
-Abban van egy rengengő bölcsőcske,
+Falu [A]végén van egy házi[D]kócska,
+Falu [A]végén van egy házi[E]kócska,
+Abban [D]van egy rengengő böl[A]csőcske,
+Abban [D]van egy [E]rengengő böl[A]csőcske,
 
 {c: Chorus 2}
-A lábával rengengeti vala,
-A lábával rengengeti vala,
-A szájával fújdogolja vala,
-A szájával fújdogolja vala:
+A lá[A]bával rengengeti [D]vala,
+A lá[A]bával rengengeti [E]vala,
+A szá[D]jával fújdogolja [A]vala,
+A szá[D]jával [E]fújdogolja [A]vala
 
 {c: Chorus 3}
-Aludj, aludj, Istennek báránya,
-Aludj, aludj, Istennek báránya,
-Szerelemből jöttél a világra,
-Szerelemből jöttél a világra.
+Aludj, [A]aludj, Istennek bá[D]ránya,
+Aludj, [A]aludj, Istennek bá[E]ránya,
+Szere[D]lemből jöttél a vi[A]lágra,
+Szere[D]lemből [E]jöttél a vi[A]lágra.
 
-{c: Bridge 1}
+{c: Bridge}
+[E]            [E]      [F/E]
+[E]            [D/A]
 
 {c: Verse 3}
-Keres már a katona, hogy elvezet,
-Keres már a gazdag, hogy kinevet,
-Keres a halál, hogy megszeret,
-Keres már a halál, hogy megszeret.
+[E]Keres már a katona, hogy elvezet,
+[E]Keres már a gazdag, hogy kinevet,   [F/E]
+[E]Keres a halál, hogy megszeret,
+[E]Keres már a halál, [A]hogy [B]megsze[E]ret.
 
-{c: Bridge 1}
+{c: Bridge}
+[E]            [E]      [F/E]
+[E]            [D/A]
 
 {c: Verse 4}
-Zöldellik ágacska - a keresztfád,
-Ébred a magocska - töviskoronád,
-Szeretne mégis ez a világ,
-Szerethetne mégis ez a világ.
+[E]Zöldellik ágacska - a keresztfád,
+[E]Ébred a magocska - töviskoronád,   [F/E]
+[E]Szeretne mégis ez a világ,
+[E]Szerethetne mégis [A]ez [B]a vi[E]lág.
 
-{c: Bridge 2}
+{c: Pre-Chorus}
+[E]            [E]
+[E]      [E/F#]      [E/G#]
 
 {c: Chorus 1}
-Falu végén van egy házikócska,
-Falu végén van egy házikócska,
-Abban van egy rengengő bölcsőcske,
-Abban van egy rengengő bölcsőcske,
+Falu [A]végén van egy házi[D]kócska,
+Falu [A]végén van egy házi[E]kócska,
+Abban [D]van egy rengengő böl[A]csőcske,
+Abban [D]van egy [E]rengengő böl[A]csőcske,
 
 {c: Chorus 2}
-A lábával rengengeti vala,
-A lábával rengengeti vala,
-A szájával fújdogolja vala,
-A szájával fújdogolja vala:
+A lá[A]bával rengengeti [D]vala,
+A lá[A]bával rengengeti [E]vala,
+A szá[D]jával fújdogolja [A]vala,
+A szá[D]jával [E]fújdogolja [A]vala
 
 {c: Chorus 3}
-Aludj, aludj, Istennek báránya,
-Aludj, aludj, Istennek báránya,
-Szerelemből jöttél a világra,
-Szerelemből jöttél a világra.
+Aludj, [A]aludj, Istennek bá[D]ránya,
+Aludj, [A]aludj, Istennek bá[E]ránya,
+Szere[D]lemből jöttél a vi[A]lágra,
+Szere[D]lemből [E]jöttél a vi[A]lágra.
 
-{c: Bridge 1}
+{c: Solo}
+[E]            [E]      [F/E]
+[E]            [F/E]      [F/E]
+
+{c: Bridge}
+[E]            [E]      [F/E]
+[E]            [D/A]
 
 {c: Verse 5}
-Nincsen semmi másod, Istenfiú
-Jászol csak a házad, Istenfiú
-Szalma a párnád, Istenfiú
-Szemed fénye a lámpád, Istenfiú.
+[E]Nincsen semmi másod, Istenfiú,
+[E]Jászol csak a házad, Istenfiú.   [F/E]
+[E]Szalma a párnád, Istenfiú,
+[E]Szemed fénye a lámpád, [A]Is[B]tenfi[E]ú.
 
-{c: Bridge 1}
+{c: Bridge}
+[E]            [E]      [F/E]
+[E]            [D/A]
 
 {c: Verse 6}
-Adjon igaz álmot az éjszaka,
-Meleget a jászol kicsi szamara,
-Áj, áj, aludjál, csíja, baba.
-Áj, áj, aludjál, csíja, baba.
+[E]Adjon igaz álmot az éjszaka,
+[E]Meleget a jászol kicsi szamara,   [F/E]
+[E]Áj, áj, aludjál, csíja, baba.
+[A]Áj, áj, aludjál, [A]csí[B]ja, ba[E]ba.
 
-{c: Bridge 2}
-
-{c: Chorus 3}
-Aludj, aludj, Istennek báránya,
-Aludj, aludj, Istennek báránya,
-Szerelemből jöttél a világra,
-Szerelemből jöttél a világra.
+{c: Pre-Chorus}
+[E]            [E]
+[E]      [E/F#]      [E/G#]
 
 {c: Chorus 3}
-Aludj, aludj, Istennek báránya,
-Aludj, aludj, Istennek báránya,
-Szerelemből jöttél a világra,
-Szerelemből jöttél a világra.
+Aludj, [A]aludj, Istennek bá[D]ránya,
+Aludj, [A]aludj, Istennek bá[E]ránya,
+Szere[D]lemből jöttél a vi[A]lágra,
+Szere[D]lemből [E]jöttél a vi[A]lágra.
 
 {c: Chorus 3}
-Aludj, aludj, Istennek báránya,
-Aludj, aludj, Istennek báránya,
-Szerelemből jöttél a világra,
-Szerelemből jöttél a világra.
+Aludj, [A]aludj, Istennek bá[D]ránya,
+Aludj, [A]aludj, Istennek bá[E]ránya,
+Szere[D]lemből jöttél a vi[A]lágra,
+Szere[D]lemből [E]jöttél a vi[A]lágra.
 
 {c: Chorus 3}
-Aludj, aludj, Istennek báránya,
-Aludj, aludj, Istennek báránya,
-Szerelemből jöttél a világra,
-Szerelemből jöttél a világra.
+Aludj, [A]aludj, Istennek bá[D]ránya,
+Aludj, [A]aludj, Istennek bá[E]ránya,
+Szere[D]lemből jöttél a vi[A]lágra,
+Szere[D]lemből [E]jöttél a vi[A]lágra.
 
 {c: Chorus 3}
-Aludj, aludj, Istennek báránya,
-Aludj, aludj, Istennek báránya,
-Szerelemből jöttél a világra,
-Szerelemből jöttél a világra.
+Aludj, [A]aludj, Istennek bá[D]ránya,
+Aludj, [A]aludj, Istennek bá[E]ránya,
+Szere[D]lemből jöttél a vi[A]lágra,
+Szere[D]lemből [E]jöttél a vi[A]lágra.
 
 {c: Chorus 3}
-Aludj, aludj, Istennek báránya,
-Aludj, aludj, Istennek báránya,
-Szerelemből jöttél a világra,
-Szerelemből jöttél a világra.
+Aludj, [A]aludj, Istennek bá[D]ránya,
+Aludj, [A]aludj, Istennek bá[E]ránya,
+Szere[D]lemből jöttél a vi[A]lágra,
+Szere[D]lemből [E]jöttél a vi[A]lágra.
+
+{c: Chorus 3}
+Aludj, [A]aludj, Istennek bá[D]ránya,
+Aludj, [A]aludj, Istennek bá[E]ránya,
+Szere[D]lemből jöttél a vi[A]lágra,
+Szere[D]lemből [E]jöttél a vi[A]lágra.

@@ -1,19 +1,28 @@
 {c: Intro}
+[A#]
 
 {c: Verse 1}
-Csendes éj, tiszta, szent éj, mindenek álma mély.
-Nincs fent más, csak a drága, szent pár, várja, gyermeke alszik-e már.
-Szent Fiú, aludjál, Szent Fiú, aludjál!
+[A#]Csendes éj, [A#]tiszta, szent éj, [F]minde[F7]nek [A#]álma mély.
+[D#]Nincs fent más, csak a [A#]drága, szent pár, [D#]várja, gyermeke [A#]alszik-e már.
+[F]Szent Fi[F7]ú, alud[Gm]jál, [A#]Szent Fi[F]ú, alud[A#]jál!
 
 {c: Verse 2}
-Csendes éj, tiszta, szent éj, angyalok hangja kél.
-Halld a mennyei halleluját, szerte hirdeti drága szavát:
-Krisztus megszületett, Krisztus megszületett!
+[A#]Csendes éj, [A#]tiszta, szent éj, [F]angya[F7]lok [A#]hangja kél.
+[D#]Halld a mennyei [A#]halleluját, [D#]szerte hirdeti [A#]drága szavát:
+[F]Krisztus [F7]megszüle[Gm]tett, [A#]Krisztus [F]megszüle[A#]tett!
 
 {c: Solo}
+[A#]      [A#]      [A#]      [A#]
+[F]      [F7]      [A#]      [A#]
+[D#]      [D#]      [A#]      [A#]
+[D#]      [D#]      [A#]      [A#]
+[F]      [F7]      [Gm]      [Gm]
+[A#]      [F]      [A#]      [A#]
 
 {c: Verse 3}
-Csendes éj, tiszta, szent éj! Szív, örülj, higgy, remélj!
-Isten szent fia jött ma hozzád, békét, életet és reményt ád.
-Krisztus megszabadít, Krisztus megszabadít!
+[A#]Csendes éj, [A#]tiszta, szent éj! [F]Szív, ö[F7]rülj, [A#]higgy, remélj!
+[D#]Isten szent fia [A#]jött ma hozzád, [D#]békét, életet [A#]és reményt ád.
+[F]Krisztus [F7]megszaba[Gm]dít, [A#]Krisztus [F]megszaba[A#]dít!
 
+{c: Outro}
+[A#]      [F]      [A#]      [A#]

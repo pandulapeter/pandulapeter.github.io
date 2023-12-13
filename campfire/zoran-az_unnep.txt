@@ -1,37 +1,45 @@
 {c: Intro}
+[Dm]            [Gm]      [A]      [Dm]            [Gm]      [A]
+[Dm]            [Gm]      [A]      [Dm]            [Gm]      [A]
 
 {c: Verse 1}
-A ritka percek selyemszalagját most együtt bontsuk fel,
-A számlát úgysem veszíthetjük el, most mégis rejtsük el,
+A [Dm]ritka percek selyemszalag[Gm]ját[A] most együtt [Dm]bontsuk fel,  [Gm]      [A]
+A [Dm]számlát úgysem veszíthetjük [Gm]el,[A] most mégis [Dm]rejtsük el,  [Gm]      [C]
 
 {c: Pre-Chorus 1}
-S mint szelíd kéz a lázas gyermek forró homlokán,
-Mint rossz álom, ha felriaszt, és odabújsz hozzám,
+S mint [F]szelíd kéz a lázas gyermek [Bb]forró homlo[C]kán,
+Mint [F]rossz álom, ha felriaszt, és [Bb]odabújsz ho[A]zzám,
 
 {c: Chorus 1}
-Olyan jó-jó-jó, de mondd, hány perc az ünnep?
-Oh mondd-mondd-mondd-mondd-mondd, mondd, meddig tart?
+Olyan [Dm]jó-jó-jó, de [Gm]mondd,[A] hány perc az [Dm]ünnep?  [Gm]      [A]
+Oh [Dm]mondd-mondd-mondd-mondd-[Gm]mondd,[A] mondd, meddig [Dm]tart?  [Gm]      [A]
 
 {c: Verse 2}
-A béke, nehogy végleg elfelejtsd, üzen, hogy létezik,
-Mondd, meglep-e, ha átnyújtom neked az ünnep perceit?
+A [Dm]béke, nehogy végleg elfe[Gm]lejtsd[A], üzen, hogy [Dm]létezik,  [Gm]      [A]
+Mondd, [Dm]meglep-e, ha átnyújtom ne[Gm]ked[A] az ünnep [Dm]perceit?  [Gm]      [C]
 
 {c: Pre-Chorus 2}
-S csak félrekapcsolt csengetés, ha drága hangot vársz,
-Vagy régi zsebben maradt pénz, mit szűk napon találsz
+S csak [F]félrekapcsolt csengetés, ha [Bb]drága hangot [C]vársz,
+Vagy [F]régi zsebben maradt pénz, mit [Bb]szűk napon ta[A]lálsz,
 
 {c: Chorus 2}
-Oh mondd-mondd-mondd-mondd-mondd, mit ér az ünnep?
-Oh mondd-mondd-mondd-mondd-mondd, mondd, meddig tart?
+Oh [Dm]mondd-mondd-mondd-mondd-[Gm]mondd[A], mit ér az [Dm]ünnep?  [Gm]      [A]
+Oh [Dm]mondd-mondd-mondd-mondd-[Gm]mondd,[A] mondd, meddig [Dm]tart?  [Gm]      [A]
 
 {c: Solo}
+[Dm]            [Gm]      [A]      [Dm]            [Gm]      [A]
+[Dm]            [Gm]      [A]      [Dm]            [Gm]      [A]
 
 {c: Pre-Chorus 1}
-S mint szelíd kéz a lázas gyermek forró homlokán,
-Vagy rossz álom, ha felriaszt, és odabújsz hozzám,
+S mint [F]szelíd kéz a lázas gyermek [Bb]forró homlo[C]kán,
+Mint [F]rossz álom, ha felriaszt, és [Bb]odabújsz ho[A]zzám,
 
 {c: Chorus 1}
-Olyan jó-jó-jó, de mondd, hány perc az ünnep?
-Oh mondd-mondd-mondd-mondd-mondd, mondd, meddig tart?
+Olyan [Dm]jó-jó-jó, de [Gm]mondd,[A] hány perc az [Dm]ünnep?  [Gm]      [A]
+Oh [Dm]mondd-mondd-mondd-mondd-[Gm]mondd,[A] mondd, meddig [Dm]tart?  [Gm]      [A]
 
 {c: Outro}
+[Dm]            [Gm]      [A]      [Dm]            [Gm]      [A]
+[Dm]            [Gm]      [A]      [Dm]            [Gm]      [A]
+[Dm]            [Gm]      [A]      [Dm]            [Gm]      [A]
+[Dm]            [Gm]      [A]      [Dm]

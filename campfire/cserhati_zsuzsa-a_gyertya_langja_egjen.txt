@@ -1,50 +1,55 @@
 {c: Intro}
+[E]      [D#]      [G#m]      [B]
+[E]      [Fm7b5]      [F#]      [F#]
+
+[E]      [D#]      [G#m]      [B]
+[E]      [Fm7b5]      [F#]      [F#]
 
 {c: Verse 1}
-Ha a tél beáll és az ajtódon a karácsony kopog,
-Nyisd ki lelkedet és a fényesség betölti otthonod!
+Ha a [B]tél beáll és az [G#m]ajtódon a [C#m]karácsony ko[F#]pog,
+Nyisd ki [G#m]lelkedet és a [B/D#]fényesség be[C#m]tölti ottho[F#]nod!
 
 {c: Chorus 1}
-A gyertya lángja égjen és senki se féljen,
-Egy kevés nyugalmat adj nekünk Istenünk!
+A [E]gyertya lángja [D#]égjen és [G#m]senki se [B]féljen,
+Egy [E]kevés nyugalmat [Fm7b5]adj nekünk Iste[F#]nünk!
 
 {c: Chorus 1}
-A gyertya lángja égjen és senki se féljen,
-Egy kevés nyugalmat adj nekünk Istenünk!
+A [E]gyertya lángja [D#]égjen és [G#m]senki se [B]féljen,
+Egy [E]kevés nyugalmat [Fm7b5]adj nekünk Iste[F#]nünk!
 
 {c: Verse 2}
-Ha a bánatod, mint egy óceán és nincsen egy sziget,
-Gondolj én reám minden éjszakán és elmegyek veled!
+Ha a [B]bánatod, mint egy [G#m]óceán és [C#m]nincsen egy szi[F#]get,
+Gondolj [G#m]én reám minden [B/D#]éjszakán és [C#m]elmegyek ve[F#]led!
 
 {c: Chorus 2}
-A gyertya lángja égjen és senki se féljen,
-Egy kicsi szerelmet adj nekünk Istenünk!
+A [E]gyertya lángja [D#]égjen és [G#m]senki se [B]féljen,
+Egy [E]kicsi szerelmet [Fm7b5]adj nekünk Iste[F#]nünk!
 
 {c: Chorus 2}
-A gyertya lángja égjen és senki se féljen,
-Egy kicsi szerelmet adj nekünk Istenünk!
+A [E]gyertya lángja [D#]égjen és [G#m]senki se [B]féljen,
+Egy [E]kicsi szerelmet [Fm7b5]adj nekünk Iste[F#]nünk!
 
 {c: Bridge}
-Azoknak is, akik semmit se kapnak,
-Azoknak is, akik mindent befalnak.
-Szóljon a dal, szóljon a dal mindenkinek!
+[E]Azoknak is, akik [C#m]semmit se kapnak,
+[D#m]Azoknak is, akik [G#m]mindent befalnak.
+[C#m]Szóljon a dal, [C#m/B]szóljon a dal [F#]mindenkinek!   [F#]
 
 {c: Chorus 1}
-A gyertya lángja égjen és senki se féljen,
-Egy kevés nyugalmat adj nekünk Istenünk!
+A [E]gyertya lángja [D#]égjen és [G#m]senki se [B]féljen,
+Egy [E]kevés nyugalmat [Fm7b5]adj nekünk Iste[F#]nünk!
 
 {c: Chorus 1}
-A gyertya lángja égjen és senki se féljen,
-Egy kevés nyugalmat adj nekünk Istenünk!
+A [E]gyertya lángja [D#]égjen és [G#m]senki se [B]féljen,
+Egy [E]kevés nyugalmat [Fm7b5]adj nekünk Iste[F#]nünk!
 
 {c: Chorus 1}
-A gyertya lángja égjen és senki se féljen,
-Egy kevés nyugalmat adj nekünk Istenünk!
+A [E]gyertya lángja [D#]égjen és [G#m]senki se [B]féljen,
+Egy [E]kevés nyugalmat [Fm7b5]adj nekünk Iste[F#]nünk!
 
 {c: Chorus 1}
-A gyertya lángja égjen és senki se féljen,
-Egy kevés nyugalmat adj nekünk Istenünk!
+A [E]gyertya lángja [D#]égjen és [G#m]senki se [B]féljen,
+Egy [E]kevés nyugalmat [Fm7b5]adj nekünk Iste[F#]nünk!
 
 {c: Chorus 1}
-A gyertya lángja égjen és senki se féljen,
-Egy kevés nyugalmat adj nekünk Istenünk!
+A [E]gyertya lángja [D#]égjen és [G#m]senki se [B]féljen,
+Egy [E]kevés nyugalmat [Fm7b5]adj nekünk Iste[F#]nünk!

@@ -1,41 +1,55 @@
 {c: Intro}
+[G]      [C]      [Dm]      [C]
+[F]      [G]      [C]      [C]
 
 {c: Verse 1}
-Adjonisten, Jézusunk, Jézusunk!
-Három király mi vagyunk.
-Lángos csillag állt felettünk,
-Gyalog jöttünk, mert siettünk,
-Kis juhocska mondta - biztos
-Itt lakik a Jézus Krisztus.
-Menyhárt király a nevem.
-Segíts, édes Istenem.
+[C]Adjonisten, [G]Jézusunk, Jézu[F]sunk!   [C]
+[G]Három király [D]mi va[G]gyunk.   [G]
+[F]Lángos csillag [G]állt felettünk,
+[E]Gyalog jöttünk, [Am]mert siettünk,
+[F]Kis juhocska [C/E]mondta - biztos
+[Dm]Itt lakik a [C]Jézus Krisztus.   [C]
+
+{c: Chorus 1}
+[G]Menyhárt király [C]a nevem.
+[G]Segíts, édes [C]Istenem.
+[F]      [G]      [C]      [C]
 
 {c: Verse 2}
-Istenfia, jónapot, jónapot!
-Nem vagyunk mi vén papok.
-Úgy hallottuk, megszülettél
-Szegények királya lettél.
-Benéztünk hát kicsit hozzád.
-Üdvösségünk, égi ország!
-Gáspár volnék, afféle
-Földi király személye.
+[C]Istenfia, [G]jónapot, jóna[F]pot!   [C]
+[G]Nem vagyunk mi [D]vén pa[G]pok.   [G]
+[F]Úgy hallottuk, [G]megszülettél
+[E]Szegények ki[Am]rálya lettél.
+[F]Benéztünk hát [C/E]kicsit hozzád.
+[Dm]Üdvösségünk, [C]égi ország!   [C]
+
+{c: Chorus 2}
+[G]Gáspár volnék, [C]afféle
+[G]Földi király [C]személye.
+[F]      [G]      [C]      [C]
 
 {c: Verse 3}
-Adjonisten, Megváltó, Megváltó!
-Jöttünk meleg országból.
-Főtt kolbászunk mind elfogyott,
-Fényes csizmánk is megrogyott.
-Hoztunk aranyat hat marékkal,
-Tömjént egész vasfazékkal.
-Én vagyok a Boldizsár,
-Aki szerecseny király.
+[C]Adjonisten, [G]Megváltó, Meg[F]váltó!   [C]
+[G]Jöttünk meleg [D]ország[G]ból.   [G]
+[F]Főtt kolbászunk [G]mind elfogyott,
+[E]Fényes csizmánk [Am]is megrogyott.
+[F]Hoztunk aranyat [C/E]hat marékkal,
+[Dm]Tömjént egész [C]vasfazékkal.   [C]
+
+{c: Chorus 3}
+[G]Én vagyok a [C]Boldizsár,
+[G]Aki szere[C]cseny király.
+[F]      [G]      [C]      [C]
 
 {c: Verse 4}
-Irul-pirul Mária, Mária,
-Boldogságos kis mama.
-Hulló könnye záporán át
-Alig látja Jézuskáját.
-A sok pásztor mind muzsikál,
-Meg is kéne szoptatni már.
-Kedves három királyok,
-Jóéjszakát kívánok!
+[C]Irul-pirul [G]Mária, [F]Mária,   [C]
+[G]Boldogságos[D] kis ma[G]ma.   [G]
+[F]Hulló könnye [G]záporán át
+[E]Alig látja [Am]Jézuskáját.
+[F]A sok pásztor [C/E]mind muzsikál,
+[Dm]Meg is kéne [C]szoptatni már.   [C]
+
+{c: Chorus 4}
+[G]Kedves három [C]királyok,
+[G]Jóéjszakát [C]kívánok!
+[F]      [G]      [C]      [C]

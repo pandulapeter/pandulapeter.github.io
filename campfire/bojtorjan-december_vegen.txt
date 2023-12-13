@@ -1,41 +1,41 @@
 {c: Verse 1}
-Kijelölt úton nem jártál eddig soha,
-Ritkán várt, lefoglalt hotelszoba.
-És volt úgy, hogy nem tudtad, hol ébredsz fel,
-De kibékültél rég a vándorélettel.
+Kije[E]lölt úton [E7]nem jártál [A]eddig so[Am]ha,
+[E]Ritkán várt, [B]lefoglalt [E]hotelszo[B7]ba.
+És [E]volt úgy, hogy [E7]nem tudtad, [A]hol ébredsz [F#]fel,
+De ki[E]békültél [B]rég a vándor[A]él[B]et[E]tel.
 
 {c: Verse 2}
-Nem is érdekel sokszor, hogy hol virrad rád,
-Másnap már úgyis visz az utad tovább,
-De az évnek egy napján el ne feledd,
-Nem mindegy mégsem, hogy hol a helyed.
+Nem is [E]érdekel [E7]sokszor, hogy [A]hol virrad [Am]rád,
+[E]Másnap már [B]úgyis visz az [E]utad to[B7]vább,
+De az [E]évnek egy [E7]napján ezt [A]el ne fe[F#]ledd,
+[E]Nem mindegy [B]mégsem, hogy [A]hol[B] a he[E]lyed.
 
 {c: Chorus}
-December végén rád várnak a házban,
-Hol gyerekként ismertek téged,
-Karácsony este a gyertyák fényében még,
-Minden épp olyannak látszik mint, rég.
-
-{c: Bridge}
+[A]December [B]végén rád [E]várnak a [E7]házban,
+Hol [A]gyerekként [B]ismertek [A]té[E]ged,
+[A]Karácsony [B]este a [E]gyertyák fényében [A#]még,
+[B]Minden épp [A]olyannak [E/G#]látszik mint, [B/F#]rég.
+[B]
 
 {c: Verse 3}
-Ha az órádat kell is, hogy zálogba tedd,
-Biztos, hogy meglesz a vonatjegyed.
-Bárhonnan indulsz, ha kicsit sietsz,
-Karácsony napján, már otthon lehetsz.
+Ha az [E]órádat [E7]kell is, hogy [A]zálogba [Am]tedd,
+[E]Biztos, hogy [B]meglesz a [E]vonatje[B7]gyed.
+[E]Bárhonnan [E7]indulsz, ha [A]kicsit si[F#]etsz,
+[E]Karácsony [B]napján, már [A]ott[B]hon le[E]hetsz.
 
 {c: Chorus}
-December végén rád várnak a házban,
-Hol gyerekként ismertek téged,
-Karácsony este a gyertyák fényében még,
-Minden épp olyannak látszik mint, rég.
-
-{c: Bridge}
+[A]December [B]végén rád [E]várnak a [E7]házban,
+Hol [A]gyerekként [B]ismertek [A]té[E]ged,
+[A]Karácsony [B]este a [E]gyertyák fényében [A#]még,
+[B]Minden épp [A]olyannak [E/G#]látszik mint, [B/F#]rég.
+[B]
 
 {c: Verse 4}
-Ma nem érdekel még, hogy hol virrad rád,
-Holnap már úgyis visz az utad tovább,
-De az évnek egy napján, ezt el ne feledd,
-Tudod, hogy Karácsony napján otthon a helyed.
+Ma [E]nem érde[E7]kel még, hogy [A]hol virrad [Am]rád,
+[E]Holnap már [B]úgyis visz az [E]utad to[B7]vább,
+De az [E]évnek egy [E7]napján, ezt [A]el ne fe[F#]ledd,
+Tudod, [E]Karácsony [B]napján [A]ott[B]hon a he[E]lyed.
 
 {c: Outro}
+[E]            [E7]            [A]            [Am]
+[E]            [B]            [A]      [B]      [E]

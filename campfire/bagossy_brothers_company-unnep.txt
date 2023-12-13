@@ -1,53 +1,59 @@
 {c: Intro}
+[C]            [Csus4]      [C]            [Csus2]
+[C]            [Csus4]      [C]            [Csus2]
 
 {c: Verse 1}
-Csillagos ég jöjj el, jöjj el, pásztorok keljetek,
-Mert egy kisded Betlehemben értünk született.
+[C]Csillagos ég jöjj el, [Csus4]jöjj el, [C]pásztorok keljetek,   [Csus2]
+[Am]Mert egy kisded [G]Betle[F]hemben [F]értünk szüle[C]tett.   [Csus4]
 
 {c: Verse 2}
-Örömöt hozz, nagy szatyorban, hogy az emberi seregek,
-Hideg télben, hóesésben találjanak meleget.
+[C]Örömöt hozz, nagy szatyor[Csus4]ban, hogy az [C]emberi seregek,   [Csus2]
+[Am]Hideg télben, [G]hóe[F]sésben [F]találjanak mele[C]get.   [Csus4]
 
 {c: Pre-Chorus}
-Vígad a hóban a gyermek, az ünnepi sátor az ég.
-Kék szeme csillog az éjben és itt van az egész vidék.
+[G]Vígad a hóban a [F]gyermek, az ünnepi [C]sátor az ég.
+[G]Kék szeme csillog az [F]éjben és itt van az [C]egész vidék.
 
 {c: Chorus}
-Ünnep, ünnep.
-Angyal az égen,
-Ember a földön
-Göncölszekérben.
+Ün[Am]nep, ün[C]nep.
+[F]Angyal az [C]égen,
+[G]Ember a [F]földön
+[C]Göncölsze[G]kérben.
 
 {c: Bridge}
+[-]
+[C]            [Csus4]      [C]            [Csus2]
 
 {c: Verse 3}
-Csillagos ég jöjj, el jöjj el, énekeljetek!
-Cseng a szánon a fenyő dísz és mindenki nevet.
+[C]Csillagos ég jöjj, el [Csus4]jöjj el, [C]énekeljetek!   [Csus2]
+[Am]Cseng a szánon [G]a fe[F]nyő dísz és [F]minden[G]ki ne[C]vet.   [Csus4]
 
 {c: Verse 4}
-Van-e virgács, ajándék? Ígérem jó leszek,
-Hogy minden hóembert a téren én felöltöztetek.
+[C]Van-e virgács, a[Csus4]jándék? Í[C]gérem jó leszek,   [Csus2]
+Hogy [Am]minden hóem[G]bert a [F]téren én [F]felöl[G]tözte[C]tek.   [Csus4]
 
 {c: Pre-Chorus}
-Vígad a hóban a gyermek, az ünnepi sátor az ég.
-Kék szeme csillog az éjben és itt van az egész vidék.
+[G]Vígad a hóban a [F]gyermek, az ünnepi [C]sátor az ég.
+[G]Kék szeme csillog az [F]éjben és itt van az [C]egész vidék.
 
 {c: Chorus}
-Ünnep, ünnep.
-Angyal az égen,
-Ember a földön
-Göncölszekérben.
+Ün[Am]nep, ün[C]nep.
+[F]Angyal az [C]égen,
+[G]Ember a [F]földön
+[C]Göncölsze[G]kérben.
+[-]
 
 {c: Chorus}
-Ünnep, ünnep.
-Angyal az égen,
-Ember a földön
-Göncölszekérben.
+Ün[Am]nep, ün[C]nep.
+[F]Angyal az [C]égen,   [C/B]
+[G]Ember a [F]földön
+[C]Göncölsze[G]kérben.
 
 {c: Chorus}
-Ünnep, ünnep.
-Angyal az égen,
-Ember a földön
-Göncölszekérben.
+Ün[Am]nep, ün[C]nep.
+[F]Angyal az [C]égen,   [C/B]
+[G]Ember a [F]földön
+[C]Göncölsze[G]kérben.
 
 {c: Outro}
+[G]      [C]

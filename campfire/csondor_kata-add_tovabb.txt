@@ -1,52 +1,69 @@
 {c: Intro}
+[Bb]        [Bbsus4]        [Bb]
+[Bb]        [Bbsus4]        [F]
+[Eb]        [F]        [Bb]
 
 {c: Verse 1}
-Hóban ébred majd az ünnep,
-Minden percben nevet ránk,
-Tud-e bármi szebbet adni,
-Mint a békés nagyvilág?
+Hóban [Bb]ébred [Bbsus4]majd az [Bb]ünnep,
+Minden [Bb]percben [Bbsus4]nevet [Bb]ránk,
+Tud-e [Gm]bármi szebbet [F]adni,
+Mint a [Eb]békés nagyvi[Bb]lág?
 
 {c: Verse 2}
-Körbenézel, s látsz egy arcot,
-Amin némán gond pihen,
-Reményt adhatsz pár mosollyal,
-Hogy a holnap más legyen!
+Körben[Bb]ézel, s [Bbsus4]látsz egy [Bb]arcot,
+Amin [Bb]némán [Bbsus4]gond pi[Bb]hen,
+Reményt [Gm]adhatsz pár mo[F]sollyal,
+Hogy a [Eb]holnap más le[Bb]gyen!
 
 {c: Chorus}
-Jut még bárkinek,
-A tiszta fényből egy cseppnyi láng.
-Jókedv könny helyett,
-Ha másod nincs is, ezt add tovább.
+[Bb -]
+[Bb]Jut [Am]még [Gm]bárki[Dm]nek,
+A tiszta [Eb]fényből egy cseppnyi [Bb]láng.
+[Bb]Jó[Am]kedv [Gm]könny he[Dm]lyett,
+Ha [Eb]másod nincs is, ezt add to[Bb]vább.
 
 {c: Bridge 1}
+        [Bbsus4]        [Bb]
+[Bb]        [Bbsus4]        [F]
+[Eb]        [F]        [Bb]
 
 {c: Verse 1}
-Hóban ébred majd az ünnep,
-Minden percben nevet ránk,
-Tud-e bármi szebbet adni,
-Mint a békés nagyvilág?
+Hóban [Bb]ébred [Bbsus4]majd az [Bb]ünnep,
+Minden [Bb]percben [Bbsus4]nevet [Bb]ránk,
+Tud-e [Gm]bármi szebbet [F]adni,
+Mint a [Eb]békés nagyvi[Bb]lág?
 
 {c: Verse 3}
-Körbenézel, s látsz egy házat,
-Mit a napfény elkerül,
-Kopogj csendben, meleg szívvel,
-Úgy már nem lesz egyedül!
+Körbe[Bb]nézel, s [Bbsus4]látsz egy [Bb]házat,
+Mit a [Bb]napfény [Bbsus4]elke[Bb]rül,
+Kopogj [Gm]csendben, meleg [F]szívvel,
+Úgy már [Eb]nem lesz egye[Bb]dül!
 
 {c: Chorus}
-Jut még bárkinek,
-A tiszta fényből egy cseppnyi láng.
-Jókedv könny helyett,
-Ha másod nincs is, ezt add tovább.
+[Bb -]
+[Bb]Jut [Am]még [Gm]bárki[Dm]nek,
+A tiszta [Eb]fényből egy cseppnyi [Bb]láng.
+[Bb]Jó[Am]kedv [Gm]könny he[Dm]lyett,
+Ha [Eb]másod nincs is, ezt add to[Bb]vább.
 
 {c: Bridge 2}
-Van még gondolat mi átadható,
-S van száz pillanat, mi szétosztható.
+        [Bbsus4]        [Bb]
+[Bb]        [Bbsus4]        [Bb]
+[Cm]Van még [Gm]gondolat mi [Bb]átadha[F]tó,
+[Cm]S van száz [Gm]pillanat, mi [Fsus4]szétosztha[F]tó.
 
 {c: Solo}
+[Bb]        [Bbsus4]        [Bb]
+[Bb]        [Bbsus4]        [Bb]
+
+[Eb]        [Ebsus4]        [Eb]
+[Eb]        [Ebsus4]        [Eb]
+
+[Bb]        [Bbsus4]        [Bb]
 
 {c: Outro}
-Jut még bárkinek,
-A tiszta fényből egy cseppnyi láng.
-Jókedv könny helyett,
-Ha másod nincs is,
-Ha másod nincs is, csak add tovább.
+[Bb]Jut [Am]még [Gm]bárki[Dm]nek,
+A tiszta [Eb]fényből egy cseppnyi [Bb]láng.
+[Bb]Jó[Am]kedv [Gm]könny he[Dm]lyett,
+Ha [Eb]másod nincs is,
+Ha másod nincs is, csak add to[Bb]vább.   [Bbsus4]        [Bb]
