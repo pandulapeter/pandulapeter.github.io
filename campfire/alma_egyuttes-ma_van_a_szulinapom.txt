@@ -6,8 +6,8 @@
 [D]     [A]      [Bm]      [G]
 
 {c: Verse 1}
-[D]Nincs semmi gondom, [Bm]reggel van az [G]idő napos.
-[D-]Mindenki [A-]tudja, hogy [Bm]én vagyok a [G]szülinapos!
+[D]Nincs semmi gondom, [Bm]reggel van az [A]idő napos.
+[D-]Mindenki [F#m-]tudja, hogy [Bm]én vagyok a [A]szülinapos!
 
 {c: Chorus}
 [D]Remek a [A]hangula[Bm]tom–tom–[G]tom tom–torotom-tom,
@@ -18,8 +18,8 @@
 [D]Ma van a [A]szülina[Bm]pom–pom-[G]pom pom-poropom-pom!
 
 {c: Verse 2}
-[D-]Az idő [A-]rohan, [Bm]velem is egy [G]év elszaladt,
-[D-]Ezért most [A-]látszik egy [Bm]szarkaláb a [G]szemem alatt!
+[D-]Az idő [F#m-]rohan, [Bm]velem is egy [A]év elszaladt,
+[D-]Ezért most [F#m-]látszik egy [Bm]szarkaláb a [A]szemem alatt!
 
 {c: Chorus}
 [D]Remek a [A]hangula[Bm]tom–tom–[G]tom tom–torotom-tom,
@@ -30,8 +30,8 @@
 [D]Ma van a [A]szülina[Bm]pom–pom-[G]pom pom-poropom-pom!
 
 {c: Verse 3}
-[D-]Fordítva [A-]élek, és [Bm]nem leszek már [G]agilisabb,
-[D-]Ki tudja [A-]miért [Bm]annál inkább [G]szenilisebb!
+[D-]Fordítva [F#m-]élek, és [Bm]nem leszek már [A]agilisabb,
+[D-]Ki tudja [F#m-]miért [Bm]annál inkább [A]szenilisebb!
 
 {c: Chorus}
 [D]Remek a [A]hangula[Bm]tom–tom–[G]tom tom–torotom-tom,
@@ -64,8 +64,8 @@ Nananana... és nem tudom a szövegemet!
 [D]Ma van a [A]szülina[Bm]pom–pom-[G]pom pom-poropom-pom!
 
 {c: Verse 5}
-[D-]Mostantól [A-]fáj már a [Bm]derekam, és [G]hol a hajam?
-[D-]Hangosan [A-]sikíts, ha [Bm]azt akarod, [G]hogy meg halljam!
+[D-]Mostantól [F#m-]fáj már a [Bm]derekam, és [A]hol a hajam?
+[D-]Hangosan [F#m-]sikíts, ha [Bm]azt akarod, [A]hogy meg halljam!
 
 {c: Chorus}
 [D]Remek a [A]hangula[Bm]tom–tom–[G]tom tom–torotom-tom,
