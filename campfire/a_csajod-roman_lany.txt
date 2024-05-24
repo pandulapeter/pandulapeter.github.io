@@ -2,7 +2,7 @@
 [E]Színes zokni lép a bárba,
 [E]Pohárból felébredtem.
 [E]Talán üres lépcsőházban,
-[E]Találkozunk [F#-]véletlen.
+[E]Találkozunk [F#m-]véletlen.
 
 {c: Bridge 1}
 [E]            [E]            [C#m]            [B]
