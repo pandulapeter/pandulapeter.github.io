@@ -39,7 +39,7 @@ Lehet a [F]szívben is ziva[C]tar.
 Tudom [Am]szeretet nélkül [C]minden ház ü[F]res,
 Minden [C]városka lakat[Am]lan,
 Minden [C]zseni ügyet[F]len,
-Félős [E]nyuszi csak a kalap[Dm]ban.
+Félős [Em]nyuszi csak a kalap[Dm]ban.
 
 {c: Bridge}
 [Am]
@@ -70,7 +70,7 @@ Lehet a [F]szívben is ziva[C]tar.
 Tudom [Am]szeretet nélkül [C]minden ház ü[F]res,
 Minden [C]városka lakat[Am]lan,
 Minden [C]zseni ügyet[F]len,
-Félős [E]nyuszi csak a kalap[Dm]ban.    [Dm]
+Félős [Em]nyuszi csak a kalap[Dm]ban.    [Dm]
 
 {c: Chorus}
 Ajjaj[Am]jaj, ajjaj[C]jaj,
@@ -80,7 +80,7 @@ Lehet a [F]szívben is ziva[C]tar.
 Tudom [Am]szeretet nélkül [C]minden ház ü[F]res,
 Minden [C]városka lakat[Am]lan,
 Minden [C]zseni ügyet[F]len,
-Céltalan [E]üzenet a palack[Dm]ban.    [Dm]
+Céltalan [Em]üzenet a palack[Dm]ban.    [Dm]
 
 {c: Outro}
 [Am]

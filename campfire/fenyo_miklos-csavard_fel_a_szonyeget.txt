@@ -1,0 +1,61 @@
+{c: Intro}
+[E-]
+[A]      [A]      [E]      [E]
+[B]      [A]      [E]      [B]
+
+{c: Verse 1}
+[E-]Csavard fel a szőnyeget még ma éjjel,
+[E]Csavard fel a szőnyeget!
+A [E]bútorokat gyorsan told szerteszéjjel,
+[B]Ne fél, baj nem lehet!
+Oltsd el a [A]lámpát, nyisd fel a zongorát,
+A zene [E]szóljon, szálljon az éjen át!
+[B]Tüntesd el a rendet, megtörjük a csendet,
+[E]Csavard fel a [B]szőnyeget!
+
+{c: Verse 2}
+[E-]Alszik már a város, a lámpák égnek,
+[E]Csend van az utcán lent.
+[E]A fékcsikorgás megszűnt, a villamos se csenget,
+S az [B]éj furcsa hangokat rejt.
+Egy lakó [A]ordít: "Csendet, mert a hideg ráz!"
+A zajtól [E]visszhangzik már a lépcsőház.
+[B]Nem törődünk vele, nem szólhat ma bele,
+[E]Csavard [G]fel [A]a [B]szőnyeget!
+
+{c: Chorus}
+[A]Oly régen [D]várom e percet [A]már,
+Ma [A]este végre [D]minden a fején [A]áll,
+[B]Egész éjjel [E]miénk a lakás,
+Csak [B]holnap lesz a [E]nagytakarítás.
+[A]Gyerünk, [D]gyerünk, [A]táncol[D]nék ve[B]led!
+
+{c: Solo}
+[E-]      [A-]      [E-]      [B]
+
+[A]      [A]      [E]      [E]
+[B]      [A]      [E]      [E]
+
+[A]      [A]      [E]      [E]
+[B]      [A]      [E]      [E]
+
+
+{c: Chorus}
+[A]Oly régen [D]várom e percet [A]már,
+Ma [A]este végre [D]minden a fején [A]áll, [A]      [A#]
+[B]Egész éjjel [E]miénk a lakás,
+Csak [B]holnap lesz a [E]nagytakarítás.
+[A]Gyerünk, [D]gyerünk, [A]táncol[D]nék ve[B]led!
+
+{c: Verse 1}
+[E-]Csavard fel a szőnyeget még ma éjjel,
+[E]Csavard fel a szőnyeget!
+A [E]bútorokat gyorsan told szerteszéjjel,
+[B]Ne fél, baj nem lehet!
+Oltsd el a [A]lámpát, nyisd fel a zongorát,
+A zene [E]szóljon, szálljon az éjen át!
+[B]Tüntesd el a rendet, megtörjük a csendet,
+[E]Csavard fel a [B]szőnye[E]get!
+
+{c: Outro}
+[E]
