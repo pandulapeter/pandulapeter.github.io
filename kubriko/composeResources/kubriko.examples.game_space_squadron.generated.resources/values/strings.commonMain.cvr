@@ -1,0 +1,10 @@
+version:0
+string|fullscreen_enter|RW50ZXIgZnVsbHNjcmVlbiBtb2Rl
+string|fullscreen_exit|RXhpdCBmdWxsc2NyZWVuIG1vZGU=
+string|information|SW5mb3JtYXRpb24=
+string|music_disable|RGlzYWJsZSBtdXNpYw==
+string|music_enable|RW5hYmxlIG11c2lj
+string|new_game|TmV3IEdhbWU=
+string|pause|UGF1c2U=
+string|sound_effects_disable|RGlzYWJsZSBzb3VuZCBlZmZlY3Rz
+string|sound_effects_enable|RW5hYmxlIHNvdW5kIGVmZmVjdHM=
