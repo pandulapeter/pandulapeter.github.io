@@ -1,5 +1,7 @@
 version:0
 string|back|QmFjaw==
+string|demo_audio_subtitle|Rm9yIHRlc3RpbmcgdGhlIHBsYXliYWNrIG9mIG11c2ljIGFuZCBzb3VuZCBlZmZlY3Rz
+string|demo_audio|QXVkaW8=
 string|demo_content_shaders_subtitle|UGxheWdyb3VuZCBmb3IgdGVzdGluZyB2YXJpb3VzIHNoYWRlciBlZmZlY3Rz
 string|demo_content_shaders|Q29udGVudCBTaGFkZXJz
 string|demo_input_subtitle|UGxheWdyb3VuZCBmb3IgdGVzdGluZyBrZXlib2FyZCBhbmQgcG9pbnRlciBpbnB1dA==
