@@ -1,6 +1,9 @@
 version:0
+string|description|VXNlIHRoZSB3aWRnZXRzIGJlbG93IHRvIHRlc3QgdGhlIHBsYXksIHBhdXNlLCBzdG9wIGFuZCBsb29wIGZlYXR1cmVzIG9mIHRoZSBtdXNpYyBwbGF5ZXIuIFNpbXVsdGFuZW91cyBwbGF5YmFjayBvZiBtdWx0aXBsZSB0cmFja3MgaXMgYWxzbyBzdXBwb3J0ZWQu
 string|loop_off|TG9vcDogb2Zm
 string|loop_on|TG9vcDogb24=
+string|music_track_1|QSBDc2Fqb2QgLSDDgXRrb2s=
+string|music_track_2|QSBDc2Fqb2QgLSBFbmVyZ2lhdsOhbXDDrXI=
 string|pause|UGF1c2U=
 string|play|UGxheQ==
 string|stop|U3RvcA==
