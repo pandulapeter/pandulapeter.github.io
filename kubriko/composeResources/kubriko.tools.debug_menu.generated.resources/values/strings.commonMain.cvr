@@ -1,6 +1,7 @@
 version:0
+string|body_overlay|RHJhdyBib2R5IGJvdW5kcw==
 string|clear_logs|Q2xlYXIgbG9ncw==
-string|collision_masks|Q29sbGlzaW9uIG1hc2tz
+string|collision_mask_overlay|RHJhdyBjb2xsaXNpb24gbWFza3M=
 string|debug_menu|VG9nZ2xlIGRlYnVnIG1lbnU=
 string|filter_logs|RmlsdGVyIGxvZ3M=
 string|log_importance_high|SGlnaCBpbXBvcnRhbmNl
