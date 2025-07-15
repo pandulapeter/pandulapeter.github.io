@@ -51,6 +51,8 @@ string|how_it_works_title_5|UGFzdWwgNTogUmlkaWNhcmUgc2F1IGxpdnJhcmUg4oCUIGFsZWdl
 string|how_it_works|Q3VtIGZ1bmPIm2lvbmVhesSD
 string|hungarian|TWFnaGlhcsSD
 string|menu|TWVuaXU=
+string|order_currency_eur|RVVS
+string|order_currency_ron|Uk9O
 string|order_custom_printed_jacket_no|TnU=
 string|order_custom_printed_jacket_yes|RGE=
 string|order_custom_printed_jacket|Q3VzdG9tIHByaW50ZWQgamFja2V0
@@ -61,15 +63,15 @@ string|order_order_now|Q29tYW5kxIMgYWN1bQ==
 string|order_quantity|Q2FudGl0YXRl
 string|order_record_color_1|TmVncnU=
 string|order_record_color_2|VHJhbnNwYXJlbnQ=
-string|order_record_color|U2VsZWN0ZWF6xIMgY3Vsb2FyZWEgZGlzY3VsdWk=
+string|order_record_color|Q3Vsb2FyZQ==
 string|order_record_rpm_1|MzM=
 string|order_record_rpm_2|NDU=
-string|order_record_rpm|U2VsZWN0ZWF6xIMgdml0ZXphIGRpc2N1bHVp
+string|order_record_rpm|UlBN
 string|order_record_type_1|MTQwZ3IgMTLigJnigJkgdmlueWw=
 string|order_record_type_2|MTgwZ3IgMTLigJnigJkgdmlueWw=
 string|order_record_type_3|MTDigJnigJkgdmlueWw=
 string|order_record_type_4|N+KAmeKAmSB2aW55bA==
-string|order_record_type|U2VsZWN0ZWF6xIMgdGlwdWwgZGlzY3VsdWk=
+string|order_record_type|VGlw
 string|order_shipping_details|U2hpcHBpbmcgZGV0YWlscw==
 string|order_total|VG90YWw=
 string|order|Q29tYW5kxIM=
