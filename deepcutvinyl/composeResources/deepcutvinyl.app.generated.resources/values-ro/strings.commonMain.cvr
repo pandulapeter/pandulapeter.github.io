@@ -13,6 +13,7 @@ string|contact_mode_5|8J+MkCBXZWJzaXRlIPCflJcgRGVzY29wZXLEgyBleHBlcmllbsibYSBjb2
 string|contact_text|U3VudGVtIHRvdCB1cmVjaGkg4oCUIMiZaSBkaXNjdXJpISDwn461IElhIGxlZ8SDdHVyYSBjdSBEZWVwQ3V0IFZpbnlsIHByaW4gb3JpY2FyZSBkaW50cmUgY2FuYWxlbGUgZGUgbWFpIGpvczo=
 string|contact_title|Q29udGFjdGVhesSDLW5l
 string|contact|Q29udGFjdA==
+string|english|RW5nbGV6xIM=
 string|faq_answer_1|V0lQ
 string|faq_answer_2|V0lQ
 string|faq_answer_3|V0lQ
@@ -38,6 +39,7 @@ string|how_it_works_title_3|UGFzdWwgMzogTmUgb2N1cMSDbSBub2kgbWFpIGRlcGFydGU=
 string|how_it_works_title_4|UGFzdWwgNDogQ29uZmlybcSDIMiZaSBkxIMgZHJ1bXVsIGxhIHRyZWFixIM=
 string|how_it_works_title_5|UGFzdWwgNTogUmlkaWNhcmUgc2F1IGxpdnJhcmUg4oCUIGFsZWdlcmVhIHRh
 string|how_it_works|Q3VtIGZ1bmPIm2lvbmVhesSD
+string|hungarian|TWFnaGlhcsSD
 string|menu|TWVuaXU=
 string|order_custom_printed_jacket_no|TnU=
 string|order_custom_printed_jacket_yes|RGE=
@@ -61,5 +63,6 @@ string|order_record_type|U2VsZWN0ZWF6xIMgdGlwdWwgZGlzY3VsdWk=
 string|order_shipping_details|U2hpcHBpbmcgZGV0YWlscw==
 string|order_total|VG90YWw=
 string|order|Q29tYW5kxIM=
+string|romanian|Um9tw6JuxIM=
 string|subtitle|LWNyYWZ0ZWQgd2l0aCBwcmVjaXNpb24t
 string|title|RGVlcEN1dCBWaW55bA==
