@@ -51,14 +51,13 @@ string|how_it_works_title_5|U3RlcCA1OiBEZWxpdmVyeSBvciBwaWNrdXDigJR5b3VyIGNhbGw=
 string|how_it_works|SG93IEl0IFdvcmtz
 string|hungarian|SHVuZ2FyaWFu
 string|menu|TWVudQ==
-string|order_currency_eur|RVVS
 string|order_currency_ron|Uk9O
 string|order_custom_printed_jacket_no|Tm8=
 string|order_custom_printed_jacket_yes|WWVz
 string|order_custom_printed_jacket|Q3VzdG9tIHByaW50ZWQgamFja2V0
 string|order_delivery_pickup|UGlja3Vw
-string|order_delivery_shipping|RGVsaXZlcnk=
-string|order_delivery|RGVsaXZlcnk=
+string|order_delivery_shipping|U2hpcHBpbmc=
+string|order_delivery|RGVsaXZlcnkgdHlwZQ==
 string|order_order_now|T3JkZXIgbm93
 string|order_quantity|UXVhbnRpdHk=
 string|order_record_color_black|QmxhY2s=
