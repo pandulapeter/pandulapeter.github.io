@@ -18,7 +18,7 @@
       var l = window.location;
       var firstPathSegment = l.pathname.split("/").filter(Boolean)[0];
       if (allowedSubpaths.includes(firstPathSegment)) {
-        if (firstPathSegment === "kubriko") {
+        if (firstPathSegment === "kubriko" || firstPathSegment === "deepcutvinyl") {
           var cleanedPathName = "/" + firstPathSegment + "/" + l.pathname.replace(new RegExp(`^/${firstPathSegment}/`), "").replace(/\//g, "");
           l.replace(
               l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +

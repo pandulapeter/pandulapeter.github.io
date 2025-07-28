@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DeepCutVinyl</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script takes the current url and converts the path and query
+      // string into just a query string, and then redirects the browser
+      // to the new url with only a query string and hash fragment.
+      // Note: this 404.html file must be at least 512 bytes for it to work
+      // with Internet Explorer (it is currently > 512 bytes)
+      (function () {
+        var l = window.location;
+        var path = l.pathname.split("/").filter(Boolean)[0]; // get first path segment
+        var allowedPaths = ["home", "how-it-works", "ask"];
+        if (!allowedPaths.includes(path)) {
+          window.location.replace(l.protocol + "//" + l.host + "/");
+        }
+        })();
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
