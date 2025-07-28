@@ -1,4 +1,5 @@
 version:0
+string|ask_for_offer_address|QWRkcmVzcw==
 string|ask_for_offer_currency_ron|Uk9O
 string|ask_for_offer_custom_printed_jacket_no|Tm8=
 string|ask_for_offer_custom_printed_jacket_yes|WWVz
@@ -6,6 +7,10 @@ string|ask_for_offer_custom_printed_jacket|Q3VzdG9tIHByaW50ZWQgamFja2V0
 string|ask_for_offer_delivery_pickup|UGlja3Vw
 string|ask_for_offer_delivery_shipping|U2hpcHBpbmc=
 string|ask_for_offer_delivery|RGVsaXZlcnkgdHlwZQ==
+string|ask_for_offer_discount_banner|RGlzY291bnRzIHdpbGwgYmUgb2ZmZXJlZCBmb3Igc2VsZWN0ZWQgcXVhbnRpdHkh
+string|ask_for_offer_download_link|RG93bmxvYWQgbGluaw==
+string|ask_for_offer_name|TmFtZQ==
+string|ask_for_offer_phone|UGhvbmUgKG9wdGlvbmFsKQ==
 string|ask_for_offer_quantity|UXVhbnRpdHk=
 string|ask_for_offer_record_color_transparent|VHJhbnNwYXJlbnQ=
 string|ask_for_offer_record_rpm_33|MzM=
@@ -20,7 +25,6 @@ string|ask_for_offer_record_type_weight_180_size_12_color_black|MTgwZ3IgMTLigJni
 string|ask_for_offer_record_type_weight_180_size_12_color_transparent|MTLigJnigJkgdmlueWwgdHJhbnNwYXJlbnQ=
 string|ask_for_offer_record_type|VHlwZQ==
 string|ask_for_offer_send|U2VuZA==
-string|ask_for_offer_shipping_details|U2hpcHBpbmcgZGV0YWlscw==
 string|ask_for_offer_total|VG90YWw=
 string|ask_for_offer|QXNrIGZvciBPZmZlcg==
 string|contact_email_hint|RW1haWwgLSBGb3Igb3JkZXJzLCBjb2xsYWJvcmF0aW9ucywgb3IganVzdCB0byBjaGF0IG11c2lj4oCUZHJvcCB1cyBhIGxpbmUu
