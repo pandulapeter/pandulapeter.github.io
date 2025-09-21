@@ -1,8 +1,0 @@
-RewriteEngine On
-
-# Only rewrite if the requested file or directory doesn't exist
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-# Redirect all unknown paths to index.html (for SPA)
-RewriteRule ^ index.html [L]
