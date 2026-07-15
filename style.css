@@ -1,108 +1,174 @@
 :root {
-	--text-caption: #777777;
+	--text-caption: #8a8a8a;
 	--text-heading: #8f9fba;
-	--text-normal: #b8b8b8;
+	--text-normal: #c2c2c2;
+	--text-hover: #e9eef6;
+	--page-padding: clamp(1.5rem, 6vmin, 4rem);
 }
 
 body {
-	zoom: 100%;
 	margin: 0;
 	background-color: #000;
+	color: var(--text-normal);
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.5;
+}
+
+.photo {
+	position: fixed;
+	inset: 0;
+	z-index: -1;
 	background-image: url("resources/bg_corner.webp");
 	background-position: bottom right;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: min(42vh, 52vmin);
-	color: var(--text-normal);
-	font-family: Arial, Helvetica, sans-serif;
+	animation: photo-fade-in 0.8s ease-out both;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .h7 {
+.photo::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.9) 35%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0) 80%);
+}
+
+@keyframes photo-fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@media (max-height: 480px) {
+	.photo {
+		background-size: min(64vh, 38vmin);
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
 h1 {
 	color: var(--text-heading);
-	font-size: calc(14px + 1.4vw);
+	font-size: clamp(2.25rem, 1.25rem + 4vw, 4.25rem);
+	line-height: 1.1;
 }
 
 h2 {
 	color: var(--text-heading);
-	font-size: calc(9px + 0.9vw);
+	font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
 }
 
 h3 {
 	color: var(--text-heading);
-	font-size: calc(8px + 0.8vw);
-}
-
-h4 {
-	font-size: calc(8px + 0.8vw);
-	margin-bottom: calc(16px + 1.6vw);
-}
-
-h5 {
-	color: var(--text-caption);
-	font-size: calc(8px + 0.8vw);
+	font-size: clamp(1.1rem, 0.95rem + 0.6vw, 1.4rem);
 }
 
 h6 {
-	font-size: calc(6px + 0.6vw);
-	max-width: calc(200px + 20vw);
-	margin-top: calc(4px + 0.4vw);
+	font-size: clamp(0.95rem, 0.85rem + 0.4vw, 1.15rem);
+	font-weight: 400;
+	line-height: 1.6;
+	max-width: 40rem;
+	margin: 0.5rem 0 1.5rem;
 }
 
 p {
-	font-size: calc(6px + 0.6vw);
+	font-size: clamp(0.95rem, 0.85rem + 0.4vw, 1.15rem);
+}
+
+.eyebrow {
+	color: var(--text-caption);
+	font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+	font-weight: 600;
+	margin: 0;
+}
+
+.tagline {
+	font-size: clamp(1.05rem, 0.95rem + 0.6vw, 1.4rem);
+	font-weight: 600;
+	margin: 0 0 clamp(2rem, 1.5rem + 2vw, 3.5rem);
 }
 
 a:link, a:visited {
 	color: var(--text-normal);
 	text-decoration: none;
+	transition: color 150ms ease, translate 150ms ease;
 }
 
 a:hover {
-	color: var(--text-caption);
+	color: var(--text-hover);
+	text-decoration: underline;
+	text-underline-offset: 0.2em;
+}
+
+a:focus-visible {
+	outline: 2px solid var(--text-heading);
+	outline-offset: 2px;
 }
 
 ul {
-	margin-bottom: calc(12px + 1.2vw);
+	margin: 0.75rem 0 2.5rem;
+	padding: 0;
 }
 
 li {
-	font-size: calc(8px + 0.8vw);
+	font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
 	list-style-type: none;
-	padding-left: calc(24px + 1.6vw);
-	margin-left: -32px;
-	background-size: contain;
+	background-size: 1.5em 1.5em;
 	background-repeat: no-repeat;
-	margin-bottom: calc(4px + 0.4vh);
+	background-position: left center;
+}
+
+li a {
+	display: block;
+	padding: 0.55em 0.5em 0.55em 2.3em;
+}
+
+li a:hover {
+	translate: 3px 0;
 }
 
 .block-content {
-	position: absolute;
-	min-width: calc(160px + 10vw);
-	padding: calc(8px + 5.6vmin);
+	max-width: 40rem;
+	padding: var(--page-padding);
+	padding-top: max(var(--page-padding), env(safe-area-inset-top));
+	padding-left: max(var(--page-padding), env(safe-area-inset-left));
+	padding-right: max(var(--page-padding), env(safe-area-inset-right));
+	padding-bottom: max(var(--page-padding), env(safe-area-inset-bottom));
+	margin-left: max(0rem, calc((100vw - 100rem) / 3));
 }
 
-
 .text-container {
-	width: calc(120px + 20vw);
-	margin-bottom: calc(16px + 1.6vw);
+	width: min(100%, 36rem);
+	margin-bottom: clamp(1.5rem, 1rem + 1.5vw, 2.5rem);
 }
 
 .video-thumbnail {
-	position: relative;
-	top: 0;
-	left: 0;
+	display: block;
 	width: 100%;
 	height: auto;
-	border: 1px var(--text-normal) solid;
-	margin-top: calc(8px + 0.8vw);
+	border: 1px solid var(--text-normal);
+	margin-top: 0.75rem;
+	transition: border-color 150ms ease, opacity 150ms ease;
 }
 
 .video-thumbnail:hover {
-	border: 1px var(--text-caption) solid;
-	opacity: 90%;
+	border-color: var(--text-caption);
+	opacity: 0.9;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.photo {
+		animation: none;
+	}
+	a, .video-thumbnail {
+		transition: none;
+	}
+	li a:hover {
+		translate: none;
+	}
 }
