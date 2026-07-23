@@ -249,6 +249,14 @@ body.doc-content{
     '2.9':{vocals:'https://drive.google.com/file/d/1fG9XqYHkITqtXRWZIqd8CDwYXvJJpAvs/view',drums:'https://drive.google.com/file/d/1W3d9Cf6PMEuD535N6xLXWfNXCclKj4qB/view',bass:'https://drive.google.com/file/d/12TkN2h5zvaANs7CggFOBE2tIdk_HogA0/view',keys:'https://drive.google.com/file/d/1U25W03IXGpYdglzW26SpgPxGkGbDkc5x/view',guitar:'https://drive.google.com/file/d/1ghcUJN4DCN2FlDwf_c2J-WYU3m3JfeRW/view'}
   };
   var players=[];
+  // Track volume is shared across all songs, keyed by track file. Adjusting a
+  // track's slider on one song updates the matching slider on every song.
+  var sharedVol={},volReg={};
+  TRACKS.forEach(function(t){sharedVol[t.file]=0.85;volReg[t.file]=[];});
+  function applyVol(file,value){
+    sharedVol[file]=value;
+    volReg[file].forEach(function(fn){fn(value);});
+  }
   var actx=null;
   function ctx(){
     if(!actx)actx=new (window.AudioContext||window.webkitAudioContext)();
@@ -291,7 +299,7 @@ body.doc-content{
         name.textContent=t.label;
       }
       var vol=document.createElement('input');vol.type='range';vol.className='mt-vol';
-      vol.min=0;vol.max=1;vol.step=0.01;vol.value=0.85;
+      vol.min=0;vol.max=1;vol.step=0.01;vol.value=sharedVol[t.file];
       vol.setAttribute('aria-label',t.label+' hangerő');
       var mute=document.createElement('button');mute.className='mt-mute';mute.type='button';
       mute.textContent='Némít';
@@ -314,7 +322,12 @@ body.doc-content{
     function pos(){return playing?Math.min(ctx().currentTime-startTime,duration):offset;}
 
     vols.forEach(function(vol,i){
-      vol.addEventListener('input',function(){if(gains)gains[i].gain.value=gainFor(i);});
+      var file=tracks[i].file;
+      volReg[file].push(function(value){
+        vol.value=value;
+        if(gains)gains[i].gain.value=gainFor(i);
+      });
+      vol.addEventListener('input',function(){applyVol(file,parseFloat(vol.value));});
     });
     mutes.forEach(function(mute,i){
       mute.addEventListener('click',function(){
