@@ -1,10 +1,4 @@
-{title: Wings}
-{artist: Tyketto}
-{key: E}
-{duration: 270}
-{x_sbp_tags: english}
-
-{c: Into}
+{c: Intro}
 [E]
 [Asus2]            [B]
 
@@ -71,7 +65,6 @@ If I [B]had the wings to [C#m]fly.
 
 [Asus2]      [C#m]      [B]
 [F#m]      [A]      [B]
-
 
 [Asus2]      [C#m]      [B]
 [F#m]      [A]      [B]

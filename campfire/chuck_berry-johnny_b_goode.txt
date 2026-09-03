@@ -1,5 +1,5 @@
 {c: Intro}
-[A# -]                [A# -]
+[A#-]                [A#-]
 [D#]        [D#]        [A#]        [A#]
 [F]        [D#]        [A#]        [A#]
 
@@ -11,7 +11,7 @@ Where [A#]lived a country boy named Johnny B. Goode.
 Who [F]never ever learned to read or [D#]write so well,
 But he could [A#]play a guitar just like a-ringin' a bell.
 
-{c: Chorus}
+{c: Chorus 1}
 Go [A#]go!
 Go Johnny, go, [A#]go!
 Go Johnny, go, [D#]go!
@@ -25,9 +25,9 @@ Go [A#]sit beneath the tree by the railroad track.
 Oh, the [D#]engineers would see him sitting in the shade,
 [A#]Strumming with the rhythm that the drivers made.
 [F]People passing by, they would [D#]stop and say,
-\"Oh [A#]my that little country boy could play!\"
+"Oh [A#]my that little country boy could play!"
 
-{c: Chorus}
+{c: Chorus 2}
 Go [A#]go!
 Go Johnny, go, [A#]go!
 Go Johnny, go, [D#]go!
@@ -36,11 +36,11 @@ Go Johnny, go, [F]go!   [D#]
 Johnny B. [A#]Goode!
 
 {c: Solo}
-[A# -]                [A# -]
+[A#-]                [A#-]
 [D#]        [D#]        [A#]        [A#]
 [F]        [D#]        [A#]        [A#]
 
-[A# -]                [A# -]
+[A#-]                [A#-]
 [D#]        [D#]        [A#]        [A#]
 [F]        [D#]        [A#]        [A#]
 
@@ -52,7 +52,7 @@ To [A#]hear you play your music when the sun go down.
 [F]Maybe someday your name will [D#]be in lights,
 Saying \"[A#]Johnny B. Goode tonight.\"
 
-{c: Chorus}
+{c: Chorus 3}
 Go, go!
 [A#]Go Johnny, go!
 Go, go, [A#]go Johnny, go!

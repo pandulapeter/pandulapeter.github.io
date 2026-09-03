@@ -1,8 +1,8 @@
 {c: Intro}
-[D]        [A]
-[D]        [A]
-[D]        [A]
-[D]        [A]
+[D]    [A]
+[D]    [A]
+[D]    [A]
+[D]    [A]
 
 {c: Verse 1}
 Én [D]mennék ve[A]led, de [Bm]nem akarod,
@@ -22,7 +22,7 @@ Ha [F#m]itt lennél ve[G]lem.
 A [G]holnap,[D] hogyha [A]elhi[Bm]szed,
 Ha [F#m]itt lennél velem.[G]
 
-{c: Chorus}
+{c: Chorus 1}
 Ha [D]itt lennél ve[A]lem
 És [F#m]fognád a két ke[G]zem,
 Én [D]nem engedném [Em]el
@@ -38,13 +38,13 @@ Hogy [G]reggel [D]újra [A]felkel a [Bm]nap,
 [G]Igazat [D]mond és [A]megsimo[Bm]gat,
 Ha [F#m]itt lennél velem.[G]
 
-{c: Verse 1}
+{c: Verse 5}
 Én [D]mennék ve[A]led, de [Bm]nem akarod,
 Csak [G]nézek u[D]tánad az [A]abla[Bm]kon,
 Ahogy egy [G]kisfi[D]ú, ha [A]nem hiszi [Bm]el,
 Hogy [F#m]most már menni [G]kell.
 
-{c: Chorus}
+{c: Chorus 2}
 Ha [D]itt lennél ve[A]lem
 És [F#m]fognád a két ke[G]zem,
 Én [D]nem engedném [Em]el
@@ -55,11 +55,11 @@ Ha [D]itt lennél ve[A]lem
 Hogy [F#m]hazudj még ne[A]kem, kedvesem.
 
 {c: Solo}
-[D]        [A]        [F#m]        [G]
-[D]        [Em]        [F#m]        [A]
+[D]    [A]    [F#m]    [G]
+[D]    [Em]    [F#m]    [A]
 
-[D]        [A]        [F#m]        [G]
-[D]        [Em]        [F#m]        [A]
+[D]    [A]    [F#m]    [G]
+[D]    [Em]    [F#m]    [A]
 
 {c: Outro}
 Ha [D]itt lennél ve[A]lem

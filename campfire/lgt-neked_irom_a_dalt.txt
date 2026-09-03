@@ -18,7 +18,7 @@ Adj egy percet nekem az [E]életed[B]ből!   [E]
 [B]S este fáradtan várod az [E]álmo[F#]dat,
 Te is adj egy percet az [E]életed[B]ből!
 
-{c: Chorus}
+{c: Chorus 1}
 Vártam rá, hogy [E]elmondjam,
 Hogy elénekeljem, hogy tudd, hogy érezd,
 Hogy elhidd nekem, hogy neked szól a gitár,
@@ -26,7 +26,7 @@ Neked zörög a dob, neked gyúlnak a fények
 És csak neked írom a [B]dalt, neked [E]éneke[F#]lek,
 Neked [E]írom a [B]dalt, neked [E]éneke[F#]lek.
 
-{c: Bridge}
+{c: Bridge 1}
 [B]            [B]        [E]
 [B]            [B]        [E]
 
@@ -38,7 +38,7 @@ Most [B]ülj le szépen, tedd öledbe [E]kezed,
 És [B]hunyd le a szemed és csendben [E]figyelj [F#]rám,
 Még egy percet kérek az [E]életed[B]ből!
 
-{c: Chorus}
+{c: Chorus 2}
 Vártam rá, hogy [E]elmondjam,
 Hogy elénekeljem, hogy tudd, hogy érezd,
 Hogy elhidd nekem, hogy neked szól a gitár,
@@ -46,7 +46,7 @@ Neked zörög a dob, neked gyúlnak a fények
 És csak neked írom a [B]dalt, neked [E]éneke[F#]lek,
 Neked [E]írom a [B]dalt, neked [E]éneke[F#]lek.
 
-{c: Bridge}
+{c: Bridge 2}
 [B]            [B]        [E]
 [B]            [B]        [E]
 
@@ -58,7 +58,7 @@ Hogy [B]rád is vár még egy dal,   [E]
 Ami [B]csak a tiéd, oh, most [E]figyelj [F#]rám.
 Adj egy percet nekem az [E]életed[B]ből!
 
-{c: Chorus}
+{c: Chorus 3}
 Vártam rá, hogy [E]elmondjam,
 Hogy elénekeljem, hogy tudd, hogy érezd,
 Hogy elhidd nekem, hogy neked szól a gitár,

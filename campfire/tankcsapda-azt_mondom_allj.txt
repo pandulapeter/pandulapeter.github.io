@@ -40,7 +40,7 @@ Ha [D]komolyan akarod, [E]nincsen akadály, de addig
 [F#5]Állj, állj, [A5]állj, ilyet [A5]többet ne csi[B5]nálj,
 [D]Lehet, hogy ez neked [E]jó, de nekem fáj.
 
-{c: Corus}
+{c: Chorus}
 [F#5]Állj, állj, [A5]állj, ilyet [E5]többet ne csi[B5]nálj,
 [D]Oké, hogy kutya va[E]gyok, de ne a farkamon állj,
 [F#5]Állj, állj, [A5]állj, ilyet [A5]többet ne csi[B5]nálj,

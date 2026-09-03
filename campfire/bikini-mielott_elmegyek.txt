@@ -1,0 +1,59 @@
+{c: Intro}
+[C]    [F]
+[C]    [F]
+
+{c: Verse 1}
+Nagy [C]magányomban álmodoztam [F]rólad,
+Hogy [C]egy napon visszajössz hoz[F]zám.
+[G]Képek[F], amiket [Am]itt hagytál ne[F]kem,
+Egy [C]emlék már, mely [F]még mindig [G]él.
+
+{c: Verse 2}
+Ha [C]rossz perceim vissza-vissza [F]térnek,
+Ha [C]véletlenül megtalállak [F]téged,
+[G]Nézlek[F], és én már [Am]semmit nem ér[F]tek,
+Hogy [C]búcsúzóul [F]mért mondtad ne[G]kem:
+
+{c: Chorus 1}
+"Mielőtt [C]vég[Em]leg [Am]elme[F]gyek,
+[C]Kapsz egy ké[Am]pet [G]rólam,
+Ha hiányzom ezt [C]mindig [Em]nézhe[Am]ted,    [F]
+[C]Szét is tép[Am]he[G]ted."
+
+{c: Bridge}
+[C]    [F]
+[C]    [F]
+
+{c: Verse 2}
+Négy [C]szürke fal, egy rádió, egy [F]asztal,
+Egy [C]nagy trikó, ezt még tőled [F]kaptam,
+[G]Képek[F], én már [Am]semmit nem ér[F]tek,
+Hogy [C]búcsúzóul [F]mért mondtad ne[G]kem:
+
+{c: Chorus 2}
+"Mielőtt [C]vég[Em]leg [Am]elme[F]gyek,
+[C]Kapsz egy ké[Am]pet [G]rólam,
+Ha hiányzom ezt [C]mindig [Em]nézhe[Am]ted,    [F]
+[C]Szét is tép[Am]he[G]ted."
+
+{c: Solo}
+[C]    [Em]    [Am]    [F]
+[C]    [Am]    [G]    [G]
+
+[C]    [Em]    [Am]    [F]
+[C]    [Am]    [G]    [G]
+
+{c: Chorus 3}
+"Mielőtt [C]vég[Em]leg [Am]elme[F]gyek,
+[C]Kapsz egy ké[Am]pet [G]rólam,
+Ha hiányzom ezt [C]mindig [Em]nézhe[Am]ted,    [F]
+[C]Szét is tép[Am]he[G]ted."
+
+{c: Chorus 4}
+"Mielőtt [C]vég[Em]leg [Am]elme[F]gyek,
+[C]Kapsz egy ké[Am]pet [G]rólam,
+Ha hiányzom ezt [C]mindig [Em]nézhe[Am]ted,    [F]
+[C]Szét is tép[Am]he[G]ted."
+
+{c: Outro}
+[C]

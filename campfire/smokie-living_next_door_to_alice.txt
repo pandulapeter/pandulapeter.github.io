@@ -9,7 +9,7 @@ When I [A]rushed to the window and I looked outside,
 [D]And I could hardly believe my eyes,
 [E]As a big limousine rolled up into [A]Alice's drive.   [E]
 
-{c: Chorus}
+{c: Chorus 1}
 Oh, I [A]don't know why she's leaving,
 Or where she's gonna go.
 I [D]guess she's got her reasons
@@ -31,7 +31,7 @@ Now she [A]walks through the door with her head held high,
 [D]Just for a moment, I caught her eye,
 [E]As a big limousine pulled slowly out of [A]Alice's drive.   [E]
 
-{c: Chorus}
+{c: Chorus 2}
 I [A]don't know why she's leaving,
 Or where she's gonna go.
 I [D]guess she's got her reasons
@@ -53,7 +53,7 @@ She said: "Now [A]Alice is gone but I'm still here,
 [D]You know I've been waiting for twenty-four years..."
 [E]An[-]d a big limousine disappeared.
 
-{c: Chorus}
+{c: Chorus 3}
 I [A]don't know why she's leaving,
 Or where she's gonna go.
 I [D]guess she's got her reasons

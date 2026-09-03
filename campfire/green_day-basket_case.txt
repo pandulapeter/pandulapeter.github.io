@@ -15,7 +15,7 @@ It [G#]all keeps adding [A#]up,
 I [D#]think I'm [C#]cracking [Cm]up,
 Am [G#]I just para[A#]noid, or am I just stoned?
 
-{c: Bridge1}
+{c: Bridge 1}
 [D#]        [A#]        [Cm]        [A#]
 [D#]        [A#]        [Cm]        [A#]
 
@@ -40,7 +40,7 @@ Am [G#]I just para[A#]noid? A ya-ya-ya!
 [D#]        [A#]        [Cm]        [A#]
 [D#]        [A#]        [Cm]        [A#]
 
-{c: Bridge1}
+{c: Bridge 1}
 [D#]        [A#]        [Cm]        [A#]
 [D#]        [A#]        [Cm]        [A#]
 

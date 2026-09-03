@@ -1,0 +1,94 @@
+{c: Intro}
+[E]        [E]
+[E]        [E]
+[E]        [E]
+[E]        [E]
+
+{c: Verse 1}
+[E]Nyár van, alig fürdőruhában,
+Égetem magam[D] [A]a nap[E]on.
+
+{c: Verse 2}
+[E]Nyár van, terepszínű világban,
+Feltűnő vagyok,[D] [A]tu[E]dom.
+
+{c: Pre-Chorus 1}
+És ha [A]lesben áll egy cápa,
+[E]Áldozatra várva,
+Szinte [A]felfal a szemével,
+Mi le[B]gyen?
+
+{c: Chorus 1}
+[A]Valahol [E]messze délen,  [B]
+Örökös [C#m]napsütésben,  [A]
+Szirén [E]énekemmel[B]
+Elkábí[C#m]tom.  [A]
+Valahol [E]egész délen,  [B]
+A szerelem [C#m]tengerében,  [A]
+Én is [E]megfürödnék,  [B]
+Eláru[C#m]lom.  [A]
+
+{c: Bridge 1}
+[E]        [E]
+[E]        [E]
+
+{c: Verse 3}
+[E]Nyár van, szenvedek a szobában,
+az emlék fölkavar,[D] [A]nagy[E]on.
+
+{c: Verse 4}
+[E]Nyár van, éppolyan meleg nyár van,
+Elfelejteni[D] [A]nem fo[E]gom.
+
+{c: Pre-Chorus 2}
+Látom, [A]lesben áll egy cápa,
+[E]Áldozatra várva.
+Szinte [A]felfal a szemével,
+Haja[B]jaj!
+
+{c: Chorus 2}
+[A]Valahol [E]messze délen,  [B]
+Örökös [C#m]napsütésben,  [A]
+Szirén [E]énekemmel[B]
+Elkábí[C#m]tom.  [A]
+Valahol [E]egész délen,  [B]
+A szerelem [C#m]tengerében,  [A]
+Én is [E]megfürödnék,  [B]
+Eláru[C#m]lom.  [A]
+
+{c: Solo}
+[E]        [E]
+[E]        [E]
+[D]        [A]
+[E]        [E]
+
+[E]        [E]
+[E]        [E]
+[D]        [A]
+[E]        [E]
+
+{c: Pre-Chorus 3}
+Látom, [A]lesben áll egy cápa,
+[E]Áldozatra várva.
+Szinte [A]felfal a szemével,
+Haja[B]jaj!
+
+{c: Chorus 3}
+[A]Valahol [E]messze délen,  [B]
+Örökös [C#m]napsütésben,  [A]
+Szirén [E]énekemmel[B]
+Elkábí[C#m]tom.  [A]
+Valahol [E]egész délen,  [B]
+A szerelem [C#m]tengerében,  [A]
+Én is [E]megfürödnék,  [B]
+Eláru[C#m]lom.  [A]
+
+{c: Chorus 4}
+[A]Valahol [E]messze délen,  [B]
+Örökös [C#m]napsütésben,  [A]
+Szirén [E]énekemmel[B]
+Elkábí[C#m]tom.  [A]
+Valahol [E]egész délen,  [B]
+A szerelem [C#m]tengerében,  [A]
+Újra [E]megfürödnék,  [B]
+Eláru[C#m]lom.  [A]

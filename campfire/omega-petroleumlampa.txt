@@ -40,7 +40,7 @@ Milyen [Am]szép a láng[C7]ja.
 [F]Petróleum lám[E7]pa,
 Milyen [Am]szép a láng[C7]ja.
 
-{c: Brige}
+{c: Bridge}
 .[F]
 
 {c: Verse 3}

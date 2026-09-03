@@ -1,4 +1,4 @@
-{c: intro}
+{c: Intro}
 [D]
 [D]
 
@@ -40,7 +40,6 @@
 [A]Back in the [Asus2]summer [A]of [Dsus2]sixty-nine,
         [D]        [Dsus4]        [D]        [Dsus2]        [D]
 [Asus2]        [A]        [Asus4]        [A]        [Asus2]        [A]
-
 
 {c: Bridge 1}
 [F]Man, we were [A#]killin' time,

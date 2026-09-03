@@ -1,18 +1,16 @@
 {c: Intro}
-[Dm]      [Dm#5]      [Dm4]      [Dm]
-[Dm#5]      [Dm]      [Dm4]      [Dm]
+[Dm]    [Dm#5]    [Dm4]    [Dm]
+[Dm#5]    [Dm]    [Dm4]    [Dm]
 
-[Dm]      [Dm#5]      [Dm4]      [Dm]
-[Dm#5]      [Dm]      [Dm4]      [Dm]
-
-[-]
+[Dm]    [Dm#5]    [Dm4]    [Dm]
+[Dm#5]    [Dm]    [Dm4]    [Dm]
 
 {c: Bridge 1}
-[Dm]                [F]
-[Am]            [Dm]
+[Dm]    [F]
+[Am]    [Dm]
 
-[Dm]                [F]
-[Am]            [Dm]
+[Dm]    [F]
+[Am]    [Dm]
 
 [Dm]
 
@@ -26,24 +24,24 @@ How I hate to spend the evening on my [Dm]own.
 [F]Blowing [G]outside the window as I look around the room,
 And it makes me so depressed to see the [Dm]gloom.
 
-{c: Pre-Chorus}
+{c: Pre-Chorus 1}
 [A#]There's not a soul out there,
 [Gm]No one to hear my prayer...  [A7]
 
-{c: Chorus}
+{c: Chorus 1}
 [Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
 [A#]Won't somebody [Dm]help me chase the [C]shadows a[Dm]way?
 [Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
 [A#]Take me through the [Dm]darkness to the [C]break of the [Dm]day.
 
-{c: Bridge 1}
-[Dm]                [F]
-[Am]            [Dm]
+{c: Bridge 2}
+[Dm]    [F]
+[Am]    [Dm]
 
-[Dm]                [F]
-[Am]            [Dm]
+[Dm]    [F]
+[Am]    [Dm]
 
-[Dm]            [Dm]
+[Dm]
 
 {c: Verse 3}
 [Dm]Mo[C]vie [A]stars,
@@ -55,21 +53,21 @@ It's so different from the world I'm living [Dm]in.
 I [G]open the window and I gaze into the night,
 But there's nothing there to see, no one in [Dm]sight.
 
-{c: Pre-Chorus}
+{c: Pre-Chorus 2}
 [A#]There's not a soul out there,
 [Gm]No one to hear my prayer...  [A7]
 
-{c: Chorus}
+{c: Chorus 2}
 [Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
 [A#]Won't somebody [Dm]help me chase the [C]shadows a[Dm]way?
 [Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
 [A#]Take me through the [Dm]darkness to the [C]break of the [Dm]day.
 
-{c: Bridge 2}
+{c: Bridge 3}
 [Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
-[A#]      [Dm]      [C]      [Dm]
+[A#]    [Dm]    [C]    [Dm]
 [Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
-[A#]      [Dm]      [C]      [Dm]
+[A#]    [Dm]    [C]    [Dm]
 
 {c: Solo}
 [Dm]
@@ -87,31 +85,31 @@ But there's nothing there to see, no one in [Dm]sight.
 [Dm]
 [Dm]
 
-{c: Pre-Chorus}
+{c: Pre-Chorus 3}
 [A#]There's not a soul out there,
 [Gm]No one to hear my prayer...  [A7]
 
-{c: Chorus}
+{c: Chorus 3}
 [Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
 [A#]Won't somebody [Dm]help me chase the [C]shadows a[Dm]way?
 [Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
 [A#]Take me through the [Dm]darkness to the [C]break of the [Dm]day.
 
-{c: Chorus}
+{c: Chorus 4}
 [Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
 [A#]Won't somebody [Dm]help me chase the [C]shadows a[Dm]way?
 [Dm]Gimme, gimme, [A#]gimme a [C]man after [Dm]midnight!
 [A#]Take me through the [Dm]darkness to the [C]break of the [Dm]day.
 
 {c: Outro}
-[Dm]                [F]
-[Am]            [Dm]
+[Dm]    [F]
+[Am]    [Dm]
 
-[Dm]                [F]
-[Am]            [Dm]
+[Dm]    [F]
+[Am]    [Dm]
 
-[Dm]                [F]
-[Am]            [Dm]
+[Dm]    [F]
+[Am]    [Dm]
 
-[Dm]                [F]
-[Am]            [Dm]
+[Dm]    [F]
+[Am]    [Dm]

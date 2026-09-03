@@ -25,13 +25,13 @@ Telling [C]me [G]no l[C]ies,  [G]
 Had me [C]fighting [G]for [C]air,  [G]
 She [D]told me to come but I was [G]alre[D]ady th[G]ere.
 
-{c: Bridge 1}
+{c: Pre-Chorus 1}
 [D]'Cause the [G]walls start shaking,
 The [C]earth [G]was [C]quaking,
 [G]My m[D]ind was aching,
 And [D7]we were making it and...
 
-{c: Chorus}
+{c: Chorus 1}
 [G]You shook me[G/C] all ni[G/B]ght lo[D]ng,   [G/C]    [G/B]
 Yeah [G]you shook me[G/C] all ni[G/B]ght lo[D]ng.   [G/C]    [G/B]
 
@@ -50,23 +50,23 @@ Just a[C]nothe[G]r co[C]urse,
 To take a[C]noth[G]er r[C]ound,
 [G]Now I'm [C]back in the ring to take a[G]noth[D]er sw[G]ing.
 
-{c: Bridge 1}
+{c: Pre-Chorus 2}
 [D]'Cause the [G]walls start shaking,
 The [C]earth [G]was [C]quaking,
 [G]My m[D]ind was aching,
 And [D7]we were making it and...
 
-{c: Chorus}
+{c: Chorus 2}
 [G]You shook me[G/C] all ni[G/B]ght lo[D]ng,   [G/C]    [G/B]
 Yeah [G]you shook me[G/C] all ni[G/B]ght lo[D]ng.
 You [G/C]knocked me [G/B]out and then
 
-{c: Chorus}
+{c: Chorus 3}
 [G]You shook me[G/C] all ni[G/B]ght lo[D]ng, [G/C]
 You had me [G/B]shakin' and
 [G]You shook me[G/C] all ni[G/B]ght l[D]ong.
 
-{c: Bridge 2}
+{c: Bridge 1}
 [G]Yeah you shook me,
 [D]Well you took me!
 
@@ -83,12 +83,12 @@ You had me [G/B]shakin' and
 [G]              [G/C]      [G/B]
 [D]
 
-{c: Chorus}
+{c: Chorus 4}
 [G/C]You really [G/B]took me and
 [G]You shook me[G/C] all ni[G/B]ght lo[D]ng,   [G/C]
 [G/B]Oh, [G]you shook me[G/C] all ni[G/B]ght lo[D]ng.   [G/C]
 
-{c: Chorus}
+{c: Chorus 5}
 [G/B]Yeah, yeah, [G]you shook me[G/C] all ni[G/B]ght lo[D]ng, [G/C]
 You really [G/B]took me and
 [G]You shook me[G/C] all ni[G/B]ght lo[D]ng.
@@ -96,4 +96,4 @@ You really [G/B]took me and
 {c: Outro}
 [G/C]Yeah you [G/B]shook me,   [D]
 [G/C]Yeah you [G/B]shook me
-[D]All night long.
+[D]All night long!

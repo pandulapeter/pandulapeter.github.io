@@ -2,31 +2,31 @@
 [Em]            [D]        [G]    [D/F#]
 [Em]            [D]        [Em -]
 
-{c: Song 1, Verse 1}
+{c: Song 1 - Verse 1}
 [Em]Mi-am făcut bundiță nouă, [D]măi frunzu[G]liță,[D/F#]
 [Em]Dacă ninge, dacă plouă, [D]eu am bun[Em]diță.
 Și [Em]mă mândresc acum la lume, și-[D]arăt bun[G]dița,[D/F#]
 [Em]Am facut-o eu anume, [D]pentru bă[Em]dița.
 
-{c: Song 1, Chorus 1}
+{c: Song 1 - Chorus 1}
 [G]Și de-o să-i [A]placă tare, [D]bundița [G]nouă,[D/F#]
 [Em]Mi-a da o [A]sărutare, [D]poate[D#] și d[Em]ouă.
 
-{c: Song 1, Chorus 1}
+{c: Song 1 - Chorus 1}
 [G]Și de-o să-i [A]placă tare, [D]bundița [G]nouă,[D/F#]
 [Em]Mi-a da o [A]sărutare, [D]poate[D#] și d[Em]ouă.
 
-{c: Song 1, Verse 2}
+{c: Song 1 - Verse 2}
 [Em]De vreo două luni încoace, [D]mi-o zis la [G]horă,[D/F#]
 [Em]Că și măicasii i-ar place, [D]să-i fiu eu [Em]noră.
 [Em]În bundița asta mică [D]și cu bro[G]boade,  [D/F#]
 [Em]Mă gândeam că nevăstică, [D]frumos îmi [Em]șade.
 
-{c: Song 1, Chorus 2}
+{c: Song 1 - Chorus 2}
 [G]Bundița [A]mea e nouă, [D]ce bine-mi [G]pare,[D/F#]
 [Em]Uită-ne pe-[A]amândouă, [D]găti[D#]te, t[Em]are.
 
-{c: Song 1, Chorus 2}
+{c: Song 1 - Chorus 2}
 [G]Bundița [A]mea e nouă, [D]ce bine-mi [G]pare,[D/F#]
 [Em]Uită-ne pe-[A]amândouă, [D]găti[D#]te, t[Em]are.
 

@@ -36,7 +36,7 @@
 [F#]Knock-knock-[C#]knockin' on heaven's [B]door,
 [F#]Knock-knock-[C#]knockin' on heaven's [B]door.
 
-{c: Solo2}
+{c: Solo 2}
 [F#]        [C#]        [B]        [B]
 [F#]        [C#]        [B]        [B]
 

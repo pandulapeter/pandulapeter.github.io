@@ -31,7 +31,7 @@ S [D#]ajándékul [A#]fogadd el [F]vidám kis da[A#]lunk!   [F]
 {c: Bridge}
 [A#]
 
-{C: Verse 3}
+{c: Verse 3}
 [A#]Tavasz után eljön a nyár és ősz után a [F]tél,
 De [F]minden évben eljön a nap, amikor szület[A#]tél.
 

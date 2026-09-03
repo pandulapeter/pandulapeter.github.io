@@ -54,7 +54,7 @@ Ennyi nem e[D]lég!
 [G]Holnaptól repül a bálna,
 [E]Megírta a [A]Magyar Közlöny!
 
-{c: Break}
+{c: Bridge}
 [-]
 
 {c: Verse 5}
@@ -63,19 +63,19 @@ Kicsi az ország nagy a bánat.
 Még, még, még, még, még,
 Ennyi nem elég!
 
-{c: Verse 1}
+{c: Verse 6}
 [D]Kicsi vagyok, kicsi vagyok,
 [D]Ha megnövök, beléd rúgok.
 [G]Még, még, még, még, [A]még,
 Ennyi nem e[D]lég!
 
-{c: Chorus 2}
+{c: Chorus 4}
 [G]Repül a bálna, repül a bálna,
 [D]Mindenki álljon vigyázba!
 [G]Repül a bálna, repül a bálna,
 [E]Bele köpök a [A]nagy Dunába!
 
-{c: Chorus 1}
+{c: Chorus 5}
 [G]Repül a bálna, repül a bálna,
 [D]Ez a parancs, érik a narancs.
 [G]Repül a bálna, repül a bálna,
