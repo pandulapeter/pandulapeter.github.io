@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="color-scheme" content="dark">
+    <title>DeepCut Vinyl</title>
+    <style>html, body { margin: 0; background: #0f0f0f; }</style>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // Only used by hosts without rewrite support: known app routes are sent back to index.html
+      // as a query string that the shell converts into a real path, anything else goes home.
+      (function () {
+        var l = window.location;
+        var path = l.pathname.split("/").filter(Boolean)[0];
+        var allowedPaths = ["how-it-works", "ask-for-offer", "faqs", "contact"];
+        if (allowedPaths.indexOf(path) === -1) {
+          window.location.replace(l.protocol + "//" + l.host + "/");
+        } else {
+          window.location.replace(l.protocol + "//" + l.host + "/?/" + path + l.hash);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

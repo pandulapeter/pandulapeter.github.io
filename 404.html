@@ -13,21 +13,22 @@
       // Note: this 404.html file must be at least 512 bytes for it to work
       // with Internet Explorer (it is currently > 512 bytes)
 
-      var pathSegmentsToKeep = 1;
-      var allowedSubpaths = ["kubriko"];
+      // Subfolders that host a Compose Multiplatform app using URL subpaths.
+      // Each of these must have an index.html containing the matching decoder script.
+      var allowedSubpaths = ["kubriko", "deepcut-vinyl"];
       var l = window.location;
-      var firstPathSegment = l.pathname.split("/").filter(Boolean)[0];
-      if (allowedSubpaths.includes(firstPathSegment)) {
-        if (firstPathSegment === "kubriko") {
-          var cleanedPathName = "/" + firstPathSegment + "/" + l.pathname.replace(new RegExp(`^/${firstPathSegment}/`), "").replace(/\//g, "");
-          l.replace(
-              l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-              cleanedPathName.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-              cleanedPathName.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-              (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-              l.hash
-          );
-        }
+      var segments = l.pathname.split("/").filter(Boolean);
+      var firstPathSegment = segments[0];
+      if (allowedSubpaths.indexOf(firstPathSegment) !== -1) {
+        // The apps only have one level of routing, so any deeper path is collapsed
+        // into a single segment. This keeps the relative asset paths of the app working.
+        var route = segments.slice(1).join("");
+        l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            '/' + firstPathSegment + '/?/' + route +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+        );
       } else {
         l.replace("/");
       }

@@ -1,0 +1,39 @@
+{
+  "basePrice": {
+    "weight140size12colorBlack": 150,
+    "weight180size12colorBlack": 160,
+    "size12colorTransparent": 180,
+    "size10colorBlack": 110,
+    "size10colorTransparent": 130,
+    "size7colorBlack": 60,
+    "size7colorTransparent": 80
+  },
+  "extraForCustomCenterLabel": {
+    "weight140size12colorBlack": 10,
+    "weight180size12colorBlack": 10,
+    "size12colorTransparent": 10,
+    "size10colorBlack": 10,
+    "size10colorTransparent": 10,
+    "size7colorBlack": 10,
+    "size7colorTransparent": 10
+  },
+  "extraForCustomPrintedJacket": {
+    "weight140size12colorBlack": 50,
+    "weight180size12colorBlack": 50,
+    "size12colorTransparent": 50,
+    "size10colorBlack": 35,
+    "size10colorTransparent": 35,
+    "size7colorBlack": 30,
+    "size7colorTransparent": 30
+  },
+  "extraForCustomInnerSleeve": {
+    "weight140size12colorBlack": 30,
+    "weight180size12colorBlack": 30,
+    "size12colorTransparent": 30,
+    "size10colorBlack": 25,
+    "size10colorTransparent": 25,
+    "size7colorBlack": 20,
+    "size7colorTransparent": 20
+  },
+  "extraForShipping": 30
+}
