@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 		<meta name="description" content="Personal website of Péter Pandula, app developer and guitar player.">
-		<meta name="theme-color" content="#000000">
+		<meta name="theme-color" content="#07060e">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://pandulapeter.github.io/">
 		<meta property="og:title" content="Péter Pandula">
@@ -22,18 +22,28 @@
 		<style>
 			/* ---------- tokens ---------- */
 			:root {
-				--bg: #000;
-				--ink: #ebe9e2;
-				--ink-2: #a7a69f;
-				--ink-3: #6f6e68;
-				--line: rgba(235, 233, 226, 0.10);
-				--line-strong: rgba(235, 233, 226, 0.22);
-				--surface: rgba(235, 233, 226, 0.035);
-				--surface-hover: rgba(235, 233, 226, 0.07);
-				--accent: #a7b46a;
-				--accent-hover: #b9c57e;
-				--accent-soft: rgba(167, 180, 106, 0.16);
-				--accent-line: rgba(167, 180, 106, 0.5);
+				--bg: #07060e;
+				--bg-2: #0e0b1a;
+				--ink: #f3f0f9;
+				--ink-2: #b4aecb;
+				--ink-3: #7d769a;
+				--line: rgba(214, 209, 240, 0.12);
+				--line-strong: rgba(214, 209, 240, 0.26);
+				--surface: rgba(214, 209, 240, 0.045);
+				--surface-hover: rgba(214, 209, 240, 0.09);
+
+				/* The whole palette comes off one number. The five sections sit at
+				   equal 72° spacing around the hue wheel, and every strum adds 72°
+				   to this base, so they all shift by the same amount and keep their
+				   spacing. L and C are held inside the sRGB gamut at every hue, so
+				   the strings on the canvas match the CSS colours exactly. */
+				--hue: 195;
+				--lum: 0.75;
+				--chroma: 0.125;
+				/* how far round the wheel this element sits; the scroll spy copies
+				   the active section's step onto :root for the page chrome */
+				--accent-step: 0;
+
 				--sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 				/* a five-step type scale, used everywhere */
@@ -51,6 +61,19 @@
 				--ease: cubic-bezier(0.2, 0.7, 0.2, 1);
 			}
 
+			/* A custom property that references another one is resolved on the
+			   element that declares it, and the result is what inherits. So these
+			   have to be re-declared on every element that overrides --accent,
+			   otherwise they would keep resolving against the root's accent and
+			   follow the page rather than the section they sit in. */
+			:root, .hero, .section {
+				--accent: oklch(var(--lum) var(--chroma) calc(var(--hue) + var(--accent-step)));
+				--accent-hover: color-mix(in srgb, var(--accent) 70%, white);
+				--accent-soft: color-mix(in srgb, var(--accent) 16%, transparent);
+				--accent-line: color-mix(in srgb, var(--accent) 55%, transparent);
+				--accent-glow: color-mix(in srgb, var(--accent) 26%, transparent);
+			}
+
 			/* ---------- base ---------- */
 			* { box-sizing: border-box; }
 			html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
@@ -64,7 +87,7 @@
 				-webkit-font-smoothing: antialiased;
 				overflow-x: hidden;
 			}
-			::selection { background: var(--accent); color: #000; }
+			::selection { background: var(--accent); color: #06050c; }
 			a { color: inherit; text-decoration: none; }
 			button { font: inherit; color: inherit; }
 			a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
@@ -88,6 +111,81 @@
 				margin-inline: auto;
 			}
 
+			/* ---------- the glow behind each section ----------
+			   Each section owns its glow rather than sharing one page-wide layer,
+			   so the colour behind a card always belongs to that card's section,
+			   whatever is scrolled into view. The vertical mask fades each glow
+			   out before it reaches its own edges, so nothing bleeds across. */
+			.glow {
+				position: absolute;
+				inset: 0;
+				z-index: -2;
+				pointer-events: none;
+				overflow: hidden;
+				opacity: 0.6;
+				-webkit-mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+				mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+				-webkit-mask-repeat: no-repeat;
+				mask-repeat: no-repeat;
+				-webkit-mask-size: 100% 100%;
+				mask-size: 100% 100%;
+			}
+			.glow span {
+				position: absolute;
+				display: block;
+				width: 58vmax;
+				height: 58vmax;
+				border-radius: 50%;
+				background: radial-gradient(circle at 50% 50%, var(--accent), transparent 62%);
+				filter: blur(56px) saturate(165%);
+				mix-blend-mode: screen;
+				will-change: transform;
+			}
+			.glow span:nth-child(1) { left: -16%;  top: -22%;    animation: drift-a 26s var(--ease) infinite alternate; }
+			.glow span:nth-child(2) { right: -20%; bottom: -26%; opacity: 0.95; animation: drift-c 34s var(--ease) infinite alternate; }
+			.glow span:nth-child(3) { left: 32%;   top: -8%;     opacity: 0.75; animation: drift-b 42s var(--ease) infinite alternate-reverse; }
+			/* offset the drift per section so they do not move in lockstep */
+			#code .glow span    { animation-delay: -7s; }
+			#apps .glow span    { animation-delay: -14s; }
+			#music .glow span   { animation-delay: -21s; }
+			#contact .glow span { animation-delay: -28s; }
+			.hero .glow span:nth-child(1) { left: -10%; top: -14%; }
+			.hero .glow span:nth-child(2) { right: -6%; bottom: -16%; }
+			.hero .glow span:nth-child(3) { left: 26%; top: 4%; }
+			@keyframes drift-a { from { transform: translate3d(0, 0, 0) scale(1); }        to { transform: translate3d(16vw, 12vh, 0) scale(1.25); } }
+			@keyframes drift-b { from { transform: translate3d(0, 0, 0) scale(1.15); }     to { transform: translate3d(-20vw, 18vh, 0) scale(0.9); } }
+			@keyframes drift-c { from { transform: translate3d(0, 0, 0) scale(0.95); }     to { transform: translate3d(22vw, -14vh, 0) scale(1.2); } }
+			@keyframes drift-d { from { transform: translate3d(0, 0, 0) scale(1.1); }      to { transform: translate3d(-14vw, -20vh, 0) scale(0.85); } }
+
+			/* a veil keeps the text readable no matter where the blobs wander */
+			.veil {
+				position: fixed;
+				inset: 0;
+				z-index: -1;
+				pointer-events: none;
+				background:
+					radial-gradient(120% 80% at 70% 0%, transparent, rgba(7, 6, 14, 0.25) 70%),
+					linear-gradient(to bottom, rgba(7, 6, 14, 0.24), rgba(7, 6, 14, 0.46));
+			}
+			/* ---------- scroll progress ---------- */
+			.progress {
+				position: fixed;
+				inset: 0 0 auto 0;
+				z-index: 20;
+				height: 3px;
+				pointer-events: none;
+			}
+			.progress i {
+				display: block;
+				height: 100%;
+				width: 100%;
+				transform: scaleX(0);
+				transform-origin: 0 50%;
+				background: var(--accent);
+				box-shadow: 0 0 14px var(--accent-glow);
+				transition: background 400ms var(--ease);
+			}
+
 			/* ---------- top bar ---------- */
 			.top {
 				position: fixed;
@@ -100,24 +198,39 @@
 				height: var(--top-h);
 				padding: env(safe-area-inset-top) var(--gutter) 0;
 				color: var(--ink-2);
-				background: rgba(0, 0, 0, 0.72);
+				background: color-mix(in srgb, var(--bg) 78%, transparent);
 				border-bottom: 1px solid var(--line);
-				-webkit-backdrop-filter: blur(14px);
-				backdrop-filter: blur(14px);
+				-webkit-backdrop-filter: blur(14px) saturate(140%);
+				backdrop-filter: blur(14px) saturate(140%);
+				transition: color 400ms var(--ease);
 			}
 			.brand { color: var(--ink); display: inline-flex; align-items: center; gap: 0.6rem; }
 			.brand .dot {
 				width: 8px; height: 8px; border-radius: 50%;
 				background: var(--accent);
-				box-shadow: 0 0 12px var(--accent);
+				box-shadow: 0 0 14px var(--accent);
+				transition: background 400ms var(--ease), box-shadow 400ms var(--ease);
 			}
 			.top nav { display: flex; gap: 1.4rem; }
-			.top nav a { transition: color 150ms var(--ease); }
+			.top nav a { position: relative; transition: color 150ms var(--ease); }
+			.top nav a::after {
+				content: "";
+				position: absolute;
+				left: 0; right: 0; bottom: -0.45rem;
+				height: 2px;
+				border-radius: 2px;
+				background: var(--accent);
+				transform: scaleX(0);
+				transform-origin: 0 50%;
+				transition: transform 250ms var(--ease);
+			}
 			.top nav a:hover { color: var(--ink); }
+			.top nav a:hover::after, .top nav a.on::after { transform: scaleX(1); }
+			.top nav a.on { color: var(--ink); }
 			.sound {
 				appearance: none;
 				border: 1px solid var(--line-strong);
-				background: rgba(0, 0, 0, 0.5);
+				background: rgba(10, 8, 20, 0.5);
 				color: var(--ink-2);
 				padding: 0.4rem 0.75rem;
 				border-radius: 999px;
@@ -125,15 +238,16 @@
 				display: inline-flex;
 				align-items: center;
 				gap: 0.5rem;
-				transition: color 150ms var(--ease), border-color 150ms var(--ease);
+				transition: color 150ms var(--ease), border-color 150ms var(--ease), box-shadow 150ms var(--ease);
 			}
+			.sound:hover { color: var(--ink); border-color: var(--accent-line); }
 			.sound::before {
 				content: "";
 				width: 6px; height: 6px; border-radius: 50%;
 				background: var(--ink-3);
 				transition: background 150ms var(--ease), box-shadow 150ms var(--ease);
 			}
-			.sound[aria-pressed="true"] { color: var(--ink); border-color: var(--accent); }
+			.sound[aria-pressed="true"] { color: var(--ink); border-color: var(--accent); box-shadow: 0 0 20px var(--accent-glow); }
 			.sound[aria-pressed="true"]::before { background: var(--accent); box-shadow: 0 0 8px var(--accent); }
 			@media (max-width: 40rem) {
 				.top nav { display: none; }
@@ -141,6 +255,7 @@
 
 			/* ---------- hero ---------- */
 			.hero {
+				--accent-step: 0;
 				position: relative;
 				min-height: 39rem;
 				display: grid;
@@ -148,16 +263,13 @@
 				padding-top: calc(var(--top-h) + 4.5rem);
 				padding-bottom: 2.5rem;
 				overflow: hidden;
-				isolation: isolate;
 			}
-			.photo {
+			/* the photo and the dark panel behind it share one mask, so the
+			   darkening sits exactly under the photo and fades out with it */
+			.photo, .hero::before {
 				position: absolute;
 				inset: var(--top-h) 0 0 0;
 				z-index: -1;
-				background-image: url("resources/bg_corner.webp");
-				background-repeat: no-repeat;
-				background-position: right top;
-				background-size: auto 100%;
 				-webkit-mask-image:
 					linear-gradient(to left, #000 55%, transparent 100%),
 					linear-gradient(to top, transparent 0%, #000 45%);
@@ -166,12 +278,31 @@
 					linear-gradient(to left, #000 55%, transparent 100%),
 					linear-gradient(to top, transparent 0%, #000 45%);
 				mask-composite: intersect;
+			}
+			/* this panel holds the glow back so the photo keeps its contrast */
+			.hero::before {
+				content: "";
+				background: rgba(3, 2, 9, 0.88);
+			}
+			.photo {
+				background-image: url("resources/bg_corner.webp");
+				background-repeat: no-repeat;
+				background-position: right top;
+				background-size: auto 100%;
+				/* greyscale on black, so screening drops the black out entirely */
+				mix-blend-mode: screen;
+				filter: contrast(1.14) brightness(1.06);
 				animation: fade-in 1.2s var(--ease) both;
 			}
 			@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 
 			.hero-inner { position: relative; }
-			.eyebrow { color: var(--accent); margin-bottom: 0.6rem; }
+			/* the hero sits at the base hue, which is exactly the strings' colour,
+			   so the heading only changes when the strings are actually strummed */
+			.eyebrow {
+				margin-bottom: 0.6rem;
+				color: var(--accent);
+			}
 			.hero h1 {
 				font-size: var(--fs-h1);
 				font-weight: 700;
@@ -179,7 +310,10 @@
 				letter-spacing: -0.03em;
 				text-wrap: balance;
 			}
-			.hero h1 em { font-style: normal; color: var(--accent); }
+			.hero h1 em {
+				font-style: normal;
+				color: var(--accent);
+			}
 
 			/* the strings run full-bleed, past the content column, under the photo */
 			.strings-wrap {
@@ -205,22 +339,22 @@
 				text-wrap: pretty;
 			}
 			.tagline strong { color: var(--ink); font-weight: 500; }
-
-
 			@media (min-width: 48rem) {
 				.hero { padding-top: calc(var(--top-h) + 10rem); }
 			}
 			@media (max-width: 48rem) {
 				.hero { min-height: min(100svh, 42rem); align-content: end; }
-				.photo {
-					background-position: right -10vw top;
-					background-size: auto 78%;
+				.photo, .hero::before {
 					-webkit-mask-image:
 						linear-gradient(to left, #000 40%, transparent 100%),
 						linear-gradient(to top, transparent 25%, #000 65%);
 					mask-image:
 						linear-gradient(to left, #000 40%, transparent 100%),
 						linear-gradient(to top, transparent 25%, #000 65%);
+				}
+				.photo {
+					background-position: right -10vw top;
+					background-size: auto 78%;
 				}
 				.strings {
 					-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 80%, transparent);
@@ -230,9 +364,21 @@
 
 			/* ---------- sections ---------- */
 			.section {
+				position: relative;
 				padding-block: 2.75rem;
-				border-top: 1px solid var(--line);
 			}
+			/* the divider picks up the colour of the section it opens */
+			.section::before {
+				content: "";
+				position: absolute;
+				inset: 0 0 auto 0;
+				height: 1px;
+				background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 25%, transparent) 30%, var(--line) 60%, var(--line));
+			}
+			#code    { --accent-step: 72; }
+			#apps    { --accent-step: 144; }
+			#music   { --accent-step: 216; }
+			#contact { --accent-step: 288; }
 			.section-inner {
 				display: grid;
 				grid-template-columns: minmax(0, 1fr);
@@ -242,61 +388,118 @@
 				.section-inner { grid-template-columns: minmax(0, 5fr) minmax(0, 8fr); }
 				.section-head { position: sticky; top: 4.5rem; align-self: start; }
 			}
-			.section-head .num { color: var(--accent); display: block; margin-bottom: 0.5rem; }
+			.section-head .num {
+				color: var(--accent);
+				display: inline-flex;
+				align-items: center;
+				gap: 0.55rem;
+				margin-bottom: 0.6rem;
+			}
+			.section-head .num::before {
+				content: "";
+				width: 1.6rem;
+				height: 2px;
+				border-radius: 2px;
+				background: var(--accent);
+				box-shadow: 0 0 12px var(--accent-glow);
+			}
 			.section-head h2 { margin-bottom: 0.6rem; }
 			.section-head p { color: var(--ink-2); max-width: 26rem; text-wrap: pretty; }
 
 			/* ---------- app cards ---------- */
 			.cards { display: flex; flex-direction: column; gap: 0.75rem; }
 			.card {
+				position: relative;
 				display: grid;
 				grid-template-columns: auto minmax(0, 11rem) minmax(0, 1fr) auto;
 				align-items: center;
 				gap: 1.25rem;
-				padding: 1.1rem 1.25rem 1.1rem 1.1rem;
+				padding: 1.1rem 1.35rem 1.1rem 1.1rem;
 				border: 1px solid var(--line);
 				border-radius: var(--radius);
 				background: var(--surface);
-				transition: border-color 200ms var(--ease), background 200ms var(--ease);
+				overflow: hidden;
+				transition: border-color 200ms var(--ease), background 200ms var(--ease), transform 250ms var(--ease), box-shadow 250ms var(--ease);
 			}
-			.card:hover { border-color: var(--accent-line); background: var(--surface-hover); }
+			.card::before {
+				content: "";
+				position: absolute;
+				inset: 0;
+				background: linear-gradient(100deg, var(--accent-soft), transparent 55%);
+				opacity: 0;
+				transition: opacity 250ms var(--ease);
+			}
+			.card > * { position: relative; }
+			.card:hover {
+				border-color: var(--accent-line);
+				background: var(--surface-hover);
+				transform: translateY(-3px);
+				box-shadow: 0 10px 26px -22px rgba(0, 0, 0, 0.9);
+			}
+			.card:hover::before { opacity: 1; }
 			.card .icon {
 				width: 48px; height: 48px;
 				border-radius: 12px;
 				display: grid; place-items: center;
-				background: var(--accent-soft);
-				border: 1px solid rgba(167, 180, 106, 0.25);
+				background: linear-gradient(140deg, var(--accent-soft), color-mix(in srgb, var(--accent) 5%, transparent));
+				border: 1px solid var(--accent-line);
+				transition: transform 250ms var(--ease), box-shadow 250ms var(--ease);
 			}
+			.card:hover .icon { transform: rotate(-6deg) scale(1.06); border-color: var(--accent); }
 			.card .icon img { width: 26px; height: 26px; }
 			.card h3 { font-size: var(--fs-lead); }
-			.card .kind { display: block; color: var(--ink-3); margin-top: 0.1rem; text-transform: none; letter-spacing: 0.02em; }
+			.card .kind { display: block; color: var(--accent); opacity: 0.85; margin-top: 0.1rem; text-transform: none; letter-spacing: 0.02em; }
 			.card p { color: var(--ink-2); }
-			.card .arrow { color: var(--ink-3); transition: color 200ms var(--ease), transform 300ms var(--ease); }
+			.arrow {
+				display: grid;
+				place-items: center;
+				width: 1.4rem;
+				height: 1.4rem;
+				line-height: 1;
+				color: var(--ink-3);
+				transition: color 200ms var(--ease), transform 300ms var(--ease);
+			}
 			.card:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
 			@media (max-width: 48rem) {
-				.card { grid-template-columns: auto minmax(0, 1fr) auto; }
-				.card p { grid-column: 2 / 4; }
+				.card { grid-template-columns: auto minmax(0, 1fr) auto; gap: 0.4rem 1rem; }
+				/* without explicit places the arrow is auto-placed after the
+				   paragraph and lands on a third row, which is what made these
+				   cards so tall. Keep it on the name's row. */
+				.card .arrow { grid-row: 1; grid-column: 3; }
+				.card p { grid-row: 2; grid-column: 2 / 4; }
 			}
 
 			/* ---------- link rows ---------- */
 			.rows { display: flex; flex-direction: column; }
 			.row {
+				position: relative;
 				display: grid;
 				grid-template-columns: auto minmax(0, 1fr) auto;
 				align-items: center;
 				gap: 1rem;
-				padding: 0.8rem 0.5rem;
+				padding: 0.8rem 0.9rem;
 				border-radius: 8px;
 				transition: background 200ms var(--ease), padding 300ms var(--ease);
 			}
 			/* dividers only between rows, never against a section edge, card or footer */
 			.row + .row { border-top: 1px solid var(--line); }
-			.row:hover { background: var(--surface); padding-left: 1rem; }
-			.row img { width: 22px; height: 22px; opacity: 0.7; transition: opacity 200ms var(--ease); }
-			.row:hover img { opacity: 1; }
+			.row::before {
+				content: "";
+				position: absolute;
+				left: 0; top: 12%; bottom: 12%;
+				width: 2px;
+				border-radius: 2px;
+				background: var(--accent);
+				transform: scaleY(0);
+				transition: transform 250ms var(--ease);
+			}
+			.row:hover { background: var(--surface); padding-left: 1.4rem; }
+			.row:hover::before { transform: scaleY(1); }
+			.row img { width: 22px; height: 22px; opacity: 0.65; transition: opacity 200ms var(--ease), filter 200ms var(--ease); }
+			.row:hover img { opacity: 1; filter: drop-shadow(0 0 8px var(--accent-glow)); }
 			.row .title { font-weight: 500; }
 			.row .meta { color: var(--ink-3); display: block; margin-top: 0.05rem; text-transform: none; letter-spacing: 0.02em; }
-			.row .arrow { color: var(--ink-3); transition: color 200ms var(--ease), transform 300ms var(--ease); }
+			.row:hover .meta { color: var(--accent); }
 			.row:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
 
 			/* ---------- sunday songs player ---------- */
@@ -308,12 +511,14 @@
 				background: var(--surface);
 				overflow: hidden;
 				margin-bottom: 1rem;
+				transition: border-color 250ms var(--ease), box-shadow 250ms var(--ease);
 			}
+			.player:hover, .player:focus-within { border-color: var(--accent-line); box-shadow: 0 18px 50px -26px var(--accent); }
 			.player-main { min-width: 0; }
 			.stage {
 				position: relative;
 				aspect-ratio: 16 / 9;
-				background: #0a0a0a;
+				background: var(--bg-2);
 				overflow: hidden;
 			}
 			.stage img, .stage iframe {
@@ -329,7 +534,7 @@
 				inset: 0;
 				width: 100%;
 				height: 100%;
-				background: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0) 55%);
+				background: linear-gradient(to top, rgba(7, 6, 14, 0.7), rgba(7, 6, 14, 0) 55%);
 				border: 0;
 				cursor: pointer;
 				display: grid;
@@ -341,21 +546,21 @@
 				width: 64px; height: 64px;
 				border-radius: 50%;
 				background: var(--accent);
-				color: #000;
+				color: #0a0512;
 				display: grid; place-items: center;
-				box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
-				transition: transform 200ms var(--ease), background 200ms var(--ease);
+				box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), 0 0 0 0 var(--accent-glow);
+				transition: transform 200ms var(--ease), background 200ms var(--ease), box-shadow 200ms var(--ease);
 			}
 			.stage .play .disc svg { width: 22px; height: 22px; margin-left: 3px; }
-			.stage .play:hover .disc { transform: scale(1.08); background: var(--accent-hover); }
+			.stage .play:hover .disc { transform: scale(1.1); background: var(--accent-hover); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), 0 0 0 14px var(--accent-glow); }
 			.stage .badge {
 				position: absolute;
 				left: 0.85rem; top: 0.85rem;
 				padding: 0.3rem 0.6rem;
 				border-radius: 999px;
-				background: rgba(0, 0, 0, 0.7);
+				background: rgba(7, 6, 14, 0.7);
 				color: var(--accent);
-				border: 1px solid rgba(167, 180, 106, 0.35);
+				border: 1px solid var(--accent-line);
 				-webkit-backdrop-filter: blur(6px);
 				backdrop-filter: blur(6px);
 				pointer-events: none;
@@ -381,9 +586,10 @@
 				align-items: center;
 				gap: 0.4rem;
 				line-height: 1;
-				transition: border-color 150ms var(--ease), color 150ms var(--ease), background 150ms var(--ease);
+				transition: border-color 150ms var(--ease), color 150ms var(--ease), background 150ms var(--ease), transform 150ms var(--ease);
 			}
-			.ctl:hover { border-color: var(--accent); color: var(--ink); background: var(--accent-soft); }
+			.ctl:hover { border-color: var(--accent); color: var(--ink); background: var(--accent-soft); transform: translateY(-1px); }
+			.ctl:active { transform: translateY(0); }
 			.ctl svg { width: 14px; height: 14px; }
 			/* the list is pinned to the height of the video column and scrolls inside it */
 			.list-wrap { position: relative; border-left: 1px solid var(--line); min-height: 18rem; }
@@ -393,11 +599,11 @@
 				overflow-y: auto;
 				padding: 0.5rem;
 				scrollbar-width: thin;
-				scrollbar-color: var(--line-strong) transparent;
+				scrollbar-color: var(--accent-line) transparent;
 				-webkit-overflow-scrolling: touch;
 			}
 			.list::-webkit-scrollbar { width: 6px; }
-			.list::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 3px; }
+			.list::-webkit-scrollbar-thumb { background: var(--accent-line); border-radius: 3px; }
 			.item {
 				display: grid;
 				grid-template-columns: 88px minmax(0, 1fr);
@@ -414,18 +620,19 @@
 				transition: background 150ms var(--ease), color 150ms var(--ease);
 			}
 			.item:hover { background: var(--surface-hover); color: var(--ink); }
-			.item.active { background: var(--accent-soft); color: var(--ink); }
+			.item.active { background: var(--accent-soft); color: var(--ink); box-shadow: inset 2px 0 0 var(--accent); }
 			.item img {
 				width: 88px;
 				height: auto;
 				aspect-ratio: 16 / 9;
 				object-fit: cover;
 				border-radius: 5px;
-				background: #111;
-				opacity: 0.75;
-				transition: opacity 150ms var(--ease);
+				background: var(--bg-2);
+				opacity: 0.7;
+				filter: saturate(70%);
+				transition: opacity 150ms var(--ease), filter 150ms var(--ease);
 			}
-			.item:hover img, .item.active img { opacity: 1; }
+			.item:hover img, .item.active img { opacity: 1; filter: saturate(115%); }
 			.item .week { display: block; color: var(--ink-3); line-height: 1.3; }
 			.item.active .week { color: var(--accent); }
 			.item .song {
@@ -443,7 +650,7 @@
 
 			/* ---------- footer ---------- */
 			footer {
-				border-top: 1px solid var(--line);
+				position: relative;
 				padding: 1.5rem 0 max(1.5rem, env(safe-area-inset-bottom));
 				color: var(--ink-3);
 				display: flex;
@@ -452,6 +659,16 @@
 				gap: 0.75rem 2rem;
 				text-transform: none;
 				letter-spacing: 0.02em;
+			}
+			/* the same divider the sections use, in white rather than a hue */
+			footer::before {
+				content: "";
+				position: absolute;
+				inset: 0 0 auto 0;
+				/* break out of the wrap so the rule reaches both edges */
+				margin-inline: calc(50% - 50vw);
+				height: 1px;
+				background: linear-gradient(90deg, var(--ink), rgba(243, 240, 249, 0.3) 30%, var(--line) 60%, var(--line));
 			}
 			footer a { transition: color 150ms var(--ease); }
 			footer a:hover { color: var(--accent); }
@@ -465,12 +682,16 @@
 				.photo { animation: none; }
 				.reveal { opacity: 1; transform: none; transition: none; }
 				.card, .row, .item, .card .arrow, .row .arrow, .stage .play .disc { transition: none; }
+				.glow span { animation: none; }
 			}
 		</style>
 
 	</head>
 
 	<body>
+
+		<div class="veil" aria-hidden="true"></div>
+		<div class="progress" aria-hidden="true"><i id="progress-bar"></i></div>
 
 		<header class="top label">
 			<a class="brand" href="#top"><span class="dot" aria-hidden="true"></span>pandulapeter</a>
@@ -484,6 +705,7 @@
 		</header>
 
 		<section class="hero" id="top">
+			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 			<div class="photo" aria-hidden="true"></div>
 			<div class="wrap hero-inner">
 				<p class="eyebrow label">Hi, I'm</p>
@@ -501,6 +723,7 @@
 		<main>
 
 			<section class="section" id="code">
+			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
 					<div class="section-head reveal">
 						<span class="num label">01 — code</span>
@@ -528,6 +751,7 @@
 			</section>
 
 			<section class="section" id="apps">
+			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
 					<div class="section-head reveal">
 						<span class="num label">02 — apps</span>
@@ -558,6 +782,7 @@
 			</section>
 
 			<section class="section" id="music">
+			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
 					<div class="section-head reveal">
 						<span class="num label">03 — music</span>
@@ -580,9 +805,7 @@
 									<p id="ss-sub">John Petrucci · Suspended Animation (2005)</p>
 								</div>
 								<div class="controls">
-									<button class="ctl" id="ss-prev" type="button" title="Previous week (←)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M15.4 7.4 14 6l-6 6 6 6 1.4-1.4L10.8 12z"/></svg>prev</button>
-									<button class="ctl" id="ss-next" type="button" title="Next week (→)">next<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.6 16.6 10 18l6-6-6-6-1.4 1.4 4.6 4.6z"/></svg></button>
-									<button class="ctl" id="ss-random" type="button" title="Random week"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 4h6v6l-2.3-2.3L14.4 11 13 9.6l3.3-3.3zM4 6h4.2l9.5 9.5L20 13.2V20h-6l2.3-2.3L7.2 8H4zm0 12h3.2l3-3 1.4 1.4-3.6 3.6H4z"/></svg>surprise me</button>
+									<button class="ctl" id="ss-random" type="button" title="Random week"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 4h6v6l-2.3-2.3L14.4 11 13 9.6l3.3-3.3zM4 6h4.2l9.5 9.5L20 13.2V20h-6l2.3-2.3L7.2 8H4zm0 12h3.2l3-3 1.4 1.4-3.6 3.6H4z"/></svg>random</button>
 									<a class="ctl" id="ss-yt" href="https://www.youtube.com/watch?v=l0bgRgo_W7I" target="_blank" rel="noopener" title="Open on YouTube">youtube ↗</a>
 								</div>
 							</div>
@@ -590,11 +813,6 @@
 							<div class="list-wrap"><div class="list" id="ss-list" aria-label="All 53 weeks"></div></div>
 						</div>
 						<div class="rows">
-							<a class="row" href="https://www.youtube.com/playlist?list=PL0hmRvy5R-BexhiKb6fuoJ1Im4u7UIC8E" target="_blank" rel="noopener">
-								<img src="resources/ic_sunday_songs.png" alt="">
-								<span><span class="title">Watch the whole Sunday Songs playlist</span><span class="meta label">YouTube</span></span>
-								<span class="arrow">↗</span>
-							</a>
 							<a class="row" href="https://www.youtube.com/c/P%C3%A9terPandula/" target="_blank" rel="noopener">
 								<img src="resources/ic_youtube.png" alt="">
 								<span><span class="title">Subscribe to my channel</span><span class="meta label">YouTube</span></span>
@@ -611,6 +829,7 @@
 			</section>
 
 			<section class="section" id="contact">
+			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
 					<div class="section-head reveal">
 						<span class="num label">04 — contact</span>
@@ -649,6 +868,7 @@
 				"use strict";
 
 				var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+				var root = document.documentElement;
 
 				/* =====================================================
 				   Guitar strings
@@ -656,8 +876,52 @@
 				var canvas = document.getElementById("strings");
 				var soundButton = document.getElementById("sound");
 				var ctx2d = canvas.getContext("2d");
-				var ACCENT = [167, 180, 106];
-				var INK = [235, 233, 226];
+				var INK = [243, 240, 249];
+
+				// The strings are all one colour at a time, and that colour is the
+				// page's base hue: every strum turns the whole wheel a fifth of the
+				// way round, so each section shifts by the same 72°. The CSS reads
+				// --hue back off :root, so the strings and the palette cannot drift.
+				var STEP = 360 / 5;
+				var css = getComputedStyle(root);
+				var LUM = parseFloat(css.getPropertyValue("--lum")) || 0.75;
+				var CHROMA = parseFloat(css.getPropertyValue("--chroma")) || 0.125;
+				var hue = parseFloat(css.getPropertyValue("--hue")) || 195;
+				var hueTarget = hue;
+				var lastShift = -Infinity;
+				var lastHue = "";
+
+				// oklch -> sRGB. L and C are chosen to stay in gamut at every hue, so
+				// this lands on the same colour the browser paints for that oklch().
+				function toneAt(h) {
+					var rad = h * Math.PI / 180;
+					var a = CHROMA * Math.cos(rad), b = CHROMA * Math.sin(rad);
+					var l_ = LUM + 0.3963377774 * a + 0.2158037573 * b;
+					var m_ = LUM - 0.1055613458 * a - 0.0638541728 * b;
+					var s_ = LUM - 0.0894841775 * a - 1.2914855480 * b;
+					var l = l_ * l_ * l_, m = m_ * m_ * m_, sc = s_ * s_ * s_;
+					var out = [
+						4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * sc,
+						-1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * sc,
+						-0.0041960863 * l - 0.7034186147 * m + 1.7076147010 * sc
+					];
+					for (var i = 0; i < 3; i++) {
+						var v = out[i];
+						v = v <= 0.0031308 ? 12.92 * v : 1.055 * Math.pow(v, 1 / 2.4) - 0.055;
+						out[i] = Math.round(Math.min(1, Math.max(0, v)) * 255);
+					}
+					return out;
+				}
+
+				function shiftHue() {
+					// a strum plucks six strings in a row: only advance once per gesture
+					var now = performance.now();
+					if (now - lastShift < 700) return;
+					lastShift = now;
+					hueTarget += STEP;
+					// nothing animates under reduced motion, so land on it at once
+					if (reducedMotion) { hue = hueTarget; draw(0); }
+				}
 
 				// Standard tuning, low E to high E.
 				var FREQS = [82.41, 110.0, 146.83, 196.0, 246.94, 329.63];
@@ -688,6 +952,21 @@
 				function draw(dt) {
 					ctx2d.clearRect(0, 0, width, height);
 					var active = false;
+					// ease the base hue towards the one the last strum picked
+					if (Math.abs(hueTarget - hue) > 0.05) {
+						active = true;
+						hue += (hueTarget - hue) * Math.min(1, dt * 3);
+					} else if (hue !== hueTarget) {
+						// settled: fold both back into 0-360 so they cannot creep away
+						hue = hueTarget = ((hueTarget % 360) + 360) % 360;
+					}
+					var tone = toneAt(hue);
+					// the whole palette hangs off this, so the page turns with the strings
+					var hueCss = hue.toFixed(1);
+					if (hueCss !== lastHue) {
+						lastHue = hueCss;
+						root.style.setProperty("--hue", hueCss);
+					}
 					for (var i = 0; i < COUNT; i++) {
 						var s = strings[i];
 						if (s.amp > 0.05) {
@@ -698,12 +977,14 @@
 							s.amp = 0;
 						}
 						var glow = Math.min(1, s.amp / 6);
+						// the strings keep a hint of the colour at rest, and blaze when plucked
+						var tint = 0.45 + 0.55 * glow;
 						ctx2d.beginPath();
 						ctx2d.lineWidth = s.thickness;
 						ctx2d.lineCap = "round";
-						ctx2d.strokeStyle = "rgba(" + mix(INK[0], ACCENT[0], glow) + "," + mix(INK[1], ACCENT[1], glow) + "," + mix(INK[2], ACCENT[2], glow) + "," + (0.28 + 0.72 * glow) + ")";
-						ctx2d.shadowBlur = glow * 14;
-						ctx2d.shadowColor = "rgba(" + ACCENT.join(",") + "," + glow + ")";
+						ctx2d.strokeStyle = "rgba(" + mix(INK[0], tone[0], tint) + "," + mix(INK[1], tone[1], tint) + "," + mix(INK[2], tone[2], tint) + "," + (0.34 + 0.66 * glow) + ")";
+						ctx2d.shadowBlur = 6 + glow * 18;
+						ctx2d.shadowColor = "rgba(" + tone.join(",") + "," + (0.35 + 0.65 * glow) + ")";
 						if (s.amp > 0) {
 							var steps = 48;
 							var sway = Math.sin(s.phase) * s.amp;
@@ -797,6 +1078,7 @@
 					var s = strings[index];
 					s.amp = reducedMotion ? 0 : 5 + 9 * velocity + (COUNT - index) * 0.6;
 					s.phase = 0;
+					shiftHue();
 					if (!reducedMotion) start();
 					play(index, velocity);
 				}
@@ -991,8 +1273,6 @@
 					if (wasPlaying) startVideo(); else stopVideo();
 				}
 				ssPlay.addEventListener("click", startVideo);
-				document.getElementById("ss-prev").addEventListener("click", function () { select(current + 1); }); // older
-				document.getElementById("ss-next").addEventListener("click", function () { select(current - 1); }); // newer
 				document.getElementById("ss-random").addEventListener("click", function () {
 					var r = current;
 					while (r === current) r = Math.floor(Math.random() * TOTAL);
@@ -1019,6 +1299,43 @@
 				} else {
 					revealed.forEach(function (el) { el.classList.add("in"); });
 				}
+
+				/* =====================================================
+				   Scroll progress, and a top bar that takes on the
+				   colour of the section you are currently reading
+				   ===================================================== */
+				var bar = document.getElementById("progress-bar");
+				var navLinks = Array.prototype.slice.call(document.querySelectorAll(".top nav a"));
+				var sections = Array.prototype.slice.call(document.querySelectorAll(".hero, .section"));
+				var scrollQueued = false;
+
+				function onScroll() {
+					var max = document.documentElement.scrollHeight - window.innerHeight;
+					bar.style.transform = "scaleX(" + (max > 0 ? Math.min(1, window.scrollY / max) : 0) + ")";
+
+					// the section whose top has most recently passed the header
+					var line = window.scrollY + window.innerHeight * 0.35;
+					var active = sections[0];
+					for (var i = 0; i < sections.length; i++) {
+						if (sections[i].offsetTop <= line) active = sections[i];
+					}
+					// the last section plus the footer is shorter than the viewport,
+					// so its top never reaches that line: at the bottom, it wins
+					if (max > 0 && window.scrollY >= max - 2) active = sections[sections.length - 1];
+					// Hand the page chrome the section's place on the wheel rather than
+					// a resolved colour, so the header dot and progress bar keep
+					// following the strings while a strum is still easing the hue.
+					var step = getComputedStyle(active).getPropertyValue("--accent-step").trim();
+					if (step) root.style.setProperty("--accent-step", step);
+					var id = active.id;
+					navLinks.forEach(function (a) { a.classList.toggle("on", a.getAttribute("href") === "#" + id); });
+					scrollQueued = false;
+				}
+				window.addEventListener("scroll", function () {
+					if (!scrollQueued) { scrollQueued = true; requestAnimationFrame(onScroll); }
+				}, { passive: true });
+				window.addEventListener("resize", onScroll);
+				onScroll();
 			})();
 		</script>
 
