@@ -327,7 +327,11 @@
 				width: 100%;
 				height: clamp(96px, 13vh, 130px);
 				cursor: pointer;
-				touch-action: pan-y;
+				/* a strum is a vertical drag, which is exactly the gesture the
+				   browser wants to scroll with, so the canvas has to claim it.
+				   It is one ~110px band in the hero; the page scrolls either
+				   side of it. */
+				touch-action: none;
 				-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 62%, transparent 92%);
 				mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 62%, transparent 92%);
 			}
@@ -521,7 +525,7 @@
 				background: var(--bg-2);
 				overflow: hidden;
 			}
-			.stage img, .stage iframe {
+			.stage img {
 				position: absolute;
 				inset: 0;
 				width: 100%;
@@ -541,7 +545,6 @@
 				place-items: center;
 				padding: 0;
 			}
-			.stage .play[hidden] { display: none; }
 			.stage .play .disc {
 				width: 64px; height: 64px;
 				border-radius: 50%;
@@ -794,7 +797,7 @@
 							<div class="player-main">
 							<div class="stage">
 								<img id="ss-img" src="sunday-songs/053.webp" alt="" width="960" height="540">
-								<button class="play" id="ss-play" type="button" aria-label="Play this week's video">
+								<button class="play" id="ss-play" type="button" aria-label="Watch this week's video on YouTube" title="Watch on YouTube">
 									<span class="disc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
 								</button>
 								<span class="badge label" id="ss-badge">week 53 / 53</span>
@@ -1091,9 +1094,10 @@
 					return best;
 				}
 
-				var lastY = null, lastTime = 0;
+				var lastY = null, lastTime = 0, down = false;
 				canvas.addEventListener("pointermove", function (e) {
-					if (e.pointerType === "touch") return;
+					// touch counts too: the canvas owns the vertical gesture now
+					if (e.pointerType === "touch" && !down) return;
 					var rect = canvas.getBoundingClientRect();
 					var y = e.clientY - rect.top;
 					var now = performance.now();
@@ -1107,15 +1111,26 @@
 					lastY = y;
 					lastTime = now;
 				});
-				canvas.addEventListener("pointerleave", function () { lastY = null; });
+				canvas.addEventListener("pointerleave", function () { if (!down) lastY = null; });
 				canvas.addEventListener("pointerdown", function (e) {
 					var rect = canvas.getBoundingClientRect();
-					var index = nearest(e.clientY - rect.top);
+					var y = e.clientY - rect.top;
+					var index = nearest(y);
+					// hold on to the finger so a strum that runs off the band
+					// still registers, and start the run from here rather than
+					// from wherever the pointer was last seen
+					down = true;
+					lastY = y;
+					lastTime = performance.now();
+					if (canvas.setPointerCapture) { try { canvas.setPointerCapture(e.pointerId); } catch (err) {} }
 					if (!soundOn) {
 						ensureAudio().then(function () { setSound(true); if (index >= 0) play(index, 0.8); }, function () {});
 					}
 					if (index >= 0) pluck(index, 0.8);
 				});
+				function release() { down = false; lastY = null; }
+				canvas.addEventListener("pointerup", release);
+				canvas.addEventListener("pointercancel", release);
 				canvas.addEventListener("keydown", function (e) {
 					var n = parseInt(e.key, 10);
 					if (n >= 1 && n <= COUNT) { e.preventDefault(); pluck(n - 1, 0.7); }
@@ -1183,7 +1198,6 @@
 					[1, "Tyketto - Wings", "62Tibr7dtco", "Don't Come Easy (1991)", "1yf3OBOwrbyKfCR7h6_o-2IsOysxThf3r"]
 				];
 				var TOTAL = SONGS.length;
-				var stage = document.querySelector(".stage");
 				var ssImg = document.getElementById("ss-img");
 				var ssPlay = document.getElementById("ss-play");
 				var ssBadge = document.getElementById("ss-badge");
@@ -1193,8 +1207,6 @@
 				var list = document.getElementById("ss-list");
 				var playerEl = document.getElementById("player");
 				var current = -1; // index into SONGS (0 = newest week)
-				var playing = false;
-				var frameEl = null;
 
 				// Build the week list, newest first.
 				var thumbs = [];
@@ -1234,28 +1246,17 @@
 					var i = label.indexOf(" - ");
 					return i < 0 ? [label, ""] : [label.slice(0, i), label.slice(i + 3)];
 				}
-				function stopVideo() {
-					if (frameEl) { frameEl.remove(); frameEl = null; }
-					ssPlay.hidden = false;
-					playing = false;
-				}
-				function startVideo() {
-					if (frameEl) frameEl.remove();
-					// The videos live in a public Google Drive folder; Drive's own player embeds
-					// fine, unlike most of the YouTube uploads, which block embedding.
-					frameEl = document.createElement("iframe");
-					frameEl.src = "https://drive.google.com/file/d/" + SONGS[current][4] + "/preview";
-					frameEl.title = "Video: " + SONGS[current][1];
-					frameEl.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
-					frameEl.setAttribute("allowfullscreen", "");
-					stage.appendChild(frameEl);
-					ssPlay.hidden = true;
-					playing = true;
+				// The card is too small to be a real player, so play hands the
+				// video over to YouTube in its own tab. (The fifth field of each
+				// SONGS row is the Drive file id the old inline embed used; it
+				// stays for reference.)
+				function openVideo() {
+					if (current < 0) return;
+					window.open("https://www.youtube.com/watch?v=" + SONGS[current][2], "_blank", "noopener");
 				}
 				function select(index) {
 					index = ((index % TOTAL) + TOTAL) % TOTAL;
 					if (index === current) return;
-					var wasPlaying = playing;
 					current = index;
 					var song = SONGS[current];
 					var parts = split(song[1]);
@@ -1270,9 +1271,8 @@
 					var th = thumbs[current];
 					var target = th.offsetTop - list.clientHeight / 2 + th.offsetHeight / 2;
 					list.scrollTo({ top: Math.max(0, target), behavior: reducedMotion ? "auto" : "smooth" });
-					if (wasPlaying) startVideo(); else stopVideo();
 				}
-				ssPlay.addEventListener("click", startVideo);
+				ssPlay.addEventListener("click", openVideo);
 				document.getElementById("ss-random").addEventListener("click", function () {
 					var r = current;
 					while (r === current) r = Math.floor(Math.random() * TOTAL);
@@ -1281,7 +1281,7 @@
 				playerEl.addEventListener("keydown", function (e) {
 					if (e.key === "ArrowLeft") { e.preventDefault(); select(current + 1); }
 					else if (e.key === "ArrowRight") { e.preventDefault(); select(current - 1); }
-					else if (e.key === " " && e.target === playerEl) { e.preventDefault(); if (playing) stopVideo(); else startVideo(); }
+					else if (e.key === " " && e.target === playerEl) { e.preventDefault(); openVideo(); }
 				});
 				select(0);
 
