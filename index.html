@@ -6,6 +6,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 		<meta name="description" content="Personal website of Péter Pandula, app developer and guitar player.">
+		<meta name="theme-color" content="#000000">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://pandulapeter.github.io/">
 		<meta property="og:title" content="Péter Pandula">
@@ -14,66 +15,1012 @@
 		<meta name="twitter:card" content="summary_large_image">
 		<link rel="icon" type="image/png" sizes="32x32" href="resources/ic_favicon_dark.png" media="(prefers-color-scheme: dark)"/>
 		<link rel="icon" type="image/png" sizes="32x32" href="resources/ic_favicon_light.png" media="(prefers-color-scheme: light)"/>
-		<link rel="stylesheet" href="style.css">
+		<link rel="preload" as="image" href="resources/bg_corner.webp" fetchpriority="high">
 
 		<title>Péter Pandula</title>
+
+		<style>
+			/* ---------- tokens ---------- */
+			:root {
+				--bg: #000;
+				--ink: #ebe9e2;
+				--ink-2: #a7a69f;
+				--ink-3: #6f6e68;
+				--line: rgba(235, 233, 226, 0.10);
+				--line-strong: rgba(235, 233, 226, 0.22);
+				--surface: rgba(235, 233, 226, 0.035);
+				--surface-hover: rgba(235, 233, 226, 0.07);
+				--accent: #a7b46a;
+				--accent-hover: #b9c57e;
+				--accent-soft: rgba(167, 180, 106, 0.16);
+				--accent-line: rgba(167, 180, 106, 0.5);
+				--sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+				/* a five-step type scale, used everywhere */
+				--fs-label: 0.9rem;
+				--fs-body: 1.05rem;
+				--fs-lead: 1.2rem;
+				--fs-h3: 1.5rem;
+				--fs-h2: 2.25rem;
+				--fs-h1: clamp(2.75rem, 6.5vw, 5rem);
+
+				--top-h: 3.5rem;
+				--gutter: clamp(1.25rem, 5vw, 4rem);
+				--maxw: 76rem;
+				--radius: 14px;
+				--ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+			}
+
+			/* ---------- base ---------- */
+			* { box-sizing: border-box; }
+			html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+			body {
+				margin: 0;
+				background: var(--bg);
+				color: var(--ink);
+				font-family: var(--sans);
+				font-size: var(--fs-body);
+				line-height: 1.55;
+				-webkit-font-smoothing: antialiased;
+				overflow-x: hidden;
+			}
+			::selection { background: var(--accent); color: #000; }
+			a { color: inherit; text-decoration: none; }
+			button { font: inherit; color: inherit; }
+			a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+				outline: 2px solid var(--accent);
+				outline-offset: 3px;
+				border-radius: 4px;
+			}
+			img { display: block; max-width: 100%; }
+			h1, h2, h3, p { margin: 0; }
+			h1, h2, h3 { font-weight: 650; line-height: 1.1; letter-spacing: -0.02em; }
+			h2 { font-size: var(--fs-h2); }
+			h3 { font-size: var(--fs-h3); }
+
+			.label {
+				font-size: var(--fs-label);
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+			}
+			.wrap {
+				width: min(100% - var(--gutter) * 2, var(--maxw));
+				margin-inline: auto;
+			}
+
+			/* ---------- top bar ---------- */
+			.top {
+				position: fixed;
+				inset: 0 0 auto 0;
+				z-index: 10;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				gap: 1rem;
+				height: var(--top-h);
+				padding: env(safe-area-inset-top) var(--gutter) 0;
+				color: var(--ink-2);
+				background: rgba(0, 0, 0, 0.72);
+				border-bottom: 1px solid var(--line);
+				-webkit-backdrop-filter: blur(14px);
+				backdrop-filter: blur(14px);
+			}
+			.brand { color: var(--ink); display: inline-flex; align-items: center; gap: 0.6rem; }
+			.brand .dot {
+				width: 8px; height: 8px; border-radius: 50%;
+				background: var(--accent);
+				box-shadow: 0 0 12px var(--accent);
+			}
+			.top nav { display: flex; gap: 1.4rem; }
+			.top nav a { transition: color 150ms var(--ease); }
+			.top nav a:hover { color: var(--ink); }
+			.sound {
+				appearance: none;
+				border: 1px solid var(--line-strong);
+				background: rgba(0, 0, 0, 0.5);
+				color: var(--ink-2);
+				padding: 0.4rem 0.75rem;
+				border-radius: 999px;
+				cursor: pointer;
+				display: inline-flex;
+				align-items: center;
+				gap: 0.5rem;
+				transition: color 150ms var(--ease), border-color 150ms var(--ease);
+			}
+			.sound::before {
+				content: "";
+				width: 6px; height: 6px; border-radius: 50%;
+				background: var(--ink-3);
+				transition: background 150ms var(--ease), box-shadow 150ms var(--ease);
+			}
+			.sound[aria-pressed="true"] { color: var(--ink); border-color: var(--accent); }
+			.sound[aria-pressed="true"]::before { background: var(--accent); box-shadow: 0 0 8px var(--accent); }
+			@media (max-width: 40rem) {
+				.top nav { display: none; }
+			}
+
+			/* ---------- hero ---------- */
+			.hero {
+				position: relative;
+				min-height: 39rem;
+				display: grid;
+				align-content: start;
+				padding-top: calc(var(--top-h) + 4.5rem);
+				padding-bottom: 2.5rem;
+				overflow: hidden;
+				isolation: isolate;
+			}
+			.photo {
+				position: absolute;
+				inset: var(--top-h) 0 0 0;
+				z-index: -1;
+				background-image: url("resources/bg_corner.webp");
+				background-repeat: no-repeat;
+				background-position: right top;
+				background-size: auto 100%;
+				-webkit-mask-image:
+					linear-gradient(to left, #000 55%, transparent 100%),
+					linear-gradient(to top, transparent 0%, #000 45%);
+				-webkit-mask-composite: source-in;
+				mask-image:
+					linear-gradient(to left, #000 55%, transparent 100%),
+					linear-gradient(to top, transparent 0%, #000 45%);
+				mask-composite: intersect;
+				animation: fade-in 1.2s var(--ease) both;
+			}
+			@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+			.hero-inner { position: relative; }
+			.eyebrow { color: var(--accent); margin-bottom: 0.6rem; }
+			.hero h1 {
+				font-size: var(--fs-h1);
+				font-weight: 700;
+				line-height: 1;
+				letter-spacing: -0.03em;
+				text-wrap: balance;
+			}
+			.hero h1 em { font-style: normal; color: var(--accent); }
+
+			/* the strings run full-bleed, past the content column, under the photo */
+			.strings-wrap {
+				position: relative;
+				margin: 1rem 0 0.5rem;
+				margin-left: calc(50% - 50vw);
+				width: 100vw;
+			}
+			.strings {
+				display: block;
+				width: 100%;
+				height: clamp(96px, 13vh, 130px);
+				cursor: pointer;
+				touch-action: pan-y;
+				-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 62%, transparent 92%);
+				mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 62%, transparent 92%);
+			}
+
+			.tagline {
+				max-width: 34rem;
+				font-size: var(--fs-lead);
+				color: var(--ink-2);
+				text-wrap: pretty;
+			}
+			.tagline strong { color: var(--ink); font-weight: 500; }
+
+
+			@media (min-width: 48rem) {
+				.hero { padding-top: calc(var(--top-h) + 10rem); }
+			}
+			@media (max-width: 48rem) {
+				.hero { min-height: min(100svh, 42rem); align-content: end; }
+				.photo {
+					background-position: right -10vw top;
+					background-size: auto 78%;
+					-webkit-mask-image:
+						linear-gradient(to left, #000 40%, transparent 100%),
+						linear-gradient(to top, transparent 25%, #000 65%);
+					mask-image:
+						linear-gradient(to left, #000 40%, transparent 100%),
+						linear-gradient(to top, transparent 25%, #000 65%);
+				}
+				.strings {
+					-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 80%, transparent);
+					mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 80%, transparent);
+				}
+			}
+
+			/* ---------- sections ---------- */
+			.section {
+				padding-block: 2.75rem;
+				border-top: 1px solid var(--line);
+			}
+			.section-inner {
+				display: grid;
+				grid-template-columns: minmax(0, 1fr);
+				gap: 1.5rem clamp(1.5rem, 4vw, 4rem);
+			}
+			@media (min-width: 56rem) {
+				.section-inner { grid-template-columns: minmax(0, 5fr) minmax(0, 8fr); }
+				.section-head { position: sticky; top: 4.5rem; align-self: start; }
+			}
+			.section-head .num { color: var(--accent); display: block; margin-bottom: 0.5rem; }
+			.section-head h2 { margin-bottom: 0.6rem; }
+			.section-head p { color: var(--ink-2); max-width: 26rem; text-wrap: pretty; }
+
+			/* ---------- app cards ---------- */
+			.cards { display: flex; flex-direction: column; gap: 0.75rem; }
+			.card {
+				display: grid;
+				grid-template-columns: auto minmax(0, 11rem) minmax(0, 1fr) auto;
+				align-items: center;
+				gap: 1.25rem;
+				padding: 1.1rem 1.25rem 1.1rem 1.1rem;
+				border: 1px solid var(--line);
+				border-radius: var(--radius);
+				background: var(--surface);
+				transition: border-color 200ms var(--ease), background 200ms var(--ease);
+			}
+			.card:hover { border-color: var(--accent-line); background: var(--surface-hover); }
+			.card .icon {
+				width: 48px; height: 48px;
+				border-radius: 12px;
+				display: grid; place-items: center;
+				background: var(--accent-soft);
+				border: 1px solid rgba(167, 180, 106, 0.25);
+			}
+			.card .icon img { width: 26px; height: 26px; }
+			.card h3 { font-size: var(--fs-lead); }
+			.card .kind { display: block; color: var(--ink-3); margin-top: 0.1rem; text-transform: none; letter-spacing: 0.02em; }
+			.card p { color: var(--ink-2); }
+			.card .arrow { color: var(--ink-3); transition: color 200ms var(--ease), transform 300ms var(--ease); }
+			.card:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
+			@media (max-width: 48rem) {
+				.card { grid-template-columns: auto minmax(0, 1fr) auto; }
+				.card p { grid-column: 2 / 4; }
+			}
+
+			/* ---------- link rows ---------- */
+			.rows { display: flex; flex-direction: column; }
+			.row {
+				display: grid;
+				grid-template-columns: auto minmax(0, 1fr) auto;
+				align-items: center;
+				gap: 1rem;
+				padding: 0.8rem 0.5rem;
+				border-radius: 8px;
+				transition: background 200ms var(--ease), padding 300ms var(--ease);
+			}
+			/* dividers only between rows, never against a section edge, card or footer */
+			.row + .row { border-top: 1px solid var(--line); }
+			.row:hover { background: var(--surface); padding-left: 1rem; }
+			.row img { width: 22px; height: 22px; opacity: 0.7; transition: opacity 200ms var(--ease); }
+			.row:hover img { opacity: 1; }
+			.row .title { font-weight: 500; }
+			.row .meta { color: var(--ink-3); display: block; margin-top: 0.05rem; text-transform: none; letter-spacing: 0.02em; }
+			.row .arrow { color: var(--ink-3); transition: color 200ms var(--ease), transform 300ms var(--ease); }
+			.row:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
+
+			/* ---------- sunday songs player ---------- */
+			.player {
+				display: grid;
+				grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+				border: 1px solid var(--line);
+				border-radius: var(--radius);
+				background: var(--surface);
+				overflow: hidden;
+				margin-bottom: 1rem;
+			}
+			.player-main { min-width: 0; }
+			.stage {
+				position: relative;
+				aspect-ratio: 16 / 9;
+				background: #0a0a0a;
+				overflow: hidden;
+			}
+			.stage img, .stage iframe {
+				position: absolute;
+				inset: 0;
+				width: 100%;
+				height: 100%;
+				border: 0;
+			}
+			.stage img { object-fit: cover; transition: opacity 300ms var(--ease); }
+			.stage .play {
+				position: absolute;
+				inset: 0;
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0) 55%);
+				border: 0;
+				cursor: pointer;
+				display: grid;
+				place-items: center;
+				padding: 0;
+			}
+			.stage .play[hidden] { display: none; }
+			.stage .play .disc {
+				width: 64px; height: 64px;
+				border-radius: 50%;
+				background: var(--accent);
+				color: #000;
+				display: grid; place-items: center;
+				box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+				transition: transform 200ms var(--ease), background 200ms var(--ease);
+			}
+			.stage .play .disc svg { width: 22px; height: 22px; margin-left: 3px; }
+			.stage .play:hover .disc { transform: scale(1.08); background: var(--accent-hover); }
+			.stage .badge {
+				position: absolute;
+				left: 0.85rem; top: 0.85rem;
+				padding: 0.3rem 0.6rem;
+				border-radius: 999px;
+				background: rgba(0, 0, 0, 0.7);
+				color: var(--accent);
+				border: 1px solid rgba(167, 180, 106, 0.35);
+				-webkit-backdrop-filter: blur(6px);
+				backdrop-filter: blur(6px);
+				pointer-events: none;
+			}
+			.player-meta {
+				display: flex;
+				flex-direction: column;
+				gap: 0.75rem;
+				padding: 1rem 1.1rem 1.1rem;
+			}
+			.player-meta h3 { margin-bottom: 0.15rem; }
+			.player-meta p { color: var(--ink-2); }
+			.controls { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+			.ctl {
+				appearance: none;
+				border: 1px solid var(--line-strong);
+				background: transparent;
+				color: var(--ink-2);
+				border-radius: 999px;
+				padding: 0.45rem 0.8rem;
+				cursor: pointer;
+				display: inline-flex;
+				align-items: center;
+				gap: 0.4rem;
+				line-height: 1;
+				transition: border-color 150ms var(--ease), color 150ms var(--ease), background 150ms var(--ease);
+			}
+			.ctl:hover { border-color: var(--accent); color: var(--ink); background: var(--accent-soft); }
+			.ctl svg { width: 14px; height: 14px; }
+			/* the list is pinned to the height of the video column and scrolls inside it */
+			.list-wrap { position: relative; border-left: 1px solid var(--line); min-height: 18rem; }
+			.list {
+				position: absolute;
+				inset: 0;
+				overflow-y: auto;
+				padding: 0.5rem;
+				scrollbar-width: thin;
+				scrollbar-color: var(--line-strong) transparent;
+				-webkit-overflow-scrolling: touch;
+			}
+			.list::-webkit-scrollbar { width: 6px; }
+			.list::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 3px; }
+			.item {
+				display: grid;
+				grid-template-columns: 88px minmax(0, 1fr);
+				align-items: center;
+				gap: 0.7rem;
+				width: 100%;
+				padding: 0.4rem;
+				border: 0;
+				border-radius: 8px;
+				background: transparent;
+				text-align: left;
+				cursor: pointer;
+				color: var(--ink-2);
+				transition: background 150ms var(--ease), color 150ms var(--ease);
+			}
+			.item:hover { background: var(--surface-hover); color: var(--ink); }
+			.item.active { background: var(--accent-soft); color: var(--ink); }
+			.item img {
+				width: 88px;
+				height: auto;
+				aspect-ratio: 16 / 9;
+				object-fit: cover;
+				border-radius: 5px;
+				background: #111;
+				opacity: 0.75;
+				transition: opacity 150ms var(--ease);
+			}
+			.item:hover img, .item.active img { opacity: 1; }
+			.item .week { display: block; color: var(--ink-3); line-height: 1.3; }
+			.item.active .week { color: var(--accent); }
+			.item .song {
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 2;
+				font-weight: 500;
+				line-height: 1.3;
+				overflow: hidden;
+			}
+			@media (max-width: 40rem) {
+				.player { grid-template-columns: minmax(0, 1fr); }
+				.list-wrap { border-left: 0; border-top: 1px solid var(--line); min-height: 0; height: 17rem; }
+			}
+
+			/* ---------- footer ---------- */
+			footer {
+				border-top: 1px solid var(--line);
+				padding: 1.5rem 0 max(1.5rem, env(safe-area-inset-bottom));
+				color: var(--ink-3);
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				gap: 0.75rem 2rem;
+				text-transform: none;
+				letter-spacing: 0.02em;
+			}
+			footer a { transition: color 150ms var(--ease); }
+			footer a:hover { color: var(--accent); }
+
+			/* ---------- reveal ---------- */
+			.reveal { opacity: 0; transform: translateY(14px); transition: opacity 700ms var(--ease), transform 700ms var(--ease); }
+			.reveal.in { opacity: 1; transform: none; }
+
+			@media (prefers-reduced-motion: reduce) {
+				html { scroll-behavior: auto; }
+				.photo { animation: none; }
+				.reveal { opacity: 1; transform: none; transition: none; }
+				.card, .row, .item, .card .arrow, .row .arrow, .stage .play .disc { transition: none; }
+			}
+		</style>
 
 	</head>
 
 	<body>
 
-		<div class="photo" aria-hidden="true"></div>
+		<header class="top label">
+			<a class="brand" href="#top"><span class="dot" aria-hidden="true"></span>pandulapeter</a>
+			<nav aria-label="Sections">
+				<a href="#code">code</a>
+				<a href="#apps">apps</a>
+				<a href="#music">music</a>
+				<a href="#contact">contact</a>
+			</nav>
+			<button class="sound" id="sound" type="button" aria-pressed="false" title="Toggle sound for the strings">sound off</button>
+		</header>
 
-		<main class="block-content">
+		<section class="hero" id="top">
+			<div class="photo" aria-hidden="true"></div>
+			<div class="wrap hero-inner">
+				<p class="eyebrow label">Hi, I'm</p>
+				<h1>Péter <em>Pandula</em></h1>
 
-			<p class="eyebrow">Hi, I'm</p>
-			<h1>Péter Pandula</h1>
-			<p class="tagline">app developer • guitar player</p>
+				<div class="strings-wrap">
+					<canvas class="strings" id="strings" tabindex="0" role="img" aria-label="Six guitar strings. Strum them with the pointer, or press keys 1 to 6 to pluck."></canvas>
+				</div>
 
-			<div class="sections">
-
-			<section>
-			<h2>Programming stuff</h2>
-			<ul>
-				<li style="background-image: url('resources/ic_github.png');"><a href="https://github.com/pandulapeter" title="GitHub" target="_blank" rel="noopener">My open source projects</a></li>
-				<li style="background-image: url('resources/ic_google_play.png');"><a href="https://play.google.com/store/apps/dev?id=7182071273878480730" title="Google Play" target="_blank" rel="noopener">Android apps I’ve published</a></li>
-				<li style="background-image: url('resources/ic_blogger.png');"><a href="http://pandulapeter.blogspot.com/" title="Blogspot" target="_blank" rel="noopener">Some older games made by me</a></li>
-				<li style="background-image: url('resources/ic_medium.png');"><a href="https://medium.com/@pandulapeter" title="Medium" target="_blank" rel="noopener">Articles I’ve written</a></li>
-			</ul>
-			</section>
-
-			<section>
-			<h2>Music stuff</h2>
-			<ul>
-				<li style="background-image: url('resources/ic_sunday_songs.png');"><a href="sunday-songs/index.html" title="Sunday Songs">Sunday Songs challenge</a></li>
-				<li style="background-image: url('resources/ic_youtube.png');"><a href="https://www.youtube.com/c/P%C3%A9terPandula/" title="YouTube" target="_blank" rel="noopener">My YouTube channel</a></li>
-				<li style="background-image: url('resources/ic_youtube.png');"><a href="https://www.youtube.com/c/R%C4%83zvansSessions/videos" title="YouTube" target="_blank" rel="noopener">Răzvan’s Sessions</a></li>
-
-			</ul>
-			</section>
-
-			<section>
-				<h2>Web apps</h2>
-				<ul>
-					<li style="background-image: url('resources/ic_kubriko.png');"><a href="https://pandulapeter.github.io/kubriko" title="Kubriko" target="_blank" rel="noopener">Kubriko</a></li>
-					<li style="background-image: url('resources/ic_tesselar.png');"><a href="https://pandulapeter.github.io/tesselar" title="Tesselar" target="_blank" rel="noopener">Tesselar</a></li>
-					<li style="background-image: url('resources/ic_campfire.png');"><a href="https://pandulapeter.github.io/campfire" title="Campfire" target="_blank" rel="noopener">Campfire</a></li>
-				</ul>
-			</section>
-
-			<section>
-			<h2>Get in touch</h2>
-			<ul>
-				<li style="background-image: url('resources/ic_instagram.png');"><a href="https://www.instagram.com/pandula.peter/" title="Instagram" target="_blank" rel="noopener">Follow me on Instagram</a></li>
-				<li style="background-image: url('resources/ic_cv.png');"><a href="https://drive.google.com/file/d/1PHQJlo3TILtbnTZXZohXTOUA3GmJJBv0/view?usp=sharing" title="Resume" target="_blank" rel="noopener">Check out my resume</a></li>
-				<li style="background-image: url('resources/ic_email.png');"><a href="mailto:pandulapeter@gmail.com" title="Email">Drop me a line</a></li>
-				<li style="background-image: url('resources/ic_coffee.png');"><a href="https://buymeacoffee.com/pandulapeter" title="Coffee" target="_blank" rel="noopener">Buy me a coffee</a></li>
-			</ul>
-			</section>
+				<p class="tagline"><strong>App developer, guitar player.</strong> I build apps with Kotlin Multiplatform and Compose, open‑source most of them, and play guitar whenever I'm not.</p>
 
 			</div>
+		</section>
+
+		<main>
+
+			<section class="section" id="code">
+				<div class="wrap section-inner">
+					<div class="section-head reveal">
+						<span class="num label">01 — code</span>
+						<h2>Mostly Kotlin, mostly open source</h2>
+						<p>Libraries, apps and the occasional article about how they were made.</p>
+					</div>
+					<div class="rows reveal">
+						<a class="row" href="https://github.com/pandulapeter" target="_blank" rel="noopener">
+							<img src="resources/ic_github.png" alt="">
+							<span><span class="title">Browse my open source projects</span><span class="meta label">GitHub</span></span>
+							<span class="arrow">↗</span>
+						</a>
+						<a class="row" href="https://play.google.com/store/apps/dev?id=7182071273878480730" target="_blank" rel="noopener">
+							<img src="resources/ic_google_play.png" alt="">
+							<span><span class="title">Try the Android apps I've published</span><span class="meta label">Google Play</span></span>
+							<span class="arrow">↗</span>
+						</a>
+						<a class="row" href="https://medium.com/@pandulapeter" target="_blank" rel="noopener">
+							<img src="resources/ic_medium.png" alt="">
+							<span><span class="title">Read the articles I've written</span><span class="meta label">Medium</span></span>
+							<span class="arrow">↗</span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" id="apps">
+				<div class="wrap section-inner">
+					<div class="section-head reveal">
+						<span class="num label">02 — apps</span>
+						<h2>Runs in your browser</h2>
+						<p>Web builds of my Compose Multiplatform projects. No install, no sign‑up, just open the link.</p>
+					</div>
+					<div class="cards reveal">
+						<a class="card" href="https://pandulapeter.github.io/kubriko" target="_blank" rel="noopener">
+							<span class="icon"><img src="resources/ic_kubriko.png" alt=""></span>
+							<span><h3>Kubriko</h3><span class="kind label">Engine showcase</span></span>
+							<p>My 2D game engine shown off through demos, games and tech samples.</p>
+							<span class="arrow">↗</span>
+						</a>
+						<a class="card" href="https://pandulapeter.github.io/tesselar" target="_blank" rel="noopener">
+							<span class="icon"><img src="resources/ic_tesselar.png" alt=""></span>
+							<span><h3>Tesselar</h3><span class="kind label">3D experiment</span></span>
+							<p>A real-time 3D world built on Kubriko, with weather, clouds, fog and a day–night cycle.</p>
+							<span class="arrow">↗</span>
+						</a>
+						<a class="card" href="https://pandulapeter.github.io/campfire" target="_blank" rel="noopener">
+							<span class="icon"><img src="resources/ic_campfire.png" alt=""></span>
+							<span><h3>Campfire</h3><span class="kind label">Lyrics and chords</span></span>
+							<p>A handpicked song library with transposition and support for custom setlist creation.</p>
+							<span class="arrow">↗</span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" id="music">
+				<div class="wrap section-inner">
+					<div class="section-head reveal">
+						<span class="num label">03 — music</span>
+						<h2>Sunday Songs</h2>
+						<p>In 2023 I challenged myself to learn and record a new cover song every week: 53 weeks, 53 songs, from the artists and genres I love.</p>
+					</div>
+					<div class="reveal">
+						<div class="player" id="player" tabindex="0" aria-label="Sunday Songs player. Use the left and right arrow keys to change the week.">
+							<div class="player-main">
+							<div class="stage">
+								<img id="ss-img" src="sunday-songs/053.webp" alt="" width="960" height="540">
+								<button class="play" id="ss-play" type="button" aria-label="Play this week's video">
+									<span class="disc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+								</button>
+								<span class="badge label" id="ss-badge">week 53 / 53</span>
+							</div>
+							<div class="player-meta">
+								<div>
+									<h3 id="ss-title">Glasgow Kiss</h3>
+									<p id="ss-sub">John Petrucci · Suspended Animation (2005)</p>
+								</div>
+								<div class="controls">
+									<button class="ctl" id="ss-prev" type="button" title="Previous week (←)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M15.4 7.4 14 6l-6 6 6 6 1.4-1.4L10.8 12z"/></svg>prev</button>
+									<button class="ctl" id="ss-next" type="button" title="Next week (→)">next<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.6 16.6 10 18l6-6-6-6-1.4 1.4 4.6 4.6z"/></svg></button>
+									<button class="ctl" id="ss-random" type="button" title="Random week"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 4h6v6l-2.3-2.3L14.4 11 13 9.6l3.3-3.3zM4 6h4.2l9.5 9.5L20 13.2V20h-6l2.3-2.3L7.2 8H4zm0 12h3.2l3-3 1.4 1.4-3.6 3.6H4z"/></svg>surprise me</button>
+									<a class="ctl" id="ss-yt" href="https://www.youtube.com/watch?v=l0bgRgo_W7I" target="_blank" rel="noopener" title="Open on YouTube">youtube ↗</a>
+								</div>
+							</div>
+							</div>
+							<div class="list-wrap"><div class="list" id="ss-list" aria-label="All 53 weeks"></div></div>
+						</div>
+						<div class="rows">
+							<a class="row" href="https://www.youtube.com/playlist?list=PL0hmRvy5R-BexhiKb6fuoJ1Im4u7UIC8E" target="_blank" rel="noopener">
+								<img src="resources/ic_sunday_songs.png" alt="">
+								<span><span class="title">Watch the whole Sunday Songs playlist</span><span class="meta label">YouTube</span></span>
+								<span class="arrow">↗</span>
+							</a>
+							<a class="row" href="https://www.youtube.com/c/P%C3%A9terPandula/" target="_blank" rel="noopener">
+								<img src="resources/ic_youtube.png" alt="">
+								<span><span class="title">Subscribe to my channel</span><span class="meta label">YouTube</span></span>
+								<span class="arrow">↗</span>
+							</a>
+							<a class="row" href="https://www.youtube.com/c/R%C4%83zvansSessions/videos" target="_blank" rel="noopener">
+								<img src="resources/ic_youtube.png" alt="">
+								<span><span class="title">Check out Răzvan's Sessions</span><span class="meta label">YouTube</span></span>
+								<span class="arrow">↗</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" id="contact">
+				<div class="wrap section-inner">
+					<div class="section-head reveal">
+						<span class="num label">04 — contact</span>
+						<h2>Say hi</h2>
+						<p>Work, music, or a bug you found in one of my apps: the inbox is open.</p>
+					</div>
+					<div class="rows reveal">
+						<a class="row" href="https://drive.google.com/file/d/1PHQJlo3TILtbnTZXZohXTOUA3GmJJBv0/view?usp=sharing" target="_blank" rel="noopener">
+							<img src="resources/ic_cv.png" alt="">
+							<span><span class="title">Read my resume</span><span class="meta label">Google Drive</span></span>
+							<span class="arrow">↗</span>
+						</a>
+						<a class="row" href="mailto:pandulapeter@gmail.com">
+							<img src="resources/ic_email.png" alt="">
+							<span><span class="title">Drop me a line</span><span class="meta label">pandulapeter@gmail.com</span></span>
+							<span class="arrow">↗</span>
+						</a>
+						<a class="row" href="https://buymeacoffee.com/pandulapeter" target="_blank" rel="noopener">
+							<img src="resources/ic_coffee.png" alt="">
+							<span><span class="title">Support my work</span><span class="meta label">Buy Me a Coffee</span></span>
+							<span class="arrow">↗</span>
+						</a>
+					</div>
+				</div>
+			</section>
 
 		</main>
+
+		<footer class="wrap label">
+			<span>© 2026 Péter Pandula</span>
+			<a href="#top">back to the top ↑</a>
+		</footer>
+
+		<script>
+			(function () {
+				"use strict";
+
+				var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+				/* =====================================================
+				   Guitar strings
+				   ===================================================== */
+				var canvas = document.getElementById("strings");
+				var soundButton = document.getElementById("sound");
+				var ctx2d = canvas.getContext("2d");
+				var ACCENT = [167, 180, 106];
+				var INK = [235, 233, 226];
+
+				// Standard tuning, low E to high E.
+				var FREQS = [82.41, 110.0, 146.83, 196.0, 246.94, 329.63];
+				var COUNT = FREQS.length;
+				var strings = [];
+				for (var i = 0; i < COUNT; i++) {
+					strings.push({ amp: 0, y: 0, thickness: 3.2 - i * 0.42, phase: 0 });
+				}
+
+				var width = 0, height = 0, dpr = 1;
+				function resize() {
+					dpr = Math.min(window.devicePixelRatio || 1, 2);
+					width = canvas.clientWidth;
+					height = canvas.clientHeight;
+					canvas.width = Math.round(width * dpr);
+					canvas.height = Math.round(height * dpr);
+					ctx2d.setTransform(dpr, 0, 0, dpr, 0, 0);
+					var pad = height * 0.14;
+					var gap = (height - pad * 2) / (COUNT - 1);
+					for (var i = 0; i < COUNT; i++) strings[i].y = pad + gap * i;
+					draw(0);
+				}
+				window.addEventListener("resize", resize);
+				resize();
+
+				var running = false, last = 0;
+				function mix(a, b, t) { return Math.round(a + (b - a) * t); }
+				function draw(dt) {
+					ctx2d.clearRect(0, 0, width, height);
+					var active = false;
+					for (var i = 0; i < COUNT; i++) {
+						var s = strings[i];
+						if (s.amp > 0.05) {
+							active = true;
+							s.phase += dt * (9 + i * 2.2) * Math.PI * 2;
+							s.amp *= Math.exp(-dt * 2.4);
+						} else {
+							s.amp = 0;
+						}
+						var glow = Math.min(1, s.amp / 6);
+						ctx2d.beginPath();
+						ctx2d.lineWidth = s.thickness;
+						ctx2d.lineCap = "round";
+						ctx2d.strokeStyle = "rgba(" + mix(INK[0], ACCENT[0], glow) + "," + mix(INK[1], ACCENT[1], glow) + "," + mix(INK[2], ACCENT[2], glow) + "," + (0.28 + 0.72 * glow) + ")";
+						ctx2d.shadowBlur = glow * 14;
+						ctx2d.shadowColor = "rgba(" + ACCENT.join(",") + "," + glow + ")";
+						if (s.amp > 0) {
+							var steps = 48;
+							var sway = Math.sin(s.phase) * s.amp;
+							for (var k = 0; k <= steps; k++) {
+								var x = (width * k) / steps;
+								var y = s.y + Math.sin((Math.PI * k) / steps) * sway;
+								if (k === 0) ctx2d.moveTo(x, y); else ctx2d.lineTo(x, y);
+							}
+						} else {
+							ctx2d.moveTo(0, s.y);
+							ctx2d.lineTo(width, s.y);
+						}
+						ctx2d.stroke();
+					}
+					ctx2d.shadowBlur = 0;
+					return active;
+				}
+				function frame(now) {
+					var dt = Math.min(0.05, (now - last) / 1000);
+					last = now;
+					if (draw(dt)) requestAnimationFrame(frame); else running = false;
+				}
+				function start() {
+					if (running) return;
+					running = true;
+					last = performance.now();
+					requestAnimationFrame(frame);
+				}
+
+				// Audio: Karplus–Strong plucked-string synthesis, generated on demand.
+				var audio = null, master = null, buffers = [], soundOn = false;
+				function ensureAudio() {
+					if (audio) return audio.resume();
+					var AC = window.AudioContext || window.webkitAudioContext;
+					if (!AC) return Promise.reject();
+					audio = new AC();
+					master = audio.createGain();
+					master.gain.value = 0.55;
+					master.connect(audio.destination);
+					return audio.resume();
+				}
+				function bufferFor(index) {
+					if (buffers[index]) return buffers[index];
+					var sr = audio.sampleRate;
+					var period = Math.round(sr / FREQS[index]);
+					var length = Math.floor(sr * 2.6);
+					var buffer = audio.createBuffer(1, length, sr);
+					var out = buffer.getChannelData(0);
+					var ring = new Float32Array(period);
+					var prev = 0;
+					for (var i = 0; i < period; i++) {
+						var n = Math.random() * 2 - 1;
+						prev = prev * 0.35 + n * 0.65;
+						ring[i] = prev;
+					}
+					var damping = 0.994 + index * 0.0005;
+					var idx = 0;
+					for (var j = 0; j < length; j++) {
+						var current = ring[idx];
+						var next = ring[(idx + 1) % period];
+						ring[idx] = damping * 0.5 * (current + next);
+						out[j] = current;
+						idx = (idx + 1) % period;
+					}
+					var fade = Math.floor(sr * 0.2);
+					for (var f = 0; f < fade; f++) out[length - 1 - f] *= f / fade;
+					buffers[index] = buffer;
+					return buffer;
+				}
+				function play(index, velocity) {
+					if (!soundOn || !audio) return;
+					var src = audio.createBufferSource();
+					src.buffer = bufferFor(index);
+					var g = audio.createGain();
+					g.gain.value = 0.35 + 0.65 * velocity;
+					src.connect(g);
+					g.connect(master);
+					src.start();
+				}
+				function setSound(on) {
+					soundOn = on;
+					soundButton.setAttribute("aria-pressed", on ? "true" : "false");
+					soundButton.textContent = on ? "sound on" : "sound off";
+				}
+				soundButton.addEventListener("click", function () {
+					if (soundOn) { setSound(false); return; }
+					ensureAudio().then(function () { setSound(true); play(5, 0.6); pluck(5, 0.6); }, function () {});
+				});
+
+				function pluck(index, velocity) {
+					var s = strings[index];
+					s.amp = reducedMotion ? 0 : 5 + 9 * velocity + (COUNT - index) * 0.6;
+					s.phase = 0;
+					if (!reducedMotion) start();
+					play(index, velocity);
+				}
+				function nearest(y) {
+					var best = -1, bestDist = 18;
+					for (var i = 0; i < COUNT; i++) {
+						var d = Math.abs(strings[i].y - y);
+						if (d < bestDist) { bestDist = d; best = i; }
+					}
+					return best;
+				}
+
+				var lastY = null, lastTime = 0;
+				canvas.addEventListener("pointermove", function (e) {
+					if (e.pointerType === "touch") return;
+					var rect = canvas.getBoundingClientRect();
+					var y = e.clientY - rect.top;
+					var now = performance.now();
+					if (lastY !== null) {
+						var speed = Math.min(1, Math.abs(y - lastY) / Math.max(1, now - lastTime) / 1.5);
+						for (var i = 0; i < COUNT; i++) {
+							var sy = strings[i].y;
+							if ((lastY < sy && y >= sy) || (lastY > sy && y <= sy)) pluck(i, 0.35 + 0.65 * speed);
+						}
+					}
+					lastY = y;
+					lastTime = now;
+				});
+				canvas.addEventListener("pointerleave", function () { lastY = null; });
+				canvas.addEventListener("pointerdown", function (e) {
+					var rect = canvas.getBoundingClientRect();
+					var index = nearest(e.clientY - rect.top);
+					if (!soundOn) {
+						ensureAudio().then(function () { setSound(true); if (index >= 0) play(index, 0.8); }, function () {});
+					}
+					if (index >= 0) pluck(index, 0.8);
+				});
+				canvas.addEventListener("keydown", function (e) {
+					var n = parseInt(e.key, 10);
+					if (n >= 1 && n <= COUNT) { e.preventDefault(); pluck(n - 1, 0.7); }
+				});
+
+				if (!reducedMotion) setTimeout(function () { strings[2].amp = 6; start(); }, 900);
+
+				/* =====================================================
+				   Sunday Songs player
+				   [week, "Artist - Song", youtubeId, "Album (year)", driveFileId]
+				   ===================================================== */
+				var SONGS = [
+					[53, "John Petrucci - Glasgow Kiss", "l0bgRgo_W7I", "Suspended Animation (2005)", "1rYeSl-MstdJO54xAigpJ1uGlZfM6TmP5"],
+					[52, "Paul Gilbert - Individually Twisted", "qt8FC_GIAio", "Alligator Farm (2000)", "12iYHSq3IADJh3dyxeJSUGNX4XhnKtLKs"],
+					[51, "Demi Lovato - Get Back", "IhpMQMReyrI", "Don't Forget (2008)", "146U6owuCTrouRIfYe3buHvDDzamoyCYl"],
+					[50, "Def Leppard - Pour Some Sugar on Me", "46wTDaBu64o", "Hysteria (1987)", "1V8_uTyZHznNkFEiZG2wq1x27l70tgoPg"],
+					[49, "James Bay - Hold Back the River", "LD-G_V82QkQ", "Chaos and the Calm (2015)", "1YXrFJz2T7KaSSaHi5deOCqm9p1wbvbUA"],
+					[48, "Airbourne - Blonde, Bad and Beautiful", "fRKbKFqP5SE", "No Guts. No Glory. (2010)", "1lAvR0IbKQzH6g8LV4mF0bfe2SRRQ1BHI"],
+					[47, "The Pretty Reckless - Take Me Down", "AUKLnc4uqWY", "Who You Selling For (2016)", "1Y8NH1akHuDCDJQWL1oXRyCPSfwNerniC"],
+					[46, "Queen - Hammer to Fall", "WxhYb5Uti0M", "The Works (1984)", "1Pjh8jYrxsR6A9K8PLTgOEfZgNdCn_hYU"],
+					[45, "Winger - Madeline", "OuqQOgVayKY", "Winger (1988)", "1G50vIfP3AUkSnImzGtEF9qrEK7F-3b58"],
+					[44, "Walk the Moon - Shut Up and Dance", "byiN56cZzY4", "Talking Is Hard (2014)", "1RYL14BiJaLruThZDmj0d0gMSd3yFsbAD"],
+					[43, "Danger Danger - Bang Bang", "y4kbDp1ZxVs", "Danger Danger (1989)", "1f5q8ym38yBj3OfGfM13C8qi8gSFKqrVC"],
+					[42, "Guns N' Roses - Nightrain", "iGSvkBANYYw", "Appetite for Destruction (1987)", "1nEqYIQQnS5uAZcrYqOuQqChEAY2JsKzt"],
+					[41, "Steel Panther - If You Really Really Love Me", "r86fwuqaZiU", "Balls Out (2011)", "1UqtF6-T5NQSZwlDpqY9c8TOJXEA7I1tu"],
+					[40, "The Who - The Seeker", "ILOjiIYhJsc", "Who's Next (1971)", "1Ox2TGYZjlRqtEj1cP1D3q_nIEAH0RPKE"],
+					[39, "David Lee Roth - Just Like Paradise", "PS3rIH-39-4", "Skyscraper (1988)", "1llGYim09eqk7xNaeFKomPmm9p8TtqFM7"],
+					[38, "Lóci Játszik - Miért, Miért, Miért", "6sfgq0xHCLs", "Krokodil (2016)", "1IUJZnz9Vgy21TWTbRAUDOjN961m4Mvoq"],
+					[37, "Poison - Until You Suffer Some (Fire and Ice)", "qMOqL0hU2Kc", "Native Tongue (1993)", "182ka_a17lDxvNkJxh9zrV96Jm_wb-TFv"],
+					[36, "Green Day - American Idiot", "s6GYKTN5T-A", "American Idiot (2004)", "11w6_q4X5yXER6ZHixBfxhiu_AwnhnFEs"],
+					[35, "Ozzy Osbourne - Mama, I'm Coming Home", "DLKzOU2qDJk", "No More Tears (1991)", "1l1dTRFKCw3nsg5hWSExyZA-R5S8xsS13"],
+					[34, "A Csajod - Ide tartozom", "e1Y-oWNT3R4", "Erdély dala (2022)", "12lRPc0VF-ku2AT4XfBhzRVRihVAT1t8U"],
+					[33, "Judas Priest - Living After Midnight", "89b4ehHVyIU", "British Steel (1980)", "1PCmR92RdNZXHTTFD6oOi8D_YB1beGqvx"],
+					[32, "Sting - Shape of My Heart", "fXsaQjNkD0Q", "Ten Summoner's Tales (1993)", "1J0wU_u5sejZztAUaGdc5oHdlArPN_SMz"],
+					[31, "Free - All Right Now", "Wnl809Gqv0Y", "Fire and Water (1970)", "1Kv-wbZWevhzNM_QYidVz8zjEwaNjNFAU"],
+					[30, "Rainbow - Man on the Silver Mountain", "DpLTCrSgy6g", "Ritchie Blackmore's Rainbow (1975)", "1Yjg3_u6v5ra_Xf-5IVSIF7s9eSO1_571"],
+					[29, "Sum 41 - In Too Deep", "-7aAdgljLJc", "All Killer No Filler (2001)", "1_Ww5Fx_6dkS_P_QNg_m2JBBaIPAmHgwC"],
+					[28, "Slash - Actions Speak Louder Than Words", "cKdNomvuuMs", "4 (2022)", "1q1SqCD6FNP5qQciQcICBXdmF-_tm5vzA"],
+					[27, "Gotthard - Mighty Quinn", "wZXE7Dp2HyI", "G. (1996)", "1H7VkLgN6tumTgLml5Lbu2mtifVvT3blQ"],
+					[26, "Michael Bolton - Forever Eyes", "G1vXyE8PES8", "Soul Provider (1989)", "1PssArgOdALhIba92zU1X1nQrQTruumMy"],
+					[25, "Twisted Sister - We're Not Gonna Take It", "9jgqOOImwHA", "Stay Hungry (1984)", "1-nfHShCTD996z-ltwcuOeJI62K1OSM5Q"],
+					[24, "Velvet Revolver - Fall to Pieces", "zT8DoLx2ApY", "Contraband (2004)", "1IBueRk4U3PTB2XykWkQXW7lKAmmUlLGZ"],
+					[23, "My Chemical Romance - Teenagers", "FXutXnMSYsw", "The Black Parade (2006)", "1JWAAVDWqLCl4yQ_Cs4uz_o6ZPXZWN8e6"],
+					[22, "Tenacious D - The Metal", "eI3VTVT64L0", "The Pick of Destiny (2006)", "1VnlUkv1SjdM73nWi21aT9chj-b_-LFLm"],
+					[21, "Madonna - Material Girl", "1p-gDVbsCfU", "Like a Virgin (1984)", "1qAuuKTZJQ3ty0Y-A9E4ByMf0cL8mBY20"],
+					[20, "Bon Jovi - Born to Be My Baby", "tWAJlkzbGZs", "New Jersey (1988)", "1MPf32da_EGc--lNUskU3UN-cjOIdOBZm"],
+					[19, "The Black Crowes - Hard to Handle", "WyCfj-odq9A", "Shake Your Money Maker (1990)", "1C42t-KKpyHK0LZyijYJX33u7urvWIPpL"],
+					[18, "AC/DC - Gone Shootin'", "Q1Ww0KaYHog", "Powerage (1978)", "1aL4HhF0WuGRTvLtZl896ioJHra1xVFoF"],
+					[17, "Seether - Rise Above This", "Z6BI4-DfEx4", "Finding Beauty in Negative Spaces (2007)", "1wgP6rJNQeUDlIn3kZurxWU63mPrEKLFp"],
+					[16, "John Mellencamp - Authority Song", "8hbi07SVv_g", "Uh-huh (1983)", "1U7oifdCBHj1x1Sbyy5FYiRg-2vf3uKQe"],
+					[15, "Cargo - Doi pași în urma ta", "wDpKmcgnZeI", "XXII (2007)", "1dwF7tuwgQfS3ua_L4YH-R0N3kPTd5Kfw"],
+					[14, "Alice Cooper - Poison", "rXv2qiMJ5YA", "Trash (1989)", "18ePSu0j0NMuUKTKSRgSkc09UGLBv9LDF"],
+					[13, "Good Charlotte - The Anthem", "7k3GD91OAtM", "The Young and the Hopeless (2002)", "1ZCxswHLO4rFAXJOFs_WRKVTbC4__IZ2t"],
+					[12, "Europe - Superstitious", "YFemZ3gHSNo", "Out of This World (1988)", "1_pkNdlFn0VgF18zy1u_pzCabPTtk-x_q"],
+					[11, "Alice in Chains - Man in the Box", "v37JyF1P0hM", "Facelift (1990)", "1jxM_zJ1w7Qwz60KhAf2tVDAVqNWmbcrK"],
+					[10, "Radiohead - My Iron Lung", "Q5kWBFybCpU", "The Bends (1995)", "1oF13zy2ThBcMs_OY3TIIgy1FpOEItTtX"],
+					[9, "Alice Merton - No Roots", "vgl9LP3G0Is", "Mint (2019)", "1FSiwCh1x3zeSdlH7iEZQQdSD69mTjs9y"],
+					[8, "Toto - Stop Loving You", "hpKq1N-9iKc", "The Seventh One (1988)", "16ZPKE1leg00MtS8k9wDW1ROXWSd6Od0z"],
+					[7, "Mr. Big - Green-Tinted Sixties Mind", "AHopBula8RQ", "Lean into It (1991)", "1AoOOpyK0vI82l3r9xprViuDtznYdPY_v"],
+					[6, "Ghost - Spillways", "NDE5cShGCPc", "Impera (2022)", "17i6VrMcMw9nEYesZWxz3p7tPMKgAT1Zw"],
+					[5, "Elton John - The Bitch Is Back", "lAqgYYnFMM8", "Caribou (1974)", "1wNh4_UbLXJfPAKufCMd17JFAgLERnmBA"],
+					[4, "The Darkness - Solid Gold", "PLqTXa_d5yY", "Pinewood Smile (2017)", "1W5_rU-lDoolE3rcJD496tjLZABzYw2R2"],
+					[3, "Joe Satriani - Starry Night", "srPadvMmkBM", "Strange Beautiful Music (2002)", "1TYx9IqHHXC4COJZOidUqUw2NtZa4x9B8"],
+					[2, "Hiram Bullock - Give Me One Reason", "CMnOMixEl5E", "Color Me (2001)", "1KdUtXcWKWXfDkqMAFA_4g3EyMJLXYlJt"],
+					[1, "Tyketto - Wings", "62Tibr7dtco", "Don't Come Easy (1991)", "1yf3OBOwrbyKfCR7h6_o-2IsOysxThf3r"]
+				];
+				var TOTAL = SONGS.length;
+				var stage = document.querySelector(".stage");
+				var ssImg = document.getElementById("ss-img");
+				var ssPlay = document.getElementById("ss-play");
+				var ssBadge = document.getElementById("ss-badge");
+				var ssTitle = document.getElementById("ss-title");
+				var ssSub = document.getElementById("ss-sub");
+				var ssYt = document.getElementById("ss-yt");
+				var list = document.getElementById("ss-list");
+				var playerEl = document.getElementById("player");
+				var current = -1; // index into SONGS (0 = newest week)
+				var playing = false;
+				var frameEl = null;
+
+				// Build the week list, newest first.
+				var thumbs = [];
+				for (var t = 0; t < TOTAL; t++) {
+					var song = SONGS[t];
+					var b = document.createElement("button");
+					b.type = "button";
+					b.className = "item";
+					b.setAttribute("data-index", t);
+					b.title = "Week " + song[0] + ": " + song[1];
+					var im = document.createElement("img");
+					im.loading = "lazy";
+					im.decoding = "async";
+					im.alt = "";
+					im.width = 320; im.height = 180;
+					im.src = "https://i.ytimg.com/vi/" + song[2] + "/mqdefault.jpg";
+					var text = document.createElement("span");
+					var week = document.createElement("span");
+					week.className = "week label";
+					week.textContent = "week " + song[0];
+					var name = document.createElement("span");
+					name.className = "song";
+					name.textContent = song[1];
+					text.appendChild(week);
+					text.appendChild(name);
+					b.appendChild(im);
+					b.appendChild(text);
+					list.appendChild(b);
+					thumbs[t] = b;
+				}
+				list.addEventListener("click", function (e) {
+					var btn = e.target.closest(".item");
+					if (btn) select(parseInt(btn.getAttribute("data-index"), 10));
+				});
+
+				function split(label) {
+					var i = label.indexOf(" - ");
+					return i < 0 ? [label, ""] : [label.slice(0, i), label.slice(i + 3)];
+				}
+				function stopVideo() {
+					if (frameEl) { frameEl.remove(); frameEl = null; }
+					ssPlay.hidden = false;
+					playing = false;
+				}
+				function startVideo() {
+					if (frameEl) frameEl.remove();
+					// The videos live in a public Google Drive folder; Drive's own player embeds
+					// fine, unlike most of the YouTube uploads, which block embedding.
+					frameEl = document.createElement("iframe");
+					frameEl.src = "https://drive.google.com/file/d/" + SONGS[current][4] + "/preview";
+					frameEl.title = "Video: " + SONGS[current][1];
+					frameEl.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+					frameEl.setAttribute("allowfullscreen", "");
+					stage.appendChild(frameEl);
+					ssPlay.hidden = true;
+					playing = true;
+				}
+				function select(index) {
+					index = ((index % TOTAL) + TOTAL) % TOTAL;
+					if (index === current) return;
+					var wasPlaying = playing;
+					current = index;
+					var song = SONGS[current];
+					var parts = split(song[1]);
+					var week = String(song[0]);
+					ssImg.src = "sunday-songs/" + ("000" + week).slice(-3) + ".webp";
+					ssBadge.textContent = "week " + week + " / " + TOTAL;
+					ssTitle.textContent = parts[1] || parts[0];
+					ssSub.textContent = (parts[1] ? parts[0] + " · " : "") + song[3];
+					ssYt.href = "https://www.youtube.com/watch?v=" + song[2];
+					for (var i = 0; i < TOTAL; i++) thumbs[i].classList.toggle("active", i === current);
+					// keep the active row in view without scrolling the page
+					var th = thumbs[current];
+					var target = th.offsetTop - list.clientHeight / 2 + th.offsetHeight / 2;
+					list.scrollTo({ top: Math.max(0, target), behavior: reducedMotion ? "auto" : "smooth" });
+					if (wasPlaying) startVideo(); else stopVideo();
+				}
+				ssPlay.addEventListener("click", startVideo);
+				document.getElementById("ss-prev").addEventListener("click", function () { select(current + 1); }); // older
+				document.getElementById("ss-next").addEventListener("click", function () { select(current - 1); }); // newer
+				document.getElementById("ss-random").addEventListener("click", function () {
+					var r = current;
+					while (r === current) r = Math.floor(Math.random() * TOTAL);
+					select(r);
+				});
+				playerEl.addEventListener("keydown", function (e) {
+					if (e.key === "ArrowLeft") { e.preventDefault(); select(current + 1); }
+					else if (e.key === "ArrowRight") { e.preventDefault(); select(current - 1); }
+					else if (e.key === " " && e.target === playerEl) { e.preventDefault(); if (playing) stopVideo(); else startVideo(); }
+				});
+				select(0);
+
+				/* =====================================================
+				   Scroll reveal
+				   ===================================================== */
+				var revealed = document.querySelectorAll(".reveal");
+				if ("IntersectionObserver" in window && !reducedMotion) {
+					var io = new IntersectionObserver(function (entries) {
+						entries.forEach(function (entry) {
+							if (entry.isIntersecting) { entry.target.classList.add("in"); io.unobserve(entry.target); }
+						});
+					}, { rootMargin: "0px 0px -10% 0px" });
+					revealed.forEach(function (el) { io.observe(el); });
+				} else {
+					revealed.forEach(function (el) { el.classList.add("in"); });
+				}
+			})();
+		</script>
 
 	</body>
 
