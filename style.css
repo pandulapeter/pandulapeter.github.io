@@ -4,6 +4,7 @@
 	--text-normal: #c2c2c2;
 	--text-hover: #e9eef6;
 	--page-padding: clamp(1.25rem, 4vmin, 3rem);
+	--photo-size: min(42vh, 52vmin);
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 	background-image: url("resources/bg_corner.webp");
 	background-position: bottom right;
 	background-repeat: no-repeat;
-	background-size: min(42vh, 52vmin);
+	background-size: var(--photo-size);
 	animation: photo-fade-in 0.8s ease-out both;
 }
 
@@ -42,8 +43,8 @@ body {
 }
 
 @media (max-height: 480px) {
-	.photo {
-		background-size: min(64vh, 38vmin);
+	:root {
+		--photo-size: min(64vh, 38vmin);
 	}
 }
 
@@ -143,18 +144,33 @@ li a:hover {
 	margin-left: max(0rem, calc((100vw - 100rem) / 3));
 }
 
-@media (min-width: 760px) and (max-height: 760px) {
+/* One column when narrow, 2 + 2 as soon as two columns fit, four in a row on
+   short landscape screens. The max-width values keep the block clear of the
+   photo in the bottom right corner. */
+.sections {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	align-items: start;
+	column-gap: clamp(1.5rem, 4vw, 4rem);
+	row-gap: 0;
+}
+
+.sections section {
+	min-width: 0;
+}
+
+@media (min-width: 40rem) {
 	.block-content {
-		max-width: 70rem;
+		max-width: min(46rem, max(20rem, calc(100vw - var(--page-padding) * 2 - var(--photo-size) * 0.75)));
+	}
+}
+
+@media (min-width: 1000px) and (max-height: 640px), (min-width: 900px) and (max-height: 560px) {
+	.block-content {
+		max-width: min(70rem, max(30rem, calc(100vw - var(--page-padding) * 2 - var(--photo-size) * 0.7)));
 	}
 	.sections {
-		display: flex;
-		align-items: flex-start;
-		gap: clamp(1.5rem, 4vw, 4rem);
-	}
-	.sections section {
-		flex: 1;
-		min-width: 0;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 	.sections ul {
 		margin-bottom: 0;
