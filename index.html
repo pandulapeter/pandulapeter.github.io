@@ -130,16 +130,25 @@
 				-webkit-mask-size: 100% 100%;
 				mask-size: 100% 100%;
 			}
+			/* Deliberately no blur() here. A blurred layer this large is rasterised in
+			   tiles, and on Android Chrome the tile that meets this container's
+			   overflow clip comes back with a straight cut edge instead of a soft
+			   one. A radial gradient with a hand-rolled falloff is already soft, is
+			   far cheaper to composite on a phone, and cannot be cut. */
 			.glow span {
 				position: absolute;
 				display: block;
 				width: 58vmax;
 				height: 58vmax;
-				border-radius: 50%;
-				background: radial-gradient(circle at 50% 50%, var(--accent), transparent 62%);
-				filter: blur(56px) saturate(165%);
+				background: radial-gradient(circle at 50% 50%,
+					var(--accent) 0%,
+					color-mix(in srgb, var(--accent) 74%, transparent) 20%,
+					color-mix(in srgb, var(--accent) 42%, transparent) 36%,
+					color-mix(in srgb, var(--accent) 18%, transparent) 50%,
+					color-mix(in srgb, var(--accent) 6%, transparent) 62%,
+					transparent 76%);
+				filter: saturate(165%);
 				mix-blend-mode: screen;
-				will-change: transform;
 			}
 			.glow span:nth-child(1) { left: -16%;  top: -22%;    animation: drift-a 26s var(--ease) infinite alternate; }
 			.glow span:nth-child(2) { right: -20%; bottom: -26%; opacity: 0.95; animation: drift-c 34s var(--ease) infinite alternate; }
@@ -224,9 +233,8 @@
 				transform-origin: 0 50%;
 				transition: transform 250ms var(--ease);
 			}
-			.top nav a:hover { color: var(--ink); }
-			.top nav a:hover::after, .top nav a.on::after { transform: scaleX(1); }
 			.top nav a.on { color: var(--ink); }
+			.top nav a.on::after { transform: scaleX(1); }
 			.sound {
 				appearance: none;
 				border: 1px solid var(--line-strong);
@@ -240,7 +248,7 @@
 				gap: 0.5rem;
 				transition: color 150ms var(--ease), border-color 150ms var(--ease), box-shadow 150ms var(--ease);
 			}
-			.sound:hover { color: var(--ink); border-color: var(--accent-line); }
+			.sound:active { border-color: var(--accent-line); }
 			.sound::before {
 				content: "";
 				width: 6px; height: 6px; border-radius: 50%;
@@ -249,6 +257,11 @@
 			}
 			.sound[aria-pressed="true"] { color: var(--ink); border-color: var(--accent); box-shadow: 0 0 20px var(--accent-glow); }
 			.sound[aria-pressed="true"]::before { background: var(--accent); box-shadow: 0 0 8px var(--accent); }
+			@media (hover: hover) and (pointer: fine) {
+				.top nav a:hover { color: var(--ink); }
+				.top nav a:hover::after { transform: scaleX(1); }
+				.sound:hover { color: var(--ink); border-color: var(--accent-line); }
+			}
 			@media (max-width: 40rem) {
 				.top nav { display: none; }
 			}
@@ -334,6 +347,13 @@
 				touch-action: none;
 				-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 62%, transparent 92%);
 				mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 62%, transparent 92%);
+				/* A mask hides pixels but keeps hit-testing on the whole box, so the
+				   faded-out tail still swallowed touches — and with it the page
+				   scroll — where there is nothing left to strum. clip-path is the one
+				   that does clip the hit region, so it is cut exactly where the mask
+				   has already reached zero and the shape the finger gets matches the
+				   shape the eye gets. */
+				clip-path: inset(0 8% 0 0);
 			}
 
 			.tagline {
@@ -361,8 +381,12 @@
 					background-size: auto 78%;
 				}
 				.strings {
-					-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 80%, transparent);
-					mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 80%, transparent);
+					/* the fade finishes early on a phone so the strip it leaves behind
+					   is a dependable place to scroll the hero past, rather than a
+					   band of invisible canvas that eats the gesture */
+					-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 58%, transparent 86%);
+					mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 58%, transparent 86%);
+					clip-path: inset(0 14% 0 0);
 				}
 			}
 
@@ -434,13 +458,6 @@
 				transition: opacity 250ms var(--ease);
 			}
 			.card > * { position: relative; }
-			.card:hover {
-				border-color: var(--accent-line);
-				background: var(--surface-hover);
-				transform: translateY(-3px);
-				box-shadow: 0 10px 26px -22px rgba(0, 0, 0, 0.9);
-			}
-			.card:hover::before { opacity: 1; }
 			.card .icon {
 				width: 48px; height: 48px;
 				border-radius: 12px;
@@ -449,7 +466,6 @@
 				border: 1px solid var(--accent-line);
 				transition: transform 250ms var(--ease), box-shadow 250ms var(--ease);
 			}
-			.card:hover .icon { transform: rotate(-6deg) scale(1.06); border-color: var(--accent); }
 			.card .icon img { width: 26px; height: 26px; }
 			.card h3 { font-size: var(--fs-lead); }
 			.card .kind { display: block; color: var(--accent); opacity: 0.85; margin-top: 0.1rem; text-transform: none; letter-spacing: 0.02em; }
@@ -463,7 +479,24 @@
 				color: var(--ink-3);
 				transition: color 200ms var(--ease), transform 300ms var(--ease);
 			}
-			.card:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
+			@media (hover: hover) and (pointer: fine) {
+				.card:hover {
+					border-color: var(--accent-line);
+					background: var(--surface-hover);
+					transform: translateY(-3px);
+					box-shadow: 0 10px 26px -22px rgba(0, 0, 0, 0.9);
+				}
+				.card:hover::before { opacity: 1; }
+				.card:hover .icon { transform: rotate(-6deg) scale(1.06); border-color: var(--accent); }
+				.card:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
+			}
+			/* A finger has no hover to fall back on, and a tap that opens a new tab
+			   would otherwise leave the card looking picked for as long as the page
+			   stays in the back stack. The press itself is the whole feedback. */
+			@media (hover: none) {
+				.card:active { border-color: var(--accent-line); background: var(--surface-hover); }
+				.card:active::before { opacity: 1; }
+			}
 			@media (max-width: 48rem) {
 				.card { grid-template-columns: auto minmax(0, 1fr) auto; gap: 0.4rem 1rem; }
 				/* without explicit places the arrow is auto-placed after the
@@ -497,14 +530,21 @@
 				transform: scaleY(0);
 				transition: transform 250ms var(--ease);
 			}
-			.row:hover { background: var(--surface); padding-left: 1.4rem; }
-			.row:hover::before { transform: scaleY(1); }
 			.row img { width: 22px; height: 22px; opacity: 0.65; transition: opacity 200ms var(--ease), filter 200ms var(--ease); }
-			.row:hover img { opacity: 1; filter: drop-shadow(0 0 8px var(--accent-glow)); }
 			.row .title { font-weight: 500; }
 			.row .meta { color: var(--ink-3); display: block; margin-top: 0.05rem; text-transform: none; letter-spacing: 0.02em; }
-			.row:hover .meta { color: var(--accent); }
-			.row:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
+			@media (hover: hover) and (pointer: fine) {
+				.row:hover { background: var(--surface); padding-left: 1.4rem; }
+				.row:hover::before { transform: scaleY(1); }
+				.row:hover img { opacity: 1; filter: drop-shadow(0 0 8px var(--accent-glow)); }
+				.row:hover .meta { color: var(--accent); }
+				.row:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
+			}
+			@media (hover: none) {
+				.row:active { background: var(--surface); }
+				.row:active::before { transform: scaleY(1); }
+				.row:active img { opacity: 1; }
+			}
 
 			/* ---------- sunday songs player ---------- */
 			.player {
@@ -517,7 +557,7 @@
 				margin-bottom: 1rem;
 				transition: border-color 250ms var(--ease), box-shadow 250ms var(--ease);
 			}
-			.player:hover, .player:focus-within { border-color: var(--accent-line); box-shadow: 0 18px 50px -26px var(--accent); }
+			.player:focus-within { border-color: var(--accent-line); box-shadow: 0 18px 50px -26px var(--accent); }
 			.player-main { min-width: 0; }
 			.stage {
 				position: relative;
@@ -555,7 +595,11 @@
 				transition: transform 200ms var(--ease), background 200ms var(--ease), box-shadow 200ms var(--ease);
 			}
 			.stage .play .disc svg { width: 22px; height: 22px; margin-left: 3px; }
-			.stage .play:hover .disc { transform: scale(1.1); background: var(--accent-hover); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), 0 0 0 14px var(--accent-glow); }
+			.stage .play:active .disc { transform: scale(0.94); }
+			@media (hover: hover) and (pointer: fine) {
+				.player:hover { border-color: var(--accent-line); box-shadow: 0 18px 50px -26px var(--accent); }
+				.stage .play:hover .disc { transform: scale(1.1); background: var(--accent-hover); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), 0 0 0 14px var(--accent-glow); }
+			}
 			.stage .badge {
 				position: absolute;
 				left: 0.85rem; top: 0.85rem;
@@ -591,8 +635,11 @@
 				line-height: 1;
 				transition: border-color 150ms var(--ease), color 150ms var(--ease), background 150ms var(--ease), transform 150ms var(--ease);
 			}
-			.ctl:hover { border-color: var(--accent); color: var(--ink); background: var(--accent-soft); transform: translateY(-1px); }
-			.ctl:active { transform: translateY(0); }
+			.ctl:active { border-color: var(--accent); color: var(--ink); background: var(--accent-soft); transform: translateY(0); }
+			@media (hover: hover) and (pointer: fine) {
+				.ctl:hover { border-color: var(--accent); color: var(--ink); background: var(--accent-soft); transform: translateY(-1px); }
+				.ctl:active { transform: translateY(0); }
+			}
 			.ctl svg { width: 14px; height: 14px; }
 			/* the list is pinned to the height of the video column and scrolls inside it */
 			.list-wrap { position: relative; border-left: 1px solid var(--line); min-height: 18rem; }
@@ -622,7 +669,6 @@
 				color: var(--ink-2);
 				transition: background 150ms var(--ease), color 150ms var(--ease);
 			}
-			.item:hover { background: var(--surface-hover); color: var(--ink); }
 			.item.active { background: var(--accent-soft); color: var(--ink); box-shadow: inset 2px 0 0 var(--accent); }
 			.item img {
 				width: 88px;
@@ -635,7 +681,11 @@
 				filter: saturate(70%);
 				transition: opacity 150ms var(--ease), filter 150ms var(--ease);
 			}
-			.item:hover img, .item.active img { opacity: 1; filter: saturate(115%); }
+			.item.active img { opacity: 1; filter: saturate(115%); }
+			@media (hover: hover) and (pointer: fine) {
+				.item:hover { background: var(--surface-hover); color: var(--ink); }
+				.item:hover img { opacity: 1; filter: saturate(115%); }
+			}
 			.item .week { display: block; color: var(--ink-3); line-height: 1.3; }
 			.item.active .week { color: var(--accent); }
 			.item .song {
@@ -674,11 +724,22 @@
 				background: linear-gradient(90deg, var(--ink), rgba(243, 240, 249, 0.3) 30%, var(--line) 60%, var(--line));
 			}
 			footer a { transition: color 150ms var(--ease); }
-			footer a:hover { color: var(--accent); }
+			@media (hover: hover) and (pointer: fine) {
+				footer a:hover { color: var(--accent); }
+			}
 
 			/* ---------- reveal ---------- */
 			.reveal { opacity: 0; transform: translateY(14px); transition: opacity 700ms var(--ease), transform 700ms var(--ease); }
 			.reveal.in { opacity: 1; transform: none; }
+
+			/* ---------- touch ----------
+			   Thumbs are blunter than a cursor: give the small pill controls a
+			   real target and let the link rows breathe. */
+			@media (pointer: coarse) {
+				.sound, .ctl { min-height: 2.75rem; padding-inline: 1rem; }
+				.row { padding-block: 1rem; }
+				.item { padding: 0.5rem; }
+			}
 
 			@media (prefers-reduced-motion: reduce) {
 				html { scroll-behavior: auto; }
@@ -1018,7 +1079,9 @@
 				}
 
 				// Audio: Karplus–Strong plucked-string synthesis, generated on demand.
-				var audio = null, master = null, buffers = [], soundOn = false;
+				// soundChosen flips the moment the toggle is used: after that the
+				// setting belongs to the visitor and nothing else may change it.
+				var audio = null, master = null, buffers = [], soundOn = false, soundChosen = false;
 				function ensureAudio() {
 					if (audio) return audio.resume();
 					var AC = window.AudioContext || window.webkitAudioContext;
@@ -1073,8 +1136,10 @@
 					soundButton.textContent = on ? "sound on" : "sound off";
 				}
 				soundButton.addEventListener("click", function () {
+					soundChosen = true;
 					if (soundOn) { setSound(false); return; }
-					ensureAudio().then(function () { setSound(true); play(5, 0.6); pluck(5, 0.6); }, function () {});
+					// pluck plays the note itself, so it is the only call needed here
+					ensureAudio().then(function () { setSound(true); pluck(5, 0.6); }, function () {});
 				});
 
 				function pluck(index, velocity) {
@@ -1123,7 +1188,10 @@
 					lastY = y;
 					lastTime = performance.now();
 					if (canvas.setPointerCapture) { try { canvas.setPointerCapture(e.pointerId); } catch (err) {} }
-					if (!soundOn) {
+					// A strum is the gesture that lets the audio context start, so the
+					// first one is also what switches the sound on. Once the toggle has
+					// been used that is the visitor's call, and off stays off.
+					if (!soundOn && !soundChosen) {
 						ensureAudio().then(function () { setSound(true); if (index >= 0) play(index, 0.8); }, function () {});
 					}
 					if (index >= 0) pluck(index, 0.8);
@@ -1131,12 +1199,30 @@
 				function release() { down = false; lastY = null; }
 				canvas.addEventListener("pointerup", release);
 				canvas.addEventListener("pointercancel", release);
+				canvas.addEventListener("blur", release);
 				canvas.addEventListener("keydown", function (e) {
 					var n = parseInt(e.key, 10);
 					if (n >= 1 && n <= COUNT) { e.preventDefault(); pluck(n - 1, 0.7); }
 				});
 
 				if (!reducedMotion) setTimeout(function () { strings[2].amp = 6; start(); }, 900);
+
+				/* =====================================================
+				   Selected state on touch
+				   A tap focuses what it lands on, and with no pointer leaving to
+				   end it that focus is the only thing still saying "selected" —
+				   so the strings and the player stay lit long after the finger has
+				   gone. Hand focus back to the page as soon as the next touch
+				   lands somewhere else. Capture phase, so it runs before whatever
+				   was tapped takes focus of its own.
+				   ===================================================== */
+				document.addEventListener("pointerdown", function (e) {
+					if (e.pointerType === "mouse") return;
+					var active = document.activeElement;
+					if (!active || active === document.body || active === document.documentElement) return;
+					if (active === e.target || active.contains(e.target)) return;
+					if (typeof active.blur === "function") active.blur();
+				}, true);
 
 				/* =====================================================
 				   Sunday Songs player
