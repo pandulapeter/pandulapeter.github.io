@@ -20,7 +20,6 @@
 		<title>Péter Pandula</title>
 
 		<style>
-			/* ---------- tokens ---------- */
 			:root {
 				--bg: #07060e;
 				--bg-2: #0e0b1a;
@@ -32,21 +31,13 @@
 				--surface: rgba(214, 209, 240, 0.045);
 				--surface-hover: rgba(214, 209, 240, 0.09);
 
-				/* The whole palette comes off one number. The five sections sit at
-				   equal 72° spacing around the hue wheel, and every strum adds 72°
-				   to this base, so they all shift by the same amount and keep their
-				   spacing. L and C are held inside the sRGB gamut at every hue, so
-				   the strings on the canvas match the CSS colours exactly. */
 				--hue: 195;
 				--lum: 0.75;
 				--chroma: 0.125;
-				/* how far round the wheel this element sits; the scroll spy copies
-				   the active section's step onto :root for the page chrome */
 				--accent-step: 0;
 
 				--sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
-				/* a five-step type scale, used everywhere */
 				--fs-label: 0.9rem;
 				--fs-body: 1.05rem;
 				--fs-lead: 1.2rem;
@@ -61,11 +52,6 @@
 				--ease: cubic-bezier(0.2, 0.7, 0.2, 1);
 			}
 
-			/* A custom property that references another one is resolved on the
-			   element that declares it, and the result is what inherits. So these
-			   have to be re-declared on every element that overrides --accent,
-			   otherwise they would keep resolving against the root's accent and
-			   follow the page rather than the section they sit in. */
 			:root, .hero, .section {
 				--accent: oklch(var(--lum) var(--chroma) calc(var(--hue) + var(--accent-step)));
 				--accent-hover: color-mix(in srgb, var(--accent) 70%, white);
@@ -74,9 +60,12 @@
 				--accent-glow: color-mix(in srgb, var(--accent) 26%, transparent);
 			}
 
-			/* ---------- base ---------- */
 			* { box-sizing: border-box; }
-			html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+			html {
+				scroll-behavior: smooth;
+				-webkit-text-size-adjust: 100%;
+				-webkit-tap-highlight-color: transparent;
+			}
 			body {
 				margin: 0;
 				background: var(--bg);
@@ -111,14 +100,10 @@
 				margin-inline: auto;
 			}
 
-			/* ---------- the glow behind each section ----------
-			   Each section owns its glow rather than sharing one page-wide layer,
-			   so the colour behind a card always belongs to that card's section,
-			   whatever is scrolled into view. The vertical mask fades each glow
-			   out before it reaches its own edges, so nothing bleeds across. */
 			.glow {
 				position: absolute;
 				inset: 0;
+				isolation: isolate;
 				z-index: -2;
 				pointer-events: none;
 				overflow: hidden;
@@ -130,11 +115,6 @@
 				-webkit-mask-size: 100% 100%;
 				mask-size: 100% 100%;
 			}
-			/* Deliberately no blur() here. A blurred layer this large is rasterised in
-			   tiles, and on Android Chrome the tile that meets this container's
-			   overflow clip comes back with a straight cut edge instead of a soft
-			   one. A radial gradient with a hand-rolled falloff is already soft, is
-			   far cheaper to composite on a phone, and cannot be cut. */
 			.glow span {
 				position: absolute;
 				display: block;
@@ -153,7 +133,6 @@
 			.glow span:nth-child(1) { left: -16%;  top: -22%;    animation: drift-a 26s var(--ease) infinite alternate; }
 			.glow span:nth-child(2) { right: -20%; bottom: -26%; opacity: 0.95; animation: drift-c 34s var(--ease) infinite alternate; }
 			.glow span:nth-child(3) { left: 32%;   top: -8%;     opacity: 0.75; animation: drift-b 42s var(--ease) infinite alternate-reverse; }
-			/* offset the drift per section so they do not move in lockstep */
 			#code .glow span    { animation-delay: -7s; }
 			#apps .glow span    { animation-delay: -14s; }
 			#music .glow span   { animation-delay: -21s; }
@@ -166,17 +145,17 @@
 			@keyframes drift-c { from { transform: translate3d(0, 0, 0) scale(0.95); }     to { transform: translate3d(22vw, -14vh, 0) scale(1.2); } }
 			@keyframes drift-d { from { transform: translate3d(0, 0, 0) scale(1.1); }      to { transform: translate3d(-14vw, -20vh, 0) scale(0.85); } }
 
-			/* a veil keeps the text readable no matter where the blobs wander */
 			.veil {
 				position: fixed;
-				inset: 0;
+				inset: 0 0 auto 0;
+				height: 100vh;
+				height: calc(100lvh + 96px);
 				z-index: -1;
 				pointer-events: none;
 				background:
 					radial-gradient(120% 80% at 70% 0%, transparent, rgba(7, 6, 14, 0.25) 70%),
 					linear-gradient(to bottom, rgba(7, 6, 14, 0.24), rgba(7, 6, 14, 0.46));
 			}
-			/* ---------- scroll progress ---------- */
 			.progress {
 				position: fixed;
 				inset: 0 0 auto 0;
@@ -195,15 +174,14 @@
 				transition: background 400ms var(--ease);
 			}
 
-			/* ---------- top bar ---------- */
 			.top {
 				position: fixed;
 				inset: 0 0 auto 0;
 				z-index: 10;
 				display: flex;
 				align-items: center;
-				justify-content: space-between;
-				gap: 1rem;
+				justify-content: flex-end;
+				gap: 1.5rem;
 				height: var(--top-h);
 				padding: env(safe-area-inset-top) var(--gutter) 0;
 				color: var(--ink-2);
@@ -212,13 +190,6 @@
 				-webkit-backdrop-filter: blur(14px) saturate(140%);
 				backdrop-filter: blur(14px) saturate(140%);
 				transition: color 400ms var(--ease);
-			}
-			.brand { color: var(--ink); display: inline-flex; align-items: center; gap: 0.6rem; }
-			.brand .dot {
-				width: 8px; height: 8px; border-radius: 50%;
-				background: var(--accent);
-				box-shadow: 0 0 14px var(--accent);
-				transition: background 400ms var(--ease), box-shadow 400ms var(--ease);
 			}
 			.top nav { display: flex; gap: 1.4rem; }
 			.top nav a { position: relative; transition: color 150ms var(--ease); }
@@ -262,11 +233,36 @@
 				.top nav a:hover::after { transform: scaleX(1); }
 				.sound:hover { color: var(--ink); border-color: var(--accent-line); }
 			}
+			.top.tight nav { display: none; }
 			@media (max-width: 40rem) {
 				.top nav { display: none; }
 			}
 
-			/* ---------- hero ---------- */
+			.brand {
+				position: fixed;
+				z-index: 12;
+				inset: 0 auto auto 0;
+				height: var(--top-h);
+				display: inline-flex;
+				align-items: center;
+				padding: env(safe-area-inset-top) 0.85rem 0 var(--gutter);
+				color: var(--ink);
+				opacity: 0;
+				visibility: hidden;
+			}
+			.brand::before {
+				content: "";
+				flex: none;
+				width: 7px; height: 7px;
+				margin-right: 0.6rem;
+				border-radius: 50%;
+				background: var(--accent);
+				box-shadow: 0 0 10px var(--accent-glow);
+			}
+			@media (hover: hover) and (pointer: fine) {
+				.brand:hover { color: var(--accent); }
+			}
+
 			.hero {
 				--accent-step: 0;
 				position: relative;
@@ -277,8 +273,6 @@
 				padding-bottom: 2.5rem;
 				overflow: hidden;
 			}
-			/* the photo and the dark panel behind it share one mask, so the
-			   darkening sits exactly under the photo and fades out with it */
 			.photo, .hero::before {
 				position: absolute;
 				inset: var(--top-h) 0 0 0;
@@ -292,17 +286,27 @@
 					linear-gradient(to top, transparent 0%, #000 45%);
 				mask-composite: intersect;
 			}
-			/* this panel holds the glow back so the photo keeps its contrast */
 			.hero::before {
 				content: "";
 				background: rgba(3, 2, 9, 0.88);
+			}
+			.hero::after {
+				content: "";
+				position: absolute;
+				inset: 0 0 auto 0;
+				height: calc(var(--top-h) + env(safe-area-inset-top) + 5rem);
+				z-index: -1;
+				pointer-events: none;
+				background: linear-gradient(
+					to bottom,
+					var(--bg) calc(var(--top-h) + env(safe-area-inset-top)),
+					transparent 100%);
 			}
 			.photo {
 				background-image: url("resources/bg_corner.webp");
 				background-repeat: no-repeat;
 				background-position: right top;
 				background-size: auto 100%;
-				/* greyscale on black, so screening drops the black out entirely */
 				mix-blend-mode: screen;
 				filter: contrast(1.14) brightness(1.06);
 				animation: fade-in 1.2s var(--ease) both;
@@ -310,8 +314,6 @@
 			@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 
 			.hero-inner { position: relative; }
-			/* the hero sits at the base hue, which is exactly the strings' colour,
-			   so the heading only changes when the strings are actually strummed */
 			.eyebrow {
 				margin-bottom: 0.6rem;
 				color: var(--accent);
@@ -328,33 +330,35 @@
 				color: var(--accent);
 			}
 
-			/* the strings run full-bleed, past the content column, under the photo */
 			.strings-wrap {
 				position: relative;
 				margin: 1rem 0 0.5rem;
 				margin-left: calc(50% - 50vw);
 				width: 100vw;
+				height: clamp(96px, 13vh, 130px);
 			}
 			.strings {
+				position: relative;
+				z-index: 11;
 				display: block;
-				width: 100%;
+				width: 100vw;
 				height: clamp(96px, 13vh, 130px);
+				opacity: 0;
 				cursor: pointer;
-				/* a strum is a vertical drag, which is exactly the gesture the
-				   browser wants to scroll with, so the canvas has to claim it.
-				   It is one ~110px band in the hero; the page scrolls either
-				   side of it. */
 				touch-action: none;
-				-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 62%, transparent 92%);
-				mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 62%, transparent 92%);
-				/* A mask hides pixels but keeps hit-testing on the whole box, so the
-				   faded-out tail still swallowed touches — and with it the page
-				   scroll — where there is nothing left to strum. clip-path is the one
-				   that does clip the hit region, so it is cut exactly where the mask
-				   has already reached zero and the shape the finger gets matches the
-				   shape the eye gets. */
-				clip-path: inset(0 8% 0 0);
+				-webkit-user-select: none;
+				user-select: none;
+				-webkit-touch-callout: none;
+				--hero-b: 62;
+				--hero-c: 92;
+				--hero-clip: 8;
 			}
+			.strings.docked {
+				position: fixed;
+				top: var(--dock-top, 0px);
+				left: 0;
+			}
+			.strings.ready { opacity: 1; }
 
 			.tagline {
 				max-width: 34rem;
@@ -381,21 +385,17 @@
 					background-size: auto 78%;
 				}
 				.strings {
-					/* the fade finishes early on a phone so the strip it leaves behind
-					   is a dependable place to scroll the hero past, rather than a
-					   band of invisible canvas that eats the gesture */
-					-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 58%, transparent 86%);
-					mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 58%, transparent 86%);
-					clip-path: inset(0 14% 0 0);
+					--hero-b: 58;
+					--hero-c: 86;
+					--hero-clip: 14;
 				}
 			}
 
-			/* ---------- sections ---------- */
 			.section {
 				position: relative;
 				padding-block: 2.75rem;
+				scroll-margin-top: calc(var(--top-h) + env(safe-area-inset-top));
 			}
-			/* the divider picks up the colour of the section it opens */
 			.section::before {
 				content: "";
 				position: absolute;
@@ -431,10 +431,9 @@
 				background: var(--accent);
 				box-shadow: 0 0 12px var(--accent-glow);
 			}
-			.section-head h2 { margin-bottom: 0.6rem; }
+			.section-head h2 { margin-bottom: 0.4rem; }
 			.section-head p { color: var(--ink-2); max-width: 26rem; text-wrap: pretty; }
 
-			/* ---------- app cards ---------- */
 			.cards { display: flex; flex-direction: column; gap: 0.75rem; }
 			.card {
 				position: relative;
@@ -447,17 +446,43 @@
 				border-radius: var(--radius);
 				background: var(--surface);
 				overflow: hidden;
+				isolation: isolate;
 				transition: border-color 200ms var(--ease), background 200ms var(--ease), transform 250ms var(--ease), box-shadow 250ms var(--ease);
 			}
 			.card::before {
 				content: "";
 				position: absolute;
 				inset: 0;
+				z-index: 1;
 				background: linear-gradient(100deg, var(--accent-soft), transparent 55%);
 				opacity: 0;
 				transition: opacity 250ms var(--ease);
 			}
-			.card > * { position: relative; }
+			.card > * { position: relative; z-index: 2; }
+			.card .art {
+				position: absolute;
+				inset: -24px 0 -24px auto;
+				width: clamp(8rem, 36%, 20rem);
+				z-index: 0;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center;
+				opacity: 0.55;
+				filter: saturate(0.8);
+				-webkit-mask-image: linear-gradient(to left, #000 8%, transparent 94%);
+				mask-image: linear-gradient(to left, #000 8%, transparent 94%);
+				transition: opacity 250ms var(--ease);
+			}
+			.card.art-kubriko .art { background-image: url("resources/bg_kubriko.webp"); }
+			.card.art-tesselar .art {
+				background-image: url("resources/bg_tesselar.webp");
+				background-size: 124% auto;
+				background-position: left center;
+			}
+			.card.art-campfire .art {
+				background-image: url("resources/bg_campfire.webp");
+				filter: saturate(0.8) blur(3px);
+			}
 			.card .icon {
 				width: 48px; height: 48px;
 				border-radius: 12px;
@@ -489,24 +514,20 @@
 				.card:hover::before { opacity: 1; }
 				.card:hover .icon { transform: rotate(-6deg) scale(1.06); border-color: var(--accent); }
 				.card:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
+				.card:hover .art { opacity: 0.72; }
 			}
-			/* A finger has no hover to fall back on, and a tap that opens a new tab
-			   would otherwise leave the card looking picked for as long as the page
-			   stays in the back stack. The press itself is the whole feedback. */
 			@media (hover: none) {
 				.card:active { border-color: var(--accent-line); background: var(--surface-hover); }
 				.card:active::before { opacity: 1; }
+				.card:active .art { opacity: 0.72; }
 			}
 			@media (max-width: 48rem) {
 				.card { grid-template-columns: auto minmax(0, 1fr) auto; gap: 0.4rem 1rem; }
-				/* without explicit places the arrow is auto-placed after the
-				   paragraph and lands on a third row, which is what made these
-				   cards so tall. Keep it on the name's row. */
 				.card .arrow { grid-row: 1; grid-column: 3; }
 				.card p { grid-row: 2; grid-column: 2 / 4; }
+				.card.art-tesselar .art { background-size: cover; background-position: 72% center; }
 			}
 
-			/* ---------- link rows ---------- */
 			.rows { display: flex; flex-direction: column; }
 			.row {
 				position: relative;
@@ -518,7 +539,6 @@
 				border-radius: 8px;
 				transition: background 200ms var(--ease), padding 300ms var(--ease);
 			}
-			/* dividers only between rows, never against a section edge, card or footer */
 			.row + .row { border-top: 1px solid var(--line); }
 			.row::before {
 				content: "";
@@ -546,7 +566,6 @@
 				.row:active img { opacity: 1; }
 			}
 
-			/* ---------- sunday songs player ---------- */
 			.player {
 				display: grid;
 				grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
@@ -565,6 +584,10 @@
 				background: var(--bg-2);
 				overflow: hidden;
 			}
+			.stage-art {
+				position: absolute;
+				inset: -7% 0;
+			}
 			.stage img {
 				position: absolute;
 				inset: 0;
@@ -573,6 +596,8 @@
 				border: 0;
 			}
 			.stage img { object-fit: cover; transition: opacity 300ms var(--ease); }
+			.stage .frame { opacity: 0; }
+			.stage .frame.on { opacity: 1; }
 			.stage .play {
 				position: absolute;
 				inset: 0;
@@ -641,7 +666,6 @@
 				.ctl:active { transform: translateY(0); }
 			}
 			.ctl svg { width: 14px; height: 14px; }
-			/* the list is pinned to the height of the video column and scrolls inside it */
 			.list-wrap { position: relative; border-left: 1px solid var(--line); min-height: 18rem; }
 			.list {
 				position: absolute;
@@ -701,7 +725,6 @@
 				.list-wrap { border-left: 0; border-top: 1px solid var(--line); min-height: 0; height: 17rem; }
 			}
 
-			/* ---------- footer ---------- */
 			footer {
 				position: relative;
 				padding: 1.5rem 0 max(1.5rem, env(safe-area-inset-bottom));
@@ -713,12 +736,10 @@
 				text-transform: none;
 				letter-spacing: 0.02em;
 			}
-			/* the same divider the sections use, in white rather than a hue */
 			footer::before {
 				content: "";
 				position: absolute;
 				inset: 0 0 auto 0;
-				/* break out of the wrap so the rule reaches both edges */
 				margin-inline: calc(50% - 50vw);
 				height: 1px;
 				background: linear-gradient(90deg, var(--ink), rgba(243, 240, 249, 0.3) 30%, var(--line) 60%, var(--line));
@@ -728,24 +749,27 @@
 				footer a:hover { color: var(--accent); }
 			}
 
-			/* ---------- reveal ---------- */
 			.reveal { opacity: 0; transform: translateY(14px); transition: opacity 700ms var(--ease), transform 700ms var(--ease); }
 			.reveal.in { opacity: 1; transform: none; }
 
-			/* ---------- touch ----------
-			   Thumbs are blunter than a cursor: give the small pill controls a
-			   real target and let the link rows breathe. */
 			@media (pointer: coarse) {
 				.sound, .ctl { min-height: 2.75rem; padding-inline: 1rem; }
 				.row { padding-block: 1rem; }
 				.item { padding: 0.5rem; }
+			}
+			@media (hover: none) {
+				.item:active { background: var(--surface-hover); color: var(--ink); }
+				.item:active img { opacity: 1; filter: saturate(115%); }
+				.top nav a:active, .brand:active, footer a:active { color: var(--accent); }
 			}
 
 			@media (prefers-reduced-motion: reduce) {
 				html { scroll-behavior: auto; }
 				.photo { animation: none; }
 				.reveal { opacity: 1; transform: none; transition: none; }
-				.card, .row, .item, .card .arrow, .row .arrow, .stage .play .disc { transition: none; }
+				.card, .row, .item, .card .arrow, .card .art, .row .arrow, .stage .play .disc { transition: none; }
+				.stage .frame { transition: none; }
+				.photo, .card .art, .stage-art { transform: none !important; }
 				.glow span { animation: none; }
 			}
 		</style>
@@ -757,13 +781,13 @@
 		<div class="veil" aria-hidden="true"></div>
 		<div class="progress" aria-hidden="true"><i id="progress-bar"></i></div>
 
+		<a class="brand label" href="#top">pandulapeter</a>
 		<header class="top label">
-			<a class="brand" href="#top"><span class="dot" aria-hidden="true"></span>pandulapeter</a>
 			<nav aria-label="Sections">
 				<a href="#code">code</a>
 				<a href="#apps">apps</a>
 				<a href="#music">music</a>
-				<a href="#contact">contact</a>
+				<a href="#contact">connect</a>
 			</nav>
 			<button class="sound" id="sound" type="button" aria-pressed="false" title="Toggle sound for the strings">sound off</button>
 		</header>
@@ -790,9 +814,9 @@
 			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
 					<div class="section-head reveal">
-						<span class="num label">01 — code</span>
-						<h2>Mostly Kotlin, mostly open source</h2>
-						<p>Libraries, apps and the occasional article about how they were made.</p>
+						<span class="num label">01</span>
+						<h2>code</h2>
+						<p>Mostly Kotlin and mostly open source: libraries, apps, and the occasional article about how they were made.</p>
 					</div>
 					<div class="rows reveal">
 						<a class="row" href="https://github.com/pandulapeter" target="_blank" rel="noopener">
@@ -818,24 +842,27 @@
 			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
 					<div class="section-head reveal">
-						<span class="num label">02 — apps</span>
-						<h2>Runs in your browser</h2>
-						<p>Web builds of my Compose Multiplatform projects. No install, no sign‑up, just open the link.</p>
+						<span class="num label">02</span>
+						<h2>apps</h2>
+						<p>Web builds of my Compose Multiplatform projects, running in your browser with no install and no sign‑up.</p>
 					</div>
 					<div class="cards reveal">
-						<a class="card" href="https://pandulapeter.github.io/kubriko" target="_blank" rel="noopener">
+						<a class="card art-kubriko" href="https://pandulapeter.github.io/kubriko" target="_blank" rel="noopener">
+							<span class="art" aria-hidden="true"></span>
 							<span class="icon"><img src="resources/ic_kubriko.png" alt=""></span>
 							<span><h3>Kubriko</h3><span class="kind label">Engine showcase</span></span>
 							<p>My 2D game engine shown off through demos, games and tech samples.</p>
 							<span class="arrow">↗</span>
 						</a>
-						<a class="card" href="https://pandulapeter.github.io/tesselar" target="_blank" rel="noopener">
+						<a class="card art-tesselar" href="https://pandulapeter.github.io/tesselar" target="_blank" rel="noopener">
+							<span class="art" aria-hidden="true"></span>
 							<span class="icon"><img src="resources/ic_tesselar.png" alt=""></span>
 							<span><h3>Tesselar</h3><span class="kind label">3D experiment</span></span>
 							<p>A real-time 3D world built on Kubriko, with weather, clouds, fog and a day–night cycle.</p>
 							<span class="arrow">↗</span>
 						</a>
-						<a class="card" href="https://pandulapeter.github.io/campfire" target="_blank" rel="noopener">
+						<a class="card art-campfire" href="https://pandulapeter.github.io/campfire" target="_blank" rel="noopener">
+							<span class="art" aria-hidden="true"></span>
 							<span class="icon"><img src="resources/ic_campfire.png" alt=""></span>
 							<span><h3>Campfire</h3><span class="kind label">Lyrics and chords</span></span>
 							<p>A handpicked song library with transposition and support for custom setlist creation.</p>
@@ -849,15 +876,18 @@
 			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
 					<div class="section-head reveal">
-						<span class="num label">03 — music</span>
-						<h2>Sunday Songs</h2>
-						<p>In 2023 I challenged myself to learn and record a new cover song every week: 53 weeks, 53 songs, from the artists and genres I love.</p>
+						<span class="num label">03</span>
+						<h2>music</h2>
+						<p>Sunday Songs is the centrepiece — 53 covers, one a week, all through 2023 — and the channels below hold everything I have played since.</p>
 					</div>
 					<div class="reveal">
 						<div class="player" id="player" tabindex="0" aria-label="Sunday Songs player. Use the left and right arrow keys to change the week.">
 							<div class="player-main">
 							<div class="stage">
-								<img id="ss-img" src="sunday-songs/053.webp" alt="" width="960" height="540">
+								<div class="stage-art" id="ss-art">
+									<img class="frame on" id="ss-img" src="sunday-songs/053.webp" alt="" width="960" height="540">
+									<img class="frame" id="ss-img-b" alt="" width="960" height="540">
+								</div>
 								<button class="play" id="ss-play" type="button" aria-label="Watch this week's video on YouTube" title="Watch on YouTube">
 									<span class="disc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
 								</button>
@@ -870,7 +900,6 @@
 								</div>
 								<div class="controls">
 									<button class="ctl" id="ss-random" type="button" title="Random week"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 4h6v6l-2.3-2.3L14.4 11 13 9.6l3.3-3.3zM4 6h4.2l9.5 9.5L20 13.2V20h-6l2.3-2.3L7.2 8H4zm0 12h3.2l3-3 1.4 1.4-3.6 3.6H4z"/></svg>random</button>
-									<a class="ctl" id="ss-yt" href="https://www.youtube.com/watch?v=l0bgRgo_W7I" target="_blank" rel="noopener" title="Open on YouTube">youtube ↗</a>
 								</div>
 							</div>
 							</div>
@@ -896,9 +925,9 @@
 			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
 					<div class="section-head reveal">
-						<span class="num label">04 — contact</span>
-						<h2>Say hi</h2>
-						<p>Work, music, or a bug you found in one of my apps: the inbox is open.</p>
+						<span class="num label">04</span>
+						<h2>connect</h2>
+						<p>A résumé if you are hiring, an inbox for work, music or bug reports, and a tip jar if any of it was useful.</p>
 					</div>
 					<div class="rows reveal">
 						<a class="row" href="https://drive.google.com/file/d/1PHQJlo3TILtbnTZXZohXTOUA3GmJJBv0/view?usp=sharing" target="_blank" rel="noopener">
@@ -934,18 +963,11 @@
 				var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 				var root = document.documentElement;
 
-				/* =====================================================
-				   Guitar strings
-				   ===================================================== */
 				var canvas = document.getElementById("strings");
 				var soundButton = document.getElementById("sound");
 				var ctx2d = canvas.getContext("2d");
 				var INK = [243, 240, 249];
 
-				// The strings are all one colour at a time, and that colour is the
-				// page's base hue: every strum turns the whole wheel a fifth of the
-				// way round, so each section shifts by the same 72°. The CSS reads
-				// --hue back off :root, so the strings and the palette cannot drift.
 				var STEP = 360 / 5;
 				var css = getComputedStyle(root);
 				var LUM = parseFloat(css.getPropertyValue("--lum")) || 0.75;
@@ -954,9 +976,8 @@
 				var hueTarget = hue;
 				var lastShift = -Infinity;
 				var lastHue = "";
+				var accentStep = 0, stepShown = 0, stepTarget = 0;
 
-				// oklch -> sRGB. L and C are chosen to stay in gamut at every hue, so
-				// this lands on the same colour the browser paints for that oklch().
 				function toneAt(h) {
 					var rad = h * Math.PI / 180;
 					var a = CHROMA * Math.cos(rad), b = CHROMA * Math.sin(rad);
@@ -978,16 +999,13 @@
 				}
 
 				function shiftHue() {
-					// a strum plucks six strings in a row: only advance once per gesture
 					var now = performance.now();
 					if (now - lastShift < 700) return;
 					lastShift = now;
 					hueTarget += STEP;
-					// nothing animates under reduced motion, so land on it at once
 					if (reducedMotion) { hue = hueTarget; draw(0); }
 				}
 
-				// Standard tuning, low E to high E.
 				var FREQS = [82.41, 110.0, 146.83, 196.0, 246.94, 329.63];
 				var COUNT = FREQS.length;
 				var strings = [];
@@ -996,6 +1014,8 @@
 				}
 
 				var width = 0, height = 0, dpr = 1;
+				var thickScale = 1, ampScale = 1;
+				var holdTo = 0, fadeA = 0, fadeB = 0, fadeC = 0;
 				function resize() {
 					dpr = Math.min(window.devicePixelRatio || 1, 2);
 					width = canvas.clientWidth;
@@ -1003,29 +1023,118 @@
 					canvas.width = Math.round(width * dpr);
 					canvas.height = Math.round(height * dpr);
 					ctx2d.setTransform(dpr, 0, 0, dpr, 0, 0);
-					var pad = height * 0.14;
+					var k = geo ? height / geo.heroH : 1;
+					thickScale = Math.max(0.4, Math.min(1, k));
+					ampScale = Math.max(0.2, Math.min(1, k));
+					var pad = height / (COUNT + 1);
 					var gap = (height - pad * 2) / (COUNT - 1);
 					for (var i = 0; i < COUNT; i++) strings[i].y = pad + gap * i;
 					draw(0);
 				}
-				window.addEventListener("resize", resize);
-				resize();
+				var stringsWrap = document.querySelector(".strings-wrap");
+				var heroInner = document.querySelector(".hero-inner");
+				var topBar = document.querySelector(".top");
+				var brandEl = document.querySelector(".brand");
+				var firstNavLink = document.querySelector(".top nav a");
+				var RUNWAY = 260;
+				var geo = null, lastW = -1, lastH = -1, lastP = -1;
+
+				function stopEdge() {
+					var navRect = firstNavLink.getBoundingClientRect();
+					return navRect.width > 0 ? navRect.left : soundButton.getBoundingClientRect().left;
+				}
+
+				function measure() {
+					var wrapRect = stringsWrap.getBoundingClientRect();
+					var cs = getComputedStyle(canvas);
+					var barStyle = getComputedStyle(topBar);
+					var barRect = topBar.getBoundingClientRect();
+					var barTop = barRect.top + (parseFloat(barStyle.paddingTop) || 0);
+					var barH = Math.max(24, barRect.bottom - barTop - (parseFloat(barStyle.borderBottomWidth) || 0));
+					var brandRect = brandEl.getBoundingClientRect();
+					var brandStyle = getComputedStyle(brandEl);
+					var nameW = brandRect.width
+						- (parseFloat(brandStyle.paddingLeft) || 0)
+						- (parseFloat(brandStyle.paddingRight) || 0);
+					topBar.classList.remove("tight");
+					var stop = stopEdge();
+					if (stop - 10 - brandRect.right < nameW) {
+						topBar.classList.add("tight");
+						stop = stopEdge();
+					}
+					geo = {
+						heroTop: wrapRect.top + window.scrollY,
+						heroW: stringsWrap.clientWidth,
+						heroH: stringsWrap.clientHeight,
+						heroPad: heroInner.getBoundingClientRect().left,
+						heroB: parseFloat(cs.getPropertyValue('--hero-b')) || 62,
+						heroC: parseFloat(cs.getPropertyValue('--hero-c')) || 92,
+						heroClip: parseFloat(cs.getPropertyValue('--hero-clip')) || 8,
+						brandEnd: brandRect.right,
+						dockW: Math.max(140, stop - 10),
+						dockH: barH,
+						dockTop: barTop
+					};
+					geo.end = Math.max(1, geo.heroTop - geo.dockTop);
+					geo.start = Math.max(0, geo.end - RUNWAY);
+					canvas.style.setProperty("--dock-top", geo.dockTop.toFixed(1) + "px");
+				}
+				function lerp(a, b, t) { return a + (b - a) * t; }
+				function setStep(v) {
+					if (Math.abs(v - stepTarget) < 0.01) return;
+					stepTarget = v;
+					if (reducedMotion) { stepShown = v; draw(0); } else start();
+				}
+				function layout() {
+					if (!geo) return;
+					var y = window.scrollY;
+					var t = (y - geo.start) / (geo.end - geo.start);
+					t = t < 0 ? 0 : t > 1 ? 1 : t;
+					var p = t * t * (3 - 2 * t);
+					var w = lerp(geo.heroW, geo.dockW, p);
+					var h = lerp(geo.heroH, geo.dockH, p);
+					var style = canvas.style;
+					canvas.classList.toggle("docked", t >= 1);
+					style.width = w.toFixed(1) + "px";
+					style.height = h.toFixed(1) + "px";
+					holdTo = lerp(0, geo.brandEnd, p);
+					fadeA = lerp(geo.heroPad, geo.brandEnd + 24, p);
+					fadeB = lerp(geo.heroB, 84, p) / 100 * w;
+					fadeC = lerp(geo.heroC, 100, p) / 100 * w;
+					var clipR = lerp(geo.heroClip, 0, p);
+					style.clipPath = clipR > 0.5 ? "inset(0 " + clipR.toFixed(1) + "% 0 0)" : "none";
+					var rw = Math.round(w), rh = Math.round(h);
+					if (rw !== lastW || rh !== lastH) { lastW = rw; lastH = rh; resize(); }
+					else if (p !== lastP) draw(0);
+					lastP = p;
+					setStep(p * accentStep);
+					var named = Math.max(0, (p - 0.7) / 0.3);
+					brandEl.style.opacity = String(named);
+					brandEl.style.visibility = named > 0 ? "visible" : "hidden";
+				}
+				function relayout() { lastW = lastH = -1; measure(); layout(); }
+				window.addEventListener("resize", relayout);
+				relayout();
+				requestAnimationFrame(function () { canvas.classList.add("ready"); });
 
 				var running = false, last = 0;
 				function mix(a, b, t) { return Math.round(a + (b - a) * t); }
 				function draw(dt) {
 					ctx2d.clearRect(0, 0, width, height);
 					var active = false;
-					// ease the base hue towards the one the last strum picked
 					if (Math.abs(hueTarget - hue) > 0.05) {
 						active = true;
 						hue += (hueTarget - hue) * Math.min(1, dt * 3);
 					} else if (hue !== hueTarget) {
-						// settled: fold both back into 0-360 so they cannot creep away
 						hue = hueTarget = ((hueTarget % 360) + 360) % 360;
 					}
-					var tone = toneAt(hue);
-					// the whole palette hangs off this, so the page turns with the strings
+					if (Math.abs(stepTarget - stepShown) > 0.05) {
+						active = true;
+						stepShown += (stepTarget - stepShown) * Math.min(1, dt * 3);
+					} else {
+						stepShown = stepTarget;
+					}
+					var tone = toneAt(hue + stepShown);
 					var hueCss = hue.toFixed(1);
 					if (hueCss !== lastHue) {
 						lastHue = hueCss;
@@ -1041,17 +1150,16 @@
 							s.amp = 0;
 						}
 						var glow = Math.min(1, s.amp / 6);
-						// the strings keep a hint of the colour at rest, and blaze when plucked
 						var tint = 0.45 + 0.55 * glow;
 						ctx2d.beginPath();
-						ctx2d.lineWidth = s.thickness;
+						ctx2d.lineWidth = s.thickness * thickScale;
 						ctx2d.lineCap = "round";
 						ctx2d.strokeStyle = "rgba(" + mix(INK[0], tone[0], tint) + "," + mix(INK[1], tone[1], tint) + "," + mix(INK[2], tone[2], tint) + "," + (0.34 + 0.66 * glow) + ")";
-						ctx2d.shadowBlur = 6 + glow * 18;
+						ctx2d.shadowBlur = (6 + glow * 18) * thickScale;
 						ctx2d.shadowColor = "rgba(" + tone.join(",") + "," + (0.35 + 0.65 * glow) + ")";
 						if (s.amp > 0) {
 							var steps = 48;
-							var sway = Math.sin(s.phase) * s.amp;
+							var sway = Math.sin(s.phase) * s.amp * ampScale;
 							for (var k = 0; k <= steps; k++) {
 								var x = (width * k) / steps;
 								var y = s.y + Math.sin((Math.PI * k) / steps) * sway;
@@ -1064,6 +1172,24 @@
 						ctx2d.stroke();
 					}
 					ctx2d.shadowBlur = 0;
+					if (width > 0) {
+						var held = Math.max(0, Math.min(1, holdTo / width));
+						var a = Math.max(held, Math.min(1, fadeA / width));
+						var b = Math.max(a, Math.min(1, fadeB / width));
+						var c = Math.max(b, Math.min(1, fadeC / width));
+						var gone = "rgba(0,0,0,0)";
+						var ramp = ctx2d.createLinearGradient(0, 0, width, 0);
+						ramp.addColorStop(0, gone);
+						if (held > 0) ramp.addColorStop(held, gone);
+						ramp.addColorStop(a, "rgba(0,0,0,1)");
+						ramp.addColorStop(b, "rgba(0,0,0,1)");
+						ramp.addColorStop(c, "rgba(0,0,0,0)");
+						if (c < 1) ramp.addColorStop(1, "rgba(0,0,0,0)");
+						ctx2d.globalCompositeOperation = "destination-in";
+						ctx2d.fillStyle = ramp;
+						ctx2d.fillRect(0, 0, width, height);
+						ctx2d.globalCompositeOperation = "source-over";
+					}
 					return active;
 				}
 				function frame(now) {
@@ -1078,9 +1204,6 @@
 					requestAnimationFrame(frame);
 				}
 
-				// Audio: Karplus–Strong plucked-string synthesis, generated on demand.
-				// soundChosen flips the moment the toggle is used: after that the
-				// setting belongs to the visitor and nothing else may change it.
 				var audio = null, master = null, buffers = [], soundOn = false, soundChosen = false;
 				function ensureAudio() {
 					if (audio) return audio.resume();
@@ -1088,7 +1211,7 @@
 					if (!AC) return Promise.reject();
 					audio = new AC();
 					master = audio.createGain();
-					master.gain.value = 0.55;
+					master.gain.value = 0.2;
 					master.connect(audio.destination);
 					return audio.resume();
 				}
@@ -1138,7 +1261,6 @@
 				soundButton.addEventListener("click", function () {
 					soundChosen = true;
 					if (soundOn) { setSound(false); return; }
-					// pluck plays the note itself, so it is the only call needed here
 					ensureAudio().then(function () { setSound(true); pluck(5, 0.6); }, function () {});
 				});
 
@@ -1161,7 +1283,6 @@
 
 				var lastY = null, lastTime = 0, down = false;
 				canvas.addEventListener("pointermove", function (e) {
-					// touch counts too: the canvas owns the vertical gesture now
 					if (e.pointerType === "touch" && !down) return;
 					var rect = canvas.getBoundingClientRect();
 					var y = e.clientY - rect.top;
@@ -1181,16 +1302,10 @@
 					var rect = canvas.getBoundingClientRect();
 					var y = e.clientY - rect.top;
 					var index = nearest(y);
-					// hold on to the finger so a strum that runs off the band
-					// still registers, and start the run from here rather than
-					// from wherever the pointer was last seen
 					down = true;
 					lastY = y;
 					lastTime = performance.now();
 					if (canvas.setPointerCapture) { try { canvas.setPointerCapture(e.pointerId); } catch (err) {} }
-					// A strum is the gesture that lets the audio context start, so the
-					// first one is also what switches the sound on. Once the toggle has
-					// been used that is the visitor's call, and off stays off.
 					if (!soundOn && !soundChosen) {
 						ensureAudio().then(function () { setSound(true); if (index >= 0) play(index, 0.8); }, function () {});
 					}
@@ -1207,15 +1322,6 @@
 
 				if (!reducedMotion) setTimeout(function () { strings[2].amp = 6; start(); }, 900);
 
-				/* =====================================================
-				   Selected state on touch
-				   A tap focuses what it lands on, and with no pointer leaving to
-				   end it that focus is the only thing still saying "selected" —
-				   so the strings and the player stay lit long after the finger has
-				   gone. Hand focus back to the page as soon as the next touch
-				   lands somewhere else. Capture phase, so it runs before whatever
-				   was tapped takes focus of its own.
-				   ===================================================== */
 				document.addEventListener("pointerdown", function (e) {
 					if (e.pointerType === "mouse") return;
 					var active = document.activeElement;
@@ -1224,10 +1330,6 @@
 					if (typeof active.blur === "function") active.blur();
 				}, true);
 
-				/* =====================================================
-				   Sunday Songs player
-				   [week, "Artist - Song", youtubeId, "Album (year)", driveFileId]
-				   ===================================================== */
 				var SONGS = [
 					[53, "John Petrucci - Glasgow Kiss", "l0bgRgo_W7I", "Suspended Animation (2005)", "1rYeSl-MstdJO54xAigpJ1uGlZfM6TmP5"],
 					[52, "Paul Gilbert - Individually Twisted", "qt8FC_GIAio", "Alligator Farm (2000)", "12iYHSq3IADJh3dyxeJSUGNX4XhnKtLKs"],
@@ -1285,16 +1387,15 @@
 				];
 				var TOTAL = SONGS.length;
 				var ssImg = document.getElementById("ss-img");
+				var ssImgB = document.getElementById("ss-img-b");
 				var ssPlay = document.getElementById("ss-play");
 				var ssBadge = document.getElementById("ss-badge");
 				var ssTitle = document.getElementById("ss-title");
 				var ssSub = document.getElementById("ss-sub");
-				var ssYt = document.getElementById("ss-yt");
 				var list = document.getElementById("ss-list");
 				var playerEl = document.getElementById("player");
-				var current = -1; // index into SONGS (0 = newest week)
+				var current = -1;
 
-				// Build the week list, newest first.
 				var thumbs = [];
 				for (var t = 0; t < TOTAL; t++) {
 					var song = SONGS[t];
@@ -1332,10 +1433,21 @@
 					var i = label.indexOf(" - ");
 					return i < 0 ? [label, ""] : [label.slice(0, i), label.slice(i + 3)];
 				}
-				// The card is too small to be a real player, so play hands the
-				// video over to YouTube in its own tab. (The fifth field of each
-				// SONGS row is the Drive file id the old inline embed used; it
-				// stays for reference.)
+				var frontFrame = ssImg, frameToken = 0;
+				function showFrame(src) {
+					if (frontFrame.getAttribute("src") === src) return;
+					var next = frontFrame === ssImg ? ssImgB : ssImg;
+					var token = ++frameToken;
+					var reveal = function () {
+						if (token !== frameToken) return;
+						next.classList.add("on");
+						frontFrame.classList.remove("on");
+						frontFrame = next;
+					};
+					next.onload = reveal;
+					next.onerror = reveal;
+					next.src = src;
+				}
 				function openVideo() {
 					if (current < 0) return;
 					window.open("https://www.youtube.com/watch?v=" + SONGS[current][2], "_blank", "noopener");
@@ -1347,13 +1459,11 @@
 					var song = SONGS[current];
 					var parts = split(song[1]);
 					var week = String(song[0]);
-					ssImg.src = "sunday-songs/" + ("000" + week).slice(-3) + ".webp";
+					showFrame("sunday-songs/" + ("000" + week).slice(-3) + ".webp");
 					ssBadge.textContent = "week " + week + " / " + TOTAL;
 					ssTitle.textContent = parts[1] || parts[0];
 					ssSub.textContent = (parts[1] ? parts[0] + " · " : "") + song[3];
-					ssYt.href = "https://www.youtube.com/watch?v=" + song[2];
 					for (var i = 0; i < TOTAL; i++) thumbs[i].classList.toggle("active", i === current);
-					// keep the active row in view without scrolling the page
 					var th = thumbs[current];
 					var target = th.offsetTop - list.clientHeight / 2 + th.offsetHeight / 2;
 					list.scrollTo({ top: Math.max(0, target), behavior: reducedMotion ? "auto" : "smooth" });
@@ -1371,9 +1481,6 @@
 				});
 				select(0);
 
-				/* =====================================================
-				   Scroll reveal
-				   ===================================================== */
 				var revealed = document.querySelectorAll(".reveal");
 				if ("IntersectionObserver" in window && !reducedMotion) {
 					var io = new IntersectionObserver(function (entries) {
@@ -1386,33 +1493,48 @@
 					revealed.forEach(function (el) { el.classList.add("in"); });
 				}
 
-				/* =====================================================
-				   Scroll progress, and a top bar that takes on the
-				   colour of the section you are currently reading
-				   ===================================================== */
 				var bar = document.getElementById("progress-bar");
 				var navLinks = Array.prototype.slice.call(document.querySelectorAll(".top nav a"));
 				var sections = Array.prototype.slice.call(document.querySelectorAll(".hero, .section"));
 				var scrollQueued = false;
 
+				var heroPhoto = document.querySelector(".photo");
+				var stageArt = document.getElementById("ss-art");
+				var cardArt = Array.prototype.slice.call(document.querySelectorAll(".card .art"));
+				var HERO_SHIFT = 90, ART_SHIFT = 16;
+				function drift(el, mid, vh, rate, limit) {
+					var r = el.getBoundingClientRect();
+					if (r.bottom < -120 || r.top > vh + 120) return;
+					var cap = limit > 0 ? limit : r.height * 0.06;
+					var d = (r.top + r.height / 2 - mid) * rate;
+					if (d > cap) d = cap; else if (d < -cap) d = -cap;
+					el.style.transform = "translate3d(0," + (-d).toFixed(1) + "px,0)";
+				}
+				function parallax() {
+					var vh = window.innerHeight, mid = vh / 2;
+					var hy = window.scrollY * 0.12;
+					heroPhoto.style.transform = "translate3d(0," + Math.min(HERO_SHIFT, hy).toFixed(1) + "px,0)";
+					for (var i = 0; i < cardArt.length; i++) drift(cardArt[i], mid, vh, 0.055, ART_SHIFT);
+					drift(stageArt, mid, vh, 0.06, 0);
+				}
+
 				function onScroll() {
+					layout();
+					if (!reducedMotion) parallax();
 					var max = document.documentElement.scrollHeight - window.innerHeight;
 					bar.style.transform = "scaleX(" + (max > 0 ? Math.min(1, window.scrollY / max) : 0) + ")";
 
-					// the section whose top has most recently passed the header
 					var line = window.scrollY + window.innerHeight * 0.35;
 					var active = sections[0];
 					for (var i = 0; i < sections.length; i++) {
 						if (sections[i].offsetTop <= line) active = sections[i];
 					}
-					// the last section plus the footer is shorter than the viewport,
-					// so its top never reaches that line: at the bottom, it wins
 					if (max > 0 && window.scrollY >= max - 2) active = sections[sections.length - 1];
-					// Hand the page chrome the section's place on the wheel rather than
-					// a resolved colour, so the header dot and progress bar keep
-					// following the strings while a strum is still easing the hue.
 					var step = getComputedStyle(active).getPropertyValue("--accent-step").trim();
-					if (step) root.style.setProperty("--accent-step", step);
+					if (step) {
+						root.style.setProperty("--accent-step", step);
+						accentStep = parseFloat(step) || 0;
+					}
 					var id = active.id;
 					navLinks.forEach(function (a) { a.classList.toggle("on", a.getAttribute("href") === "#" + id); });
 					scrollQueued = false;
