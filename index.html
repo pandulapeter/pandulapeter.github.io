@@ -438,7 +438,7 @@
 			.card {
 				position: relative;
 				display: grid;
-				grid-template-columns: auto minmax(0, 11rem) minmax(0, 1fr) auto;
+				grid-template-columns: auto minmax(0, 11rem) minmax(0, 1fr);
 				align-items: center;
 				gap: 1.25rem;
 				padding: 1.1rem 1.35rem 1.1rem 1.1rem;
@@ -495,15 +495,6 @@
 			.card h3 { font-size: var(--fs-lead); }
 			.card .kind { display: block; color: var(--accent); opacity: 0.85; margin-top: 0.1rem; text-transform: none; letter-spacing: 0.02em; }
 			.card p { color: var(--ink-2); }
-			.arrow {
-				display: grid;
-				place-items: center;
-				width: 1.4rem;
-				height: 1.4rem;
-				line-height: 1;
-				color: var(--ink-3);
-				transition: color 200ms var(--ease), transform 300ms var(--ease);
-			}
 			@media (hover: hover) and (pointer: fine) {
 				.card:hover {
 					border-color: var(--accent-line);
@@ -513,7 +504,6 @@
 				}
 				.card:hover::before { opacity: 1; }
 				.card:hover .icon { transform: rotate(-6deg) scale(1.06); border-color: var(--accent); }
-				.card:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
 				.card:hover .art { opacity: 0.72; }
 			}
 			@media (hover: none) {
@@ -522,9 +512,8 @@
 				.card:active .art { opacity: 0.72; }
 			}
 			@media (max-width: 48rem) {
-				.card { grid-template-columns: auto minmax(0, 1fr) auto; gap: 0.4rem 1rem; }
-				.card .arrow { grid-row: 1; grid-column: 3; }
-				.card p { grid-row: 2; grid-column: 2 / 4; }
+				.card { grid-template-columns: auto minmax(0, 1fr); gap: 0.4rem 1rem; }
+				.card p { grid-row: 2; grid-column: 2 / 3; }
 				.card.art-tesselar .art { background-size: cover; background-position: 72% center; }
 			}
 
@@ -532,7 +521,7 @@
 			.row {
 				position: relative;
 				display: grid;
-				grid-template-columns: auto minmax(0, 1fr) auto;
+				grid-template-columns: auto minmax(0, 1fr);
 				align-items: center;
 				gap: 1rem;
 				padding: 0.8rem 0.9rem;
@@ -558,7 +547,6 @@
 				.row:hover::before { transform: scaleY(1); }
 				.row:hover img { opacity: 1; filter: drop-shadow(0 0 8px var(--accent-glow)); }
 				.row:hover .meta { color: var(--accent); }
-				.row:hover .arrow { color: var(--accent); transform: translate(3px, -3px); }
 			}
 			@media (hover: none) {
 				.row:active { background: var(--surface); }
@@ -767,7 +755,7 @@
 				html { scroll-behavior: auto; }
 				.photo { animation: none; }
 				.reveal { opacity: 1; transform: none; transition: none; }
-				.card, .row, .item, .card .arrow, .card .art, .row .arrow, .stage .play .disc { transition: none; }
+				.card, .row, .item, .card .art, .stage .play .disc { transition: none; }
 				.stage .frame { transition: none; }
 				.photo, .card .art, .stage-art { transform: none !important; }
 				.glow span { animation: none; }
@@ -822,17 +810,14 @@
 						<a class="row" href="https://github.com/pandulapeter" target="_blank" rel="noopener">
 							<img src="resources/ic_github.png" alt="">
 							<span><span class="title">Browse my open source projects</span><span class="meta label">GitHub</span></span>
-							<span class="arrow">↗</span>
 						</a>
 						<a class="row" href="https://play.google.com/store/apps/dev?id=7182071273878480730" target="_blank" rel="noopener">
 							<img src="resources/ic_google_play.png" alt="">
 							<span><span class="title">Try the Android apps I've published</span><span class="meta label">Google Play</span></span>
-							<span class="arrow">↗</span>
 						</a>
 						<a class="row" href="https://medium.com/@pandulapeter" target="_blank" rel="noopener">
 							<img src="resources/ic_medium.png" alt="">
 							<span><span class="title">Read the articles I've written</span><span class="meta label">Medium</span></span>
-							<span class="arrow">↗</span>
 						</a>
 					</div>
 				</div>
@@ -852,21 +837,18 @@
 							<span class="icon"><img src="resources/ic_kubriko.png" alt=""></span>
 							<span><h3>Kubriko</h3><span class="kind label">Engine showcase</span></span>
 							<p>My 2D game engine shown off through demos, games, and tech samples.</p>
-							<span class="arrow">↗</span>
 						</a>
 						<a class="card art-tesselar" href="https://pandulapeter.github.io/tesselar" target="_blank" rel="noopener">
 							<span class="art" aria-hidden="true"></span>
 							<span class="icon"><img src="resources/ic_tesselar.png" alt=""></span>
 							<span><h3>Tesselar</h3><span class="kind label">3D experiment</span></span>
 							<p>A real-time 3D world built on top of Kubriko, with weather simulation and a day–night cycle.</p>
-							<span class="arrow">↗</span>
 						</a>
 						<a class="card art-campfire" href="https://pandulapeter.github.io/campfire" target="_blank" rel="noopener">
 							<span class="art" aria-hidden="true"></span>
 							<span class="icon"><img src="resources/ic_campfire.png" alt=""></span>
 							<span><h3>Campfire</h3><span class="kind label">Lyrics and chords</span></span>
 							<p>A handpicked song library with support for transposition and custom setlist creation.</p>
-							<span class="arrow">↗</span>
 						</a>
 					</div>
 				</div>
@@ -909,12 +891,10 @@
 							<a class="row" href="https://www.youtube.com/c/P%C3%A9terPandula/" target="_blank" rel="noopener">
 								<img src="resources/ic_youtube.png" alt="">
 								<span><span class="title">Subscribe to my channel</span><span class="meta label">YouTube</span></span>
-								<span class="arrow">↗</span>
 							</a>
 							<a class="row" href="https://www.youtube.com/c/R%C4%83zvansSessions/videos" target="_blank" rel="noopener">
 								<img src="resources/ic_youtube.png" alt="">
 								<span><span class="title">Check out Răzvan's Sessions</span><span class="meta label">YouTube</span></span>
-								<span class="arrow">↗</span>
 							</a>
 						</div>
 					</div>
@@ -933,17 +913,14 @@
 						<a class="row" href="https://drive.google.com/file/d/1PHQJlo3TILtbnTZXZohXTOUA3GmJJBv0/view?usp=sharing" target="_blank" rel="noopener">
 							<img src="resources/ic_cv.png" alt="">
 							<span><span class="title">Read my resume</span><span class="meta label">Google Drive</span></span>
-							<span class="arrow">↗</span>
 						</a>
 						<a class="row" href="mailto:pandulapeter@gmail.com">
 							<img src="resources/ic_email.png" alt="">
 							<span><span class="title">Drop me a line</span><span class="meta label">pandulapeter@gmail.com</span></span>
-							<span class="arrow">↗</span>
 						</a>
 						<a class="row" href="https://buymeacoffee.com/pandulapeter" target="_blank" rel="noopener">
 							<img src="resources/ic_coffee.png" alt="">
 							<span><span class="title">Support my work</span><span class="meta label">Buy Me a Coffee</span></span>
-							<span class="arrow">↗</span>
 						</a>
 					</div>
 				</div>
