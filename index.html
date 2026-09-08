@@ -107,7 +107,7 @@
 				z-index: -2;
 				pointer-events: none;
 				overflow: hidden;
-				opacity: 0.6;
+				opacity: 0.32;
 				-webkit-mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
 				mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
 				-webkit-mask-repeat: no-repeat;
@@ -145,17 +145,6 @@
 			@keyframes drift-c { from { transform: translate3d(0, 0, 0) scale(0.95); }     to { transform: translate3d(22vw, -14vh, 0) scale(1.2); } }
 			@keyframes drift-d { from { transform: translate3d(0, 0, 0) scale(1.1); }      to { transform: translate3d(-14vw, -20vh, 0) scale(0.85); } }
 
-			.veil {
-				position: fixed;
-				inset: 0 0 auto 0;
-				height: 100vh;
-				height: calc(100lvh + 96px);
-				z-index: -1;
-				pointer-events: none;
-				background:
-					radial-gradient(120% 80% at 70% 0%, transparent, rgba(7, 6, 14, 0.25) 70%),
-					linear-gradient(to bottom, rgba(7, 6, 14, 0.24), rgba(7, 6, 14, 0.46));
-			}
 			.progress {
 				position: fixed;
 				inset: 0 0 auto 0;
@@ -271,24 +260,23 @@
 				align-content: start;
 				padding-top: calc(var(--top-h) + 4.5rem);
 				padding-bottom: 2.5rem;
-				overflow: hidden;
 			}
 			.photo, .hero::before {
 				position: absolute;
 				inset: var(--top-h) 0 0 0;
 				z-index: -1;
-				-webkit-mask-image:
-					linear-gradient(to left, #000 55%, transparent 100%),
-					linear-gradient(to top, transparent 0%, #000 45%);
-				-webkit-mask-composite: source-in;
-				mask-image:
-					linear-gradient(to left, #000 55%, transparent 100%),
-					linear-gradient(to top, transparent 0%, #000 45%);
-				mask-composite: intersect;
+				--fade-x: 55%;
+				--fade-y0: 0%;
+				--fade-y1: 45%;
 			}
 			.hero::before {
 				content: "";
-				background: rgba(3, 2, 9, 0.88);
+				background-image: linear-gradient(
+					to left,
+					rgba(3, 2, 9, 0.88) var(--fade-x),
+					rgba(3, 2, 9, 0) 100%);
+				-webkit-mask-image: linear-gradient(to top, transparent var(--fade-y0), #000 var(--fade-y1));
+				mask-image: linear-gradient(to top, transparent var(--fade-y0), #000 var(--fade-y1));
 			}
 			.hero::after {
 				content: "";
@@ -303,10 +291,15 @@
 					transparent 100%);
 			}
 			.photo {
-				background-image: url("resources/bg_corner.webp");
+				--photo-y: 0px;
+				background-image:
+					linear-gradient(to left, transparent var(--fade-x), #000 100%),
+					linear-gradient(to top, #000 var(--fade-y0), transparent var(--fade-y1)),
+					url("resources/bg_corner.webp");
 				background-repeat: no-repeat;
-				background-position: right top;
-				background-size: auto 100%;
+				background-position: left top, left top, right 0px top var(--photo-y);
+				background-size: 100% 100%, 100% 100%, auto 100%;
+				background-blend-mode: multiply, multiply, normal;
 				mix-blend-mode: screen;
 				filter: contrast(1.14) brightness(1.06);
 				animation: fade-in 1.2s var(--ease) both;
@@ -373,16 +366,13 @@
 			@media (max-width: 48rem) {
 				.hero { min-height: min(100svh, 42rem); align-content: end; }
 				.photo, .hero::before {
-					-webkit-mask-image:
-						linear-gradient(to left, #000 40%, transparent 100%),
-						linear-gradient(to top, transparent 25%, #000 65%);
-					mask-image:
-						linear-gradient(to left, #000 40%, transparent 100%),
-						linear-gradient(to top, transparent 25%, #000 65%);
+					--fade-x: 40%;
+					--fade-y0: 25%;
+					--fade-y1: 65%;
 				}
 				.photo {
-					background-position: right -10vw top;
-					background-size: auto 78%;
+					background-position: left top, left top, right -10vw top var(--photo-y);
+					background-size: 100% 100%, 100% 100%, auto 78%;
 				}
 				.strings {
 					--hero-b: 58;
@@ -393,6 +383,7 @@
 
 			.section {
 				position: relative;
+				isolation: isolate;
 				padding-block: 2.75rem;
 				scroll-margin-top: calc(var(--top-h) + env(safe-area-inset-top));
 			}
@@ -766,7 +757,6 @@
 
 	<body>
 
-		<div class="veil" aria-hidden="true"></div>
 		<div class="progress" aria-hidden="true"><i id="progress-bar"></i></div>
 
 		<a class="brand label" href="#top">pandulapeter</a>
@@ -1478,7 +1468,7 @@
 				var heroPhoto = document.querySelector(".photo");
 				var stageArt = document.getElementById("ss-art");
 				var cardArt = Array.prototype.slice.call(document.querySelectorAll(".card .art"));
-				var HERO_SHIFT = 90, ART_SHIFT = 16;
+				var HERO_SHIFT = 130, ART_SHIFT = 16;
 				function drift(el, mid, vh, rate, limit) {
 					var r = el.getBoundingClientRect();
 					if (r.bottom < -120 || r.top > vh + 120) return;
@@ -1489,8 +1479,8 @@
 				}
 				function parallax() {
 					var vh = window.innerHeight, mid = vh / 2;
-					var hy = window.scrollY * 0.12;
-					heroPhoto.style.transform = "translate3d(0," + Math.min(HERO_SHIFT, hy).toFixed(1) + "px,0)";
+					var hy = window.scrollY * 0.18;
+					heroPhoto.style.setProperty("--photo-y", Math.min(HERO_SHIFT, hy).toFixed(1) + "px");
 					for (var i = 0; i < cardArt.length; i++) drift(cardArt[i], mid, vh, 0.055, ART_SHIFT);
 					drift(stageArt, mid, vh, 0.06, 0);
 				}
