@@ -43,7 +43,8 @@
 				--fs-lead: 1.2rem;
 				--fs-h3: 1.5rem;
 				--fs-h2: 2.25rem;
-				--fs-h1: clamp(2.75rem, 6.5vw, 5rem);
+				--fs-h1: min(clamp(2.75rem, 6.5vw, 5rem), calc((100vw - var(--gutter) * 2) / 6.9));
+				--fs-brand: 1.15rem;
 
 				--top-h: 3.5rem;
 				--gutter: clamp(1.25rem, 5vw, 4rem);
@@ -100,35 +101,47 @@
 				margin-inline: auto;
 			}
 
+			/* Nothing in here may ask the compositor for a surface of its own: no
+			   blur(), no filter, no mix-blend-mode, no mask. Each of those forces the
+			   whole wash - a section-sized box with three drifting children - to be
+			   rendered off-screen into a texture, and on Android Chrome that texture
+			   comes back only partly rastered once the page has been scrolled for a
+			   while: first seen as a straight cut edge where a tile met the overflow
+			   clip, later as one lit band across the hero with the rest of the wash
+			   missing. Plain painting reaches the same picture, because what sits
+			   behind the glow is always the flat page background: the group's 0.32
+			   opacity and the saturate() are folded into the gradient stops (over
+			   black, stacking equally coloured layers is arithmetically what screen
+			   does), and the top and bottom fades are painted on in --bg rather than
+			   masked out (also identical over a flat backdrop). What is left is three
+			   clipped, plainly composited layers - no surface to come back wrong. */
 			.glow {
 				position: absolute;
 				inset: 0;
-				isolation: isolate;
 				z-index: -2;
 				pointer-events: none;
 				overflow: hidden;
-				opacity: 0.32;
-				-webkit-mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
-				mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
-				-webkit-mask-repeat: no-repeat;
-				mask-repeat: no-repeat;
-				-webkit-mask-size: 100% 100%;
-				mask-size: 100% 100%;
 			}
 			.glow span {
+				--glow: oklch(var(--lum) calc(var(--chroma) * 1.4) calc(var(--hue) + var(--accent-step)) / 0.32);
 				position: absolute;
 				display: block;
 				width: 58vmax;
 				height: 58vmax;
 				background: radial-gradient(circle at 50% 50%,
-					var(--accent) 0%,
-					color-mix(in srgb, var(--accent) 74%, transparent) 20%,
-					color-mix(in srgb, var(--accent) 42%, transparent) 36%,
-					color-mix(in srgb, var(--accent) 18%, transparent) 50%,
-					color-mix(in srgb, var(--accent) 6%, transparent) 62%,
+					var(--glow) 0%,
+					color-mix(in srgb, var(--glow) 74%, transparent) 20%,
+					color-mix(in srgb, var(--glow) 42%, transparent) 36%,
+					color-mix(in srgb, var(--glow) 18%, transparent) 50%,
+					color-mix(in srgb, var(--glow) 6%, transparent) 62%,
 					transparent 76%);
-				filter: saturate(165%);
-				mix-blend-mode: screen;
+			}
+			/* the fade the mask used to do, painted instead of masked */
+			.glow::after {
+				content: "";
+				position: absolute;
+				inset: 0;
+				background: linear-gradient(to bottom, var(--bg), transparent 18%, transparent 82%, var(--bg));
 			}
 			.glow span:nth-child(1) { left: -16%;  top: -22%;    animation: drift-a 26s var(--ease) infinite alternate; }
 			.glow span:nth-child(2) { right: -20%; bottom: -26%; opacity: 0.95; animation: drift-c 34s var(--ease) infinite alternate; }
@@ -238,18 +251,28 @@
 				color: var(--ink);
 				opacity: 0;
 				visibility: hidden;
+				pointer-events: none;
 			}
-			.brand::before {
-				content: "";
-				flex: none;
-				width: 7px; height: 7px;
-				margin-right: 0.6rem;
-				border-radius: 50%;
-				background: var(--accent);
-				box-shadow: 0 0 10px var(--accent-glow);
+			/* The collapsed title: same font, weight, line-height and em-relative
+			   letter-spacing as .hero h1, so at the hero's font size this is that
+			   element, glyph for glyph, down to the sub-pixel. The script sizes it by
+			   interpolating font-size rather than by scaling it - a scaled copy is
+			   rasterised from a different grid and reads as a slightly different
+			   weight, which is exactly the tell that gives a hand-off away - and only
+			   then translates it, so the two are never on screen together. */
+			.brand-name {
+				display: block;
+				font-size: var(--fs-brand);
+				font-weight: 700;
+				line-height: 1;
+				letter-spacing: -0.03em;
+				white-space: nowrap;
+				will-change: font-size, transform;
 			}
+			.brand-name em { font-style: normal; color: var(--accent); }
+			.brand.on { pointer-events: auto; }
 			@media (hover: hover) and (pointer: fine) {
-				.brand:hover { color: var(--accent); }
+				.brand.on:hover { color: var(--accent); }
 			}
 
 			.hero {
@@ -292,15 +315,20 @@
 			}
 			/* bg_corner.webp is stored keyed: alpha is the frame's own luminance and the
 			   colour is divided through by it, with the contrast/brightness grade baked in
-			   (regenerate the file if that grade should change). Screen blending then
-			   contributes alpha * colour, which is exactly the ungraded pixel, so this
-			   renders as it always did - and where WebKit drops the blend the fallback is
-			   plain alpha compositing, which lands within a fraction of a level of the same
-			   picture instead of a dark box. The edge fades are masks rather than
-			   multiplied-to-black layers (identical result under screen). */
+			   (regenerate the file if that grade should change). That keying is what lets
+			   this composite plainly: alpha * colour is already the graded pixel, so
+			   ordinary source-over paints the same picture screen used to, and the two
+			   differ only by dst * alpha * (1 - colour) - a couple of levels at most,
+			   because what sits under the photo is the hero's own 0.88 scrim. Worth the
+			   swap: screen is a *backdrop* operation, so it drags everything painted
+			   below it - the drifting glow layers included - into one off-screen surface
+			   the size of the hero, which is the surface Android Chrome hands back
+			   partly rastered. The masks stay: a mask is a per-pixel multiply, it reads
+			   no neighbouring pixels and so survives being rastered in tiles, unlike the
+			   blur() that had to go earlier. The edge fades are masks rather than
+			   multiplied-to-black layers, which without screen would be dark boxes. */
 			.photo {
 				--photo-y: 0px;
-				mix-blend-mode: screen;
 				-webkit-mask-image: linear-gradient(to top, transparent var(--fade-y0), #000 var(--fade-y1));
 				mask-image: linear-gradient(to top, transparent var(--fade-y0), #000 var(--fade-y1));
 				-webkit-mask-repeat: no-repeat;
@@ -336,7 +364,7 @@
 				font-weight: 700;
 				line-height: 1;
 				letter-spacing: -0.03em;
-				text-wrap: balance;
+				white-space: nowrap;
 			}
 			.hero h1 em {
 				font-style: normal;
@@ -482,6 +510,9 @@
 				filter: saturate(0.8);
 				-webkit-mask-image: linear-gradient(to left, #000 8%, transparent 94%);
 				mask-image: linear-gradient(to left, #000 8%, transparent 94%);
+				/* The slight overscale is the slack the pointer lean moves within, so the
+				   art never slides far enough to expose the card behind it. */
+				transform: scale(1.07);
 				transition: opacity 250ms var(--ease);
 			}
 			.card.art-kubriko .art { background-image: url("resources/bg_kubriko.webp"); }
@@ -586,6 +617,7 @@
 			.stage-art {
 				position: absolute;
 				inset: -7% 0;
+				transform: scale(1.05);
 			}
 			.stage img {
 				position: absolute;
@@ -693,21 +725,38 @@
 				transition: background 150ms var(--ease), color 150ms var(--ease);
 			}
 			.item.active { background: var(--accent-soft); color: var(--ink); box-shadow: inset 2px 0 0 var(--accent); }
-			.item img {
+			.item .thumb {
+				position: relative;
 				width: 88px;
-				height: auto;
 				aspect-ratio: 16 / 9;
-				object-fit: cover;
 				border-radius: 5px;
+				overflow: hidden;
 				background: var(--bg-2);
-				opacity: 0.7;
+			}
+			.item .thumb::after {
+				content: "";
+				position: absolute;
+				inset: 0;
+				background: linear-gradient(100deg, transparent 20%, rgba(214, 209, 240, 0.17) 50%, transparent 80%);
+				background-size: 220% 100%;
+				animation: thumb-wait 1.2s linear infinite;
+			}
+			.item .thumb.ready::after { content: none; }
+			@keyframes thumb-wait { from { background-position: 120% 0; } to { background-position: -120% 0; } }
+			.item img {
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				opacity: 0;
 				filter: saturate(70%);
 				transition: opacity 150ms var(--ease), filter 150ms var(--ease);
 			}
-			.item.active img { opacity: 1; filter: saturate(115%); }
+			.item .thumb.ready img { opacity: 0.7; }
+			.item.active .thumb.ready img { opacity: 1; filter: saturate(115%); }
 			@media (hover: hover) and (pointer: fine) {
 				.item:hover { background: var(--surface-hover); color: var(--ink); }
-				.item:hover img { opacity: 1; filter: saturate(115%); }
+				.item:hover .thumb.ready img { opacity: 1; filter: saturate(115%); }
 			}
 			.item .week { display: block; color: var(--ink-3); line-height: 1.3; }
 			.item.active .week { color: var(--accent); }
@@ -741,7 +790,7 @@
 				inset: 0 0 auto 0;
 				margin-inline: calc(50% - 50vw);
 				height: 1px;
-				background: linear-gradient(90deg, var(--ink), rgba(243, 240, 249, 0.3) 30%, var(--line) 60%, var(--line));
+				background: var(--line);
 			}
 			footer a { transition: color 150ms var(--ease); }
 			@media (hover: hover) and (pointer: fine) {
@@ -758,7 +807,7 @@
 			}
 			@media (hover: none) {
 				.item:active { background: var(--surface-hover); color: var(--ink); }
-				.item:active img { opacity: 1; filter: saturate(115%); }
+				.item:active .thumb.ready img { opacity: 1; filter: saturate(115%); }
 				.top nav a:active, .brand:active, footer a:active { color: var(--accent); }
 			}
 
@@ -767,6 +816,7 @@
 				.photo { animation: none; }
 				.reveal { opacity: 1; transform: none; transition: none; }
 				.card, .row, .item, .card .art, .stage .play .disc { transition: none; }
+				.item .thumb::after { animation: none; }
 				.stage .frame { transition: none; }
 				.photo, .card .art, .stage-art { transform: none !important; }
 				.glow span { animation: none; }
@@ -779,7 +829,7 @@
 
 		<div class="progress" aria-hidden="true"><i id="progress-bar"></i></div>
 
-		<a class="brand label" href="#top">pandulapeter</a>
+		<a class="brand" href="#top"><span class="brand-name">Péter <em>Pandula</em></span></a>
 		<header class="top label">
 			<nav aria-label="Sections">
 				<a href="#code">code</a>
@@ -1022,6 +1072,9 @@
 				var heroInner = document.querySelector(".hero-inner");
 				var topBar = document.querySelector(".top");
 				var brandEl = document.querySelector(".brand");
+				var brandName = document.querySelector(".brand-name");
+				var titleEl = document.querySelector(".hero h1");
+				var eyebrow = document.querySelector(".hero .eyebrow");
 				var firstNavLink = document.querySelector(".top nav a");
 				var RUNWAY = 260;
 				var geo = null, lastW = -1, lastH = -1, lastP = -1;
@@ -1038,14 +1091,17 @@
 					var barRect = topBar.getBoundingClientRect();
 					var barTop = barRect.top + (parseFloat(barStyle.paddingTop) || 0);
 					var barH = Math.max(24, barRect.bottom - barTop - (parseFloat(barStyle.borderBottomWidth) || 0));
-					var brandRect = brandEl.getBoundingClientRect();
+					brandName.style.fontSize = "";
+					brandName.style.transform = "none";
+					var nameRect = brandName.getBoundingClientRect();
 					var brandStyle = getComputedStyle(brandEl);
-					var nameW = brandRect.width
+					var brandW = brandEl.offsetWidth;
+					var nameW = brandW
 						- (parseFloat(brandStyle.paddingLeft) || 0)
 						- (parseFloat(brandStyle.paddingRight) || 0);
 					topBar.classList.remove("tight");
 					var stop = stopEdge();
-					if (stop - 10 - brandRect.right < nameW) {
+					if (stop - 10 - brandW < nameW) {
 						topBar.classList.add("tight");
 						stop = stopEdge();
 					}
@@ -1057,7 +1113,11 @@
 						heroB: parseFloat(cs.getPropertyValue('--hero-b')) || 62,
 						heroC: parseFloat(cs.getPropertyValue('--hero-c')) || 92,
 						heroClip: parseFloat(cs.getPropertyValue('--hero-clip')) || 8,
-						brandEnd: brandRect.right,
+						brandEnd: brandW,
+						dockX: nameRect.left,
+						dockY: nameRect.top,
+						heroFont: parseFloat(getComputedStyle(titleEl).fontSize) || 44,
+						brandFont: parseFloat(getComputedStyle(brandName).fontSize) || 18,
 						dockW: Math.max(140, stop - 10),
 						dockH: barH,
 						dockTop: barTop
@@ -1095,9 +1155,27 @@
 					else if (p !== lastP) draw(0);
 					lastP = p;
 					setStep(p * accentStep);
-					var named = Math.max(0, (p - 0.7) / 0.3);
-					brandEl.style.opacity = String(named);
-					brandEl.style.visibility = named > 0 ? "visible" : "hidden";
+					/* The name travels the same runway as the strings. There is no
+					   cross-fade: at p = 0 the collapsed copy is the hero title - same
+					   size, same sub-pixel corner - so the two can simply be swapped on
+					   the first frame of the trip and nothing about the picture changes.
+					   Size first, then measure where the flex box put that size, then
+					   translate from there onto the interpolated corner: the copy leaves
+					   the title's place exactly and lands in the bar exactly. */
+					var titleRect = titleEl.getBoundingClientRect();
+					var st = brandName.style;
+					st.fontSize = lerp(geo.heroFont, geo.brandFont, p).toFixed(2) + "px";
+					st.transform = "none";
+					var natural = brandName.getBoundingClientRect();
+					st.transform = "translate("
+						+ (lerp(titleRect.left, geo.dockX, p) - natural.left).toFixed(2) + "px,"
+						+ (lerp(titleRect.top, geo.dockY, p) - natural.top).toFixed(2) + "px)";
+					var handed = p > 0;
+					eyebrow.style.opacity = String(1 - Math.min(1, p / 0.35));
+					brandEl.style.opacity = handed ? "1" : "0";
+					brandEl.style.visibility = handed ? "visible" : "hidden";
+					brandEl.classList.toggle("on", p > 0.99);
+					titleEl.style.opacity = handed ? "0" : "";
 				}
 				function relayout() { lastW = lastH = -1; measure(); layout(); }
 				window.addEventListener("resize", relayout);
@@ -1192,6 +1270,7 @@
 				}
 
 				var audio = null, master = null, buffers = [], soundOn = false, soundChosen = false;
+				var keepAlive = null;
 				// iOS routes Web Audio through the ambient session, which the ringer switch mutes.
 				// Switching category reconfigures the audio route and is slow, so it happens
 				// exactly once, before the context exists - never on a pluck.
@@ -1209,6 +1288,10 @@
 						var p = audio.resume();
 						if (p && p.catch) p.catch(function () {});
 					} catch (err) {}
+					// An interruption stops the looping keep-alive without saying so, leaving
+					// a dead handle behind - replace it whenever the context had to be revived.
+					stopKeepAlive();
+					if (soundOn) startKeepAlive();
 				}
 				// Synchronous on purpose: iOS only unlocks audio inside the gesture task itself,
 				// so nothing here may wait on the resume() promise.
@@ -1217,7 +1300,12 @@
 					var AC = window.AudioContext || window.webkitAudioContext;
 					if (!AC) return false;
 					primeSession();
-					try { audio = new AC(); } catch (err) { return false; }
+					// Without a hint WebKit picks a power-saving I/O buffer that is long enough
+					// to hear; "interactive" asks for the shortest one the route supports.
+					try { audio = new AC({ latencyHint: "interactive" }); }
+					catch (err) {
+						try { audio = new AC(); } catch (err2) { return false; }
+					}
 					master = audio.createGain();
 					master.gain.value = 0.2;
 					master.connect(audio.destination);
@@ -1229,12 +1317,42 @@
 						if (warm.start) warm.start(0); else if (warm.noteOn) warm.noteOn(0);
 					} catch (err) {}
 					resumeAudio();
+					startKeepAlive();
 					// Synthesising the six strings costs a few ms each; get them out of the
 					// way now so no pluck ever pays for it.
 					setTimeout(function () {
 						for (var i = 0; i < COUNT; i++) bufferFor(i);
 					}, 0);
 					return true;
+				}
+				// The last piece of iOS lag: once the graph falls silent the OS spins the
+				// output route down, and the next source has to wait for it to come back -
+				// which is the delay, and why it never shows up anywhere but Safari. A
+				// looping buffer at -80 dBFS (another 14 dB down through master, so far
+				// below anything audible) keeps the route running, so a pluck only ever
+				// pays for the render quantum.
+				function startKeepAlive() {
+					if (keepAlive || !audio) return;
+					try {
+						var sr = audio.sampleRate;
+						var buffer = audio.createBuffer(1, Math.round(sr * 0.5), sr);
+						var out = buffer.getChannelData(0);
+						for (var i = 0; i < out.length; i++) out[i] = (Math.random() * 2 - 1) * 1e-4;
+						var src = audio.createBufferSource();
+						src.buffer = buffer;
+						src.loop = true;
+						src.connect(master);
+						if (src.start) src.start(); else if (src.noteOn) src.noteOn(0);
+						keepAlive = src;
+					} catch (err) {}
+				}
+				function stopKeepAlive() {
+					if (!keepAlive) return;
+					try {
+						if (keepAlive.stop) keepAlive.stop(); else if (keepAlive.noteOff) keepAlive.noteOff(0);
+					} catch (err) {}
+					try { keepAlive.disconnect(); } catch (err) {}
+					keepAlive = null;
 				}
 				function bufferFor(index) {
 					if (buffers[index]) return buffers[index];
@@ -1279,6 +1397,7 @@
 				}
 				function setSound(on) {
 					soundOn = on;
+					if (on) startKeepAlive(); else stopKeepAlive();
 					soundButton.setAttribute("aria-pressed", on ? "true" : "false");
 					soundButton.textContent = on ? "sound on" : "sound off";
 				}
@@ -1343,6 +1462,14 @@
 				canvas.addEventListener("keydown", function (e) {
 					var n = parseInt(e.key, 10);
 					if (n >= 1 && n <= COUNT) { e.preventDefault(); pluck(n - 1, 0.7); }
+				});
+				// Backgrounding interrupts the context and kills the looping source with it,
+				// so drop the handle on the way out and start a fresh one on the way back.
+				document.addEventListener("visibilitychange", function () {
+					if (document.hidden) { stopKeepAlive(); return; }
+					if (!soundOn) return;
+					resumeAudio();
+					startKeepAlive();
 				});
 
 				if (!reducedMotion) setTimeout(function () { strings[2].amp = 6; start(); }, 900);
@@ -1429,12 +1556,14 @@
 					b.className = "item";
 					b.setAttribute("data-index", t);
 					b.title = "Week " + song[0] + ": " + song[1];
+					var slot = document.createElement("span");
+					slot.className = "thumb";
 					var im = document.createElement("img");
-					im.loading = "lazy";
 					im.decoding = "async";
 					im.alt = "";
 					im.width = 320; im.height = 180;
-					im.src = "https://i.ytimg.com/vi/" + song[2] + "/mqdefault.jpg";
+					im.setAttribute("data-src", "https://i.ytimg.com/vi/" + song[2] + "/mqdefault.jpg");
+					slot.appendChild(im);
 					var text = document.createElement("span");
 					var week = document.createElement("span");
 					week.className = "week label";
@@ -1444,11 +1573,59 @@
 					name.textContent = song[1];
 					text.appendChild(week);
 					text.appendChild(name);
-					b.appendChild(im);
+					b.appendChild(slot);
 					b.appendChild(text);
 					list.appendChild(b);
 					thumbs[t] = b;
 				}
+
+				// The thumbnails live in their own scroll container, and the section starts
+				// out below the fold inside an element that fades in. Both of those make
+				// `loading="lazy"` unreliable: the browser measures against the window and
+				// can leave every image deferred until some later scroll nudges it, which
+				// is exactly how the list ends up blank. Decide what to load from this
+				// list's own scroll position instead, and keep a shimmer on each slot
+				// until its image has actually arrived.
+				var THUMB_MARGIN = 600;
+				var waiting = [], viewport = 0;
+				function loadThumb(img) {
+					var src = img.getAttribute("data-src");
+					if (!src) return;
+					img.removeAttribute("data-src");
+					var done = function () { img.parentNode.classList.add("ready"); };
+					img.onload = done;
+					img.onerror = done;
+					img.src = src;
+					if (img.complete) done();
+				}
+				// Measured once (and again on resize) so the scroll handler stays arithmetic.
+				function measureThumbs() {
+					viewport = list.clientHeight;
+					waiting = [];
+					for (var m = 0; m < TOTAL; m++) {
+						var el = thumbs[m];
+						if (el.querySelector("img[data-src]")) {
+							waiting.push({ el: el, top: el.offsetTop, bottom: el.offsetTop + el.offsetHeight });
+						}
+					}
+				}
+				function sweepThumbs() {
+					if (!waiting.length) return;
+					var top = list.scrollTop - THUMB_MARGIN;
+					var bottom = list.scrollTop + viewport + THUMB_MARGIN;
+					var rest = [];
+					for (var w = 0; w < waiting.length; w++) {
+						var slot = waiting[w];
+						if (slot.top <= bottom && slot.bottom >= top) loadThumb(slot.el.querySelector("img"));
+						else rest.push(slot);
+					}
+					waiting = rest;
+				}
+				list.addEventListener("scroll", sweepThumbs, { passive: true });
+				window.addEventListener("resize", function () { measureThumbs(); sweepThumbs(); });
+				window.addEventListener("load", function () { measureThumbs(); sweepThumbs(); });
+				measureThumbs();
+				sweepThumbs();
 				list.addEventListener("click", function (e) {
 					var btn = e.target.closest(".item");
 					if (btn) select(parseInt(btn.getAttribute("data-index"), 10));
@@ -1524,23 +1701,65 @@
 				var scrollQueued = false;
 
 				var heroPhoto = document.querySelector(".photo");
-				var stageArt = document.getElementById("ss-art");
-				var cardArt = Array.prototype.slice.call(document.querySelectorAll(".card .art"));
-				var HERO_SHIFT = 130, ART_SHIFT = 16;
-				function drift(el, mid, vh, rate, limit) {
-					var r = el.getBoundingClientRect();
-					if (r.bottom < -120 || r.top > vh + 120) return;
-					var cap = limit > 0 ? limit : r.height * 0.06;
-					var d = (r.top + r.height / 2 - mid) * rate;
-					if (d > cap) d = cap; else if (d < -cap) d = -cap;
-					el.style.transform = "translate3d(0," + (-d).toFixed(1) + "px,0)";
-				}
+				var HERO_SHIFT = 280, ART_SHIFT = 16;
+				/* Every drifting layer leans away from the scroll (rate, capped at limit). On a
+				   pointer device it also leans away from the cursor, but only while the cursor
+				   is over its own host - xFrac of the layer's width sideways, yAmp pixels
+				   vertically, measured across that host - and eases back to the scroll-only
+				   position on the way out. Both stay inside the slack given by the negative
+				   insets and the base scale set in the stylesheet. */
+				var layers = [];
+				Array.prototype.forEach.call(document.querySelectorAll(".card .art"), function (el) {
+					layers.push({ el: el, host: el.closest(".card"), rate: 0.055, limit: ART_SHIFT, xFrac: 0.03, yAmp: 6, scale: 1.07 });
+				});
+				layers.push({ el: document.getElementById("ss-art"), host: playerEl, rate: 0.06, limit: 0, xFrac: 0.02, yAmp: 8, scale: 1.05 });
+				layers.forEach(function (l) { l.x = 0; l.y = 0; l.toX = 0; l.toY = 0; });
+				var finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
+				var ptrRaf = 0;
+				var rects = [];
 				function parallax() {
-					var vh = window.innerHeight, mid = vh / 2;
-					var hy = window.scrollY * 0.18;
-					heroPhoto.style.setProperty("--photo-y", Math.min(HERO_SHIFT, hy).toFixed(1) + "px");
-					for (var i = 0; i < cardArt.length; i++) drift(cardArt[i], mid, vh, 0.055, ART_SHIFT);
-					drift(stageArt, mid, vh, 0.06, 0);
+					var vh = window.innerHeight, mid = vh / 2, i, l, r, cap, d, x, y;
+					for (i = 0; i < layers.length; i++) rects[i] = layers[i].el.getBoundingClientRect();
+					heroPhoto.style.setProperty("--photo-y", Math.min(HERO_SHIFT, window.scrollY * 0.38).toFixed(1) + "px");
+					for (i = 0; i < layers.length; i++) {
+						l = layers[i]; r = rects[i];
+						if (r.bottom < -120 || r.top > vh + 120) continue;
+						cap = l.limit > 0 ? l.limit : r.height * 0.06;
+						d = (r.top + r.height / 2 - mid) * l.rate;
+						if (d > cap) d = cap; else if (d < -cap) d = -cap;
+						x = -l.x * r.width * l.xFrac;
+						y = -d - l.y * l.yAmp;
+						l.el.style.transform = "translate3d(" + x.toFixed(1) + "px," + y.toFixed(1) + "px,0) scale(" + l.scale + ")";
+					}
+				}
+				function pointerFrame() {
+					ptrRaf = 0;
+					var busy = false;
+					for (var i = 0; i < layers.length; i++) {
+						var l = layers[i], dx = l.toX - l.x, dy = l.toY - l.y;
+						if (Math.abs(dx) < 0.002 && Math.abs(dy) < 0.002) { l.x = l.toX; l.y = l.toY; }
+						else { l.x += dx * 0.1; l.y += dy * 0.1; busy = true; }
+					}
+					if (busy) ptrRaf = requestAnimationFrame(pointerFrame);
+					parallax();
+				}
+				function easeToPointer() { if (!ptrRaf) ptrRaf = requestAnimationFrame(pointerFrame); }
+				if (!reducedMotion) {
+					layers.forEach(function (l) {
+						if (!l.host) return;
+						l.host.addEventListener("pointermove", function (e) {
+							if (e.pointerType === "touch" || !finePointer.matches) return;
+							var r = l.host.getBoundingClientRect();
+							l.toX = Math.max(-1, Math.min(1, ((e.clientX - r.left) / r.width) * 2 - 1));
+							l.toY = Math.max(-1, Math.min(1, ((e.clientY - r.top) / r.height) * 2 - 1));
+							easeToPointer();
+						}, { passive: true });
+						l.host.addEventListener("pointerleave", function () { l.toX = 0; l.toY = 0; easeToPointer(); });
+					});
+					window.addEventListener("blur", function () {
+						layers.forEach(function (l) { l.toX = 0; l.toY = 0; });
+						easeToPointer();
+					});
 				}
 
 				function onScroll() {
