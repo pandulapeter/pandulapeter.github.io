@@ -15,7 +15,34 @@
 		<meta name="twitter:card" content="summary_large_image">
 		<link rel="icon" type="image/png" sizes="32x32" href="resources/ic_favicon_dark.png" media="(prefers-color-scheme: dark)"/>
 		<link rel="icon" type="image/png" sizes="32x32" href="resources/ic_favicon_light.png" media="(prefers-color-scheme: light)"/>
-		<link rel="preload" as="image" href="resources/bg_corner.webp" fetchpriority="high">
+		<script>
+			/* The stylesheet asks iOS for the PNG version of the hero photo (see
+			   .photo); preload whichever file it is going to want, decided by the
+			   same feature test, so nothing is fetched twice. */
+			(function () {
+				var ios = window.CSS && CSS.supports && CSS.supports("-webkit-touch-callout", "none");
+				var link = document.createElement("link");
+				link.rel = "preload";
+				link.as = "image";
+				link.href = "resources/bg_corner." + (ios ? "png" : "webp");
+				link.setAttribute("fetchpriority", "high");
+				document.head.appendChild(link);
+				if (!ios) return;
+				/* Pull-to-refresh on iOS reloads the page, and Safari then restores the
+				   scroll position it last saved - which after a quick flick up to the top
+				   can still be the one from the bottom of the page, so the fresh page
+				   jumps down again. A reload from the top should stay at the top; the
+				   back-forward cache keeps positions on back/forward regardless of this.
+				   The smooth scrolling is also held off until the page has loaded, so a
+				   fragment in the URL (the "back to the top" link leaves #top behind) is
+				   jumped to rather than animated to across the freshly painted page. */
+				if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+				document.documentElement.classList.add("settling");
+				window.addEventListener("load", function () {
+					requestAnimationFrame(function () { document.documentElement.classList.remove("settling"); });
+				});
+			})();
+		</script>
 
 		<title>Péter Pandula</title>
 
@@ -67,6 +94,7 @@
 				-webkit-text-size-adjust: 100%;
 				-webkit-tap-highlight-color: transparent;
 			}
+			html.settling { scroll-behavior: auto; }
 			body {
 				margin: 0;
 				background: var(--bg);
@@ -102,19 +130,12 @@
 			}
 
 			/* Nothing in here may ask the compositor for a surface of its own: no
-			   blur(), no filter, no mix-blend-mode, no mask. Each of those forces the
-			   whole wash - a section-sized box with three drifting children - to be
-			   rendered off-screen into a texture, and on Android Chrome that texture
-			   comes back only partly rastered once the page has been scrolled for a
-			   while: first seen as a straight cut edge where a tile met the overflow
-			   clip, later as one lit band across the hero with the rest of the wash
-			   missing. Plain painting reaches the same picture, because what sits
-			   behind the glow is always the flat page background: the group's 0.32
-			   opacity and the saturate() are folded into the gradient stops (over
-			   black, stacking equally coloured layers is arithmetically what screen
-			   does), and the top and bottom fades are painted on in --bg rather than
-			   masked out (also identical over a flat backdrop). What is left is three
-			   clipped, plainly composited layers - no surface to come back wrong. */
+			   blur(), no filter, no mix-blend-mode, no mask. The group's 0.32 opacity
+			   and the saturate() are folded into the gradient stops, and the top and
+			   bottom fades are painted on in --bg rather than masked out (identical
+			   over the flat page background). On touch devices the drift is off as
+			   well, see below: it is the animation that turns each span into a
+			   compositor layer of its own. */
 			.glow {
 				position: absolute;
 				inset: 0;
@@ -157,6 +178,18 @@
 			@keyframes drift-b { from { transform: translate3d(0, 0, 0) scale(1.15); }     to { transform: translate3d(-20vw, 18vh, 0) scale(0.9); } }
 			@keyframes drift-c { from { transform: translate3d(0, 0, 0) scale(0.95); }     to { transform: translate3d(22vw, -14vh, 0) scale(1.2); } }
 			@keyframes drift-d { from { transform: translate3d(0, 0, 0) scale(1.1); }      to { transform: translate3d(-14vw, -20vh, 0) scale(0.85); } }
+			/* A running transform animation makes each span a compositor layer, and
+			   everything painted above one - the section's own text and cards - has to
+			   be composited too to keep the paint order. That is fifteen section-sized
+			   animating layers plus a content layer per section, which is more than
+			   Android Chrome's tile budget on a tablet: past the budget the compositor
+			   hands back whatever it has, seen as a section whose text is missing while
+			   its wash is not, or as one tile row of the hero drawn from an older frame.
+			   Without the animation nothing here is composited, and the wash is painted
+			   straight into the page's own tiles like any other background. */
+			@media (hover: none) {
+				.glow span { animation: none; }
+			}
 
 			.progress {
 				position: fixed;
@@ -313,31 +346,32 @@
 					var(--bg) calc(var(--top-h) + env(safe-area-inset-top)),
 					transparent 100%);
 			}
-			/* bg_corner.webp is stored keyed: alpha is the frame's own luminance and the
-			   colour is divided through by it, with the contrast/brightness grade baked in
-			   (regenerate the file if that grade should change). That keying is what lets
-			   this composite plainly: alpha * colour is already the graded pixel, so
-			   ordinary source-over paints the same picture screen used to, and the two
-			   differ only by dst * alpha * (1 - colour) - a couple of levels at most,
-			   because what sits under the photo is the hero's own 0.88 scrim. Worth the
-			   swap: screen is a *backdrop* operation, so it drags everything painted
-			   below it - the drifting glow layers included - into one off-screen surface
-			   the size of the hero, which is the surface Android Chrome hands back
-			   partly rastered. The masks stay: a mask is a per-pixel multiply, it reads
-			   no neighbouring pixels and so survives being rastered in tiles, unlike the
-			   blur() that had to go earlier. The edge fades are masks rather than
-			   multiplied-to-black layers, which without screen would be dark boxes. */
+			/* bg_corner is stored keyed: alpha is the frame's own luminance and the
+			   colour is divided through by it, with the contrast/brightness grade baked
+			   in (regenerate both files if that grade should change). Ordinary
+			   source-over then paints what screen blending used to, without screen's
+			   read of the backdrop, which is what used to drag the whole hero into one
+			   off-screen surface on Android.
+			   The fade-in sits on this wrapper and the masks on its child, so the
+			   element that gets composited for the animation is never a masked one:
+			   the masks are then painted in software, per tile, and no compositor mask
+			   layer exists to come back wrong. */
 			.photo {
 				--photo-y: 0px;
+				animation: fade-in 1.2s var(--ease) both;
+			}
+			.photo > span {
+				position: absolute;
+				inset: 0;
+				display: block;
 				-webkit-mask-image: linear-gradient(to top, transparent var(--fade-y0), #000 var(--fade-y1));
 				mask-image: linear-gradient(to top, transparent var(--fade-y0), #000 var(--fade-y1));
 				-webkit-mask-repeat: no-repeat;
 				mask-repeat: no-repeat;
 				-webkit-mask-size: 100% 100%;
 				mask-size: 100% 100%;
-				animation: fade-in 1.2s var(--ease) both;
 			}
-			.photo::before {
+			.photo > span::before {
 				content: "";
 				position: absolute;
 				inset: 0;
@@ -351,6 +385,15 @@
 				mask-repeat: no-repeat;
 				-webkit-mask-size: 100% 100%;
 				mask-size: 100% 100%;
+			}
+			/* iOS Safari has been seen drawing this WebP's transparent pixels as solid
+			   black once the page had been played with: the photo itself still looked
+			   right and the block was attenuated by both masks exactly as the image is,
+			   so it is the decoded image that lost its alpha, not the compositing. PNG
+			   keeps the alpha through every decode path iOS has. Only WebKit on iOS
+			   knows this property, which is what the preload script tests as well. */
+			@supports (-webkit-touch-callout: none) {
+				.photo > span::before { background-image: url("resources/bg_corner.png"); }
 			}
 			@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 
@@ -418,7 +461,7 @@
 					--fade-y0: 25%;
 					--fade-y1: 65%;
 				}
-				.photo::before {
+				.photo > span::before {
 					background-position: right -10vw top var(--photo-y);
 					background-size: auto 78%;
 				}
@@ -842,7 +885,7 @@
 
 		<section class="hero" id="top">
 			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
-			<div class="photo" aria-hidden="true"></div>
+			<div class="photo" aria-hidden="true"><span></span></div>
 			<div class="wrap hero-inner">
 				<p class="eyebrow label">Hi, I'm</p>
 				<h1>Péter <em>Pandula</em></h1>
@@ -1012,7 +1055,7 @@
 				var hue = parseFloat(css.getPropertyValue("--hue")) || 195;
 				var hueTarget = hue;
 				var lastShift = -Infinity;
-				var lastHue = "";
+				var lastHue = -Infinity;
 				var accentStep = 0, stepShown = 0, stepTarget = 0;
 
 				function toneAt(h) {
@@ -1162,14 +1205,22 @@
 					   Size first, then measure where the flex box put that size, then
 					   translate from there onto the interpolated corner: the copy leaves
 					   the title's place exactly and lands in the bar exactly. */
-					var titleRect = titleEl.getBoundingClientRect();
 					var st = brandName.style;
 					st.fontSize = lerp(geo.heroFont, geo.brandFont, p).toFixed(2) + "px";
-					st.transform = "none";
-					var natural = brandName.getBoundingClientRect();
-					st.transform = "translate("
-						+ (lerp(titleRect.left, geo.dockX, p) - natural.left).toFixed(2) + "px,"
-						+ (lerp(titleRect.top, geo.dockY, p) - natural.top).toFixed(2) + "px)";
+					if (t >= 1) {
+						/* Docked, the copy is exactly where measure() found it, so no rect is
+						   read: while iOS rubber-bands past the end of the page, fixed elements
+						   report their rects shifted by the overscroll, and a translation built
+						   from one of those walked the name down out of the bar. */
+						st.transform = "none";
+					} else {
+						var titleRect = titleEl.getBoundingClientRect();
+						st.transform = "none";
+						var natural = brandName.getBoundingClientRect();
+						st.transform = "translate("
+							+ (lerp(titleRect.left, geo.dockX, p) - natural.left).toFixed(2) + "px,"
+							+ (lerp(titleRect.top, geo.dockY, p) - natural.top).toFixed(2) + "px)";
+					}
 					var handed = p > 0;
 					eyebrow.style.opacity = String(1 - Math.min(1, p / 0.35));
 					brandEl.style.opacity = handed ? "1" : "0";
@@ -1200,10 +1251,14 @@
 						stepShown = stepTarget;
 					}
 					var tone = toneAt(hue + stepShown);
-					var hueCss = hue.toFixed(1);
-					if (hueCss !== lastHue) {
-						lastHue = hueCss;
-						root.style.setProperty("--hue", hueCss);
+					/* Every write here restyles the whole page (each accent derives from
+					   --hue) and repaints everything that shows one, the wash included. The
+					   canvas gets the exact hue each frame; the sheet hears about it every
+					   few degrees - well under what the eye can pick out on a slow glide -
+					   and once more when the glide has settled. */
+					if (hue === hueTarget ? hue !== lastHue : Math.abs(hue - lastHue) >= 4) {
+						lastHue = hue;
+						root.style.setProperty("--hue", hue.toFixed(1));
 					}
 					for (var i = 0; i < COUNT; i++) {
 						var s = strings[i];
@@ -1694,6 +1749,23 @@
 				} else {
 					revealed.forEach(function (el) { el.classList.add("in"); });
 				}
+				/* The observer is the nice path; this is the guarantee. Its callbacks
+				   need a rendering opportunity, and a page that is busy enough (or a
+				   tab that was in the background) can be scrolled well past a block
+				   before one comes - leaving a section that is nothing but its wash.
+				   So on every scroll frame, whatever has already reached the same line
+				   the observer watches is shown, until nothing is left to show. */
+				var pendingReveal = Array.prototype.slice.call(revealed);
+				function revealDue() {
+					if (!pendingReveal.length) return;
+					var limit = window.innerHeight * 0.9, rest = [];
+					for (var i = 0; i < pendingReveal.length; i++) {
+						var el = pendingReveal[i];
+						if (el.classList.contains("in")) continue;
+						if (el.getBoundingClientRect().top < limit) el.classList.add("in"); else rest.push(el);
+					}
+					pendingReveal = rest;
+				}
 
 				var bar = document.getElementById("progress-bar");
 				var navLinks = Array.prototype.slice.call(document.querySelectorAll(".top nav a"));
@@ -1707,7 +1779,10 @@
 				   is over its own host - xFrac of the layer's width sideways, yAmp pixels
 				   vertically, measured across that host - and eases back to the scroll-only
 				   position on the way out. Both stay inside the slack given by the negative
-				   insets and the base scale set in the stylesheet. */
+				   insets and the base scale set in the stylesheet. The transforms are 2D on
+				   purpose: a translate3d() would promote each masked, filtered art layer to
+				   the compositor, together with the card content above it, which is the
+				   same tile-budget trouble the wash had on Android. */
 				var layers = [];
 				Array.prototype.forEach.call(document.querySelectorAll(".card .art"), function (el) {
 					layers.push({ el: el, host: el.closest(".card"), rate: 0.055, limit: ART_SHIFT, xFrac: 0.03, yAmp: 6, scale: 1.07 });
@@ -1729,7 +1804,7 @@
 						if (d > cap) d = cap; else if (d < -cap) d = -cap;
 						x = -l.x * r.width * l.xFrac;
 						y = -d - l.y * l.yAmp;
-						l.el.style.transform = "translate3d(" + x.toFixed(1) + "px," + y.toFixed(1) + "px,0) scale(" + l.scale + ")";
+						l.el.style.transform = "translate(" + x.toFixed(1) + "px," + y.toFixed(1) + "px) scale(" + l.scale + ")";
 					}
 				}
 				function pointerFrame() {
@@ -1764,6 +1839,7 @@
 
 				function onScroll() {
 					layout();
+					revealDue();
 					if (!reducedMotion) parallax();
 					var max = document.documentElement.scrollHeight - window.innerHeight;
 					bar.style.transform = "scaleX(" + (max > 0 ? Math.min(1, window.scrollY / max) : 0) + ")";
