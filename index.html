@@ -255,6 +255,10 @@
 			.hero {
 				--accent-step: 0;
 				position: relative;
+				/* Keeps .glow and .photo in one blending group: WebKit will not blend an
+				   element against a backdrop that lives in a separate composited layer, and
+				   the drifting glow blobs are promoted to their own layers on iOS. */
+				isolation: isolate;
 				min-height: 39rem;
 				display: grid;
 				align-content: start;
@@ -290,19 +294,39 @@
 					var(--bg) calc(var(--top-h) + env(safe-area-inset-top)),
 					transparent 100%);
 			}
+			/* The photo is knocked out of its black backdrop with screen blending, and
+			   bg_corner.webp is also matted so that the black is transparent in the file
+			   itself - under screen those pixels contributed nothing anyway, so this costs
+			   nothing here and leaves no black block on iOS if the blend mode is dropped.
+			   The edge fades are masks rather than multiplied-to-black layers (identical
+			   result under screen), and the filter sits on the child so that promoting the
+			   filtered layer cannot cost us the blend mode on WebKit. */
 			.photo {
 				--photo-y: 0px;
-				background-image:
-					linear-gradient(to left, transparent var(--fade-x), #000 100%),
-					linear-gradient(to top, #000 var(--fade-y0), transparent var(--fade-y1)),
-					url("resources/bg_corner.webp");
-				background-repeat: no-repeat;
-				background-position: left top, left top, right 0px top var(--photo-y);
-				background-size: 100% 100%, 100% 100%, auto 100%;
-				background-blend-mode: multiply, multiply, normal;
 				mix-blend-mode: screen;
-				filter: contrast(1.14) brightness(1.06);
+				-webkit-mask-image: linear-gradient(to top, transparent var(--fade-y0), #000 var(--fade-y1));
+				mask-image: linear-gradient(to top, transparent var(--fade-y0), #000 var(--fade-y1));
+				-webkit-mask-repeat: no-repeat;
+				mask-repeat: no-repeat;
+				-webkit-mask-size: 100% 100%;
+				mask-size: 100% 100%;
 				animation: fade-in 1.2s var(--ease) both;
+			}
+			.photo::before {
+				content: "";
+				position: absolute;
+				inset: 0;
+				background-image: url("resources/bg_corner.webp");
+				background-repeat: no-repeat;
+				background-position: right 0px top var(--photo-y);
+				background-size: auto 100%;
+				-webkit-mask-image: linear-gradient(to left, #000 var(--fade-x), transparent 100%);
+				mask-image: linear-gradient(to left, #000 var(--fade-x), transparent 100%);
+				-webkit-mask-repeat: no-repeat;
+				mask-repeat: no-repeat;
+				-webkit-mask-size: 100% 100%;
+				mask-size: 100% 100%;
+				filter: contrast(1.14) brightness(1.06);
 			}
 			@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 
@@ -370,9 +394,9 @@
 					--fade-y0: 25%;
 					--fade-y1: 65%;
 				}
-				.photo {
-					background-position: left top, left top, right -10vw top var(--photo-y);
-					background-size: 100% 100%, 100% 100%, auto 78%;
+				.photo::before {
+					background-position: right -10vw top var(--photo-y);
+					background-size: auto 78%;
 				}
 				.strings {
 					--hero-b: 58;
@@ -1172,15 +1196,39 @@
 				}
 
 				var audio = null, master = null, buffers = [], soundOn = false, soundChosen = false;
+				function primeSession() {
+					// iOS routes Web Audio through the ambient session, which the ringer switch mutes.
+					try {
+						if (navigator.audioSession && navigator.audioSession.type !== "playback") navigator.audioSession.type = "playback";
+					} catch (err) {}
+				}
+				function resumeAudio() {
+					if (!audio || audio.state === "running") return;
+					try {
+						var p = audio.resume();
+						if (p && p.catch) p.catch(function () {});
+					} catch (err) {}
+				}
+				// Synchronous on purpose: iOS only unlocks audio inside the gesture task itself,
+				// so nothing here may wait on the resume() promise.
 				function ensureAudio() {
-					if (audio) return audio.resume();
+					if (audio) { resumeAudio(); return true; }
 					var AC = window.AudioContext || window.webkitAudioContext;
-					if (!AC) return Promise.reject();
-					audio = new AC();
+					if (!AC) return false;
+					primeSession();
+					try { audio = new AC(); } catch (err) { return false; }
 					master = audio.createGain();
 					master.gain.value = 0.2;
 					master.connect(audio.destination);
-					return audio.resume();
+					// A one-sample source started in the gesture is what actually unlocks older iOS.
+					try {
+						var warm = audio.createBufferSource();
+						warm.buffer = audio.createBuffer(1, 1, audio.sampleRate);
+						warm.connect(audio.destination);
+						if (warm.start) warm.start(0); else if (warm.noteOn) warm.noteOn(0);
+					} catch (err) {}
+					resumeAudio();
+					return true;
 				}
 				function bufferFor(index) {
 					if (buffers[index]) return buffers[index];
@@ -1212,13 +1260,15 @@
 				}
 				function play(index, velocity) {
 					if (!soundOn || !audio) return;
+					// iOS suspends the context after an interruption or a trip to the background.
+					if (audio.state !== "running") { primeSession(); resumeAudio(); }
 					var src = audio.createBufferSource();
 					src.buffer = bufferFor(index);
 					var g = audio.createGain();
 					g.gain.value = 0.35 + 0.65 * velocity;
 					src.connect(g);
 					g.connect(master);
-					src.start();
+					if (src.start) src.start(0); else if (src.noteOn) src.noteOn(0);
 				}
 				function setSound(on) {
 					soundOn = on;
@@ -1228,7 +1278,9 @@
 				soundButton.addEventListener("click", function () {
 					soundChosen = true;
 					if (soundOn) { setSound(false); return; }
-					ensureAudio().then(function () { setSound(true); pluck(5, 0.6); }, function () {});
+					if (!ensureAudio()) return;
+					setSound(true);
+					pluck(5, 0.6);
 				});
 
 				function pluck(index, velocity) {
@@ -1273,9 +1325,7 @@
 					lastY = y;
 					lastTime = performance.now();
 					if (canvas.setPointerCapture) { try { canvas.setPointerCapture(e.pointerId); } catch (err) {} }
-					if (!soundOn && !soundChosen) {
-						ensureAudio().then(function () { setSound(true); if (index >= 0) play(index, 0.8); }, function () {});
-					}
+					if (!soundOn && !soundChosen && ensureAudio()) setSound(true);
 					if (index >= 0) pluck(index, 0.8);
 				});
 				function release() { down = false; lastY = null; }
