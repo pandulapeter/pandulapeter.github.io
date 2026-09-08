@@ -255,10 +255,6 @@
 			.hero {
 				--accent-step: 0;
 				position: relative;
-				/* Keeps .glow and .photo in one blending group: WebKit will not blend an
-				   element against a backdrop that lives in a separate composited layer, and
-				   the drifting glow blobs are promoted to their own layers on iOS. */
-				isolation: isolate;
 				min-height: 39rem;
 				display: grid;
 				align-content: start;
@@ -294,13 +290,14 @@
 					var(--bg) calc(var(--top-h) + env(safe-area-inset-top)),
 					transparent 100%);
 			}
-			/* The photo is knocked out of its black backdrop with screen blending, and
-			   bg_corner.webp is also matted so that the black is transparent in the file
-			   itself - under screen those pixels contributed nothing anyway, so this costs
-			   nothing here and leaves no black block on iOS if the blend mode is dropped.
-			   The edge fades are masks rather than multiplied-to-black layers (identical
-			   result under screen), and the filter sits on the child so that promoting the
-			   filtered layer cannot cost us the blend mode on WebKit. */
+			/* bg_corner.webp is stored keyed: alpha is the frame's own luminance and the
+			   colour is divided through by it, with the contrast/brightness grade baked in
+			   (regenerate the file if that grade should change). Screen blending then
+			   contributes alpha * colour, which is exactly the ungraded pixel, so this
+			   renders as it always did - and where WebKit drops the blend the fallback is
+			   plain alpha compositing, which lands within a fraction of a level of the same
+			   picture instead of a dark box. The edge fades are masks rather than
+			   multiplied-to-black layers (identical result under screen). */
 			.photo {
 				--photo-y: 0px;
 				mix-blend-mode: screen;
@@ -326,7 +323,6 @@
 				mask-repeat: no-repeat;
 				-webkit-mask-size: 100% 100%;
 				mask-size: 100% 100%;
-				filter: contrast(1.14) brightness(1.06);
 			}
 			@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 
@@ -1196,10 +1192,15 @@
 				}
 
 				var audio = null, master = null, buffers = [], soundOn = false, soundChosen = false;
+				// iOS routes Web Audio through the ambient session, which the ringer switch mutes.
+				// Switching category reconfigures the audio route and is slow, so it happens
+				// exactly once, before the context exists - never on a pluck.
+				var sessionPrimed = false;
 				function primeSession() {
-					// iOS routes Web Audio through the ambient session, which the ringer switch mutes.
+					if (sessionPrimed) return;
+					sessionPrimed = true;
 					try {
-						if (navigator.audioSession && navigator.audioSession.type !== "playback") navigator.audioSession.type = "playback";
+						if (navigator.audioSession) navigator.audioSession.type = "playback";
 					} catch (err) {}
 				}
 				function resumeAudio() {
@@ -1228,6 +1229,11 @@
 						if (warm.start) warm.start(0); else if (warm.noteOn) warm.noteOn(0);
 					} catch (err) {}
 					resumeAudio();
+					// Synthesising the six strings costs a few ms each; get them out of the
+					// way now so no pluck ever pays for it.
+					setTimeout(function () {
+						for (var i = 0; i < COUNT; i++) bufferFor(i);
+					}, 0);
 					return true;
 				}
 				function bufferFor(index) {
@@ -1258,17 +1264,18 @@
 					buffers[index] = buffer;
 					return buffer;
 				}
+				// Nothing here may touch the audio session or resume the context: on iOS both
+				// take long enough to be heard as lag, and a suspended context queues the
+				// sources up to fire late in a burst. Recovery happens on the next gesture.
 				function play(index, velocity) {
 					if (!soundOn || !audio) return;
-					// iOS suspends the context after an interruption or a trip to the background.
-					if (audio.state !== "running") { primeSession(); resumeAudio(); }
 					var src = audio.createBufferSource();
 					src.buffer = bufferFor(index);
 					var g = audio.createGain();
 					g.gain.value = 0.35 + 0.65 * velocity;
 					src.connect(g);
 					g.connect(master);
-					if (src.start) src.start(0); else if (src.noteOn) src.noteOn(0);
+					if (src.start) src.start(); else if (src.noteOn) src.noteOn(0);
 				}
 				function setSound(on) {
 					soundOn = on;
@@ -1326,6 +1333,7 @@
 					lastTime = performance.now();
 					if (canvas.setPointerCapture) { try { canvas.setPointerCapture(e.pointerId); } catch (err) {} }
 					if (!soundOn && !soundChosen && ensureAudio()) setSound(true);
+					else if (soundOn) resumeAudio();
 					if (index >= 0) pluck(index, 0.8);
 				});
 				function release() { down = false; lastY = null; }
