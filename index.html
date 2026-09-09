@@ -677,20 +677,26 @@
 			/* Three store buttons closing the apps section, sharing the width of one
 			   card above them. They stack once thirds get too narrow for a label. */
 			.stores { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
+			/* These are the section's primary calls to action, so unlike the muted
+			   list rows they carry full-strength ink, a semibold label and the
+			   stores' own logos undimmed - at label weight and --ink-2 they read
+			   as disabled controls rather than links. */
 			.stores a {
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				gap: 0.6rem;
-				padding: 0.85rem 0.9rem;
-				border: 1px solid var(--line);
+				gap: 0.65rem;
+				padding: 0.95rem 1rem;
+				border: 1px solid var(--line-strong);
 				border-radius: var(--radius);
-				background: var(--surface);
-				font-size: var(--fs-label);
-				color: var(--ink-2);
-				transition: color 200ms var(--ease), border-color 200ms var(--ease), background 200ms var(--ease), transform 250ms var(--ease);
+				background: var(--surface-hover);
+				font-size: 0.98rem;
+				font-weight: 600;
+				letter-spacing: -0.005em;
+				color: var(--ink);
+				transition: color 200ms var(--ease), border-color 200ms var(--ease), background 200ms var(--ease), transform 250ms var(--ease), box-shadow 250ms var(--ease);
 			}
-			.stores img { width: 22px; height: 22px; opacity: 0.65; transition: opacity 200ms var(--ease), filter 200ms var(--ease); }
+			.stores img { width: 24px; height: 24px; transition: filter 200ms var(--ease); }
 			/* Stacked, the buttons are full width, so centring each label separately
 			   would scatter the icons; left-aligning lines them up into one column. */
 			@media (max-width: 34rem) {
@@ -698,12 +704,19 @@
 				.stores a { justify-content: flex-start; gap: 0.85rem; padding-inline: 1rem; }
 			}
 			@media (hover: hover) and (pointer: fine) {
-				.stores a:hover { color: var(--ink); border-color: var(--accent-line); background: var(--surface-hover); transform: translateY(-3px); }
-				.stores a:hover img { opacity: 1; filter: drop-shadow(0 0 8px var(--accent-glow)); }
+				.stores a:hover {
+					border-color: var(--accent-line);
+					background: color-mix(in srgb, var(--accent) 12%, var(--surface-hover));
+					box-shadow: 0 8px 24px -12px var(--accent-glow);
+					transform: translateY(-3px);
+				}
+				.stores a:hover img { filter: drop-shadow(0 0 8px var(--accent-glow)); }
 			}
 			@media (hover: none) {
-				.stores a:active { color: var(--ink); border-color: var(--accent-line); background: var(--surface-hover); }
-				.stores a:active img { opacity: 1; }
+				.stores a:active {
+					border-color: var(--accent-line);
+					background: color-mix(in srgb, var(--accent) 12%, var(--surface-hover));
+				}
 			}
 
 			.player {
@@ -907,14 +920,9 @@
 				footer a:hover { color: var(--accent); }
 			}
 
-			.reveal { opacity: 0; transform: translateY(14px); transition: opacity 700ms var(--ease), transform 700ms var(--ease); }
-			.reveal.in { opacity: 1; transform: none; }
-
 			/* Touch devices, which in practice means Android Chrome on a tablet that
 			   runs out of compositor tile budget: nothing here may be composited or
 			   repainted on a scroll frame.
-			   - the reveal transition composites every block for 700ms as it comes
-			     in, and every block painted above one goes with it;
 			   - a sticky heading is a composited layer, and everything painted after
 			     it that it could ever overlap is given a layer too - the rows under
 			     the Sunday Songs player came back as a blank rectangle that way;
@@ -923,7 +931,6 @@
 			   - a backdrop-filter re-blurs the bar's render surface every frame the
 			     page scrolls under it. */
 			@media (hover: none) {
-				.reveal { opacity: 1; transform: none; transition: none; }
 				.section-head { position: static; }
 				.item .thumb::after { animation: none; background-position: 50% 0; }
 				.top, .stage .badge {
@@ -947,7 +954,6 @@
 			@media (prefers-reduced-motion: reduce) {
 				html { scroll-behavior: auto; }
 				.photo { animation: none; }
-				.reveal { opacity: 1; transform: none; transition: none; }
 				.card, .row, .item, .card .art, .stage .play .disc { transition: none; }
 				.item .thumb::after { animation: none; }
 				.stage .frame { transition: none; }
@@ -984,7 +990,7 @@
 					<canvas class="strings" id="strings" tabindex="0" role="img" aria-label="Six guitar strings. Strum them with the pointer, or press keys 1 to 6 to pluck."></canvas>
 				</div>
 
-				<p class="tagline"><strong>Software engineer, guitar player.</strong> App developer by trade, open-source enthusiast by habit, live musician the rest of the time.</p>
+				<p class="tagline"><strong>Software engineer, guitar player.</strong> Crafting apps, sharing the source, and playing in bands off the clock.</p>
 
 			</div>
 		</section>
@@ -994,12 +1000,12 @@
 			<section class="section" id="apps">
 			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
-					<div class="section-head reveal">
+					<div class="section-head">
 						<span class="num label">01</span>
 						<h2>apps</h2>
 						<p>Pet projects of mine, wherever you like to run them. The web builds don't require any installation.</p>
 					</div>
-					<div class="cards reveal">
+					<div class="cards">
 						<h3 class="group label">On the app stores</h3>
 						<div class="stores">
 							<a href="https://play.google.com/store/apps/dev?id=7182071273878480730" target="_blank" rel="noopener"><img src="resources/ic_google_play.png" alt=""><span>Google Play</span></a>
@@ -1032,12 +1038,12 @@
 			<section class="section" id="code">
 			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
-					<div class="section-head reveal">
+					<div class="section-head">
 						<span class="num label">02</span>
 						<h2>code</h2>
 						<p>All Kotlin, all open source: libraries, apps, and the occasional article about how they were made.</p>
 					</div>
-					<div class="rows reveal">
+					<div class="rows">
 						<a class="row" href="https://github.com/pandulapeter" target="_blank" rel="noopener">
 							<img src="resources/ic_github.png" alt="">
 							<span><span class="title">Browse my open source projects</span><span class="meta label">GitHub</span></span>
@@ -1057,12 +1063,12 @@
 			<section class="section" id="music">
 			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
-					<div class="section-head reveal">
+					<div class="section-head">
 						<span class="num label">03</span>
 						<h2>music</h2>
 						<p>Sunday Songs is the centerpiece: one cover a week all through 2023. Other projects I'm proud of below that.</p>
 					</div>
-					<div class="reveal">
+					<div>
 						<div class="player" id="player" tabindex="0" aria-label="Sunday Songs player. Use the left and right arrow keys to change the week.">
 							<div class="player-main">
 							<div class="stage">
@@ -1104,12 +1110,12 @@
 			<section class="section" id="contact">
 			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
-					<div class="section-head reveal">
+					<div class="section-head">
 						<span class="num label">04</span>
 						<h2>connect</h2>
 						<p>A CV if you are hiring, some photos from off the clock, and an inbox for work, music, or anything else.</p>
 					</div>
-					<div class="rows reveal">
+					<div class="rows">
 						<a class="row" href="https://drive.google.com/file/d/1PHQJlo3TILtbnTZXZohXTOUA3GmJJBv0/view?usp=sharing" target="_blank" rel="noopener">
 							<img src="resources/ic_cv.png" alt="">
 							<span><span class="title">Read my resume</span><span class="meta label">Google Drive</span></span>
@@ -1894,35 +1900,6 @@
 				});
 				select(0);
 
-				var revealed = document.querySelectorAll(".reveal");
-				if ("IntersectionObserver" in window && !reducedMotion) {
-					var io = new IntersectionObserver(function (entries) {
-						entries.forEach(function (entry) {
-							if (entry.isIntersecting) { entry.target.classList.add("in"); io.unobserve(entry.target); }
-						});
-					}, { rootMargin: "0px 0px -10% 0px" });
-					revealed.forEach(function (el) { io.observe(el); });
-				} else {
-					revealed.forEach(function (el) { el.classList.add("in"); });
-				}
-				/* The observer is the nice path; this is the guarantee. Its callbacks
-				   need a rendering opportunity, and a page that is busy enough (or a
-				   tab that was in the background) can be scrolled well past a block
-				   before one comes - leaving a section that is nothing but its wash.
-				   So on every scroll frame, whatever has already reached the same line
-				   the observer watches is shown, until nothing is left to show. */
-				var pendingReveal = Array.prototype.slice.call(revealed);
-				function revealDue() {
-					if (!pendingReveal.length) return;
-					var limit = window.innerHeight * 0.9, rest = [];
-					for (var i = 0; i < pendingReveal.length; i++) {
-						var el = pendingReveal[i];
-						if (el.classList.contains("in")) continue;
-						if (el.getBoundingClientRect().top < limit) el.classList.add("in"); else rest.push(el);
-					}
-					pendingReveal = rest;
-				}
-
 				var bar = document.getElementById("progress-bar");
 				var navLinks = Array.prototype.slice.call(document.querySelectorAll(".top nav a"));
 				var sections = Array.prototype.slice.call(document.querySelectorAll(".hero, .section"));
@@ -1996,7 +1973,6 @@
 
 				function onScroll() {
 					layout();
-					if (!coarse) revealDue();
 					if (!reducedMotion) parallax();
 					var max = document.documentElement.scrollHeight - window.innerHeight;
 					bar.style.transform = "scaleX(" + (max > 0 ? Math.min(1, window.scrollY / max) : 0) + ")";
