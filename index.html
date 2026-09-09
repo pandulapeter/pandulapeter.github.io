@@ -295,6 +295,7 @@
 			   weight, which is exactly the tell that gives a hand-off away - and only
 			   then translates it, so the two are never on screen together. */
 			.brand-name {
+				position: relative;
 				display: block;
 				font-size: var(--fs-brand);
 				font-weight: 700;
@@ -304,9 +305,20 @@
 				will-change: font-size, transform;
 			}
 			.brand-name em { font-style: normal; color: var(--accent); }
+			.brand-name::after {
+				content: "";
+				position: absolute;
+				left: 0; right: 0; bottom: -0.35rem;
+				height: 2px;
+				border-radius: 2px;
+				background: var(--accent);
+				transform: scaleX(0);
+				transform-origin: 0 50%;
+				transition: transform 250ms var(--ease);
+			}
 			.brand.on { pointer-events: auto; }
 			@media (hover: hover) and (pointer: fine) {
-				.brand.on:hover { color: var(--accent); }
+				.brand.on:hover .brand-name::after { transform: scaleX(1); }
 			}
 
 			.hero {
