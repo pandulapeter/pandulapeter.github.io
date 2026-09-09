@@ -8,10 +8,10 @@
 		<meta name="description" content="Personal website of Péter Pandula, app developer and guitar player.">
 		<meta name="theme-color" content="#07060e">
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://pandulapeter.github.io/">
+		<meta property="og:url" content="https://pandulapeter.com/">
 		<meta property="og:title" content="Péter Pandula">
 		<meta property="og:description" content="app developer • guitar player">
-		<meta property="og:image" content="https://pandulapeter.github.io/resources/bg_corner.webp">
+		<meta property="og:image" content="https://pandulapeter.com/resources/bg_corner.webp">
 		<meta name="twitter:card" content="summary_large_image">
 		<link rel="preconnect" href="https://i.ytimg.com">
 		<link rel="icon" type="image/png" sizes="32x32" href="resources/ic_favicon_dark.png" media="(prefers-color-scheme: dark)"/>
@@ -948,19 +948,19 @@
 						<p>Web builds of my pet projects, running in your browser with no install and no sign‑up.</p>
 					</div>
 					<div class="cards reveal">
-						<a class="card art-kubriko" href="https://pandulapeter.github.io/kubriko" target="_blank" rel="noopener">
+						<a class="card art-kubriko" href="kubriko/" target="_blank" rel="noopener">
 							<span class="art" aria-hidden="true"></span>
 							<span class="icon"><img src="resources/ic_kubriko.png" alt=""></span>
 							<span><h3>Kubriko</h3><span class="kind label">Engine showcase</span></span>
 							<p>My 2D game engine shown off through demos, games, and tech samples.</p>
 						</a>
-						<a class="card art-tesselar" href="https://pandulapeter.github.io/tesselar" target="_blank" rel="noopener">
+						<a class="card art-tesselar" href="tesselar/" target="_blank" rel="noopener">
 							<span class="art" aria-hidden="true"></span>
 							<span class="icon"><img src="resources/ic_tesselar.png" alt=""></span>
 							<span><h3>Tesselar</h3><span class="kind label">3D experiment</span></span>
 							<p>A real-time 3D world built on top of Kubriko, with weather simulation and a day–night cycle.</p>
 						</a>
-						<a class="card art-campfire" href="https://pandulapeter.github.io/campfire" target="_blank" rel="noopener">
+						<a class="card art-campfire" href="campfire/" target="_blank" rel="noopener">
 							<span class="art" aria-hidden="true"></span>
 							<span class="icon"><img src="resources/ic_campfire.png" alt=""></span>
 							<span><h3>Campfire</h3><span class="kind label">Lyrics and chords</span></span>
@@ -983,7 +983,7 @@
 							<div class="player-main">
 							<div class="stage">
 								<div class="stage-art" id="ss-art">
-									<img class="frame on" id="ss-img" src="sunday-songs/053.webp" alt="" width="960" height="540" decoding="async" fetchpriority="low">
+									<img class="frame on" id="ss-img" src="resources/sunday-songs/053.webp" alt="" width="960" height="540" decoding="async" fetchpriority="low">
 									<img class="frame" id="ss-img-b" alt="" width="960" height="540">
 								</div>
 								<button class="play" id="ss-play" type="button" aria-label="Watch this week's video on YouTube" title="Watch on YouTube">
@@ -1737,7 +1737,7 @@
 					var song = SONGS[current];
 					var parts = split(song[1]);
 					var week = String(song[0]);
-					showFrame("sunday-songs/" + ("000" + week).slice(-3) + ".webp");
+					showFrame("resources/sunday-songs/" + ("000" + week).slice(-3) + ".webp");
 					ssBadge.textContent = "week " + week + " / " + TOTAL;
 					ssTitle.textContent = parts[1] || parts[0];
 					ssSub.textContent = (parts[1] ? parts[0] + " · " : "") + song[3];
