@@ -115,8 +115,8 @@
 				border-radius: 4px;
 			}
 			img { display: block; max-width: 100%; }
-			h1, h2, h3, p { margin: 0; }
-			h1, h2, h3 { font-weight: 650; line-height: 1.1; letter-spacing: -0.02em; }
+			h1, h2, h3, h4, p { margin: 0; }
+			h1, h2, h3, h4 { font-weight: 650; line-height: 1.1; letter-spacing: -0.02em; }
 			h2 { font-size: var(--fs-h2); }
 			h3 { font-size: var(--fs-h3); }
 
@@ -168,8 +168,8 @@
 			.glow span:nth-child(1) { left: -16%;  top: -22%;    animation: drift-a 26s var(--ease) infinite alternate; }
 			.glow span:nth-child(2) { right: -20%; bottom: -26%; opacity: 0.95; animation: drift-c 34s var(--ease) infinite alternate; }
 			.glow span:nth-child(3) { left: 32%;   top: -8%;     opacity: 0.75; animation: drift-b 42s var(--ease) infinite alternate-reverse; }
-			#code .glow span    { animation-delay: -7s; }
-			#apps .glow span    { animation-delay: -14s; }
+			#apps .glow span    { animation-delay: -7s; }
+			#code .glow span    { animation-delay: -14s; }
 			#music .glow span   { animation-delay: -21s; }
 			#contact .glow span { animation-delay: -28s; }
 			.hero .glow span:nth-child(1) { left: -10%; top: -14%; }
@@ -498,8 +498,8 @@
 				height: 1px;
 				background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 25%, transparent) 30%, var(--line) 60%, var(--line));
 			}
-			#code    { --accent-step: 72; }
-			#apps    { --accent-step: 144; }
+			#apps    { --accent-step: 72; }
+			#code    { --accent-step: 144; }
 			#music   { --accent-step: 216; }
 			#contact { --accent-step: 288; }
 			.section-inner {
@@ -530,6 +530,15 @@
 			.section-head p { color: var(--ink-2); max-width: 26rem; text-wrap: pretty; }
 
 			.cards { display: flex; flex-direction: column; gap: 0.75rem; }
+			/* Sub-headings splitting a section's list into groups. The extra top margin
+			   only separates a group from the one before it, not from its own heading. */
+			.cards .group {
+				color: var(--ink-3);
+				font-weight: 500;
+				line-height: 1.2;
+				margin: 1.15rem 0 0 0.1rem;
+			}
+			.cards .group:first-child { margin-top: 0; }
 			.card {
 				position: relative;
 				display: grid;
@@ -590,7 +599,7 @@
 				transition: transform 250ms var(--ease), box-shadow 250ms var(--ease);
 			}
 			.card .icon img { width: 26px; height: 26px; }
-			.card h3 { font-size: var(--fs-lead); }
+			.card h4 { font-size: var(--fs-lead); }
 			.card .kind { display: block; color: var(--accent); opacity: 0.85; margin-top: 0.1rem; text-transform: none; letter-spacing: 0.02em; }
 			.card p { color: var(--ink-2); }
 			@media (hover: hover) and (pointer: fine) {
@@ -650,6 +659,38 @@
 				.row:active { background: var(--surface); }
 				.row:active::before { transform: scaleY(1); }
 				.row:active img { opacity: 1; }
+			}
+
+			/* Three store buttons closing the apps section, sharing the width of one
+			   card above them. They stack once thirds get too narrow for a label. */
+			.stores { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
+			.stores a {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 0.6rem;
+				padding: 0.85rem 0.9rem;
+				border: 1px solid var(--line);
+				border-radius: var(--radius);
+				background: var(--surface);
+				font-size: var(--fs-label);
+				color: var(--ink-2);
+				transition: color 200ms var(--ease), border-color 200ms var(--ease), background 200ms var(--ease), transform 250ms var(--ease);
+			}
+			.stores img { width: 22px; height: 22px; opacity: 0.65; transition: opacity 200ms var(--ease), filter 200ms var(--ease); }
+			/* Stacked, the buttons are full width, so centring each label separately
+			   would scatter the icons; left-aligning lines them up into one column. */
+			@media (max-width: 34rem) {
+				.stores { grid-template-columns: minmax(0, 1fr); }
+				.stores a { justify-content: flex-start; gap: 0.85rem; padding-inline: 1rem; }
+			}
+			@media (hover: hover) and (pointer: fine) {
+				.stores a:hover { color: var(--ink); border-color: var(--accent-line); background: var(--surface-hover); transform: translateY(-3px); }
+				.stores a:hover img { opacity: 1; filter: drop-shadow(0 0 8px var(--accent-glow)); }
+			}
+			@media (hover: none) {
+				.stores a:active { color: var(--ink); border-color: var(--accent-line); background: var(--surface-hover); }
+				.stores a:active img { opacity: 1; }
 			}
 
 			.player {
@@ -888,8 +929,8 @@
 		<a class="brand" href="#top"><span class="brand-name">Péter <em>Pandula</em></span></a>
 		<header class="top label">
 			<nav aria-label="Sections">
-				<a href="#code">code</a>
 				<a href="#apps">apps</a>
+				<a href="#code">code</a>
 				<a href="#music">music</a>
 				<a href="#contact">connect</a>
 			</nav>
@@ -914,65 +955,64 @@
 
 		<main>
 
-			<section class="section" id="code">
+			<section class="section" id="apps">
 			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
 				<div class="wrap section-inner">
 					<div class="section-head reveal">
 						<span class="num label">01</span>
+						<h2>apps</h2>
+						<p>Pet projects of mine, wherever you like to run them. The web builds need no install at all.</p>
+					</div>
+					<div class="cards reveal">
+						<h3 class="group label">On the app stores</h3>
+						<div class="stores">
+							<a href="https://play.google.com/store/apps/dev?id=7182071273878480730" target="_blank" rel="noopener"><img src="resources/ic_google_play.png" alt=""><span>Google Play</span></a>
+							<a href="https://apps.apple.com/us/developer/peter-pandula/id1803333004" target="_blank" rel="noopener"><img src="resources/ic_app_store.png" alt=""><span>App Store</span></a>
+							<a href="https://store.steampowered.com/search/?developer=Pandula%20P%C3%A9ter" target="_blank" rel="noopener"><img src="resources/ic_steam.png" alt=""><span>Steam</span></a>
+						</div>
+						<h3 class="group label">In your browser</h3>
+						<a class="card art-kubriko" href="kubriko/" target="_blank" rel="noopener">
+							<span class="art" aria-hidden="true"></span>
+							<span class="icon"><img src="resources/ic_kubriko.png" alt=""></span>
+							<span><h4>Kubriko</h4><span class="kind label">Engine showcase</span></span>
+							<p>My 2D game engine shown off through demos, games, and tech samples.</p>
+						</a>
+						<a class="card art-tesselar" href="tesselar/" target="_blank" rel="noopener">
+							<span class="art" aria-hidden="true"></span>
+							<span class="icon"><img src="resources/ic_tesselar.png" alt=""></span>
+							<span><h4>Tesselar</h4><span class="kind label">3D experiment</span></span>
+							<p>A real-time 3D world built on top of Kubriko, with weather simulation and a day–night cycle.</p>
+						</a>
+						<a class="card art-campfire" href="campfire/" target="_blank" rel="noopener">
+							<span class="art" aria-hidden="true"></span>
+							<span class="icon"><img src="resources/ic_campfire.png" alt=""></span>
+							<span><h4>Campfire</h4><span class="kind label">Lyrics and chords</span></span>
+							<p>A handpicked song library with support for transposition and custom setlist creation.</p>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" id="code">
+			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
+				<div class="wrap section-inner">
+					<div class="section-head reveal">
+						<span class="num label">02</span>
 						<h2>code</h2>
-						<p>Mostly Kotlin and mostly open source: libraries, apps, and the occasional article about how they were made.</p>
+						<p>All Kotlin, all open source: libraries, apps, and the occasional article about how they were made.</p>
 					</div>
 					<div class="rows reveal">
 						<a class="row" href="https://github.com/pandulapeter" target="_blank" rel="noopener">
 							<img src="resources/ic_github.png" alt="">
 							<span><span class="title">Browse my open source projects</span><span class="meta label">GitHub</span></span>
 						</a>
-						<a class="row" href="https://play.google.com/store/apps/dev?id=7182071273878480730" target="_blank" rel="noopener">
-							<img src="resources/ic_google_play.png" alt="">
-							<span><span class="title">Try the Android apps I've published</span><span class="meta label">Google Play</span></span>
-						</a>
-						<a class="row" href="https://apps.apple.com/us/developer/peter-pandula/id1803333004" target="_blank" rel="noopener">
-							<img src="resources/ic_app_store.png" alt="">
-							<span><span class="title">Try the iOS apps I've published</span><span class="meta label">App Store</span></span>
-						</a>
-						<a class="row" href="https://store.steampowered.com/search/?developer=Pandula%20P%C3%A9ter" target="_blank" rel="noopener">
-							<img src="resources/ic_steam.png" alt="">
-							<span><span class="title">Try the desktop games I've published</span><span class="meta label">Steam</span></span>
-						</a>
 						<a class="row" href="https://medium.com/@pandulapeter" target="_blank" rel="noopener">
 							<img src="resources/ic_medium.png" alt="">
 							<span><span class="title">Read the articles I've written</span><span class="meta label">Medium</span></span>
 						</a>
-					</div>
-				</div>
-			</section>
-
-			<section class="section" id="apps">
-			<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
-				<div class="wrap section-inner">
-					<div class="section-head reveal">
-						<span class="num label">02</span>
-						<h2>apps</h2>
-						<p>Web builds of my pet projects, running in your browser with no install and no sign‑up.</p>
-					</div>
-					<div class="cards reveal">
-						<a class="card art-kubriko" href="kubriko/" target="_blank" rel="noopener">
-							<span class="art" aria-hidden="true"></span>
-							<span class="icon"><img src="resources/ic_kubriko.png" alt=""></span>
-							<span><h3>Kubriko</h3><span class="kind label">Engine showcase</span></span>
-							<p>My 2D game engine shown off through demos, games, and tech samples.</p>
-						</a>
-						<a class="card art-tesselar" href="tesselar/" target="_blank" rel="noopener">
-							<span class="art" aria-hidden="true"></span>
-							<span class="icon"><img src="resources/ic_tesselar.png" alt=""></span>
-							<span><h3>Tesselar</h3><span class="kind label">3D experiment</span></span>
-							<p>A real-time 3D world built on top of Kubriko, with weather simulation and a day–night cycle.</p>
-						</a>
-						<a class="card art-campfire" href="campfire/" target="_blank" rel="noopener">
-							<span class="art" aria-hidden="true"></span>
-							<span class="icon"><img src="resources/ic_campfire.png" alt=""></span>
-							<span><h3>Campfire</h3><span class="kind label">Lyrics and chords</span></span>
-							<p>A handpicked song library with support for transposition and custom setlist creation.</p>
+						<a class="row" href="https://buymeacoffee.com/pandulapeter" target="_blank" rel="noopener">
+							<img src="resources/ic_coffee.png" alt="">
+							<span><span class="title">Support my work</span><span class="meta label">Buy Me a Coffee</span></span>
 						</a>
 					</div>
 				</div>
@@ -984,7 +1024,7 @@
 					<div class="section-head reveal">
 						<span class="num label">03</span>
 						<h2>music</h2>
-						<p>Sunday Songs is the centerpiece: one cover a week all through 2023. Some other projects I'm proud of below that.</p>
+						<p>Sunday Songs is the centerpiece: one cover a week all through 2023. Other projects I'm proud of below that.</p>
 					</div>
 					<div class="reveal">
 						<div class="player" id="player" tabindex="0" aria-label="Sunday Songs player. Use the left and right arrow keys to change the week.">
@@ -1031,24 +1071,20 @@
 					<div class="section-head reveal">
 						<span class="num label">04</span>
 						<h2>connect</h2>
-						<p>A CV if you are hiring, an inbox for work, music, or bug reports, some photos from off the clock, and a tip jar if any of it was useful.</p>
+						<p>A CV if you are hiring, some photos from off the clock, and an inbox for work, music, or anything else.</p>
 					</div>
 					<div class="rows reveal">
 						<a class="row" href="https://drive.google.com/file/d/1PHQJlo3TILtbnTZXZohXTOUA3GmJJBv0/view?usp=sharing" target="_blank" rel="noopener">
 							<img src="resources/ic_cv.png" alt="">
 							<span><span class="title">Read my resume</span><span class="meta label">Google Drive</span></span>
 						</a>
-						<a class="row" href="mailto:pandulapeter@gmail.com">
-							<img src="resources/ic_email.png" alt="">
-							<span><span class="title">Drop me a line</span><span class="meta label">pandulapeter@gmail.com</span></span>
-						</a>
 						<a class="row" href="https://www.instagram.com/pandula.peter/" target="_blank" rel="noopener">
 							<img src="resources/ic_instagram.png" alt="">
 							<span><span class="title">See what I'm up to</span><span class="meta label">Instagram</span></span>
 						</a>
-						<a class="row" href="https://buymeacoffee.com/pandulapeter" target="_blank" rel="noopener">
-							<img src="resources/ic_coffee.png" alt="">
-							<span><span class="title">Support my work</span><span class="meta label">Buy Me a Coffee</span></span>
+						<a class="row" href="mailto:pandulapeter@gmail.com">
+							<img src="resources/ic_email.png" alt="">
+							<span><span class="title">Drop me a line</span><span class="meta label">pandulapeter@gmail.com</span></span>
 						</a>
 					</div>
 				</div>
