@@ -13,6 +13,7 @@
 		<meta property="og:description" content="app developer • guitar player">
 		<meta property="og:image" content="https://pandulapeter.github.io/resources/bg_corner.webp">
 		<meta name="twitter:card" content="summary_large_image">
+		<link rel="preconnect" href="https://i.ytimg.com">
 		<link rel="icon" type="image/png" sizes="32x32" href="resources/ic_favicon_dark.png" media="(prefers-color-scheme: dark)"/>
 		<link rel="icon" type="image/png" sizes="32x32" href="resources/ic_favicon_light.png" media="(prefers-color-scheme: light)"/>
 		<script>
@@ -970,7 +971,7 @@
 							<div class="player-main">
 							<div class="stage">
 								<div class="stage-art" id="ss-art">
-									<img class="frame on" id="ss-img" src="sunday-songs/053.webp" alt="" width="960" height="540">
+									<img class="frame on" id="ss-img" src="sunday-songs/053.webp" alt="" width="960" height="540" decoding="async" fetchpriority="low">
 									<img class="frame" id="ss-img-b" alt="" width="960" height="540">
 								</div>
 								<button class="play" id="ss-play" type="button" aria-label="Watch this week's video on YouTube" title="Watch on YouTube">
@@ -1010,7 +1011,7 @@
 					<div class="section-head reveal">
 						<span class="num label">04</span>
 						<h2>connect</h2>
-						<p>A CV if you are hiring, an inbox for work, music, or bug reports, and a tip jar if any of it was useful.</p>
+						<p>A CV if you are hiring, an inbox for work, music, or bug reports, some photos from off the clock, and a tip jar if any of it was useful.</p>
 					</div>
 					<div class="rows reveal">
 						<a class="row" href="https://drive.google.com/file/d/1PHQJlo3TILtbnTZXZohXTOUA3GmJJBv0/view?usp=sharing" target="_blank" rel="noopener">
@@ -1020,6 +1021,10 @@
 						<a class="row" href="mailto:pandulapeter@gmail.com">
 							<img src="resources/ic_email.png" alt="">
 							<span><span class="title">Drop me a line</span><span class="meta label">pandulapeter@gmail.com</span></span>
+						</a>
+						<a class="row" href="https://www.instagram.com/pandula.peter/" target="_blank" rel="noopener">
+							<img src="resources/ic_instagram.png" alt="">
+							<span><span class="title">See what I'm up to</span><span class="meta label">Instagram</span></span>
 						</a>
 						<a class="row" href="https://buymeacoffee.com/pandulapeter" target="_blank" rel="noopener">
 							<img src="resources/ic_coffee.png" alt="">
@@ -1615,6 +1620,7 @@
 					slot.className = "thumb";
 					var im = document.createElement("img");
 					im.decoding = "async";
+					im.fetchPriority = "low";
 					im.alt = "";
 					im.width = 320; im.height = 180;
 					im.setAttribute("data-src", "https://i.ytimg.com/vi/" + song[2] + "/mqdefault.jpg");
@@ -1703,6 +1709,9 @@
 					};
 					next.onload = reveal;
 					next.onerror = reveal;
+					/* The first frame ships deprioritised so it cannot outrank the hero;
+					   once a week is actually picked, that frame is what is being waited on. */
+					next.fetchPriority = "auto";
 					next.src = src;
 				}
 				function openVideo() {
