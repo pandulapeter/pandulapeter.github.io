@@ -434,9 +434,21 @@
 				width: 100vw;
 				height: clamp(96px, 13vh, 130px);
 			}
+			/* The strings are painted, not composited: whatever the canvas ends up in
+			   is rastered into tiles, and on Android Chrome a tiled layer of its own
+			   has been seen stuck at the quarter-resolution tiles the compositor uses
+			   while it is short of budget - six soft, equally wide smears where the
+			   strings should be, next to text that was perfectly sharp because it
+			   lived in a different layer. So in both resting states the canvas shares
+			   a layer with that text. At rest in the hero it has no z-index: anything
+			   stacked above the fixed bar counts as overlapping it across the whole
+			   scroll range and is given a layer for that. Docked it is a child of the
+			   bar rather than a fixed sibling, so it sits in the bar's tiles with the
+			   nav. Only on the runway between the two, where it has to pass over the
+			   bar's edge, is it lifted above the bar, and that layer is thrown away
+			   with the class at either end. */
 			.strings {
 				position: relative;
-				z-index: 11;
 				display: block;
 				width: 100vw;
 				height: clamp(96px, 13vh, 130px);
@@ -450,8 +462,9 @@
 				--hero-c: 92;
 				--hero-clip: 8;
 			}
+			.strings.moving { z-index: 11; }
 			.strings.docked {
-				position: fixed;
+				position: absolute;
 				top: var(--dock-top, 0px);
 				left: 0;
 			}
@@ -948,7 +961,7 @@
 					<canvas class="strings" id="strings" tabindex="0" role="img" aria-label="Six guitar strings. Strum them with the pointer, or press keys 1 to 6 to pluck."></canvas>
 				</div>
 
-				<p class="tagline"><strong>Software engineer, guitar player.</strong> Compose Multiplatform developer by trade, open-source enthusiast by habit, live musician the rest of the time.</p>
+				<p class="tagline"><strong>Software engineer, guitar player.</strong> App developer by trade, open-source enthusiast by habit, live musician the rest of the time.</p>
 
 			</div>
 		</section>
@@ -961,7 +974,7 @@
 					<div class="section-head reveal">
 						<span class="num label">01</span>
 						<h2>apps</h2>
-						<p>Pet projects of mine, wherever you like to run them. The web builds need no install at all.</p>
+						<p>Pet projects of mine, wherever you like to run them. The web builds don't require any installation.</p>
 					</div>
 					<div class="cards reveal">
 						<h3 class="group label">On the app stores</h3>
@@ -1108,6 +1121,8 @@
 				var soundButton = document.getElementById("sound");
 				var ctx2d = canvas.getContext("2d");
 				var INK = [243, 240, 249];
+				/* [width as a multiple of the spread, alpha as a share of the halo's] */
+				var HALO = [[2.1, 0.025], [1.4, 0.05], [0.7, 0.1]];
 
 				var STEP = 360 / 5;
 				var css = getComputedStyle(root);
@@ -1228,7 +1243,7 @@
 					};
 					geo.end = Math.max(1, geo.heroTop - geo.dockTop);
 					geo.start = Math.max(0, geo.end - RUNWAY);
-					canvas.style.setProperty("--dock-top", geo.dockTop.toFixed(1) + "px");
+					canvas.style.setProperty("--dock-top", (barTop - barRect.top).toFixed(1) + "px");
 				}
 				function lerp(a, b, t) { return a + (b - a) * t; }
 				function setStep(v) {
@@ -1245,7 +1260,16 @@
 					var w = lerp(geo.heroW, geo.dockW, p);
 					var h = lerp(geo.heroH, geo.dockH, p);
 					var style = canvas.style;
-					canvas.classList.toggle("docked", t >= 1);
+					var docked = t >= 1;
+					if (docked !== (canvas.parentNode === topBar)) {
+						/* Moving the element keeps its bitmap, but the backing store is
+						   reallocated below anyway so the first frame in the new layer is
+						   drawn fresh rather than restored from whatever the old one had. */
+						if (docked) topBar.insertBefore(canvas, topBar.firstChild); else stringsWrap.appendChild(canvas);
+						lastW = lastH = -1;
+					}
+					canvas.classList.toggle("docked", docked);
+					canvas.classList.toggle("moving", t > 0 && !docked);
 					style.width = w.toFixed(1) + "px";
 					style.height = h.toFixed(1) + "px";
 					holdTo = lerp(0, geo.brandEnd, p);
@@ -1291,6 +1315,14 @@
 				}
 				function relayout() { lastW = lastH = -1; measure(); layout(); }
 				window.addEventListener("resize", relayout);
+				/* Coming back from another app, or from the back-forward cache, is where
+				   the canvas is most likely to have been hibernated or to have lost its
+				   GPU context on Android, and a canvas that is only redrawn when a string
+				   moves would otherwise show whatever was restored for as long as nothing
+				   does. The size reset in relayout() reallocates the bitmap and redraws. */
+				document.addEventListener("visibilitychange", function () { if (!document.hidden) relayout(); });
+				window.addEventListener("pageshow", function (e) { if (e.persisted) relayout(); });
+				canvas.addEventListener("contextrestored", relayout);
 				relayout();
 				requestAnimationFrame(function () { canvas.classList.add("ready"); });
 
@@ -1332,12 +1364,9 @@
 						}
 						var glow = Math.min(1, s.amp / 6);
 						var tint = 0.45 + 0.55 * glow;
+						var core = s.thickness * thickScale;
 						ctx2d.beginPath();
-						ctx2d.lineWidth = s.thickness * thickScale;
 						ctx2d.lineCap = "round";
-						ctx2d.strokeStyle = "rgba(" + mix(INK[0], tone[0], tint) + "," + mix(INK[1], tone[1], tint) + "," + mix(INK[2], tone[2], tint) + "," + (0.34 + 0.66 * glow) + ")";
-						ctx2d.shadowBlur = (6 + glow * 18) * thickScale;
-						ctx2d.shadowColor = "rgba(" + tone.join(",") + "," + (0.35 + 0.65 * glow) + ")";
 						if (s.amp > 0) {
 							var steps = 48;
 							var sway = Math.sin(s.phase) * s.amp * ampScale;
@@ -1350,9 +1379,22 @@
 							ctx2d.moveTo(0, s.y);
 							ctx2d.lineTo(width, s.y);
 						}
+						/* The halo used to be a shadowBlur, which is a blur filter pass per
+						   string per frame - on a software canvas the single most expensive
+						   thing a frame here could do, and the strumming frames are exactly
+						   the ones the compositor has to keep up with. Three widening strokes
+						   at falling alpha read the same at these sizes and cost nothing. */
+						var spread = (6 + glow * 18) * thickScale;
+						var haloA = 0.35 + 0.65 * glow;
+						for (var r = 0; r < HALO.length; r++) {
+							ctx2d.lineWidth = core + spread * HALO[r][0];
+							ctx2d.strokeStyle = "rgba(" + tone.join(",") + "," + (haloA * HALO[r][1]).toFixed(3) + ")";
+							ctx2d.stroke();
+						}
+						ctx2d.lineWidth = core;
+						ctx2d.strokeStyle = "rgba(" + mix(INK[0], tone[0], tint) + "," + mix(INK[1], tone[1], tint) + "," + mix(INK[2], tone[2], tint) + "," + (0.34 + 0.66 * glow) + ")";
 						ctx2d.stroke();
 					}
-					ctx2d.shadowBlur = 0;
 					if (width > 0) {
 						var held = Math.max(0, Math.min(1, holdTo / width));
 						var a = Math.max(held, Math.min(1, fadeA / width));
