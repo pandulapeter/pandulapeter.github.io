@@ -910,6 +910,29 @@
 			.reveal { opacity: 0; transform: translateY(14px); transition: opacity 700ms var(--ease), transform 700ms var(--ease); }
 			.reveal.in { opacity: 1; transform: none; }
 
+			/* Touch devices, which in practice means Android Chrome on a tablet that
+			   runs out of compositor tile budget: nothing here may be composited or
+			   repainted on a scroll frame.
+			   - the reveal transition composites every block for 700ms as it comes
+			     in, and every block painted above one goes with it;
+			   - a sticky heading is a composited layer, and everything painted after
+			     it that it could ever overlap is given a layer too - the rows under
+			     the Sunday Songs player came back as a blank rectangle that way;
+			   - the thumbnail sheen animates background-position, a main-thread
+			     repaint of the list every frame for as long as a thumb is unloaded;
+			   - a backdrop-filter re-blurs the bar's render surface every frame the
+			     page scrolls under it. */
+			@media (hover: none) {
+				.reveal { opacity: 1; transform: none; transition: none; }
+				.section-head { position: static; }
+				.item .thumb::after { animation: none; background-position: 50% 0; }
+				.top, .stage .badge {
+					-webkit-backdrop-filter: none;
+					backdrop-filter: none;
+				}
+				.top { background: color-mix(in srgb, var(--bg) 94%, transparent); }
+				.stage .badge { background: rgba(7, 6, 14, 0.88); }
+			}
 			@media (pointer: coarse) {
 				.sound, .ctl { min-height: 2.75rem; padding-inline: 1rem; }
 				.row { padding-block: 1rem; }
@@ -1115,6 +1138,8 @@
 				"use strict";
 
 				var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+				/* see the (hover: none) block in the stylesheet: no per-frame repaints on touch */
+				var coarse = window.matchMedia("(hover: none)").matches;
 				var root = document.documentElement;
 
 				var canvas = document.getElementById("strings");
@@ -1169,16 +1194,23 @@
 					strings.push({ amp: 0, y: 0, thickness: 3.2 - i * 0.42, phase: 0 });
 				}
 
-				var width = 0, height = 0, dpr = 1;
+				/* width/height is the drawn region, bmpW/bmpH the bitmap it is drawn
+				   into: the two agree at rest, but on the runway the bitmap stays at
+				   the hero's size and only the region shrinks, see layout(). */
+				var width = 0, height = 0, bmpW = 0, bmpH = 0, dpr = 1;
 				var thickScale = 1, ampScale = 1;
 				var holdTo = 0, fadeA = 0, fadeB = 0, fadeC = 0;
-				function resize() {
+				function alloc() {
 					dpr = Math.min(window.devicePixelRatio || 1, 2);
-					width = canvas.clientWidth;
-					height = canvas.clientHeight;
-					canvas.width = Math.round(width * dpr);
-					canvas.height = Math.round(height * dpr);
+					bmpW = canvas.clientWidth;
+					bmpH = canvas.clientHeight;
+					canvas.width = Math.round(bmpW * dpr);
+					canvas.height = Math.round(bmpH * dpr);
 					ctx2d.setTransform(dpr, 0, 0, dpr, 0, 0);
+				}
+				function region(w, h) {
+					width = w;
+					height = h;
 					var k = geo ? height / geo.heroH : 1;
 					thickScale = Math.max(0.4, Math.min(1, k));
 					ampScale = Math.max(0.2, Math.min(1, k));
@@ -1268,19 +1300,36 @@
 						if (docked) topBar.insertBefore(canvas, topBar.firstChild); else stringsWrap.appendChild(canvas);
 						lastW = lastH = -1;
 					}
+					var moving = t > 0 && !docked;
 					canvas.classList.toggle("docked", docked);
-					canvas.classList.toggle("moving", t > 0 && !docked);
-					style.width = w.toFixed(1) + "px";
-					style.height = h.toFixed(1) + "px";
+					canvas.classList.toggle("moving", moving);
 					holdTo = lerp(0, geo.brandEnd, p);
 					fadeA = lerp(geo.heroPad, geo.brandEnd + 24, p);
 					fadeB = lerp(geo.heroB, 84, p) / 100 * w;
 					fadeC = lerp(geo.heroC, 100, p) / 100 * w;
 					var clipR = lerp(geo.heroClip, 0, p);
-					style.clipPath = clipR > 0.5 ? "inset(0 " + clipR.toFixed(1) + "% 0 0)" : "none";
-					var rw = Math.round(w), rh = Math.round(h);
-					if (rw !== lastW || rh !== lastH) { lastW = rw; lastH = rh; resize(); }
-					else if (p !== lastP) draw(0);
+					var rw, rh;
+					if (moving) {
+						/* On the runway the element and its bitmap keep the hero's size and
+						   the strings are drawn into the top-left w by h of it, which a clip
+						   shows: reallocating a canvas of this size on every scroll frame was
+						   the dearest thing a frame did on a tablet, and a freshly sized
+						   bitmap is only needed where the strings come to rest. */
+						style.width = geo.heroW.toFixed(1) + "px";
+						style.height = geo.heroH.toFixed(1) + "px";
+						rw = Math.round(geo.heroW); rh = Math.round(geo.heroH);
+						if (rw !== lastW || rh !== lastH) { lastW = rw; lastH = rh; alloc(); }
+						region(w, h);
+						style.clipPath = "inset(0 " + (geo.heroW - w + w * clipR / 100).toFixed(1) + "px " + (geo.heroH - h).toFixed(1) + "px 0)";
+					} else {
+						style.width = w.toFixed(1) + "px";
+						style.height = h.toFixed(1) + "px";
+						style.clipPath = clipR > 0.5 ? "inset(0 " + clipR.toFixed(1) + "% 0 0)" : "none";
+						rw = Math.round(w); rh = Math.round(h);
+						if (rw !== lastW || rh !== lastH) { lastW = rw; lastH = rh; alloc(); region(w, h); }
+						else if (width !== w || height !== h) region(w, h);
+						else if (p !== lastP) draw(0);
+					}
 					lastP = p;
 					setStep(p * accentStep);
 					/* The name travels the same runway as the strings. There is no
@@ -1329,7 +1378,7 @@
 				var running = false, last = 0;
 				function mix(a, b, t) { return Math.round(a + (b - a) * t); }
 				function draw(dt) {
-					ctx2d.clearRect(0, 0, width, height);
+					ctx2d.clearRect(0, 0, bmpW, bmpH);
 					var active = false;
 					if (Math.abs(hueTarget - hue) > 0.05) {
 						active = true;
@@ -1900,6 +1949,7 @@
 				var ptrRaf = 0;
 				var rects = [];
 				function parallax() {
+					if (coarse) return;
 					var vh = window.innerHeight, mid = vh / 2, i, l, r, cap, d, x, y;
 					for (i = 0; i < layers.length; i++) rects[i] = layers[i].el.getBoundingClientRect();
 					heroPhoto.style.setProperty("--photo-y", Math.min(HERO_SHIFT, window.scrollY * 0.38).toFixed(1) + "px");
@@ -1946,7 +1996,7 @@
 
 				function onScroll() {
 					layout();
-					revealDue();
+					if (!coarse) revealDue();
 					if (!reducedMotion) parallax();
 					var max = document.documentElement.scrollHeight - window.innerHeight;
 					bar.style.transform = "scaleX(" + (max > 0 ? Math.min(1, window.scrollY / max) : 0) + ")";
