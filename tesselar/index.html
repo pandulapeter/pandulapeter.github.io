@@ -5,11 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Tesselar</title>
     <link type="text/css" rel="stylesheet" href="styles.css">
+    <link rel="preload" href="1058f1c1dfc177bea62f.wasm" as="fetch" crossorigin>
+    <link rel="preload" href="bfa5198fb2fe683c613a.wasm" as="fetch" crossorigin>
 </head>
 <body>
-<div>
-    <div class="loadingScreen"></div>
+<div class="loadingScreen">
+    <div class="loadingTrack"><div class="loadingBar indeterminate"></div></div>
+    <div class="loadingStatus">Loading…</div>
 </div>
+<script>
+    // Runs before web.js so every WebAssembly fetch it makes goes through this wrapper. The production build
+    // fills in the expected byte count (and preload links in the head) for the .wasm files; a dev-server build
+    // leaves the placeholder as is, and then Content-Length is used when the server sends one.
+    (function () {
+        var expectedBytes = 13210078;
+        var bar = document.querySelector('.loadingBar');
+        var status = document.querySelector('.loadingStatus');
+        var receivedBytes = 0;
+        var announcedBytes = 0;
+        var openStreams = 0;
+
+        var render = function () {
+            var totalBytes = expectedBytes || announcedBytes;
+            if (totalBytes === 0) {
+                return;
+            }
+            var ratio = Math.min(receivedBytes / totalBytes, 1);
+            bar.classList.remove('indeterminate');
+            bar.style.width = (ratio * 100) + '%';
+            var isDownloaded = expectedBytes ? receivedBytes >= expectedBytes : openStreams === 0;
+            status.textContent = isDownloaded ? 'Starting…' : 'Downloading… ' + Math.floor(ratio * 100) + '%';
+        };
+
+        var fail = function () {
+            bar.classList.remove('indeterminate');
+            bar.style.width = '0';
+            status.textContent = 'Tesselar could not start. Please try again in an up-to-date browser.';
+        };
+        window.addEventListener('error', fail);
+        window.addEventListener('unhandledrejection', fail);
+
+        var isWasmRequest = function (input) {
+            var url = typeof input === 'string' ? input : input instanceof Request ? input.url : String(input);
+            return /\.wasm(\?.*)?$/.test(url);
+        };
+
+        var originalFetch = window.fetch;
+        window.fetch = function (input) {
+            var promise = originalFetch.apply(this, arguments);
+            if (!isWasmRequest(input)) {
+                return promise;
+            }
+            return promise.then(function (response) {
+                if (!response.ok || !response.body) {
+                    return response;
+                }
+                announcedBytes += Number(response.headers.get('content-length')) || 0;
+                openStreams++;
+                var reader = response.body.getReader();
+                var countingStream = new ReadableStream({
+                    pull: function (controller) {
+                        return reader.read().then(function (result) {
+                            if (result.done) {
+                                openStreams--;
+                                controller.close();
+                            } else {
+                                receivedBytes += result.value.byteLength;
+                                controller.enqueue(result.value);
+                            }
+                            render();
+                        });
+                    },
+                    cancel: function (reason) {
+                        return reader.cancel(reason);
+                    },
+                });
+                return new Response(countingStream, {
+                    status: response.status,
+                    statusText: response.statusText,
+                    headers: response.headers,
+                });
+            });
+        };
+    })();
+</script>
 <script type="application/javascript" src="web.js"></script>
 </body>
 </html>
