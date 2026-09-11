@@ -1,9 +1,0 @@
-version:0
-string|description|VXNlIHRoZSB3aWRnZXRzIGJlbG93IHRvIHRlc3QgdGhlIHBsYXksIHBhdXNlLCBzdG9wLCBhbmQgbG9vcCBmZWF0dXJlcyBvZiB0aGUgbXVzaWMgcGxheWVyLiBTaW11bHRhbmVvdXMgcGxheWJhY2sgb2YgbXVsdGlwbGUgdHJhY2tzIGlzIGFsc28gc3VwcG9ydGVkLg==
-string|loop_off|TG9vcDogb2Zm
-string|loop_on|TG9vcDogb24=
-string|music_track_1|QSBDc2Fqb2QgLSDDgXRrb2s=
-string|music_track_2|QSBDc2Fqb2QgLSBFbmVyZ2lhdsOhbXDDrXI=
-string|pause|UGF1c2U=
-string|play|UGxheQ==
-string|stop|U3RvcA==
