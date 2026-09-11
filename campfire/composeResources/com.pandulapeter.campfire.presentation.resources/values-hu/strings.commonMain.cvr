@@ -92,7 +92,6 @@ string|song_details_add_to_setlist|SG96esOhYWTDoXMgbGlzdMOhaG96
 string|song_details_capo|Q2FwbyAlMSRk
 string|song_details_display_options|TWVnamVsZW7DrXTDqXNpIGJlw6FsbMOtdMOhc29r
 string|song_details_empty|RXogYSBmw6FqbCBtw6lnIMO8cmVzLg==
-string|song_details_key|SGFuZ25lbTogJTEkcw==
 string|song_details_next_song|S8O2dmV0a2V6xZEgZGFs
 string|song_details_no_data_hint|QSBmw6FqbHQgbmVtIHNpa2Vyw7xsdCBiZW9sdmFzbmku
 string|song_details_no_data|RXp0IGEgZGFsdCBuZW0gc2lrZXLDvGx0IGJldMO2bHRlbmk=
@@ -102,6 +101,10 @@ string|song_details_section_chorus|UmVmcsOpbg==
 string|song_details_section_grid|UsOhY3M=
 string|song_details_section_tab|VGFi
 string|song_details_song_position|JTEkZCAvICUyJGQ=
+string|song_details_tag_add|Q8OtbWtlIGhvenrDoWFkw6FzYQ==
+string|song_details_tag_name|Q8OtbWtl
+string|song_details_tag_remove|QSh6KSDigJ4lMSRz4oCdIGPDrW1rZSBlbHTDoXZvbMOtdMOhc2E=
+string|song_details_tag_suggestions|TcOhciBzemVyZXBlbCBhIGvDtm55dnTDoXJhZGJhbg==
 string|song_details_tempo|JTEkcyBCUE0=
 string|song_details_text_size_decrease|U3rDtnZlZyBraWNzaW55w610w6lzZQ==
 string|song_details_text_size_increase|U3rDtnZlZyBuYWd5w610w6FzYQ==
@@ -155,6 +158,13 @@ string|songs_sort_and_filter|UmVuZGV6w6lzIMOpcyBzesWxcsOpcw==
 string|songs_sorting_mode_by_artist|RWzFkWFkw7M=
 string|songs_sorting_mode_by_title|Q8OtbQ==
 string|songs_sorting_mode|UmVuZGV6w6lzaSBtw7Nk
+string|songs_tags_clear|S2lqZWzDtmzDqXMgdMO2cmzDqXNl
+string|songs_tags_match_mode_all|TWluZGVneWlrIGPDrW1rZQ==
+string|songs_tags_match_mode_any|QsOhcm1lbHlpayBjw61ta2U=
+string|songs_tags_match_mode|QSBkYWxvbiBsZWd5ZW4gcmFqdGE=
+string|songs_tags_show_all|TWluZCBhKHopICUxJGQgbWVnamVsZW7DrXTDqXNl
+string|songs_tags_show_less|S2V2ZXNlYmI=
+string|songs_tags|Q8OtbWvDqWs=
 string|songs_unknown_artist|SXNtZXJldGxlbiBlbMWRYWTDsw==
 string|songs_unsorted_label|MCAtIDk=
 string|songs|RGFsb2s=
