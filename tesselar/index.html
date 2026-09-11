@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Tesselar</title>
     <link type="text/css" rel="stylesheet" href="styles.css">
+    <link rel="preload" href="41fb544f5fe642e4095a.wasm" as="fetch" crossorigin>
     <link rel="preload" href="bfa5198fb2fe683c613a.wasm" as="fetch" crossorigin>
-    <link rel="preload" href="fced5b2d09b96eeb88aa.wasm" as="fetch" crossorigin>
 </head>
 <body>
 <div class="loadingScreen">
@@ -18,7 +18,7 @@
     // fills in the expected byte count (and preload links in the head) for the .wasm files; a dev-server build
     // leaves the placeholder as is, and then Content-Length is used when the server sends one.
     (function () {
-        var expectedBytes = 12712997;
+        var expectedBytes = 12712989;
         var bar = document.querySelector('.loadingBar');
         var status = document.querySelector('.loadingStatus');
         var receivedBytes = 0;
