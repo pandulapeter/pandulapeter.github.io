@@ -281,6 +281,9 @@ string|songs_empty_hint|Q3JlYXRlIGEgc29uZywgaW1wb3J0IC5jaG8gZmlsZXMgYW5kIHppcCBh
 string|songs_empty_title|WW91ciBsaWJyYXJ5IGlzIGVtcHR5
 string|songs_key|S2V5OiAlMSRz
 string|songs_languages_clear|Q2xlYXIgc2VsZWN0aW9u
+string|songs_languages_match_mode_all|RXZlcnkgbGFuZ3VhZ2U=
+string|songs_languages_match_mode_any|QW55IGxhbmd1YWdl
+string|songs_languages_match_mode|QSBzb25nIGhhcyB0byBiZSBpbg==
 string|songs_languages_unknown|VW5rbm93bg==
 string|songs_languages|TGFuZ3VhZ2Vz
 string|songs_lyrics_only|THlyaWNzIG9ubHk=
