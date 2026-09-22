@@ -16,13 +16,17 @@
       // Subfolders that host a Compose Multiplatform app using URL subpaths.
       // Each of these must have an index.html containing the matching decoder script.
       var allowedSubpaths = ["kubriko", "campfire", "tesselar"];
+      // The ones among them whose routes are more than one segment deep, and whose index.html writes a <base> for the
+      // folder it lives in, so the relative asset paths keep working at any depth. Their path is handed over whole.
+      var multiLevelSubpaths = ["campfire"];
       var l = window.location;
       var segments = l.pathname.split("/").filter(Boolean);
       var firstPathSegment = segments[0];
       if (allowedSubpaths.indexOf(firstPathSegment) !== -1) {
-        // The apps only have one level of routing, so any deeper path is collapsed
+        // The other apps only have one level of routing, so any deeper path is collapsed
         // into a single segment. This keeps the relative asset paths of the app working.
-        var route = segments.slice(1).join("");
+        var isMultiLevel = multiLevelSubpaths.indexOf(firstPathSegment) !== -1;
+        var route = segments.slice(1).join(isMultiLevel ? "/" : "");
         l.replace(
             l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
             '/' + firstPathSegment + '/?/' + route +
