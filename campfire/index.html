@@ -41,7 +41,8 @@
         }(window.location));
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-    <!-- The two schemes of the app, so the browser chrome matches the splash screen and then the app itself. -->
+    <!-- The two schemes of the app's own color, so the browser chrome matches the splash screen. Once the preferences
+         are read the app writes the background of the palette it is drawn in over both (see CampfireWebApp.kt). -->
     <meta name="theme-color" content="#FFF8F5" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#19120D" media="(prefers-color-scheme: dark)">
     <meta name="description" content="Song lyrics and chords, in a library of plain ChordPro files that stays yours.">
@@ -198,7 +199,7 @@
         //
         // It stays null on the development server, where there is no distribution to describe, and the
         // bar falls back to the sizes the server advertises.
-        var BUILD = {"binaryCount":2,"binaryBytes":16196239};
+        var BUILD = {"binaryCount":2,"binaryBytes":16204161};
 
         var splash = document.getElementById('splash');
         var track = document.getElementById('splash-track');
