@@ -44,11 +44,26 @@
     <!-- The two schemes of the app's own color: the dark background, and the light surfaceContainerHigh, since Chrome
          ignores a theme-color as light as the light background. Once the preferences are read the app writes the
          palette it is drawn in over both (see BrowserThemeColorEffect in CampfireWebApp.kt). -->
-    <meta name="theme-color" content="#F4E5DB" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#19120D" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#E8E8E8" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
     <meta name="description" content="Song lyrics and chords, in a library of plain ChordPro files that stays yours.">
     <title>Campfire</title>
-    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192-campfire.png">
+    <!-- The icon of the theme color the user chose, which the app leaves in local storage whenever it shows one (see
+         FaviconEffect in CampfireWebApp.kt), so that the tab and the loading screen are in that color before the app
+         that knows it has been downloaded. Only a name the app writes is taken: this is a URL on the page. -->
+    <script type="application/javascript">
+        (function () {
+            try {
+                var icon = window.localStorage.getItem('campfire-icon');
+                if (/^icon-192-[a-z]+\.png$/.test(icon || '')) {
+                    document.querySelector('link[rel="icon"]').setAttribute('href', icon);
+                    document.documentElement.style.setProperty('--splash-icon', 'url("' + icon + '")');
+                }
+            } catch (e) {
+            }
+        })();
+    </script>
     <!-- The fonts the interface (see InterfaceTypography.wasmJs.kt) and the tabs (see MonospaceFontFamily.wasmJs.kt) are
          set in, fetched alongside the binaries rather than after them, so they are in by the time the app asks for them.
          "fetch" and "crossorigin" are what make the Compose resource reader's own fetch() the request this answers;
@@ -63,18 +78,18 @@
            composed frame paint the same background and the handover is invisible. */
         :root {
             color-scheme: light dark;
-            --background: #FFF8F5;
-            --on-background: #211A15;
-            --track: #F4DFD1;
-            --indicator: #8B5000;
+            --background: #FAFAFA;
+            --on-background: #1C1C1C;
+            --track: #E3E3E3;
+            --indicator: #606060;
         }
 
         @media (prefers-color-scheme: dark) {
             :root {
-                --background: #19120D;
-                --on-background: #EFE0D7;
-                --track: #52443B;
-                --indicator: #FFB77C;
+                --background: #141414;
+                --on-background: #E3E3E3;
+                --track: #474747;
+                --indicator: #C9C9C9;
             }
         }
 
@@ -118,7 +133,7 @@
         #splash-icon {
             width: 96px;
             height: 96px;
-            background-image: url("icon-192.png");
+            background-image: var(--splash-icon, url("icon-192-campfire.png"));
             background-size: contain;
             background-repeat: no-repeat;
         }
@@ -200,7 +215,7 @@
         //
         // It stays null on the development server, where there is no distribution to describe, and the
         // bar falls back to the sizes the server advertises.
-        var BUILD = {"binaryCount":2,"binaryBytes":16206690};
+        var BUILD = {"binaryCount":2,"binaryBytes":16242737};
 
         var splash = document.getElementById('splash');
         var track = document.getElementById('splash-track');
@@ -260,17 +275,32 @@
         }
 
         var isDrawScheduled = false;
+        var postDownloadTimer = null;
+        var lastTransform = null;
+        var lastPercent = -1;
 
         function draw() {
             isDrawScheduled = false;
+            if (isFailed) {
+                return;
+            }
             // Eased rather than snapped to the target: the byte counts arrive in bursts of whatever
             // size the network hands over, and following those exactly makes the bar stutter. Never
             // backwards either - a target that drops (a download that turned out to be longer than
             // the server said) is a correction the bar waits out rather than shows.
-            shown = Math.max(shown, shown + (target() - shown) * 0.15);
-            bar.style.transform = 'scaleX(' + shown.toFixed(4) + ')';
+            var destination = target();
+            shown = Math.max(shown, shown + (destination - shown) * 0.15);
+            var transform = 'scaleX(' + shown.toFixed(4) + ')';
+            if (transform !== lastTransform) {
+                bar.style.transform = transform;
+                lastTransform = transform;
+            }
             // Nothing on the screen says how far along it is, so the bar has to say it out loud.
-            track.setAttribute('aria-valuenow', String(Math.round(shown * 100)));
+            var percent = Math.round(shown * 100);
+            if (percent !== lastPercent) {
+                track.setAttribute('aria-valuenow', String(percent));
+                lastPercent = percent;
+            }
             if (isReady && shown > 0.999) {
                 splash.classList.add('is-done');
                 setTimeout(function () {
@@ -280,7 +310,15 @@
                 }, 300);
                 return;
             }
-            schedule();
+            if (isReady || !isStarting() && destination - shown > 0.00005) {
+                schedule();
+            } else if (isStarting() && !isReady && postDownloadTimer === null) {
+                // The post-download target changes with time; 30 updates per second are enough for the decay.
+                postDownloadTimer = setTimeout(function () {
+                    postDownloadTimer = null;
+                    schedule();
+                }, 34);
+            }
         }
 
         function schedule() {
@@ -360,6 +398,7 @@
                 if (!result.ok || !result.body) {
                     pending--;
                     completed++;
+                    schedule();
                     return result;
                 }
                 if (!BUILD) {
