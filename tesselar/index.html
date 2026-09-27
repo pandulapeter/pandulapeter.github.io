@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Tesselar</title>
     <link type="text/css" rel="stylesheet" href="styles.css">
-    <link rel="preload" href="41fb544f5fe642e4095a.wasm" as="fetch" crossorigin>
+    <link rel="preload" href="941ace29e2c7fc87fe93.wasm" as="fetch" crossorigin>
     <link rel="preload" href="bfa5198fb2fe683c613a.wasm" as="fetch" crossorigin>
 </head>
 <body>
@@ -18,7 +18,7 @@
     // fills in the expected byte count (and preload links in the head) for the .wasm files; a dev-server build
     // leaves the placeholder as is, and then Content-Length is used when the server sends one.
     (function () {
-        var expectedBytes = 12712989;
+        var expectedBytes = 12759610;
         var bar = document.querySelector('.loadingBar');
         var status = document.querySelector('.loadingStatus');
         var receivedBytes = 0;
@@ -62,29 +62,26 @@
                 }
                 announcedBytes += Number(response.headers.get('content-length')) || 0;
                 openStreams++;
-                var reader = response.body.getReader();
-                var countingStream = new ReadableStream({
-                    pull: function (controller) {
-                        return reader.read().then(function (result) {
-                            if (result.done) {
-                                openStreams--;
-                                controller.close();
-                            } else {
-                                receivedBytes += result.value.byteLength;
-                                controller.enqueue(result.value);
-                            }
-                            render();
-                        });
-                    },
-                    cancel: function (reason) {
-                        return reader.cancel(reason);
-                    },
-                });
-                return new Response(countingStream, {
-                    status: response.status,
-                    statusText: response.statusText,
-                    headers: response.headers,
-                });
+                // The bytes are counted on a copy, and the loader is handed the response the browser fetched:
+                // only that one carries the compiled code Chrome caches for a .wasm file it has seen before, so a
+                // response rebuilt around a counting stream would have both modules compiled again on every load.
+                var reader = response.clone().body.getReader();
+                var count = function () {
+                    reader.read().then(function (result) {
+                        if (result.done) {
+                            openStreams--;
+                        } else {
+                            receivedBytes += result.value.byteLength;
+                            count();
+                        }
+                        render();
+                    }, function () {
+                        openStreams--;
+                        render();
+                    });
+                };
+                count();
+                return response;
             });
         };
     })();
