@@ -674,9 +674,10 @@
 				.row:active img { opacity: 1; }
 			}
 
-			/* Three store buttons closing the apps section, sharing the width of one
-			   card above them. They stack once thirds get too narrow for a label. */
-			.stores { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
+			/* Four store buttons closing the apps section, sharing the width of one
+			   card above them in a 2x2 grid - quarters are too narrow for a label
+			   like "Microsoft Store". They stack once halves get too narrow too. */
+			.stores { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
 			/* These are the section's primary calls to action, so unlike the muted
 			   list rows they carry full-strength ink, a semibold label and the
 			   stores' own logos undimmed - at label weight and --ink-2 they read
@@ -1012,6 +1013,7 @@
 							<a href="https://play.google.com/store/apps/dev?id=7182071273878480730" target="_blank" rel="noopener"><img src="resources/ic_google_play.png" alt=""><span>Google Play</span></a>
 							<a href="https://apps.apple.com/us/developer/peter-pandula/id1803333004" target="_blank" rel="noopener"><img src="resources/ic_app_store.png" alt=""><span>App Store</span></a>
 							<a href="https://store.steampowered.com/search/?developer=Pandula%20P%C3%A9ter" target="_blank" rel="noopener"><img src="resources/ic_steam.png" alt=""><span>Steam</span></a>
+							<a href="https://apps.microsoft.com/search/publisher?name=Peter+Pandula" target="_blank" rel="noopener"><img src="resources/ic_microsoft_store.png" alt=""><span>Microsoft Store</span></a>
 						</div>
 						<h3 class="group label">In your browser</h3>
 						<a class="card art-campfire" href="campfire/" target="_blank" rel="noopener">
