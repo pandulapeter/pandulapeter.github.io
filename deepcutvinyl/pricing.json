@@ -35,5 +35,16 @@
     "size7colorBlack": 20,
     "size7colorTransparent": 20
   },
-  "extraForShipping": 30
+  "extraForBooklet": {
+    "pages4": 20,
+    "pages8": 40,
+    "pages12": 55
+  },
+  "extraForPoster": 20,
+  "extraForShipping": 30,
+  "extraForPaymentMethod": {
+    "cashOnPickup": 0,
+    "bankTransfer": 0,
+    "paymentLink": 10
+  }
 }
