@@ -124,10 +124,16 @@
                 l.pathname.slice(0, -1) + decoded + l.hash
             );
           }
+          // Canonicalize old links before Wasm starts or analytics sees a page view.
+          // This also covers hosts that serve the HTML shell without Apache rewrite rules.
+          var base = new URL(document.baseURI).pathname;
+          if (l.pathname === base + 'ask-for-offer' || l.pathname === base + 'ask-for-offer/') {
+            window.history.replaceState(null, null, base + 'start-your-order' + l.search + l.hash);
+          }
         }(window.location))
     </script>
     <!-- The URLs and uncompressed sizes of the wasm binaries, filled in by the compressWebDistribution Gradle task. -->
-    <script type="text/javascript">window.__WASM_ASSETS__ = [{"url":"bfa5198fb2fe683c613a.wasm","bytes":8640316},{"url":"4cfc7f15aa7b1e72c0b3.wasm","bytes":5566100}];</script>
+    <script type="text/javascript">window.__WASM_ASSETS__ = [{"url":"bfa5198fb2fe683c613a.wasm","bytes":8640316},{"url":"e0b793ce9b1f29139dc5.wasm","bytes":5638622}];</script>
     <script type="text/javascript">
         // The wasm binaries are by far the largest thing the page downloads, and app.js only asks
         // for them once it has been fetched and run. Starting them here, while the document is still
@@ -295,6 +301,7 @@
         </div>
     </div>
     <noscript>DeepCut Vinyl needs JavaScript enabled. Write to contact@deepcutvinyl.com or call +40 740 755 264.</noscript>
+    <script src="ga4-preview.js"></script>
     <script type="application/javascript" src="app.js"></script>
 </body>
 </html>
