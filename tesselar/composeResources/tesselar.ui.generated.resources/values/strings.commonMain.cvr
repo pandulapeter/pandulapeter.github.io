@@ -57,6 +57,7 @@ string|settings_frame_rate_throttling|RnJhbWUgcmF0ZSB0aHJvdHRsaW5nOg==
 string|settings_grass_density|R3Jhc3MgZGVuc2l0eTo=
 string|settings_ground_mist|R3JvdW5kIG1pc3Q=
 string|settings_haze|RGlzdGFuY2UgaGF6ZQ==
+string|settings_lightning|TGlnaHRuaW5nIGZsYXNoZXM=
 string|settings_mini_map_lens|TWluaW1hcCBnbGFzcyBlZmZlY3Q=
 string|settings_motion_blur|Q2FtZXJhIG1vdGlvbiBibHVy
 string|settings_noise_texture|VGV4dHVyZSBub2lzZQ==
