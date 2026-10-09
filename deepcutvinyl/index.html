@@ -66,6 +66,25 @@
     <!-- The two font files are the only resources the app waits for, so start them in parallel with the wasm. -->
     <link rel="preload" as="fetch" crossorigin="anonymous" href="composeResources/deepcutvinyl.app.generated.resources/font/header.ttf">
     <link rel="preload" as="fetch" crossorigin="anonymous" href="composeResources/deepcutvinyl.app.generated.resources/font/content.ttf">
+    <script type="text/javascript">
+        // The home page hero photo is otherwise only requested once the wasm has compiled, so it fades in
+        // late. Low priority, so it does not slow the wasm down; other routes do not show it.
+        (function () {
+          try {
+            if (window.location.pathname !== new URL(document.baseURI).pathname) {
+              return;
+            }
+            var link = document.createElement('link');
+            link.rel = 'preload';
+            link.as = 'fetch';
+            link.crossOrigin = 'anonymous';
+            link.setAttribute('fetchpriority', 'low');
+            link.href = 'composeResources/deepcutvinyl.app.generated.resources/drawable/img_home_01.webp';
+            document.head.appendChild(link);
+          } catch (error) {
+          }
+        }());
+    </script>
     <style>
         html, body {
             width: 100%;
@@ -137,6 +156,17 @@
                 opacity: 0.5;
             }
         }
+        #loadingScreen .unsupported {
+            max-width: 420px;
+            margin: 0;
+            padding: 0 24px;
+            color: #fff;
+            font-family: system-ui, sans-serif;
+            text-align: center;
+            line-height: 1.5;
+            user-select: text;
+            -webkit-user-select: text;
+        }
         noscript {
             position: absolute;
             inset: 0;
@@ -174,7 +204,7 @@
         }(window.location))
     </script>
     <!-- The URLs and uncompressed sizes of the wasm binaries, filled in by the compressWebDistribution Gradle task. -->
-    <script type="text/javascript">window.__WASM_ASSETS__ = [{"url":"eadde81f5e8c7ca5725d.wasm","bytes":5768654},{"url":"bfa5198fb2fe683c613a.wasm","bytes":8640316}];</script>
+    <script type="text/javascript">window.__WASM_ASSETS__ = [{"url":"a72d498dde7967085f73.wasm","bytes":5880695},{"url":"bfa5198fb2fe683c613a.wasm","bytes":8640316}];</script>
     <script type="text/javascript">
         // The wasm binaries are by far the largest thing the page downloads, and app.js only asks
         // for them once it has been fetched and run. Starting them here, while the document is still
@@ -184,6 +214,9 @@
         // Reading a clone of each response also gives us real byte counts, which drive the progress
         // bar. The counts are of decompressed bytes, so they are compared against the uncompressed
         // sizes recorded at build time rather than against Content-Length (which is the brotli size).
+        //
+        // configuration.json is started here too: it decides the menu and whether ordering is possible,
+        // and this way it has usually arrived by the time the app first asks for it.
         (function () {
           var assets = window.__WASM_ASSETS__ || [];
           var origFetch = window.fetch ? window.fetch.bind(window) : null;
@@ -229,27 +262,33 @@
             }
           }
 
+          // A download that ends, fails or cannot be counted no longer holds back the compile phase.
+          function finished() {
+            outstanding--;
+            if (outstanding === 0 && !compileStartedAt) {
+              compileStartedAt = Date.now();
+              schedule();
+            }
+          }
+
           function count(response) {
             var body = response.body;
             if (!body || !body.getReader) {
+              finished();
               return;
             }
             var reader = body.getReader();
             function step(result) {
               if (result.done) {
-                outstanding--;
-                if (outstanding === 0 && !compileStartedAt) {
-                  compileStartedAt = Date.now();
-                  schedule();
-                }
+                finished();
                 return;
               }
               received += result.value.length;
               progress = Math.min(1, received / expected) * DOWNLOAD_SHARE;
               schedule();
-              return reader.read().then(step);
+              return reader.read().then(step, finished);
             }
-            reader.read().then(step, function () { outstanding--; });
+            reader.read().then(step, finished);
           }
 
           // Fills the bar the moment the app takes over, so it never sits at 97% behind the fade-out.
@@ -279,8 +318,22 @@
             }
           });
 
-          if (!origFetch || !assets.length) {
+          if (!origFetch) {
             return;
+          }
+
+          var configurationUrl = null;
+          var configuration = null;
+          try {
+            configurationUrl = new URL('configuration.json', document.baseURI);
+            // Its own cache buster: the file is replaced by hand on the server and must never be stale.
+            configuration = origFetch(configurationUrl.href + '?v=' + Math.random().toString(36).slice(2), {
+              credentials: 'same-origin',
+              cache: 'no-store'
+            });
+            configuration.catch(function () {});
+          } catch (error) {
+            configuration = null;
           }
 
           var pending = Object.create(null);
@@ -297,36 +350,45 @@
             pending[url] = request;
             request.then(function (response) {
               if (!response || !response.ok) {
-                outstanding--;
+                finished();
                 return;
               }
               try {
                 count(response.clone());
               } catch (error) {
-                outstanding--;
+                finished();
               }
             }, function () {
-              outstanding--;
+              finished();
             });
           });
 
-          if (!expected) {
-            return;
+          if (expected) {
+            schedule();
           }
-          schedule();
 
           window.fetch = function (input, init) {
-            var url = '';
+            var url = null;
             try {
-              url = new URL(typeof input === 'string' ? input : (input && input.url) || '', document.baseURI).href;
+              url = new URL(typeof input === 'string' ? input : (input && input.url) || '', document.baseURI);
             } catch (error) {
-              url = '';
+              url = null;
             }
-            var prefetched = pending[url];
+            var prefetched = url && pending[url.href];
             if (prefetched) {
               // Handed out once: a retry has to go to the network, the body is already consumed.
-              delete pending[url];
+              delete pending[url.href];
               return prefetched;
+            }
+            // The app adds a cache buster of its own, so the configuration is matched without the query.
+            if (url && configuration && url.origin === configurationUrl.origin && url.pathname === configurationUrl.pathname) {
+              var early = configuration;
+              var args = arguments;
+              configuration = null;
+              // A failed early request is repeated as the app's own instead of failing it.
+              return early.catch(function () {
+                return origFetch.apply(null, args);
+              });
             }
             return origFetch.apply(null, arguments);
           };
@@ -342,6 +404,32 @@
         </div>
     </div>
     <noscript>DeepCut Vinyl needs JavaScript enabled. Write to contact@deepcutvinyl.com or call +40 740 755 264.</noscript>
+    <script type="text/javascript">
+        // Browsers without WebAssembly garbage collection (such as Safari before 18.2) cannot start the app
+        // and would otherwise show the loading bar forever. The bytes are an empty module with one struct type.
+        (function () {
+          var isSupported = false;
+          try {
+            isSupported = typeof WebAssembly === 'object' &&
+              WebAssembly.validate(new Uint8Array([0, 97, 115, 109, 1, 0, 0, 0, 1, 3, 1, 95, 0]));
+          } catch (error) {
+          }
+          if (!isSupported) {
+            var screen = document.getElementById('loadingScreen');
+            var progress = document.getElementById('loadingProgress');
+            if (progress) {
+              progress.remove();
+            }
+            if (screen) {
+              screen.removeAttribute('aria-busy');
+              var message = document.createElement('p');
+              message.className = 'unsupported';
+              message.textContent = 'This browser is too old to show the DeepCut Vinyl website. Please update it, or write to contact@deepcutvinyl.com or call +40 740 755 264.';
+              screen.appendChild(message);
+            }
+          }
+        }());
+    </script>
     <script src="ga4-preview.js"></script>
     <script type="application/javascript" src="app.js"></script>
 </body>

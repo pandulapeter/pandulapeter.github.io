@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<!--
+  Configuration editor for the client: edits the home banner, the prices and the portfolio, then
+  downloads a zip to unpack into the site root: configuration.json plus every image the portfolio
+  references (new photos picked here are resized and renamed, the rest are fetched from the site), so the
+  whole portfolio folder can be replaced in one go. Unlisted (never link to it) and not secured: it only
+  reads public files and writes a local download. The UI is Hungarian, the client's language.
+  Keep the field names and defaults in sync with ConfigurationResponse / PricingResponse.
+-->
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="dark">
+  <title>DeepCut Vinyl · Beállítások</title>
+  <style>
+    :root {
+      --ink: #0f0f0f;
+      --surface-1: #161616;
+      --surface-2: #1c1c1c;
+      --surface-3: #242424;
+      --lavender: #ad92f0;
+      --lavender-container: #26213a;
+      --hairline: rgba(255, 255, 255, 0.12);
+      --text: #ffffff;
+      --muted: rgba(255, 255, 255, 0.66);
+      --faint: rgba(255, 255, 255, 0.4);
+      --error: #ff8a80;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--ink); color: var(--text); }
+    body { font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 960px; margin: 0 auto; padding: 24px 16px 96px; }
+    h1 { font-size: 28px; margin: 8px 0 4px; }
+    h2 { font-size: 20px; margin: 0 0 4px; }
+    h3 { font-size: 16px; margin: 0; }
+    p { margin: 0 0 8px; }
+    code { background: var(--surface-3); padding: 1px 6px; border-radius: 6px; }
+    .muted { color: var(--muted); }
+    .faint { color: var(--faint); font-size: 13px; }
+    section { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: 20px; padding: 20px; margin-top: 20px; }
+    .toolbar {
+      position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+      padding: 12px 16px; background: rgba(15, 15, 15, 0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--hairline);
+    }
+    .toolbar .status { flex: 1 1 240px; color: var(--muted); font-size: 14px; }
+    .toolbar .status.dirty { color: var(--lavender); }
+    button, .button {
+      font: inherit; color: var(--text); background: var(--surface-3); border: 1px solid var(--hairline);
+      border-radius: 999px; padding: 8px 16px; cursor: pointer; white-space: nowrap;
+    }
+    button:hover, .button:hover { border-color: var(--lavender); }
+    button.primary { background: var(--lavender); color: var(--ink); border-color: var(--lavender); font-weight: 600; }
+    button.danger:hover { border-color: var(--error); color: var(--error); }
+    button.icon { padding: 6px 10px; }
+    button:disabled { opacity: 0.35; cursor: default; border-color: var(--hairline); }
+    input[type=file] { display: none; }
+    label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+    input[type=text], input[type=number], textarea {
+      width: 100%; font: inherit; color: var(--text); background: var(--surface-2); border: 1px solid var(--hairline);
+      border-radius: 10px; padding: 8px 10px;
+    }
+    input:focus, textarea:focus { outline: 2px solid var(--lavender); outline-offset: -1px; }
+    input.invalid { border-color: var(--error); }
+    textarea { min-height: 96px; resize: vertical; }
+    .languages { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin: 8px 0 18px; }
+    .project { background: var(--surface-2); border: 1px solid var(--hairline); border-radius: var(--radius); padding: 16px; margin-top: 16px; }
+    .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    .row .grow { flex: 1 1 200px; }
+    .project-header { margin-bottom: 14px; }
+    .project-header h3 { flex: 1; }
+    .image-row { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; }
+    .image-row input { flex: 1; min-width: 0; }
+    .thumb {
+      width: 64px; height: 64px; flex: none; border-radius: 10px; background: var(--surface-3) center / cover no-repeat;
+      border: 1px solid var(--hairline); position: relative;
+    }
+    .thumb.missing::after { content: "?"; position: absolute; inset: 0; display: grid; place-items: center; color: var(--error); font-weight: 700; }
+    .note { font-size: 13px; color: var(--lavender); margin: -4px 0 10px 74px; }
+    .warning { color: var(--error); font-size: 14px; margin-top: 8px; }
+    ol { margin: 8px 0 0; padding-left: 20px; }
+    li { margin-bottom: 4px; }
+    @media (max-width: 640px) {
+      .languages { grid-template-columns: 1fr; }
+      .note { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+<div class="toolbar">
+  <span class="status" id="status">Betöltés…</span>
+  <button id="open">Fájl megnyitása…</button>
+  <input type="file" id="openInput" accept=".json,application/json">
+  <button class="primary" id="download">Letöltés (.zip)</button>
+</div>
+<main>
+  <h1>Weboldal beállításai</h1>
+  <p class="muted">Itt szerkesztheted a főoldali sávot, az árakat és a portfóliót. A változtatások csak akkor kerülnek ki az oldalra, ha feltöltöd a letöltött fájlt.</p>
+  <ol class="muted">
+    <li>Módosítsd az adatokat lent.</li>
+    <li>Új képet a <b>+ Kép a gépről…</b> gombbal adj hozzá: a szerkesztő automatikusan átméretezi és elnevezi.</li>
+    <li>Kattints a <b>Letöltés (.zip)</b> gombra. A zip tartalmazza a <code>configuration.json</code> fájlt és a teljes <code>portfolio</code> mappát, minden képpel, amit a projektek használnak.</li>
+    <li>Csomagold ki, és töltsd fel mindkettőt a weboldal gyökérmappájába a régiek helyére. A régi <code>portfolio</code> mappát előtte nyugodtan töröld, minden szükséges kép benne van a zipben.</li>
+  </ol>
+
+  <section>
+    <h2>Főoldali sáv</h2>
+    <p class="faint">Rövid közlemény a főoldal tetején (pl. szabadság, akció). Üresen hagyva nem jelenik meg; csak azon a nyelven látszik, amelyiken ki van töltve.</p>
+    <div id="banner"></div>
+  </section>
+
+  <section>
+    <h2>Árak (RON)</h2>
+    <p class="faint">Lemezenkénti árak és felárak. A szállítás és a fizetési mód felára rendelésenként értendő.</p>
+    <div id="pricing"></div>
+  </section>
+
+  <section>
+    <h2>Portfólió</h2>
+    <p class="faint">A projektek ebben a sorrendben jelennek meg. Ha egy nyelven üresen hagysz egy mezőt, az angol szöveg jelenik meg helyette. Kép nélküli projekt nem jelenik meg.</p>
+    <div id="portfolio"></div>
+    <div class="row" style="margin-top: 16px">
+      <button id="addProject">+ Új projekt</button>
+    </div>
+  </section>
+</main>
+<script>
+  (function () {
+    'use strict';
+
+    // Mirrors the defaults in PricingResponse, used when no file can be loaded.
+    var DEFAULT_PRICING = {
+      basePrice: { weight140size12colorBlack: 150, weight180size12colorBlack: 160, size12colorTransparent: 180, size10colorBlack: 110, size10colorTransparent: 130, size7colorBlack: 60, size7colorTransparent: 80 },
+      extraForCustomCenterLabel: { weight140size12colorBlack: 10, weight180size12colorBlack: 10, size12colorTransparent: 10, size10colorBlack: 10, size10colorTransparent: 10, size7colorBlack: 10, size7colorTransparent: 10 },
+      extraForCustomPrintedJacket: { weight140size12colorBlack: 50, weight180size12colorBlack: 50, size12colorTransparent: 50, size10colorBlack: 35, size10colorTransparent: 35, size7colorBlack: 30, size7colorTransparent: 30 },
+      extraForCustomInnerSleeve: { weight140size12colorBlack: 30, weight180size12colorBlack: 30, size12colorTransparent: 30, size10colorBlack: 25, size10colorTransparent: 25, size7colorBlack: 20, size7colorTransparent: 20 },
+      extraForBooklet: { pages4: 20, pages8: 40, pages12: 55 },
+      extraForPoster: 20,
+      extraForShipping: 30,
+      extraForPaymentMethod: { cashOnPickup: 0, bankTransfer: 0, paymentLink: 10 }
+    };
+    var RECORD_TYPES = [
+      ['weight140size12colorBlack', '12" fekete, 140 g'],
+      ['weight180size12colorBlack', '12" fekete, 180 g'],
+      ['size12colorTransparent', '12" átlátszó'],
+      ['size10colorBlack', '10" fekete'],
+      ['size10colorTransparent', '10" átlátszó'],
+      ['size7colorBlack', '7" fekete'],
+      ['size7colorTransparent', '7" átlátszó']
+    ];
+    var PRICE_GROUPS = [
+      ['basePrice', 'Alapár', RECORD_TYPES],
+      ['extraForCustomCenterLabel', 'Felár: egyedi címke', RECORD_TYPES],
+      ['extraForCustomPrintedJacket', 'Felár: nyomtatott borító', RECORD_TYPES],
+      ['extraForCustomInnerSleeve', 'Felár: egyedi belső tasak', RECORD_TYPES],
+      ['extraForBooklet', 'Felár: füzet', [['pages4', '4 oldal'], ['pages8', '8 oldal'], ['pages12', '12 oldal']]],
+      ['extraForPaymentMethod', 'Felár: fizetési mód', [['cashOnPickup', 'Készpénz átvételkor'], ['bankTransfer', 'Banki átutalás'], ['paymentLink', 'Fizetési link']]]
+    ];
+    var PRICE_SINGLES = [['extraForPoster', 'Felár: poszter'], ['extraForShipping', 'Szállítás']];
+    var LANGUAGES = [['default', 'Angol (alapértelmezett)'], ['hu', 'Magyar'], ['ro', 'Román']];
+
+    var config;
+    var isDirty = false;
+    // Photos picked from this computer, already resized, by path: { blob, url }. They go into the zip.
+    var pendingImages = {};
+    var MAX_IMAGE_SIZE = 1200;
+    var IMAGE_QUALITY = 0.75;
+
+    var $ = function (id) { return document.getElementById(id); };
+
+    function el(tag, attributes, children) {
+      var node = document.createElement(tag);
+      Object.keys(attributes || {}).forEach(function (key) {
+        if (key === 'text') node.textContent = attributes[key];
+        else if (key.indexOf('on') === 0) node.addEventListener(key.slice(2), attributes[key]);
+        else node.setAttribute(key, attributes[key]);
+      });
+      (children || []).forEach(function (child) { if (child) node.appendChild(child); });
+      return node;
+    }
+
+    function setStatus(text) {
+      $('status').textContent = text;
+      $('status').classList.toggle('dirty', isDirty);
+    }
+
+    function markDirty() {
+      isDirty = true;
+      setStatus('Nem mentett változtatások — ne felejtsd el letölteni és feltölteni a zipet.');
+    }
+
+    function localized(value) {
+      value = value || {};
+      return { default: value.default || '', hu: value.hu || '', ro: value.ro || '' };
+    }
+
+    // Fills in everything the editor shows while keeping fields it does not know about.
+    function normalize(raw) {
+      var result = Object.assign({}, raw);
+      result.homeBanner = localized(raw.homeBanner);
+      var pricing = Object.assign({}, raw.pricing || {});
+      Object.keys(DEFAULT_PRICING).forEach(function (key) {
+        var fallback = DEFAULT_PRICING[key];
+        pricing[key] = typeof fallback === 'object'
+          ? Object.assign({}, fallback, pricing[key] || {})
+          : (typeof pricing[key] === 'number' ? pricing[key] : fallback);
+      });
+      result.pricing = pricing;
+      result.portfolio = (Array.isArray(raw.portfolio) ? raw.portfolio : []).map(function (project) {
+        return Object.assign({}, project, {
+          id: project.id || '',
+          title: localized(project.title),
+          subtitle: localized(project.subtitle),
+          description: localized(project.description),
+          images: Array.isArray(project.images) ? project.images.slice() : []
+        });
+      });
+      return result;
+    }
+
+    function fetchJson(name) {
+      return fetch('../' + name + '?v=' + Date.now(), { cache: 'no-store' }).then(function (response) {
+        var isMissing = response.status === 404;
+        if (!response.ok) throw Object.assign(new Error(name + ': ' + response.status), { missing: isMissing });
+        return response.text().then(function (text) {
+          // A missing file comes back as the site's index.html.
+          if (/^\s*</.test(text)) throw Object.assign(new Error(name + ': missing'), { missing: true });
+          return JSON.parse(text);
+        });
+      });
+    }
+
+    var loadFailed = false;
+
+    function load() {
+      fetchJson('configuration.json')
+        .then(function (data) { return [data, 'A weboldal jelenlegi configuration.json fájlja betöltve.']; })
+        .catch(function (error) {
+          // A file that exists but could not be read must not be replaced with defaults: that would wipe
+          // the live prices and portfolio on the next upload.
+          if (!error || !error.missing) {
+            loadFailed = true;
+            throw error;
+          }
+          // Before the first upload the server still has the two files configuration.json replaces.
+          return Promise.all([
+            fetchJson('pricing.json'),
+            fetchJson('home-banner.json').catch(function () { return []; })
+          ]).then(function (results) {
+            return [{ pricing: results[0], homeBanner: (results[1] || [])[0] }, 'A régi pricing.json és home-banner.json betöltve. A letöltött configuration.json mindkettőt kiváltja.'];
+          });
+        })
+        .catch(function () {
+          return [{}, loadFailed
+            ? 'HIBA: a weboldal configuration.json fájlja nem tölthető be. Töltsd újra az oldalt! Amíg ez nem sikerül, a letöltés le van tiltva.'
+            : 'Nem sikerült betölteni a weboldal beállításait, az alapértékek látszanak.'];
+        })
+        .then(function (result) {
+          config = normalize(result[0]);
+          render();
+          setStatus(result[1]);
+        });
+    }
+
+    function languageFields(target, key, isMultiline) {
+      return el('div', { class: 'languages' }, LANGUAGES.map(function (language) {
+        var input = el(isMultiline ? 'textarea' : 'input', isMultiline ? {} : { type: 'text' });
+        input.value = target[key][language[0]];
+        input.addEventListener('input', function () { target[key][language[0]] = input.value; markDirty(); });
+        return el('div', {}, [el('label', { text: language[1] }), input]);
+      }));
+    }
+
+    function numberField(target, key, labelText) {
+      var input = el('input', { type: 'number', min: '0', step: '1', inputmode: 'numeric' });
+      input.value = target[key];
+      input.addEventListener('input', function () {
+        var value = Number(input.value);
+        var isValid = input.value !== '' && Number.isInteger(value) && value >= 0;
+        input.classList.toggle('invalid', !isValid);
+        if (isValid) target[key] = value;
+        markDirty();
+      });
+      return el('div', {}, [el('label', { text: labelText }), input]);
+    }
+
+    function renderBanner() {
+      $('banner').replaceChildren(languageFields(config, 'homeBanner', false));
+    }
+
+    function renderPricing() {
+      var children = [];
+      PRICE_GROUPS.forEach(function (group) {
+        children.push(el('h3', { text: group[1] }));
+        children.push(el('div', { class: 'grid' }, group[2].map(function (field) {
+          return numberField(config.pricing[group[0]], field[0], field[1]);
+        })));
+      });
+      children.push(el('h3', { text: 'Egyéb' }));
+      children.push(el('div', { class: 'grid' }, PRICE_SINGLES.map(function (field) {
+        return numberField(config.pricing, field[0], field[1]);
+      })));
+      $('pricing').replaceChildren.apply($('pricing'), children);
+    }
+
+    function imageUrl(path) {
+      if (pendingImages[path]) return pendingImages[path].url;
+      return /:\/\//.test(path) ? path : '../' + path.replace(/^\/+/, '');
+    }
+
+    function move(list, index, offset) {
+      var target = index + offset;
+      if (target < 0 || target >= list.length) return;
+      list.splice(target, 0, list.splice(index, 1)[0]);
+      markDirty();
+      renderPortfolio();
+    }
+
+    function imageRow(project, index) {
+      var path = project.images[index];
+      var thumb = el('div', { class: 'thumb' });
+      var input = el('input', { type: 'text', placeholder: 'portfolio/kep.jpg' });
+      input.value = path;
+      function preview() {
+        var value = input.value.trim();
+        thumb.style.backgroundImage = '';
+        thumb.classList.remove('missing');
+        if (!value) return;
+        var probe = new Image();
+        probe.onload = function () { thumb.style.backgroundImage = 'url("' + probe.src + '")'; };
+        probe.onerror = function () { thumb.classList.add('missing'); };
+        probe.src = imageUrl(value);
+      }
+      input.addEventListener('input', function () { project.images[index] = input.value.trim(); markDirty(); preview(); });
+      preview();
+      var row = el('div', { class: 'image-row' }, [
+        thumb,
+        input,
+        el('button', { class: 'icon', title: 'Feljebb', text: '↑', onclick: function () { move(project.images, index, -1); } }),
+        el('button', { class: 'icon', title: 'Lejjebb', text: '↓', onclick: function () { move(project.images, index, 1); } }),
+        el('button', { class: 'icon danger', title: 'Kép eltávolítása', text: '✕', onclick: function () {
+          project.images.splice(index, 1); markDirty(); renderPortfolio();
+        } })
+      ]);
+      row.children[2].disabled = index === 0;
+      row.children[3].disabled = index === project.images.length - 1;
+      var nodes = [row];
+      if (pendingImages[path]) {
+        nodes.push(el('p', { class: 'note', text: 'Új kép a gépedről, átméretezve. A letöltött zipben lesz benne.' }));
+      }
+      return nodes;
+    }
+
+    function projectCard(project, index) {
+      var picker = el('input', { type: 'file', accept: 'image/*', multiple: '' });
+      picker.addEventListener('change', function () {
+        var files = Array.prototype.slice.call(picker.files);
+        picker.value = '';
+        setStatus('Képek feldolgozása…');
+        files.reduce(function (previous, file) {
+          return previous.then(function () {
+            return processImage(file).then(function (blob) {
+              var path = newImagePath(project);
+              pendingImages[path] = { blob: blob, url: URL.createObjectURL(blob) };
+              project.images.push(path);
+            }, function () {
+              alert('Ez a kép nem olvasható: ' + file.name + '\nMentsd el JPG vagy PNG formátumban, és próbáld újra.');
+            });
+          });
+        }, Promise.resolve()).then(function () {
+          markDirty();
+          renderPortfolio();
+        });
+      });
+      var images = [];
+      project.images.forEach(function (_, imageIndex) { images = images.concat(imageRow(project, imageIndex)); });
+      var header = el('div', { class: 'row project-header' }, [
+        el('h3', { text: (index + 1) + '. ' + (project.title.default || project.title.hu || project.title.ro || 'Új projekt') }),
+        el('button', { class: 'icon', title: 'Feljebb', text: '↑', onclick: function () { move(config.portfolio, index, -1); } }),
+        el('button', { class: 'icon', title: 'Lejjebb', text: '↓', onclick: function () { move(config.portfolio, index, 1); } }),
+        el('button', { class: 'danger', text: 'Projekt törlése', onclick: function () {
+          if (confirm('Biztosan törlöd ezt a projektet?')) { config.portfolio.splice(index, 1); markDirty(); renderPortfolio(); }
+        } })
+      ]);
+      header.children[1].disabled = index === 0;
+      header.children[2].disabled = index === config.portfolio.length - 1;
+      return el('div', { class: 'project' }, [
+        header,
+        el('label', { text: 'Cím' }), languageFields(project, 'title', false),
+        el('label', { text: 'Alcím (pl. formátum: 12" · 180 g · nyomtatott borító)' }), languageFields(project, 'subtitle', false),
+        el('label', { text: 'Leírás' }), languageFields(project, 'description', true),
+        el('label', { text: 'Képek (az első a borítókép; fekvő 4:3 arányú képek mutatnak a legjobban)' })
+      ].concat(images).concat([
+        project.images.length ? null : el('p', { class: 'warning', text: 'Adj hozzá legalább egy képet, különben a projekt nem jelenik meg.' }),
+        el('div', { class: 'row' }, [
+          el('button', { text: '+ Kép a gépről…', onclick: function () { picker.click(); } }),
+          el('button', { text: '+ Elérési út megadása', onclick: function () { project.images.push(''); markDirty(); renderPortfolio(); } }),
+          picker
+        ]),
+        project.id ? el('p', { class: 'faint', style: 'margin: 12px 0 0', text: 'Azonosító (statisztikához): ' + project.id }) : null
+      ]));
+    }
+
+    function renderPortfolio() {
+      $('portfolio').replaceChildren.apply($('portfolio'), config.portfolio.map(projectCard));
+    }
+
+    function render() {
+      renderBanner();
+      renderPricing();
+      renderPortfolio();
+    }
+
+    // Scales to at most MAX_IMAGE_SIZE on the longer side and re-encodes as JPEG. Phone photos are
+    // turned upright from their EXIF orientation; transparent areas become white.
+    function processImage(file) {
+      return createImageBitmap(file, { imageOrientation: 'from-image' }).then(function (bitmap) {
+        var scale = Math.min(1, MAX_IMAGE_SIZE / Math.max(bitmap.width, bitmap.height));
+        var canvas = document.createElement('canvas');
+        canvas.width = Math.round(bitmap.width * scale);
+        canvas.height = Math.round(bitmap.height * scale);
+        var context = canvas.getContext('2d');
+        context.fillStyle = '#ffffff';
+        context.fillRect(0, 0, canvas.width, canvas.height);
+        context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+        bitmap.close();
+        return new Promise(function (resolve, reject) {
+          canvas.toBlob(function (blob) { if (blob) resolve(blob); else reject(new Error('encode')); }, 'image/jpeg', IMAGE_QUALITY);
+        });
+      });
+    }
+
+    // A fresh name every time, so browsers never show a cached older photo under the same name.
+    function newImagePath(project) {
+      var base = project.id || slug(project.title.default || project.title.hu || project.title.ro) || 'projekt';
+      var path;
+      do {
+        path = 'portfolio/' + base + '-' + Date.now().toString(36) + Math.floor(Math.random() * 1296).toString(36) + '.jpg';
+      } while (pendingImages[path]);
+      return path;
+    }
+
+    var CRC_TABLE = (function () {
+      var table = [];
+      for (var n = 0; n < 256; n++) {
+        var c = n;
+        for (var k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1;
+        table[n] = c >>> 0;
+      }
+      return table;
+    })();
+
+    function crc32(bytes) {
+      var crc = 0xffffffff;
+      for (var i = 0; i < bytes.length; i++) crc = CRC_TABLE[(crc ^ bytes[i]) & 0xff] ^ (crc >>> 8);
+      return (crc ^ 0xffffffff) >>> 0;
+    }
+
+    // Minimal zip writer: entries are stored without compression (JPEGs do not shrink further anyway).
+    function createZip(entries) {
+      var encoder = new TextEncoder();
+      var now = new Date();
+      var time = (now.getHours() << 11) | (now.getMinutes() << 5) | (now.getSeconds() >> 1);
+      var date = ((now.getFullYear() - 1980) << 9) | ((now.getMonth() + 1) << 5) | now.getDate();
+      var files = [], directory = [], offset = 0, directorySize = 0;
+      entries.forEach(function (entry) {
+        var name = encoder.encode(entry.name);
+        var crc = crc32(entry.bytes);
+        var size = entry.bytes.length;
+        var local = new DataView(new ArrayBuffer(30));
+        local.setUint32(0, 0x04034b50, true);
+        local.setUint16(4, 20, true);
+        local.setUint16(6, 0x0800, true); // UTF-8 names
+        local.setUint16(10, time, true);
+        local.setUint16(12, date, true);
+        local.setUint32(14, crc, true);
+        local.setUint32(18, size, true);
+        local.setUint32(22, size, true);
+        local.setUint16(26, name.length, true);
+        files.push(local, name, entry.bytes);
+        var central = new DataView(new ArrayBuffer(46));
+        central.setUint32(0, 0x02014b50, true);
+        central.setUint16(4, 20, true);
+        central.setUint16(6, 20, true);
+        central.setUint16(8, 0x0800, true);
+        central.setUint16(12, time, true);
+        central.setUint16(14, date, true);
+        central.setUint32(16, crc, true);
+        central.setUint32(20, size, true);
+        central.setUint32(24, size, true);
+        central.setUint16(28, name.length, true);
+        central.setUint32(42, offset, true);
+        directory.push(central, name);
+        offset += 30 + name.length + size;
+        directorySize += 46 + name.length;
+      });
+      var end = new DataView(new ArrayBuffer(22));
+      end.setUint32(0, 0x06054b50, true);
+      end.setUint16(8, entries.length, true);
+      end.setUint16(10, entries.length, true);
+      end.setUint32(12, directorySize, true);
+      end.setUint32(16, offset, true);
+      return new Blob(files.concat(directory, [end]), { type: 'application/zip' });
+    }
+
+    // Every image the portfolio uses, as zip entries. Throws the list of paths that could not be read.
+    function collectImages() {
+      var paths = [];
+      config.portfolio.forEach(function (project) {
+        project.images.forEach(function (path) {
+          if (!/:\/\//.test(path) && paths.indexOf(path) === -1) paths.push(path);
+        });
+      });
+      return Promise.allSettled(paths.map(function (path) {
+        var source = pendingImages[path]
+          ? Promise.resolve(pendingImages[path].blob)
+          : fetch('../' + path.replace(/^\/+/, ''), { cache: 'no-cache' }).then(function (response) {
+            // A missing file can come back as the site's index.html with status 200.
+            var type = response.headers.get('content-type') || '';
+            if (!response.ok || type.indexOf('image/') !== 0) throw new Error(path);
+            return response.blob();
+          });
+        return source.then(function (blob) { return blob.arrayBuffer(); }).then(function (buffer) {
+          return { name: path.replace(/^\/+/, ''), bytes: new Uint8Array(buffer) };
+        });
+      })).then(function (results) {
+        var missing = paths.filter(function (_, index) { return results[index].status === 'rejected'; });
+        if (missing.length) throw missing;
+        return results.map(function (result) { return result.value; });
+      });
+    }
+
+    function slug(text) {
+      return text.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40);
+    }
+
+    // Ids are generated once and then kept, so statistics stay comparable when a title is reworded.
+    function assignIds() {
+      var used = {};
+      config.portfolio.forEach(function (project) { if (project.id) used[project.id] = true; });
+      config.portfolio.forEach(function (project, index) {
+        if (project.id) return;
+        var base = slug(project.title.default || project.title.hu || project.title.ro) || 'project-' + (index + 1);
+        var id = base;
+        for (var suffix = 2; used[id]; suffix++) id = base + '-' + suffix;
+        used[id] = true;
+        project.id = id;
+      });
+    }
+
+    function download() {
+      if (loadFailed) {
+        alert('A weboldal jelenlegi beállításai nem töltődtek be, ezért a letöltés felülírná őket. Töltsd újra az oldalt.');
+        return;
+      }
+      if (document.querySelector('input.invalid')) {
+        alert('Néhány ár hibás (piros keret). Csak nem negatív egész szám adható meg.');
+        return;
+      }
+      config.portfolio.forEach(function (project) {
+        project.images = project.images.map(function (path) { return path.trim(); }).filter(Boolean);
+      });
+      assignIds();
+      $('download').disabled = true;
+      setStatus('A zip összeállítása…');
+      collectImages().then(function (images) {
+        var configuration = { name: 'configuration.json', bytes: new TextEncoder().encode(JSON.stringify(config, null, 2) + '\n') };
+        var link = el('a', { href: URL.createObjectURL(createZip([configuration].concat(images))), download: 'deepcutvinyl-weboldal.zip' });
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        isDirty = false;
+        renderPortfolio();
+        setStatus('Letöltve (' + images.length + ' kép). Csomagold ki, és töltsd fel a tartalmát a weboldal gyökérmappájába.');
+      }, function (missing) {
+        renderPortfolio();
+        setStatus('A zip nem készült el: néhány kép hiányzik.');
+        alert('Ezek a képek nem találhatók a weboldalon, ezért a zip nem készült el:\n\n' + [].concat(missing).join('\n') +
+          '\n\nTávolítsd el őket, vagy add hozzá újra a „+ Kép a gépről…” gombbal.');
+      }).then(function () {
+        $('download').disabled = false;
+      });
+    }
+
+    $('download').addEventListener('click', download);
+    $('open').addEventListener('click', function () { $('openInput').click(); });
+    $('openInput').addEventListener('change', function () {
+      var file = $('openInput').files[0];
+      if (!file) return;
+      file.text().then(function (text) {
+        config = normalize(JSON.parse(text));
+        isDirty = false;
+        render();
+        setStatus('Megnyitva: ' + file.name);
+      }).catch(function () {
+        alert('Ez a fájl nem olvasható configuration.json-ként.');
+      });
+      $('openInput').value = '';
+    });
+    $('addProject').addEventListener('click', function () {
+      config.portfolio.push(normalize({ portfolio: [{}] }).portfolio[0]);
+      markDirty();
+      renderPortfolio();
+    });
+    window.addEventListener('beforeunload', function (event) {
+      if (isDirty) { event.preventDefault(); event.returnValue = ''; }
+    });
+
+    load();
+  })();
+</script>
+</body>
+</html>
