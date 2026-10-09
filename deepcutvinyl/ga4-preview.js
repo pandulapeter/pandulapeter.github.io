@@ -31,7 +31,6 @@
       button, input { font: inherit; }
       button { cursor: pointer; color: #eee; background: #303036; border: 1px solid #65616e; border-radius: 8px; padding: 7px 11px; }
       button:hover { background: #44404e; } button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid #c4aaff; outline-offset: 3px; }
-      #toggle { position: fixed; right: 16px; bottom: max(20px, env(safe-area-inset-bottom)); z-index: 10001; background: #ad92f0; color: #17131f; font-weight: 700; box-shadow: 0 3px 18px #0008; }
       #panel { position: fixed; right: 0; top: 0; bottom: 0; width: min(440px, 100vw); z-index: 10002; background: #19191d; border-left: 1px solid #65616e; box-shadow: -12px 0 40px #0006; display: flex; flex-direction: column; transform: translateX(105%); transition: transform .22s ease, visibility 0s .22s; visibility: hidden; }
       #panel.open { transform: translateX(0); visibility: visible; transition-delay: 0s; }
       header { padding: 20px; border-bottom: 1px solid #39363f; }
@@ -51,7 +50,6 @@
       th { width: 47%; padding-right: 8px; color: #bcb6c5; font-weight: 400; } code { font-family: ui-monospace, monospace; } small { display: block; color: #aaa2b6; }
       @media (prefers-reduced-motion: reduce) { #panel { transition: none; } }
     </style>
-    <button id="toggle" aria-expanded="false" aria-controls="panel">GA4 preview · 0</button>
     <section id="panel" aria-labelledby="title" inert>
       <header>
         <div class="badge">GA4 debug · local preview only</div>
@@ -64,15 +62,12 @@
       <div id="feed"></div>
     </section>`;
   const $ = id => root.getElementById(id);
-  const panel = $('panel'), toggle = $('toggle'), feed = $('feed'), search = $('search');
+  const panel = $('panel'), feed = $('feed'), search = $('search');
   function setOpen(open) {
     panel.classList.toggle('open', open);
     panel.inert = !open;
-    toggle.setAttribute('aria-expanded', String(open));
-    toggle.hidden = open;
-    if (open) search.focus(); else toggle.focus();
+    if (open) search.focus(); else if (root.activeElement) root.activeElement.blur();
   }
-  toggle.addEventListener('click', () => setOpen(true));
   $('close').addEventListener('click', () => setOpen(false));
   root.addEventListener('keydown', event => {
     if (event.key === 'Escape' && panel.classList.contains('open')) { event.preventDefault(); setOpen(false); }
@@ -121,11 +116,14 @@
       feed.appendChild(empty);
     }
     if (active && active.isConnected) active.focus({ preventScroll: true });
-    toggle.textContent = 'GA4 preview · ' + total;
+    window.dispatchEvent(new Event('ga4previewchange'));
     $('status').textContent = `${matches.length} shown · ${total} captured${total > LIMIT ? ' · latest 200 retained' : ''}. Cleared on reload.`;
   }
   search.addEventListener('input', render);
   $('clear').addEventListener('click', () => { events.length = 0; total = 0; render(); });
+  // The entry point lives in the app's top bar (staging AnalyticsTransport.kt), so nothing floats over the page.
+  window.__ga4PreviewOpen = () => setOpen(true);
+  window.__ga4PreviewCount = () => total;
   window.__ga4Preview = (name, parameters) => {
     // Snapshot payloads, bound memory, and render values as text rather than interpreting markup.
     const snapshot = JSON.parse(JSON.stringify(parameters));
