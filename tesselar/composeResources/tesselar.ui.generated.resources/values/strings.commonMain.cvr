@@ -1,6 +1,14 @@
 version:0
+string|action_dash|RGFzaA==
+string|action_fireball|RmlyZWJhbGw=
 string|action_pause|UGF1c2U=
-string|action_shockwave|U2hvY2t3YXZl
+string|action_slam|U2xhbQ==
+string|action_slash|U3dvcmQ=
+string|combat_combo|Q29tYm8gw5clMSRk
+string|combat_defeated_score|U2NvcmUgJTEkZCDCtyBCZXN0ICUyJGQ=
+string|combat_defeated|RGVmZWF0ZWQ=
+string|combat_health|SGVhbHRo
+string|combat_score|U2NvcmUgJTEkZA==
 string|cuboid_count|Q3Vib2lkczogJTEkZA==
 string|device_capability_capable|Q2FwYWJsZQ==
 string|device_capability_entry|RW50cnk=
@@ -24,6 +32,10 @@ string|environment_wind_direction|V2luZCBkaXIu
 string|environment_wind_strength|V2luZA==
 string|fps|RnJhbWUgcmF0ZTogJTEkZA==
 string|grass_blade_count|R3Jhc3MgYmxhZGVzOiAlMSRk
+string|key_e|RQ==
+string|key_f|Rg==
+string|key_shift|U2hpZnQ=
+string|key_space|U3BhY2U=
 string|pause_menu_resume|UmVzdW1l
 string|pause_menu_tab_map|TWFw
 string|pause_menu_tab_settings|U2V0dGluZ3M=
