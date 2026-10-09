@@ -11,17 +11,58 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="description" content="DeepCut Vinyl cuts custom vinyl records in real time on a Vinylrecorder T-560 lathe. Personalized tracks, custom labels, jackets and sleeves, made in Cluj-Napoca, Romania.">
+    <!--
+        Link previews (Facebook, Messenger, WhatsApp, X, LinkedIn, Slack, ...). Scrapers do not run the app, so
+        every route shares these. og:url is left out on purpose: scrapers then use the shared URL, so a link to
+        /start-your-order opens that page instead of being folded into the home page. Image URLs must be absolute.
+    -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="DeepCut Vinyl">
-    <meta property="og:title" content="DeepCut Vinyl">
-    <meta property="og:description" content="Your music, your message — cut on record. Custom vinyl records, labels, jackets and sleeves.">
-    <meta property="og:url" content="https://www.deepcutvinyl.com/">
-    <meta property="og:image" content="https://www.deepcutvinyl.com/metadata/logo.png">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ro_RO">
+    <meta property="og:locale:alternate" content="hu_HU">
+    <meta property="og:title" content="DeepCut Vinyl · Custom vinyl records cut in Cluj-Napoca">
+    <meta property="og:description" content="Your music, your message, cut on record. One-off and small-run lathe-cut vinyl with custom labels, jackets and sleeves, shipped across Romania and the EU.">
+    <meta property="og:image" content="https://www.deepcutvinyl.com/metadata/og-image.jpg">
+    <meta property="og:image:secure_url" content="https://www.deepcutvinyl.com/metadata/og-image.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="The DeepCut Vinyl logo over a shelf of records, with the line: Custom vinyl records, cut in Cluj-Napoca.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DeepCut Vinyl · Custom vinyl records cut in Cluj-Napoca">
+    <meta name="twitter:description" content="Your music, your message, cut on record. One-off and small-run lathe-cut vinyl with custom labels, jackets and sleeves.">
+    <meta name="twitter:image" content="https://www.deepcutvinyl.com/metadata/og-image.jpg">
+    <meta name="twitter:image:alt" content="The DeepCut Vinyl logo over a shelf of records.">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://www.deepcutvinyl.com/#business",
+        "name": "DeepCut Vinyl",
+        "url": "https://www.deepcutvinyl.com/",
+        "description": "Custom vinyl records cut in real time on a Vinylrecorder T-560 lathe, with custom labels, jackets and sleeves.",
+        "logo": "https://www.deepcutvinyl.com/metadata/icon-512.png",
+        "image": "https://www.deepcutvinyl.com/metadata/og-image.jpg",
+        "email": "contact@deepcutvinyl.com",
+        "telephone": "+40740755264",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Cluj-Napoca",
+            "addressCountry": "RO"
+        },
+        "areaServed": ["RO", "EU"],
+        "sameAs": [
+            "https://www.facebook.com/deepcutvinyl",
+            "https://www.instagram.com/deepcutvinyl_ro"
+        ]
+    }
+    </script>
     <title>DeepCut Vinyl</title>
     <link rel="icon" type="image/svg+xml" href="metadata/favicon.svg">
     <link rel="icon" type="image/png" sizes="96x96" href="metadata/favicon-96x96.png">
     <link rel="shortcut icon" href="metadata/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="metadata/apple-touch-icon.png">
     <!-- The two font files are the only resources the app waits for, so start them in parallel with the wasm. -->
     <link rel="preload" as="fetch" crossorigin="anonymous" href="composeResources/deepcutvinyl.app.generated.resources/font/header.ttf">
     <link rel="preload" as="fetch" crossorigin="anonymous" href="composeResources/deepcutvinyl.app.generated.resources/font/content.ttf">
@@ -133,7 +174,7 @@
         }(window.location))
     </script>
     <!-- The URLs and uncompressed sizes of the wasm binaries, filled in by the compressWebDistribution Gradle task. -->
-    <script type="text/javascript">window.__WASM_ASSETS__ = [{"url":"bfa5198fb2fe683c613a.wasm","bytes":8640316},{"url":"9c8084058f42d6bc76fe.wasm","bytes":5743534}];</script>
+    <script type="text/javascript">window.__WASM_ASSETS__ = [{"url":"eadde81f5e8c7ca5725d.wasm","bytes":5768654},{"url":"bfa5198fb2fe683c613a.wasm","bytes":8640316}];</script>
     <script type="text/javascript">
         // The wasm binaries are by far the largest thing the page downloads, and app.js only asks
         // for them once it has been fetched and run. Starting them here, while the document is still
