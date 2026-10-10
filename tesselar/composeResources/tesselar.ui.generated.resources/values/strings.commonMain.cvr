@@ -1,6 +1,10 @@
 version:0
 string|action_dash|RGFzaA==
+string|action_dismount|RGlzbW91bnQ=
+string|action_enter_car|R2V0IGlu
+string|action_exit_car|R2V0IG91dA==
 string|action_fireball|RmlyZWJhbGw=
+string|action_mount|TW91bnQ=
 string|action_pause|UGF1c2U=
 string|action_slam|U2xhbQ==
 string|action_slash|U3dvcmQ=
