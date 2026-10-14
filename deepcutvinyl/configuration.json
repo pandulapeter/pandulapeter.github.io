@@ -1,0 +1,186 @@
+{
+  "homeBanner": {
+    "default": "",
+    "hu": "",
+    "ro": ""
+  },
+  "pricing": {
+    "basePrice": {
+      "weight140size12colorBlack": 150,
+      "weight180size12colorBlack": 160,
+      "size12colorTransparent": 180,
+      "size10colorBlack": 110,
+      "size10colorTransparent": 130,
+      "size7colorBlack": 60,
+      "size7colorTransparent": 80
+    },
+    "extraForCustomCenterLabel": {
+      "weight140size12colorBlack": 10,
+      "weight180size12colorBlack": 10,
+      "size12colorTransparent": 10,
+      "size10colorBlack": 10,
+      "size10colorTransparent": 10,
+      "size7colorBlack": 10,
+      "size7colorTransparent": 10
+    },
+    "extraForCustomPrintedJacket": {
+      "weight140size12colorBlack": 50,
+      "weight180size12colorBlack": 50,
+      "size12colorTransparent": 50,
+      "size10colorBlack": 35,
+      "size10colorTransparent": 35,
+      "size7colorBlack": 30,
+      "size7colorTransparent": 30
+    },
+    "extraForCustomInnerSleeve": {
+      "weight140size12colorBlack": 30,
+      "weight180size12colorBlack": 30,
+      "size12colorTransparent": 30,
+      "size10colorBlack": 25,
+      "size10colorTransparent": 25,
+      "size7colorBlack": 20,
+      "size7colorTransparent": 20
+    },
+    "extraForBooklet": {
+      "pages4": 20,
+      "pages8": 40,
+      "pages12": 55
+    },
+    "extraForPoster": 20,
+    "extraForShipping": 30,
+    "extraForPaymentMethod": {
+      "cashOnPickup": 0,
+      "bankTransfer": 0,
+      "paymentLink": 10
+    }
+  },
+  "portfolio": [
+    {
+      "id": "dopaminer-dark-light",
+      "title": {
+        "default": "Dopaminer – Dark Light",
+        "hu": "Dopaminer – Dark Light",
+        "ro": "Dopaminer – Dark Light"
+      },
+      "subtitle": {
+        "default": "Black vinyl · printed jacket · custom label",
+        "hu": "Fekete bakelit · nyomtatott borító · egyedi címke",
+        "ro": "Vinil negru · copertă imprimată · etichetă personalizată"
+      },
+      "description": {
+        "default": "A full run of freshly cut records for Dopaminer, a band from Cluj-Napoca. Supporting local artists means a lot to us, and this album is their passion, put on disc.",
+        "hu": "Friss vágású lemezek egy teljes sorozata a kolozsvári Dopaminer zenekarnak. Nagy öröm számunk a helyi előadók támogatása, ez az album pedig a szenvedélyük, lemezre vágva.",
+        "ro": "Un tiraj întreg de viniluri proaspăt tăiate pentru trupa Dopaminer din Cluj-Napoca. Ne bucurăm enorm să susținem artiștii locali, iar acest album este pasiunea lor pusă pe disc."
+      },
+      "images": [
+        "portfolio/dopaminer-2.jpg",
+        "portfolio/dopaminer-1.jpg"
+      ]
+    },
+    {
+      "id": "boost-discography",
+      "title": {
+        "default": "Boost – Discography",
+        "hu": "Boost – Discography",
+        "ro": "Boost – Discography"
+      },
+      "subtitle": {
+        "default": "Black vinyl · printed jacket · custom label",
+        "hu": "Fekete bakelit · nyomtatott borító · egyedi címke",
+        "ro": "Vinil negru · copertă imprimată · etichetă personalizată"
+      },
+      "description": {
+        "default": "The best originals and remixes from 2023 to 2026, collected on a single record. A full-colour printed jacket with a live photo and a matching center label.",
+        "hu": "A legjobb saját számok és remixek 2023 és 2026 között, egyetlen lemezre gyűjtve. Színes, nyomtatott borító koncertfotóval és hozzá illő címkével.",
+        "ro": "Cele mai bune piese originale și remixuri din 2023 până în 2026, adunate pe un singur disc. Copertă imprimată color cu o fotografie live și etichetă asortată."
+      },
+      "images": [
+        "portfolio/boost-discography.jpg"
+      ]
+    },
+    {
+      "id": "luca-ropotan-live",
+      "title": {
+        "default": "Luca Ropotan – Live",
+        "hu": "Luca Ropotan – Live",
+        "ro": "Luca Ropotan – Live"
+      },
+      "subtitle": {
+        "default": "Transparent vinyl · printed jacket · custom label",
+        "hu": "Átlátszó bakelit · nyomtatott borító · egyedi címke",
+        "ro": "Vinil transparent · copertă imprimată · etichetă personalizată"
+      },
+      "description": {
+        "default": "The live version of „Cum Te-a Făcut Mama Ta”, with the studio version of „Mama” as a bonus, cut on a transparent single with a printed jacket and a photo label.",
+        "hu": "A „Cum Te-a Făcut Mama Ta” koncertfelvétele, bónuszként a „Mama” stúdióváltozatával, átlátszó kislemezre vágva, nyomtatott borítóval és fotós címkével.",
+        "ro": "Versiunea live a piesei „Cum Te-a Făcut Mama Ta”, cu bonus „Mama” în versiune de studio, pe un single transparent cu copertă imprimată și etichetă foto."
+      },
+      "images": [
+        "portfolio/luca-ropotan-live.jpg"
+      ]
+    },
+    {
+      "id": "mindseekers-burning-destiny",
+      "title": {
+        "default": "Mindseekers – Burning Destiny",
+        "hu": "Mindseekers – Burning Destiny",
+        "ro": "Mindseekers – Burning Destiny"
+      },
+      "subtitle": {
+        "default": "Black vinyl · printed jacket · custom label",
+        "hu": "Fekete bakelit · nyomtatott borító · egyedi címke",
+        "ro": "Vinil negru · copertă imprimată · etichetă personalizată"
+      },
+      "description": {
+        "default": "A metal record with fiery artwork: the band's cover printed on the jacket, with a custom center label to match.",
+        "hu": "Metállemez tüzes grafikával: a zenekar borítója a nyomtatott tasakon, hozzá illő egyedi címkével.",
+        "ro": "Un disc metal cu o grafică în flăcări: coperta trupei imprimată pe plic, cu o etichetă personalizată asortată."
+      },
+      "images": [
+        "portfolio/mindseekers-burning-destiny.jpg"
+      ]
+    },
+    {
+      "id": "bug-mafia",
+      "title": {
+        "default": "b.u.g. mafia – Întotdeauna pentru totdeauna",
+        "hu": "b.u.g. mafia – Întotdeauna pentru totdeauna",
+        "ro": "b.u.g. mafia – Întotdeauna pentru totdeauna"
+      },
+      "subtitle": {
+        "default": "Black vinyl · printed jacket · custom label",
+        "hu": "Fekete bakelit · nyomtatott borító · egyedi címke",
+        "ro": "Vinil negru · copertă imprimată · etichetă personalizată"
+      },
+      "description": {
+        "default": "A jacket designed as a vintage newspaper front page, paired with a matching label.",
+        "hu": "Régi újság címlapjának tervezett borító, hozzá illő címkével.",
+        "ro": "O copertă concepută ca prima pagină a unui ziar de epocă, cu o etichetă asortată."
+      },
+      "images": [
+        "portfolio/bug-mafia.jpg"
+      ]
+    },
+    {
+      "id": "bolonderia",
+      "title": {
+        "default": "Bolonderia",
+        "hu": "Bolonderia",
+        "ro": "Bolonderia"
+      },
+      "subtitle": {
+        "default": "Black vinyl · custom label",
+        "hu": "Fekete bakelit · egyedi címke",
+        "ro": "Vinil negru · etichetă personalizată"
+      },
+      "description": {
+        "default": "A record with a custom printed center label listing the tracks, delivered in a classic white inner sleeve.",
+        "hu": "Lemez egyedi nyomtatott címkével, rajta a számlistával, klasszikus fehér belső tasakban.",
+        "ro": "Un disc cu etichetă imprimată personalizată, cu lista pieselor, livrat într-un plic interior alb clasic."
+      },
+      "images": [
+        "portfolio/bolonderia.jpg"
+      ]
+    }
+  ]
+}
