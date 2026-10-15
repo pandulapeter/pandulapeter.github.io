@@ -47,7 +47,7 @@
       "pages12": 55
     },
     "extraForPoster": 20,
-    "extraForShipping": 30,
+    "extraForShipping": 35,
     "extraForPaymentMethod": {
       "cashOnPickup": 0,
       "bankTransfer": 0,
